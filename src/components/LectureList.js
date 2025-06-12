@@ -1,181 +1,112 @@
+
 export class LectureList {
   constructor() {
-    this.currentLectures = [];
-    this.currentPlatform = null;
-    this.currentSubject = null;
+    this.lectures = [];
   }
 
   async loadLectures(platform, subject) {
-    this.currentPlatform = platform;
-    this.currentSubject = subject;
-    
     try {
-      // Get the base URL for GitHub Pages
-      const baseUrl = window.location.hostname === 'tk22kalal2.github.io' 
-        ? '/web-app3/src/platforms'
-        : '/src/platforms';
-      
-      const response = await fetch(`${baseUrl}/${platform}/subjects/${subject.toLowerCase()}.json`);
-      const data = await response.json();
-      this.currentLectures = data.lectures;
-      return data.lectures;
-    } catch (error) {
-      console.error(`Error loading lectures:`, error);
-      return [];
-    }
-  }
-
-  getCompletionKey(platform, subject, lectureTitle) {
-    return `lecture_completed_${platform}_${subject}_${lectureTitle}`;
-  }
-
-  isLectureCompleted(platform, subject, lectureTitle) {
-    const key = this.getCompletionKey(platform, subject, lectureTitle);
-    return localStorage.getItem(key) === 'true';
-  }
-
-  toggleLectureCompletion(platform, subject, lectureTitle) {
-    const key = this.getCompletionKey(platform, subject, lectureTitle);
-    const isCompleted = this.isLectureCompleted(platform, subject, lectureTitle);
-    
-    if (isCompleted) {
-      localStorage.removeItem(key);
-    } else {
-      localStorage.setItem(key, 'true');
-    }
-    
-    // Update the UI
-    this.updateCompletionUI(lectureTitle);
-  }
-
-  updateCompletionUI(lectureTitle) {
-    const lectureCards = document.querySelectorAll('.lecture-card');
-    lectureCards.forEach(card => {
-      const title = card.querySelector('h3').textContent;
-      if (title === lectureTitle) {
-        const checkbox = card.querySelector('.completion-checkbox');
-        const isCompleted = this.isLectureCompleted(this.currentPlatform, this.currentSubject, lectureTitle);        
-        
-        checkbox.classList.toggle('completed', isCompleted);
-        checkbox.innerHTML = isCompleted ? '<i class="fas fa-circle-check"></i>' : '<i class="far fa-circle"></i>';
-        
-        // Update card appearance
-        card.classList.toggle('completed-lecture', isCompleted);
+      const response = await fetch(`src/platforms/${platform}/subjects/${subject.toLowerCase()}.json`);
+      if (response.ok) {
+        const data = await response.json();
+        this.lectures = data.lectures || [];
+      } else {
+        // Default lectures if JSON file doesn't exist
+        this.lectures = this.getDefaultLectures(subject);
       }
-    });
+    } catch (error) {
+      console.log('Loading default lectures for', subject);
+      this.lectures = this.getDefaultLectures(subject);
+    }
   }
 
-  openStreamingPopup(streamingUrl, title) {
-    // Create popup container
-    const popup = document.createElement('div');
-    popup.className = 'video-popup';
-    
-    // Create popup content
-    const content = document.createElement('div');
-    content.className = 'video-popup-content';
-    
-    // Create close button
-    const closeButton = document.createElement('button');
-    closeButton.className = 'close-popup';
-    closeButton.innerHTML = '<i class="fas fa-times"></i>';
-    closeButton.onclick = () => {
-      document.body.removeChild(popup);
-      document.body.style.overflow = 'auto';
-    };
-    
-    // Create title
-    const videoTitle = document.createElement('h2');
-    videoTitle.textContent = title;
-    videoTitle.className = 'video-title';
-    
-    // Create iframe container
-    const iframeContainer = document.createElement('div');
-    iframeContainer.className = 'iframe-container';
-    
-    // Create iframe
-    const iframe = document.createElement('iframe');
-    iframe.src = streamingUrl;
-    iframe.allowFullscreen = true;
-    
-    // Assemble popup
-    iframeContainer.appendChild(iframe);
-    content.appendChild(closeButton);
-    content.appendChild(videoTitle);
-    content.appendChild(iframeContainer);
-    popup.appendChild(content);
-    
-    // Add popup to body
-    document.body.appendChild(popup);
-    document.body.style.overflow = 'hidden';
-  }
-
-  openDownloadPage(streamingUrl) {
-    const downloadUrl = streamingUrl.replace('/watch/', '/dl/');
-    window.open(downloadUrl, '_blank');
+  getDefaultLectures(subject) {
+    return [
+      {
+        title: `Introduction to ${subject}`,
+        duration: '45 min',
+        streamUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+        downloadUrl: '#'
+      },
+      {
+        title: `Basic Concepts of ${subject}`,
+        duration: '52 min',
+        streamUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+        downloadUrl: '#'
+      },
+      {
+        title: `Advanced ${subject} Topics`,
+        duration: '38 min',
+        streamUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+        downloadUrl: '#'
+      },
+      {
+        title: `${subject} Clinical Applications`,
+        duration: '41 min',
+        streamUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+        downloadUrl: '#'
+      },
+      {
+        title: `${subject} Review and Practice`,
+        duration: '35 min',
+        streamUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+        downloadUrl: '#'
+      }
+    ];
   }
 
   render() {
     const container = document.createElement('div');
     container.className = 'lecture-list';
 
-    if (!this.currentLectures || this.currentLectures.length === 0) {
-      const message = document.createElement('p');
-      message.textContent = 'No lectures available';
-      container.appendChild(message);
-      return container;
-    }
-
-    this.currentLectures.forEach(lecture => {
+    this.lectures.forEach(lecture => {
       const lectureCard = document.createElement('div');
       lectureCard.className = 'lecture-card';
-      
-      const isCompleted = this.isLectureCompleted(this.currentPlatform, this.currentSubject, lecture.title);
-      if (isCompleted) {
-        lectureCard.classList.add('completed-lecture');
-      }
-      
-      // Title section with checkbox right next to it
-      const titleSection = document.createElement('div');
-      titleSection.style.cssText = 'display: flex !important; align-items: center !important; gap: 8px !important; margin-bottom: 12px !important;';
-      
-      const title = document.createElement('h3');
-      title.textContent = lecture.title;
-      title.style.cssText = 'margin: 0 !important; flex: 1 !important;';
-      
-      const completionCheckbox = document.createElement('button');
-      completionCheckbox.className = 'completion-checkbox';
-      completionCheckbox.innerHTML = isCompleted ? '<i class="fas fa-circle-check"></i>' : '<i class="far fa-circle"></i>';
+      lectureCard.innerHTML = `
+        <h3>${lecture.title}</h3>
+        <div class="button-container">
+          <button class="stream-button" onclick="this.parentElement.parentElement.querySelector('h3').click()">
+            <i class="fas fa-play"></i> Stream (${lecture.duration})
+          </button>
+          <button class="download-button">
+            <i class="fas fa-download"></i> Download
+          </button>
+        </div>
+      `;
 
-      if (isCompleted) {
-        completionCheckbox.classList.add('completed');
-      }
-      completionCheckbox.onclick = () => this.toggleLectureCompletion(this.currentPlatform, this.currentSubject, lecture.title);
-      
-      titleSection.appendChild(title);
-      titleSection.appendChild(completionCheckbox);
-      
-      // Button container
-      const buttonContainer = document.createElement('div');
-      buttonContainer.className = 'button-container';
-      
-      const streamButton = document.createElement('button');
-      streamButton.className = 'stream-button';
-      streamButton.innerHTML = '<i class="fas fa-play"></i> ';
-      streamButton.onclick = () => this.openStreamingPopup(lecture.streamingUrl, lecture.title);
-      
-      const downloadButton = document.createElement('button');
-      downloadButton.className = 'download-button';
-      downloadButton.innerHTML = '<i class="fas fa-download"></i> ';
-      downloadButton.onclick = () => this.openDownloadPage(lecture.streamingUrl);
-      
-      buttonContainer.appendChild(streamButton);
-      buttonContainer.appendChild(downloadButton);
-      
-      lectureCard.appendChild(titleSection);
-      lectureCard.appendChild(buttonContainer);
+      const title = lectureCard.querySelector('h3');
+      title.style.cursor = 'pointer';
+      title.onclick = () => this.openVideoPopup(lecture.title, lecture.streamUrl);
+
       container.appendChild(lectureCard);
     });
 
     return container;
+  }
+
+  openVideoPopup(title, streamUrl) {
+    const popup = document.createElement('div');
+    popup.className = 'video-popup';
+    popup.innerHTML = `
+      <div class="video-popup-content">
+        <button class="close-popup">&times;</button>
+        <h2 class="video-title">${title}</h2>
+        <div class="iframe-container">
+          <iframe src="${streamUrl}" allowfullscreen></iframe>
+        </div>
+      </div>
+    `;
+
+    popup.querySelector('.close-popup').onclick = () => {
+      document.body.removeChild(popup);
+    };
+
+    popup.onclick = (e) => {
+      if (e.target === popup) {
+        document.body.removeChild(popup);
+      }
+    };
+
+    document.body.appendChild(popup);
   }
 }

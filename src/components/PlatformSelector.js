@@ -1,20 +1,21 @@
+
 export class PlatformSelector {
   constructor() {
     this.platforms = [
       {
-        name: 'marrow',
-        icon: 'fas fa-brain',
-        description: 'Comprehensive NEET-PG Preparation'
+        name: 'Marrow',
+        description: 'Comprehensive NEET PG preparation with expert faculty',
+        icon: 'fas fa-graduation-cap'
       },
       {
-        name: 'dams',
-        icon: 'fas fa-graduation-cap',
-        description: 'Expert-led Medical Education'
+        name: 'DAMS',
+        description: 'Delhi Academy of Medical Sciences - Premier coaching',
+        icon: 'fas fa-user-md'
       },
       {
-        name: 'prepladder',
-        icon: 'fas fa-laptop-medical',
-        description: 'Smart NEET-PG Learning'
+        name: 'PrepLadder',
+        description: 'Interactive video lectures and practice tests',
+        icon: 'fas fa-laptop-medical'
       }
     ];
   }
@@ -27,10 +28,10 @@ export class PlatformSelector {
       const button = document.createElement('button');
       button.innerHTML = `
         <i class="${platform.icon}"></i>
-        <span class="platform-name">${platform.name.toUpperCase()}</span>
-        <span class="platform-description">${platform.description}</span>
+        <div class="platform-name">${platform.name}</div>
+        <div class="platform-description">${platform.description}</div>
       `;
-      button.onclick = () => this.handlePlatformSelect(platform.name);
+      button.onclick = () => this.handlePlatformSelect(platform.name.toLowerCase());
       container.appendChild(button);
     });
 
@@ -38,7 +39,9 @@ export class PlatformSelector {
   }
 
   handlePlatformSelect(platform) {
-    const event = new CustomEvent('platformSelect', { detail: platform });    
+    const event = new CustomEvent('platformSelect', {
+      detail: platform
+    });
     document.dispatchEvent(event);
   }
 }

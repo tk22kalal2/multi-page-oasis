@@ -1,13 +1,30 @@
+
 {
   "subjectName": "Anatomy",
   "lectures": [
     {
-        "title": "66. Gynecology Anatomy Integration Part 4",
-        "streamingUrl": "https://stream2.nextpulse.workers.dev/watch/3777/Gyna+Anatomy+Integration+part+4.mp4?hash=AgADjQ"
+      "title": "Anatomical Foundations",
+      "duration": "42 min",
+      "streamUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "downloadUrl": "#"
     },
     {
-        "title": "67. Gynecology Physiology Integration Part 1",
-        "streamingUrl": "https://stream2.nextpulse.workers.dev/watch/3778/Gyna+Physiology+Integration+part+1.mp4?hash=AgADmg"
+      "title": "Human Body Systems",
+      "duration": "55 min",
+      "streamUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "downloadUrl": "#"
+    },
+    {
+      "title": "Musculoskeletal System",
+      "duration": "48 min",
+      "streamUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "downloadUrl": "#"
+    },
+    {
+      "title": "Cardiovascular Anatomy",
+      "duration": "39 min",
+      "streamUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "downloadUrl": "#"
     }
   ]
 }
