@@ -25,23 +25,32 @@
   <main>
     <div class="search-page">
       <div class="search-container">
-        <h2>Search Lectures</h2>
-        <p>Use the search bar above to find specific topics, lectures, or subjects across all platforms.</p>
-        <div class="search-suggestions">
-          <h3>Popular Searches:</h3>
-          <div class="suggestion-tags">
-            <span class="suggestion-tag" onclick="performSearch('anatomy basics')">Anatomy Basics</span>
-            <span class="suggestion-tag" onclick="performSearch('cardiology')">Cardiology</span>
-            <span class="suggestion-tag" onclick="performSearch('pharmacology')">Pharmacology</span>
-            <span class="suggestion-tag" onclick="performSearch('surgery')">Surgery</span>
-            <span class="suggestion-tag" onclick="performSearch('pathology')">Pathology</span>
-            <span class="suggestion-tag" onclick="performSearch('pediatrics')">Pediatrics</span>
-          </div>
+        <div class="enhanced-search-bar">
+          <input type="text" placeholder="Search..." class="search-input" id="enhancedSearchInput">
+          <select class="search-type-select" id="searchTypeSelect">
+            <option value="teacher">Search by Teacher</option>
+            <option value="lecture">Search by Lecture</option>
+          </select>
         </div>
-        <div class="recent-searches">
-          <h3>Recent Searches:</h3>
-          <p class="no-recent">No recent searches found.</p>
+      </div>
+      <div class="search-results" id="searchResults">
+        <p class="search-prompt">Enter at least 2 characters to search</p>
+      </div>
+      
+      <div class="search-suggestions">
+        <h3>Popular Searches:</h3>
+        <div class="suggestion-tags">
+          <span class="suggestion-tag" onclick="performSearch('anatomy basics')">Anatomy Basics</span>
+          <span class="suggestion-tag" onclick="performSearch('cardiology')">Cardiology</span>
+          <span class="suggestion-tag" onclick="performSearch('pharmacology')">Pharmacology</span>
+          <span class="suggestion-tag" onclick="performSearch('surgery')">Surgery</span>
+          <span class="suggestion-tag" onclick="performSearch('pathology')">Pathology</span>
+          <span class="suggestion-tag" onclick="performSearch('pediatrics')">Pediatrics</span>
         </div>
+      </div>
+      <div class="recent-searches">
+        <h3>Recent Searches:</h3>
+        <p class="no-recent">No recent searches found.</p>
       </div>
     </div>
   </main>
@@ -52,17 +61,125 @@
     <a href="#"><i class="fas fa-question-circle"></i><span>Q Bank</span></a>
   </nav>
   <script>
+    // Mock data with updated file paths
+    const teachers = [
+      { name: 'Dr. Sneh Agarwal', subject: 'Anatomy', platform: 'Marrow', url: 'platforms/marrow/marrow-anatomy.html' },
+      { name: 'Dr. Sakshi Arora', subject: 'Physiology', platform: 'DAMS', url: 'platforms/dams/dams-physiology.html' },
+      { name: 'Dr. Gobind Rai', subject: 'Biochemistry', platform: 'PrepLadder', url: 'platforms/prepladder/prepladder-biochemistry.html' },
+      { name: 'Dr. Rajesh Kumar', subject: 'Pathology', platform: 'Marrow', url: 'platforms/marrow/marrow-pathology.html' },
+      { name: 'Dr. Priya Singh', subject: 'Pharmacology', platform: 'DAMS', url: 'platforms/dams/dams-pharmacology.html' }
+    ];
+
+    const lectures = [
+      { title: 'Cranial Nerves', subject: 'Anatomy', platform: 'Marrow', url: 'platforms/marrow/marrow-anatomy.html' },
+      { title: 'Cardiac Cycle', subject: 'Physiology', platform: 'DAMS', url: 'platforms/dams/dams-physiology.html' },
+      { title: 'Protein Metabolism', subject: 'Biochemistry', platform: 'PrepLadder', url: 'platforms/prepladder/prepladder-biochemistry.html' },
+      { title: 'Blood Vessels', subject: 'Anatomy', platform: 'Marrow', url: 'platforms/marrow/marrow-anatomy.html' },
+      { title: 'Heart Physiology', subject: 'Physiology', platform: 'DAMS', url: 'platforms/dams/dams-physiology.html' },
+      { title: 'Drug Mechanisms', subject: 'Pharmacology', platform: 'DAMS', url: 'platforms/dams/dams-pharmacology.html' }
+    ];
+
     function performSearch(query) {
-      document.getElementById('mainSearchInput').value = query;
-      // Here you would implement actual search functionality
-      console.log('Searching for:', query);
+      const searchInput = document.getElementById('enhancedSearchInput');
+      const mainSearchInput = document.getElementById('mainSearchInput');
+      searchInput.value = query;
+      mainSearchInput.value = query;
+      handleSearch(query);
     }
 
-    document.getElementById('mainSearchInput').addEventListener('input', function(e) {
-      const query = e.target.value;
-      if (query.length > 2) {
-        performSearch(query);
+    function handleSearch(query) {
+      const searchType = document.getElementById('searchTypeSelect').value;
+      const resultsContainer = document.getElementById('searchResults');
+      
+      if (query.length < 2) {
+        resultsContainer.innerHTML = '<p class="search-prompt">Enter at least 2 characters to search</p>';
+        return;
       }
+
+      if (searchType === 'teacher') {
+        searchTeachers(query.toLowerCase(), resultsContainer);
+      } else {
+        searchLectures(query.toLowerCase(), resultsContainer);
+      }
+    }
+
+    function searchTeachers(query, resultsContainer) {
+      const results = teachers.filter(teacher => 
+        teacher.name.toLowerCase().includes(query) ||
+        teacher.subject.toLowerCase().includes(query) ||
+        teacher.platform.toLowerCase().includes(query)
+      );
+
+      displayTeacherResults(results, resultsContainer);
+    }
+
+    function searchLectures(query, resultsContainer) {
+      const results = lectures.filter(lecture =>
+        lecture.title.toLowerCase().includes(query) ||
+        lecture.subject.toLowerCase().includes(query) ||
+        lecture.platform.toLowerCase().includes(query)
+      );
+
+      displayLectureResults(results, resultsContainer);
+    }
+
+    function displayTeacherResults(results, container) {
+      if (results.length === 0) {
+        container.innerHTML = '<p class="no-results">No teachers found</p>';
+        return;
+      }
+
+      container.innerHTML = results.map(teacher => `
+        <div class="search-result-card" onclick="window.location.href='${teacher.url}'">
+          <div class="result-header">
+            <i class="fas fa-user-md"></i>
+            <h3>${teacher.name}</h3>
+          </div>
+          <div class="result-details">
+            <span><i class="fas fa-book-medical"></i> ${teacher.subject}</span>
+            <span><i class="fas fa-building"></i> ${teacher.platform}</span>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    function displayLectureResults(results, container) {
+      if (results.length === 0) {
+        container.innerHTML = '<p class="no-results">No lectures found</p>';
+        return;
+      }
+
+      container.innerHTML = results.map(lecture => `
+        <div class="search-result-card" onclick="window.location.href='${lecture.url}'">
+          <div class="result-header">
+            <i class="fas fa-play-circle"></i>
+            <h3>${lecture.title}</h3>
+          </div>
+          <div class="result-details">
+            <span><i class="fas fa-book-medical"></i> ${lecture.subject}</span>
+            <span><i class="fas fa-building"></i> ${lecture.platform}</span>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    // Event listeners
+    document.getElementById('enhancedSearchInput').addEventListener('input', function(e) {
+      handleSearch(e.target.value);
+    });
+
+    document.getElementById('mainSearchInput').addEventListener('input', function(e) {
+      const enhancedInput = document.getElementById('enhancedSearchInput');
+      enhancedInput.value = e.target.value;
+      handleSearch(e.target.value);
+    });
+
+    document.getElementById('searchTypeSelect').addEventListener('change', function() {
+      const searchInput = document.getElementById('enhancedSearchInput');
+      const mainSearchInput = document.getElementById('mainSearchInput');
+      searchInput.value = '';
+      mainSearchInput.value = '';
+      document.getElementById('searchResults').innerHTML = '<p class="search-prompt">Enter at least 2 characters to search</p>';
     });
   </script>
 </body>
