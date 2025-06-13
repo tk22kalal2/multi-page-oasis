@@ -52,32 +52,40 @@
     // Load lecture data from JSON files
     async function loadLectureData() {
       try {
-        const platforms = ['marrow', 'dams', 'prepladder'];
-        const subjects = ['anatomy', 'physiology'];
+        // Define the specific file paths for each platform and subject
+        const dataFiles = [
+          { platform: 'marrow', subject: 'anatomy', file: 'platforms/marrow/marrow-anatomy.json' },
+          { platform: 'marrow', subject: 'physiology', file: 'src/platforms/marrow/subjects/physiology.json' },
+          { platform: 'dams', subject: 'anatomy', file: 'src/platforms/dams/subjects/anatomy.json' },
+          { platform: 'dams', subject: 'physiology', file: 'src/platforms/dams/subjects/physiology.json' },
+          { platform: 'prepladder', subject: 'anatomy', file: 'src/platforms/prepladder/subjects/anatomy.json' },
+          { platform: 'prepladder', subject: 'physiology', file: 'src/platforms/prepladder/subjects/physiology.json' }
+        ];
         
-        for (const platform of platforms) {
-          for (const subject of subjects) {
-            try {
-              const response = await fetch(`src/platforms/${platform}/subjects/${subject}.json`);
-              if (response.ok) {
-                const data = await response.json();
-                if (data.lectures) {
-                  data.lectures.forEach(lecture => {
-                    allLectures.push({
-                      title: lecture.title,
-                      subject: data.subjectName,
-                      platform: platform.charAt(0).toUpperCase() + platform.slice(1),
-                      duration: lecture.duration,
-                      url: `platforms/${platform}/${platform}-${subject}.html`
-                    });
+        for (const dataFile of dataFiles) {
+          try {
+            const response = await fetch(dataFile.file);
+            if (response.ok) {
+              const data = await response.json();
+              if (data.lectures) {
+                data.lectures.forEach(lecture => {
+                  allLectures.push({
+                    title: lecture.title,
+                    subject: data.subjectName || dataFile.subject.charAt(0).toUpperCase() + dataFile.subject.slice(1),
+                    platform: dataFile.platform.charAt(0).toUpperCase() + dataFile.platform.slice(1),
+                    duration: lecture.duration || 'N/A',
+                    url: `platforms/${dataFile.platform}/${dataFile.platform}-${dataFile.subject}.html`,
+                    streamingUrl: lecture.streamingUrl || lecture.streamUrl
                   });
-                }
+                });
               }
-            } catch (error) {
-              console.log(`Could not load ${platform}/${subject}:`, error);
             }
+          } catch (error) {
+            console.log(`Could not load ${dataFile.file}:`, error);
           }
         }
+        
+        console.log('Total lectures loaded:', allLectures.length);
       } catch (error) {
         console.error('Error loading lecture data:', error);
       }
