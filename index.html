@@ -1,36 +1,90 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NEXTPULSE - NEET PG Preparation Platform</title>
+  <title>NEXTPULSE - NEET PG Preparation Platform | Medical Video Lectures</title>
+  <meta name="description" content="NEXTPULSE - Your comprehensive NEET PG preparation platform. Access video lectures from top institutes like Marrow, DAMS, and PrepLadder. Prepare for medical entrance exams with expert faculty.">
+  <meta name="keywords" content="NEET PG, medical entrance, video lectures, Marrow, DAMS, PrepLadder, medical preparation, NEET PG coaching">
   <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="src/search/search.css">
   <link rel="stylesheet" href="src/home/home.css">
-  <link rel="stylesheet" href="src/components/lecture-completion.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
   <header>
     <div class="header-content">
-      <button id="backBtn" class="back-button">
-        <i class="fas fa-arrow-left"></i>
-      </button>
       <h1 id="pageTitle">NEXTPULSE</h1>
       <p class="header-subtitle">Your Path to NEET-PG Success</p>
       <div class="search-bar">
         <i class="fas fa-search"></i>
-        <input type="text" placeholder="Search topics, lectures..." id="searchInput">
+        <input type="text" placeholder="Search topics, lectures..." id="searchInput" onfocus="window.location.href='search.html'">
       </div>
     </div>
   </header>
-  <main></main>
+  <main>
+    <div class="home-page">
+      <div class="welcome-section">
+        <h2>Welcome to NEXTPULSE</h2>
+        <p>Your comprehensive NEET-PG preparation platform</p>
+      </div>
+      <div class="stats-grid">
+        <div class="stat-card">
+          <i class="fas fa-play-circle"></i>
+          <h3>2000+</h3>
+          <p>Video Lectures</p>
+        </div>
+        <div class="stat-card">
+          <i class="fas fa-book"></i>
+          <h3>50+</h3>
+          <p>Subjects Covered</p>
+        </div>
+        <div class="stat-card">
+          <i class="fas fa-graduation-cap"></i>
+          <h3>3</h3>
+          <p>Top Platforms</p>
+        </div>
+      </div>
+      <div class="quick-actions">
+        <h3>Quick Actions</h3>
+        <div class="action-buttons">
+          <button class="action-btn" onclick="window.location.href='platforms.html'">
+            <i class="fas fa-video"></i>
+            Browse Videos
+          </button>
+          <button class="action-btn" onclick="window.location.href='search.html'">
+            <i class="fas fa-search"></i>
+            Search Content
+          </button>
+        </div>
+      </div>
+      <div class="featured-section">
+        <h3>Featured</h3>
+        <div class="featured-grid">
+          <div class="featured-card">
+            <i class="fas fa-star"></i>
+            <h4>Latest Updates</h4>
+            <p>New lectures added daily across all platforms</p>
+          </div>
+          <div class="featured-card">
+            <i class="fas fa-chart-line"></i>
+            <h4>Study Progress</h4>
+            <p>Track your learning journey</p>
+          </div>
+          <div class="featured-card">
+            <i class="fas fa-bolt"></i>
+            <h4>Quick Access</h4>
+            <p>Jump to your favorite subjects</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
   <nav class="bottom-nav">
-    <a href="#" class="active"><i class="fas fa-lightbulb"></i><span>Home</span></a>
-    <a href="#"><i class="fas fa-play-circle"></i><span>Videos</span></a>
-    <a href="#"><i class="fas fa-search"></i><span>Search</span></a>
+    <a href="index.html" class="active"><i class="fas fa-lightbulb"></i><span>Home</span></a>
+    <a href="platforms.html"><i class="fas fa-play-circle"></i><span>Videos</span></a>
+    <a href="search.html"><i class="fas fa-search"></i><span>Search</span></a>
     <a href="#"><i class="fas fa-question-circle"></i><span>Q Bank</span></a>
   </nav>
-  <script type="module" src="script.js"></script>
 </body>
 </html>

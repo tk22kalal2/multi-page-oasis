@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search - NEXTPULSE | Find Medical Lectures & Content</title>
+  <meta name="description" content="Search across all NEET PG preparation platforms. Find specific lectures, topics, and subjects from Marrow, DAMS, and PrepLadder.">
+  <meta name="keywords" content="search medical lectures, NEET PG search, find medical content, lecture search">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="src/search/search.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <h1>Search</h1>
+      <p class="header-subtitle">Find Your Medical Content</p>
+      <div class="search-bar">
+        <i class="fas fa-search"></i>
+        <input type="text" placeholder="Search topics, lectures..." id="mainSearchInput">
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="search-page">
+      <div class="search-container">
+        <h2>Search Lectures</h2>
+        <p>Use the search bar above to find specific topics, lectures, or subjects across all platforms.</p>
+        <div class="search-suggestions">
+          <h3>Popular Searches:</h3>
+          <div class="suggestion-tags">
+            <span class="suggestion-tag" onclick="performSearch('anatomy basics')">Anatomy Basics</span>
+            <span class="suggestion-tag" onclick="performSearch('cardiology')">Cardiology</span>
+            <span class="suggestion-tag" onclick="performSearch('pharmacology')">Pharmacology</span>
+            <span class="suggestion-tag" onclick="performSearch('surgery')">Surgery</span>
+            <span class="suggestion-tag" onclick="performSearch('pathology')">Pathology</span>
+            <span class="suggestion-tag" onclick="performSearch('pediatrics')">Pediatrics</span>
+          </div>
+        </div>
+        <div class="recent-searches">
+          <h3>Recent Searches:</h3>
+          <p class="no-recent">No recent searches found.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <nav class="bottom-nav">
+    <a href="index.html"><i class="fas fa-lightbulb"></i><span>Home</span></a>
+    <a href="platforms.html"><i class="fas fa-play-circle"></i><span>Videos</span></a>
+    <a href="search.html" class="active"><i class="fas fa-search"></i><span>Search</span></a>
+    <a href="#"><i class="fas fa-question-circle"></i><span>Q Bank</span></a>
+  </nav>
+  <script>
+    function performSearch(query) {
+      document.getElementById('mainSearchInput').value = query;
+      // Here you would implement actual search functionality
+      console.log('Searching for:', query);
+    }
+
+    document.getElementById('mainSearchInput').addEventListener('input', function(e) {
+      const query = e.target.value;
+      if (query.length > 2) {
+        performSearch(query);
+      }
+    });
+  </script>
+</body>
+</html>
