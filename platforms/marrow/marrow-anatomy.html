@@ -7,7 +7,7 @@
   <title>Marrow Anatomy Lectures - NEXTPULSE | NEET PG Preparation</title>
   <meta name="description" content="Access comprehensive Anatomy video lectures from Marrow. Expert faculty teaching human anatomy for NEET PG preparation.">
   <meta name="keywords" content="Marrow anatomy, human anatomy lectures, NEET PG anatomy, medical anatomy videos">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="../../styles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
@@ -25,71 +25,71 @@
     </div>
   </header>
   <main>
-    <div class="lecture-list">
-      <div class="lecture-card">
-        <h3>Introduction to Human Anatomy</h3>
-        <div class="button-container">
-          <button class="stream-button" onclick="openVideo('Introduction to Human Anatomy', 'https://www.youtube.com/embed/dQw4w9WgXcQ')">
-            <i class="fas fa-play"></i> Stream (45 min)
-          </button>
-          <button class="download-button">
-            <i class="fas fa-download"></i> Download
-          </button>
-        </div>
-      </div>
-      <div class="lecture-card">
-        <h3>Basic Anatomical Terminology</h3>
-        <div class="button-container">
-          <button class="stream-button" onclick="openVideo('Basic Anatomical Terminology', 'https://www.youtube.com/embed/dQw4w9WgXcQ')">
-            <i class="fas fa-play"></i> Stream (38 min)
-          </button>
-          <button class="download-button">
-            <i class="fas fa-download"></i> Download
-          </button>
-        </div>
-      </div>
-      <div class="lecture-card">
-        <h3>Cell Structure and Function</h3>
-        <div class="button-container">
-          <button class="stream-button" onclick="openVideo('Cell Structure and Function', 'https://www.youtube.com/embed/dQw4w9WgXcQ')">
-            <i class="fas fa-play"></i> Stream (52 min)
-          </button>
-          <button class="download-button">
-            <i class="fas fa-download"></i> Download
-          </button>
-        </div>
-      </div>
-      <div class="lecture-card">
-        <h3>Tissue Types and Classification</h3>
-        <div class="button-container">
-          <button class="stream-button" onclick="openVideo('Tissue Types and Classification', 'https://www.youtube.com/embed/dQw4w9WgXcQ')">
-            <i class="fas fa-play"></i> Stream (41 min)
-          </button>
-          <button class="download-button">
-            <i class="fas fa-download"></i> Download
-          </button>
-        </div>
-      </div>
-      <div class="lecture-card">
-        <h3>Skeletal System Overview</h3>
-        <div class="button-container">
-          <button class="stream-button" onclick="openVideo('Skeletal System Overview', 'https://www.youtube.com/embed/dQw4w9WgXcQ')">
-            <i class="fas fa-play"></i> Stream (47 min)
-          </button>
-          <button class="download-button">
-            <i class="fas fa-download"></i> Download
-          </button>
-        </div>
-      </div>
+    <div class="lecture-list" id="lectureList">
+      <!-- Lectures will be loaded here -->
     </div>
   </main>
   <nav class="bottom-nav">
-    <a href="index.html"><i class="fas fa-lightbulb"></i><span>Home</span></a>
-    <a href="platforms.html" class="active"><i class="fas fa-play-circle"></i><span>Videos</span></a>
-    <a href="search.html"><i class="fas fa-search"></i><span>Search</span></a>
+    <a href="../../index.html"><i class="fas fa-lightbulb"></i><span>Home</span></a>
+    <a href="../../platforms.html" class="active"><i class="fas fa-play-circle"></i><span>Videos</span></a>
+    <a href="../../search.html"><i class="fas fa-search"></i><span>Search</span></a>
     <a href="#"><i class="fas fa-question-circle"></i><span>Q Bank</span></a>
   </nav>
   <script>
+    let lecturesData = [];
+
+    // Function to convert stream URL to download URL
+    function getDownloadUrl(streamUrl) {
+      return streamUrl.replace('/watch/', '/dl/');
+    }
+
+    // Function to load lectures from JSON
+    async function loadLectures() {
+      try {
+        const response = await fetch('marrow-anatomy.json');
+        const data = await response.json();
+        lecturesData = data.lectures || [];
+        renderLectures(lecturesData);
+      } catch (error) {
+        console.error('Error loading lectures:', error);
+        // Fallback to default lectures if JSON fails to load
+        lecturesData = [
+          {
+            title: "Introduction to Human Anatomy",
+            streamingUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ"
+          }
+        ];
+        renderLectures(lecturesData);
+      }
+    }
+
+    // Function to render lectures
+    function renderLectures(lectures) {
+      const lectureList = document.getElementById('lectureList');
+      lectureList.innerHTML = '';
+
+      lectures.forEach(lecture => {
+        const lectureCard = document.createElement('div');
+        lectureCard.className = 'lecture-card';
+        
+        const downloadUrl = getDownloadUrl(lecture.streamingUrl);
+        
+        lectureCard.innerHTML = `
+          <h3>${lecture.title}</h3>
+          <div class="button-container">
+            <button class="stream-button" onclick="openVideo('${lecture.title}', '${lecture.streamingUrl}')">
+              <i class="fas fa-play"></i> Stream
+            </button>
+            <button class="download-button" onclick="window.open('${downloadUrl}', '_blank')">
+              <i class="fas fa-download"></i> Download
+            </button>
+          </div>
+        `;
+        
+        lectureList.appendChild(lectureCard);
+      });
+    }
+
     function openVideo(title, url) {
       const popup = document.createElement('div');
       popup.className = 'video-popup';
@@ -117,14 +117,17 @@
       document.body.removeChild(popup);
     }
 
+    // Search functionality
     document.getElementById('searchInput').addEventListener('input', function(e) {
       const query = e.target.value.toLowerCase();
-      const lectures = document.querySelectorAll('.lecture-card');
-      lectures.forEach(lecture => {
-        const title = lecture.querySelector('h3').textContent.toLowerCase();
-        lecture.style.display = title.includes(query) ? 'flex' : 'none';
-      });
+      const filteredLectures = lecturesData.filter(lecture =>
+        lecture.title.toLowerCase().includes(query)
+      );
+      renderLectures(filteredLectures);
     });
+
+    // Load lectures when page loads
+    document.addEventListener('DOMContentLoaded', loadLectures);
   </script>
 </body>
 </html>
