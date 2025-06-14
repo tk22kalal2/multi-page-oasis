@@ -1,8 +1,8 @@
+
 import { PlatformSelector } from './src/components/PlatformSelector.js';
 import { MarrowSubjectList } from './src/platforms/marrow/MarrowSubjectList.js';
 import { DamsSubjectList } from './src/platforms/dams/DamsSubjectList.js';
 import { PrepladderSubjectList } from './src/platforms/prepladder/PrepladderSubjectList.js';
-import { LectureList } from './src/components/LectureList.js';
 import { SearchPage } from './src/search/SearchPage.js';
 import { HomePage } from './src/home/HomePage.js';
 
@@ -12,7 +12,6 @@ class App {
     this.marrowSubjectList = new MarrowSubjectList();
     this.damsSubjectList = new DamsSubjectList();
     this.prepladderSubjectList = new PrepladderSubjectList();
-    this.lectureList = new LectureList();
     this.searchPage = new SearchPage();
     this.homePage = new HomePage();
     this.selectedPlatform = null;
@@ -150,8 +149,10 @@ class App {
     } else if (this.currentView === 'lectures') {
       pageTitle.textContent = `${this.selectedSubject} Lectures`;
       backBtn.style.display = 'block';
-      this.lectureList.loadLectures(this.selectedPlatform, this.selectedSubject)
-        .then(() => main.appendChild(this.lectureList.render()));
+      // Lectures are now handled directly in HTML files, so we redirect to the appropriate HTML page
+      const platform = this.selectedPlatform;
+      const subject = this.selectedSubject.toLowerCase();
+      window.location.href = `platforms/${platform}/${platform}-${subject}.html`;
     }
   }
 }
