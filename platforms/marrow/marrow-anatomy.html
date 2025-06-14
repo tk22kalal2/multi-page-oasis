@@ -27,7 +27,7 @@
   </header>
   <main>
     <div class="lecture-list" id="lectureList">
-      <!-- Lectures will be loaded here -->
+      <p>Loading lectures...</p>
     </div>
   </main>
   <nav class="bottom-nav">
@@ -43,37 +43,72 @@
 
     // Function to load lectures from JSON
     async function loadLectures() {
+      console.log('Starting to load lectures...');
       try {
+        console.log('Fetching from marrow-anatomy.json...');
         const response = await fetch('marrow-anatomy.json');
+        console.log('Fetch response status:', response.status, response.statusText);
+        
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        
         const data = await response.json();
+        console.log('JSON data received:', data);
+        
         lecturesData = data.lectures || [];
-        console.log('Loaded lectures:', lecturesData);
-        renderLectures(lecturesData);
+        console.log('Loaded lectures from JSON:', lecturesData.length, 'lectures');
+        
+        if (lecturesData.length > 0) {
+          renderLectures(lecturesData);
+        } else {
+          console.log('No lectures found in JSON, using fallback');
+          useFallbackLectures();
+        }
       } catch (error) {
         console.error('Error loading lectures:', error);
-        // Fallback to default lectures if JSON fails to load
-        lecturesData = [
-          {
-            title: "Introduction to Human Anatomy",
-            streamingUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ"
-          },
-          {
-            title: "Basic Anatomical Terminology", 
-            streamingUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ"
-          },
-          {
-            title: "Cell Structure and Function",
-            streamingUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ"
-          }
-        ];
-        console.log('Using fallback lectures:', lecturesData);
-        renderLectures(lecturesData);
+        console.log('Using fallback lectures due to error');
+        useFallbackLectures();
       }
+    }
+
+    function useFallbackLectures() {
+      lecturesData = [
+        {
+          title: "Introduction to Human Anatomy",
+          streamingUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ"
+        },
+        {
+          title: "Basic Anatomical Terminology", 
+          streamingUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ"
+        },
+        {
+          title: "Cell Structure and Function",
+          streamingUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ"
+        },
+        {
+          title: "Tissue Types and Classification",
+          streamingUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ"
+        },
+        {
+          title: "Skeletal System Overview",
+          streamingUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ"
+        }
+      ];
+      console.log('Using fallback lectures:', lecturesData.length, 'lectures');
+      renderLectures(lecturesData);
     }
 
     // Function to render lectures
     function renderLectures(lectures) {
+      console.log('Rendering lectures:', lectures.length);
       const lectureList = document.getElementById('lectureList');
+      
+      if (!lectureList) {
+        console.error('lectureList element not found!');
+        return;
+      }
+      
       lectureList.innerHTML = '';
 
       if (lectures.length === 0) {
@@ -81,7 +116,8 @@
         return;
       }
 
-      lectures.forEach(lecture => {
+      lectures.forEach((lecture, index) => {
+        console.log(`Rendering lecture ${index + 1}:`, lecture.title);
         const lectureCard = document.createElement('div');
         lectureCard.className = 'lecture-card';
         
@@ -103,6 +139,8 @@
         
         lectureList.appendChild(lectureCard);
       });
+      
+      console.log('Finished rendering all lectures');
     }
 
     function openVideo(title, url) {
@@ -148,7 +186,10 @@
     });
 
     // Load lectures when page loads
-    document.addEventListener('DOMContentLoaded', loadLectures);
+    document.addEventListener('DOMContentLoaded', function() {
+      console.log('DOM loaded, starting lecture load...');
+      loadLectures();
+    });
   </script>
 </body>
 </html>
