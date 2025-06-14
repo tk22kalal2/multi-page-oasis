@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,46 +10,6 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="src/search/search.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-  <style>
-    .completion-toggle {
-      position: absolute;
-      top: 50%;
-      right: 1rem;
-      transform: translateY(-50%);
-      width: 24px;
-      height: 24px;
-      border: 2px solid #e2e8f0;
-      border-radius: 50%;
-      background: white;
-      cursor: pointer;
-      transition: all 0.3s ease;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      z-index: 10;
-    }
-    
-    .completion-toggle:hover {
-      border-color: #48bb78;
-      background: #f0fff4;
-    }
-    
-    .completion-toggle.completed {
-      background: #48bb78;
-      border-color: #48bb78;
-      color: white;
-    }
-    
-    .search-result-card {
-      position: relative;
-      padding-right: 4rem;
-    }
-    
-    .search-result-card.completed {
-      background: #f0fff4;
-      border-left: 4px solid #48bb78;
-    }
-  </style>
 </head>
 <body>
   <header>
@@ -87,52 +48,6 @@
     // Data loading functionality
     let allLectures = [];
     let allTeachers = [];
-    let completedLectures = new Set();
-
-    // Load completion state from localStorage
-    function loadCompletionState() {
-      const saved = localStorage.getItem('completedLectures');
-      if (saved) {
-        completedLectures = new Set(JSON.parse(saved));
-      }
-    }
-
-    // Save completion state to localStorage
-    function saveCompletionState() {
-      localStorage.setItem('completedLectures', JSON.stringify([...completedLectures]));
-    }
-
-    // Toggle lecture completion
-    function toggleLectureCompletion(lectureId, event) {
-      event.stopPropagation(); // Prevent card click
-      
-      if (completedLectures.has(lectureId)) {
-        completedLectures.delete(lectureId);
-      } else {
-        completedLectures.add(lectureId);
-      }
-      
-      saveCompletionState();
-      
-      // Update UI
-      const card = event.target.closest('.search-result-card');
-      const toggle = event.target.closest('.completion-toggle');
-      
-      if (completedLectures.has(lectureId)) {
-        card.classList.add('completed');
-        toggle.classList.add('completed');
-        toggle.innerHTML = '<i class="fas fa-check"></i>';
-      } else {
-        card.classList.remove('completed');
-        toggle.classList.remove('completed');
-        toggle.innerHTML = '';
-      }
-    }
-
-    // Generate unique ID for lecture
-    function getLectureId(lecture) {
-      return `${lecture.platform}-${lecture.subject}-${lecture.title}`.replace(/[^a-zA-Z0-9]/g, '-').toLowerCase();
-    }
 
     // Load lecture data from JSON files
     async function loadLectureData() {
@@ -249,27 +164,19 @@
         return;
       }
 
-      container.innerHTML = results.map(lecture => {
-        const lectureId = getLectureId(lecture);
-        const isCompleted = completedLectures.has(lectureId);
-        
-        return `
-          <div class="search-result-card ${isCompleted ? 'completed' : ''}" onclick="window.location.href='${lecture.url}'">
-            <div class="result-header">
-              <i class="fas fa-play-circle"></i>
-              <h3>${lecture.title}</h3>
-            </div>
-            <div class="result-details">
-              <span><i class="fas fa-book-medical"></i> ${lecture.subject}</span>
-              <span><i class="fas fa-building"></i> ${lecture.platform}</span>
-              <span><i class="fas fa-clock"></i> ${lecture.duration}</span>
-            </div>
-            <div class="completion-toggle ${isCompleted ? 'completed' : ''}" onclick="toggleLectureCompletion('${lectureId}', event)">
-              ${isCompleted ? '<i class="fas fa-check"></i>' : ''}
-            </div>
+      container.innerHTML = results.map(lecture => `
+        <div class="search-result-card" onclick="window.location.href='${lecture.url}'">
+          <div class="result-header">
+            <i class="fas fa-play-circle"></i>
+            <h3>${lecture.title}</h3>
           </div>
-        `;
-      }).join('');
+          <div class="result-details">
+            <span><i class="fas fa-book-medical"></i> ${lecture.subject}</span>
+            <span><i class="fas fa-building"></i> ${lecture.platform}</span>
+            <span><i class="fas fa-clock"></i> ${lecture.duration}</span>
+          </div>
+        </div>
+      `).join('');
     }
 
     // Event listeners
@@ -293,7 +200,6 @@
 
     // Initialize data on page load
     document.addEventListener('DOMContentLoaded', function() {
-      loadCompletionState();
       initializeTeachers();
       loadLectureData();
     });
