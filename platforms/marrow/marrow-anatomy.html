@@ -41,17 +41,13 @@
     let lecturesData = [];
     const completionTracker = new LectureCompletion();
 
-    // Function to convert stream URL to download URL
-    function getDownloadUrl(streamUrl) {
-      return streamUrl.replace('/watch/', '/dl/');
-    }
-
     // Function to load lectures from JSON
     async function loadLectures() {
       try {
         const response = await fetch('marrow-anatomy.json');
         const data = await response.json();
         lecturesData = data.lectures || [];
+        console.log('Loaded lectures:', lecturesData);
         renderLectures(lecturesData);
       } catch (error) {
         console.error('Error loading lectures:', error);
@@ -60,8 +56,17 @@
           {
             title: "Introduction to Human Anatomy",
             streamingUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ"
+          },
+          {
+            title: "Basic Anatomical Terminology", 
+            streamingUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ"
+          },
+          {
+            title: "Cell Structure and Function",
+            streamingUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ"
           }
         ];
+        console.log('Using fallback lectures:', lecturesData);
         renderLectures(lecturesData);
       }
     }
@@ -71,11 +76,14 @@
       const lectureList = document.getElementById('lectureList');
       lectureList.innerHTML = '';
 
+      if (lectures.length === 0) {
+        lectureList.innerHTML = '<p>No lectures available.</p>';
+        return;
+      }
+
       lectures.forEach(lecture => {
         const lectureCard = document.createElement('div');
         lectureCard.className = 'lecture-card';
-        
-        const downloadUrl = getDownloadUrl(lecture.streamingUrl);
         
         lectureCard.innerHTML = `
           <h3>${lecture.title}</h3>
@@ -83,7 +91,7 @@
             <button class="stream-button" onclick="openVideo('${lecture.title}', '${lecture.streamingUrl}')">
               <i class="fas fa-play"></i> Stream
             </button>
-            <button class="download-button" onclick="window.open('${downloadUrl}', '_blank')">
+            <button class="download-button" onclick="downloadVideo('${lecture.streamingUrl}')">
               <i class="fas fa-download"></i> Download
             </button>
           </div>
@@ -122,6 +130,12 @@
     function closeVideo(button) {
       const popup = button.closest('.video-popup');
       document.body.removeChild(popup);
+    }
+
+    function downloadVideo(streamUrl) {
+      // Convert streaming URL to download URL
+      const downloadUrl = streamUrl.replace('/watch/', '/dl/');
+      window.open(downloadUrl, '_blank');
     }
 
     // Search functionality
