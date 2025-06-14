@@ -1,10 +1,18 @@
 
+import { LectureCompletion } from './LectureCompletion.js';
+
 export class LectureList {
   constructor() {
     this.lectures = [];
+    this.completionTracker = new LectureCompletion();
+    this.currentPlatform = '';
+    this.currentSubject = '';
   }
 
   async loadLectures(platform, subject) {
+    this.currentPlatform = platform;
+    this.currentSubject = subject;
+    
     try {
       const response = await fetch(`src/platforms/${platform}/subjects/${subject.toLowerCase()}.json`);
       if (response.ok) {
@@ -59,9 +67,19 @@ export class LectureList {
     const container = document.createElement('div');
     container.className = 'lecture-list';
 
+    // Add completion toggle CSS if not already added
+    if (!document.querySelector('link[href*="completion-toggle.css"]')) {
+      const link = document.createElement('link');
+      link.rel = 'stylesheet';
+      link.href = 'src/components/completion-toggle.css';
+      document.head.appendChild(link);
+    }
+
     this.lectures.forEach(lecture => {
       const lectureCard = document.createElement('div');
       lectureCard.className = 'lecture-card';
+      lectureCard.style.position = 'relative';
+      
       lectureCard.innerHTML = `
         <h3>${lecture.title}</h3>
         <div class="button-container">
@@ -73,6 +91,14 @@ export class LectureList {
           </button>
         </div>
       `;
+
+      // Add completion toggle
+      const completionToggle = this.completionTracker.createCompletionToggle(
+        this.currentPlatform, 
+        this.currentSubject, 
+        lecture.title
+      );
+      lectureCard.appendChild(completionToggle);
 
       const title = lectureCard.querySelector('h3');
       title.style.cursor = 'pointer';
