@@ -97,6 +97,15 @@
           </div>
           <p>You scored <span id="correct-answers">0</span> out of <span id="total-questions-result">0</span></p>
         </div>
+
+        <div id="analysis-container" class="analysis-container" style="display: none;">
+          <h3>Analysis</h3>
+          <p>Click on any question number to review your answer:</p>
+          <div id="question-grid" class="question-grid">
+            <!-- Question numbers will be loaded dynamically -->
+          </div>
+        </div>
+
         <div class="result-actions">
           <button onclick="restartQuiz()" class="restart-btn">
             <i class="fas fa-redo"></i> Restart Quiz

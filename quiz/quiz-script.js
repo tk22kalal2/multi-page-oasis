@@ -6,6 +6,7 @@ let currentQuestionIndex = 0;
 let questions = [];
 let userAnswers = [];
 let score = 0;
+let isReviewMode = false;
 
 // Platform selection
 function selectPlatform(platform) {
@@ -126,6 +127,7 @@ async function selectChapter(filename, chapterName) {
     currentQuestionIndex = 0;
     userAnswers = [];
     score = 0;
+    isReviewMode = false;
     
     document.getElementById('chapter-selection').style.display = 'none';
     document.getElementById('quiz-container').style.display = 'block';
@@ -186,16 +188,36 @@ function loadQuestion() {
   Object.entries(question.options).forEach(([key, value]) => {
     const button = document.createElement('button');
     button.className = 'option-btn';
+    
+    // If in review mode, show the user's answer and correct answer
+    if (isReviewMode) {
+      const userAnswer = userAnswers[currentQuestionIndex];
+      const correctAnswer = question.correct_answer;
+      
+      if (key === correctAnswer) {
+        button.classList.add('correct');
+      } else if (key === userAnswer && userAnswer !== correctAnswer) {
+        button.classList.add('incorrect');
+      }
+      button.classList.add('disabled');
+      button.onclick = null;
+    } else {
+      button.onclick = () => selectAnswer(key, button);
+    }
+    
     button.innerHTML = `
       <span class="option-label">${key}</span>
       <span>${value}</span>
     `;
-    button.onclick = () => selectAnswer(key, button);
     optionsContainer.appendChild(button);
   });
   
-  // Hide explanation
-  document.getElementById('explanation-container').style.display = 'none';
+  // Show/hide explanation based on mode
+  if (isReviewMode) {
+    showExplanation();
+  } else {
+    document.getElementById('explanation-container').style.display = 'none';
+  }
 }
 
 // Handle answer selection
@@ -253,20 +275,41 @@ function showExplanation() {
   
   explanationContainer.style.display = 'block';
   
-  // Update next button text for last question
+  // Update next button text for last question or review mode
   const nextBtn = document.querySelector('.next-btn');
-  if (currentQuestionIndex === questions.length - 1) {
-    nextBtn.innerHTML = '<i class="fas fa-check"></i> Finish Quiz';
+  if (isReviewMode) {
+    if (currentQuestionIndex === questions.length - 1) {
+      nextBtn.innerHTML = '<i class="fas fa-chart-bar"></i> Back to Results';
+    } else {
+      nextBtn.innerHTML = '<i class="fas fa-arrow-right"></i> Next Question';
+    }
+  } else {
+    if (currentQuestionIndex === questions.length - 1) {
+      nextBtn.innerHTML = '<i class="fas fa-check"></i> Finish Quiz';
+    } else {
+      nextBtn.innerHTML = '<i class="fas fa-arrow-right"></i> Next Question';
+    }
   }
 }
 
 // Next question or finish quiz
 function nextQuestion() {
-  if (currentQuestionIndex < questions.length - 1) {
-    currentQuestionIndex++;
-    loadQuestion();
+  if (isReviewMode) {
+    if (currentQuestionIndex < questions.length - 1) {
+      currentQuestionIndex++;
+      loadQuestion();
+    } else {
+      // Return to results
+      isReviewMode = false;
+      showResults();
+    }
   } else {
-    showResults();
+    if (currentQuestionIndex < questions.length - 1) {
+      currentQuestionIndex++;
+      loadQuestion();
+    } else {
+      showResults();
+    }
   }
 }
 
@@ -290,6 +333,48 @@ function showResults() {
   } else {
     scoreCircle.style.background = 'linear-gradient(135deg, #ef4444, #dc2626)';
   }
+  
+  // Show analysis container
+  showAnalysisContainer();
+}
+
+// Show analysis container with question numbers
+function showAnalysisContainer() {
+  const analysisContainer = document.getElementById('analysis-container');
+  const questionGrid = document.getElementById('question-grid');
+  
+  questionGrid.innerHTML = '';
+  
+  questions.forEach((question, index) => {
+    const questionBtn = document.createElement('button');
+    questionBtn.className = 'question-number-btn';
+    questionBtn.textContent = index + 1;
+    
+    const userAnswer = userAnswers[index];
+    const correctAnswer = question.correct_answer;
+    
+    if (userAnswer === correctAnswer) {
+      questionBtn.classList.add('correct');
+    } else {
+      questionBtn.classList.add('incorrect');
+    }
+    
+    questionBtn.onclick = () => reviewQuestion(index);
+    questionGrid.appendChild(questionBtn);
+  });
+  
+  analysisContainer.style.display = 'block';
+}
+
+// Review specific question
+function reviewQuestion(questionIndex) {
+  currentQuestionIndex = questionIndex;
+  isReviewMode = true;
+  
+  document.getElementById('quiz-results').style.display = 'none';
+  document.getElementById('quiz-container').style.display = 'block';
+  
+  loadQuestion();
 }
 
 // Restart quiz
@@ -297,6 +382,7 @@ function restartQuiz() {
   currentQuestionIndex = 0;
   userAnswers = [];
   score = 0;
+  isReviewMode = false;
   
   document.getElementById('quiz-results').style.display = 'none';
   document.getElementById('quiz-container').style.display = 'block';
@@ -314,6 +400,7 @@ function exitQuiz() {
   questions = [];
   userAnswers = [];
   score = 0;
+  isReviewMode = false;
   
   // Show platform selection
   document.getElementById('quiz-container').style.display = 'none';
