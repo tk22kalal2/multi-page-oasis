@@ -1,0 +1,260 @@
+{
+  "chapter": "Basics of Neonatology and Routine Newborn Care",
+  "questions": [
+    {
+      "q_no": 1,
+      "question": "Which of the following timelines would be included in the perinatal period as per the WHO?",
+      "options": {
+        "A": "37th week of gestation to 28 days after birth",
+        "B": "20th week of gestation to 7 days after birth",
+        "C": "28th week of gestation to 7 days after birth",
+        "D": "22nd week of gestation to 7 days after birth"
+      },
+      "correct_answer": "C",
+      "explanation": "The perinatal period, as defined by the World Health Organization (WHO), spans from the 28th week of gestation to the 7th day after birth.",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mpaediatrics/exp1_img1_0f9ca94f.jpeg",
+      "chapter_heading": "Basics of Neonatology and Routine Newborn Care"
+    },
+    {
+      "q_no": 2,
+      "question": "You would classify a baby as post-term if it is born after",
+      "options": {
+        "A": "40 weeks of completed gestation",
+        "B": "40 weeks and 2 days",
+        "C": "41 weeks of completed gestation",
+        "D": "42 weeks of completed gestation"
+      },
+      "correct_answer": "D",
+      "explanation": "Post-term infants are those born after 42 completed weeks of gestation, as calculated from the mother's last menstrual period, regardless of weight at birth.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Basics of Neonatology and Routine Newborn Care"
+    },
+    {
+      "q_no": 3,
+      "question": "You would classify a baby as a very low birth weight baby if the weight of the baby is found to be less than 1.5 kg.",
+      "options": {
+        "A": "1",
+        "B": "1.5",
+        "C": "2",
+        "D": "2.5"
+      },
+      "correct_answer": "B",
+      "explanation": "A very low birth weight baby is one whose birth weight is <1.5 kg. They are often premature (<37 weeks of gestation). A low birth weight baby is one whose birth weight is <2.5 kg. An extremely low birth weight baby is one whose birth weight is <1 kg.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Basics of Neonatology and Routine Newborn Care"
+    },
+    {
+      "q_no": 4,
+      "question": "Reena, a 34-year-old lady with gestational diabetes mellitus delivers an LGA baby at 37 weeks. What would the birth weight of this child be?",
+      "options": {
+        "A": ">75th Percentile",
+        "B": ">97th Percentile",
+        "C": ">90th Percentile",
+        "D": ">95th Percentile"
+      },
+      "correct_answer": "C",
+      "explanation": "Infants with birth weight greater than the 90th percentile for their gestational age are called large for gestational age (LGA) babies. Weight (grams) Classification of neonates based on intrauterine growth and birth weight: 5000-4000-3500-3000-2500-2000, LBW 1500, VLBW 1000, ELBW 500, Large for gestational age 90th centile, Appropriate for gestational age 10th centile, Small for gestational age. Maternal diabetes and obesity are predisposing factors for LGA babies. They have a higher incidence of: Birth injuries, Brachial plexus injury, Phrenic nerve injury, Cephalohematomas, Hypoglycemia, Polycythemia, Congenital heart disease.",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mpaediatrics/exp4_img1_979463e2.jpeg",
+      "chapter_heading": "Basics of Neonatology and Routine Newborn Care"
+    },
+    {
+      "q_no": 5,
+      "question": "As the intern assisting in the labor room, you are tasked with administering Vitamin K to the term newborns with no complications. Which of the following dose and route would you use for administration?",
+      "options": {
+        "A": "0.5 - 1 mg IM",
+        "B": "5 - 10 mg IV",
+        "C": "1 - 5 mg IV",
+        "D": "0.1 - 0.5 mg IM"
+      },
+      "correct_answer": "A",
+      "explanation": "All newborn infants are to be administered vitamin K at a dose of 0.5–1 mg intramuscularly, to prevent hemorrhagic disease of the newborn (HDN). However, for newborns with vitamin K deficiency, the dose of vitamin K administered is 1-5 mg intravenously.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Basics of Neonatology and Routine Newborn Care"
+    },
+    {
+      "q_no": 6,
+      "question": "A term neonate born by normal vaginal delivery is diagnosed with hypothermia. Which of the following is not a physiological response for heat regulation in this baby?",
+      "options": {
+        "A": "Shivering",
+        "B": "Breakdown of brown fat with noradrenaline secretion",
+        "C": "Increased muscular activity",
+        "D": "Cutaneous vasoconstriction"
+      },
+      "correct_answer": "A",
+      "explanation": "Neonates do not generate heat by shivering. Heat production in neonates happens by increasing the metabolic rate and oxygen consumption by releasing norepinephrine, which results in non-shivering thermogenesis through beta-oxidation of brown fat. This sympathetic surge also causes cutaneous vasoconstriction. Increased physical activity - crying, increased body movements, and muscular activity also contribute to thermogenesis. Preterm and small-for-gestational-age (SGA) infants have scanty brown fat stores.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Basics of Neonatology and Routine Newborn Care"
+    },
+    {
+      "q_no": 7,
+      "question": "You are conducting the routine newborn assessment of a 2.3 kg baby born 10 minutes back. You would classify the neonate as having cold stress if you notice the body temperature to be:",
+      "options": {
+        "A": "35.4-36.0 °C",
+        "B": "34.0-34.4 °C",
+        "C": "34.4-35.4 °C",
+        "D": "36.0-36.4 °C"
+      },
+      "correct_answer": "D",
+      "explanation": "A temperature of 36.0 to 36.4°C categorizes a neonate as having cold stress. An infant's normal body temperature is 36.5 to 37.5 °C. It is measured in the apex of the baby's axilla by holding the thermometer for at least 3 minutes. Hypothermia is an axillary temperature of <36.5 °C. Cold stress: 36.0 to 36.4 °C. Moderate hypothermia: 32 to 35.9 °C. Severe hypothermia: <32 °C. Hyperthermia is an axillary temperature of >37.5 °C.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Basics of Neonatology and Routine Newborn Care"
+    },
+    {
+      "q_no": 8,
+      "question": "5A 24-year-old primigravida delivers a preterm baby at 33 weeks of gestation with a birth weight of 2 kg. She is advised to hold her child as shown below. Which of the following statements about this method is false?",
+      "options": {
+        "A": "Can be continued at home",
+        "B": "Safety and thermal protection is equivalent to incubators",
+        "C": "Reduces severe morbidity in the newborns",
+        "D": "Should be performed only by the mother"
+      },
+      "correct_answer": "D",
+      "explanation": "Kangaroo Mother Care (KMC) can be carried out by the mother or any other caregiver. KMC was introduced for the prevention of neonatal hypothermia in low birth weight/premature newborns. It has 4 components—•Skin-to-skin positioning of the newborn on the mother's chest. •Adequate nutrition through breastfeeding. •Early discharge and ambulatory care. •Support for mother and family for child care. Evidence shows that- •It is as good as incubators, in terms of safety and thermal protection (measured by mortality) •Reduces severe morbidity by way of facilitating breastfeeding •Humanization of neonatal care •Promoted bonding between mother and child. Eligibility criteria for KMC: It is indicated for all hemodynamically stable low birth weight babies. Short sessions of KMC can be initiated in babies on medical treatment like IV fluids or oxygen therapy. Initiation of KMC can vary with the birth weight of the baby. •Birth weight <1200 g - It may take days to weeks for initiation of KMC •Birth weight =1200-1800 g - Only a few days may be taken before KMC initiation •Birth weight >1800 g - KMC can be initiated immediately after birth. All mothers without any serious illness can provide KMC. Positioning for KMC: The baby is placed between the mother's breasts in an upright position. The hips are abducted and flexed in the frog position and the arms are also flexed. The abdomen of the baby should be at the level of the mother's epigastrium. In this position, the mother's breathing would stimulate the baby and prevent the development of apnea. The duration of KMC should be gradually increased from short sessions of more than one hour to 24 hours a day. KMC is not necessary once the baby attains 2500 g of weight or 37 weeks of gestation. Note: Incubatory care, feeding via nasal catheter, and prevention of infection are part of intensive care for low birthweight babies.",
+      "image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mpaediatrics/q8_img1_05c99788.jpeg",
+      "explanation_image": null,
+      "chapter_heading": "Basics of Neonatology and Routine Newborn Care"
+    },
+    {
+      "q_no": 9,
+      "question": "You are the intern posted in the labor room and are tasked with calculating the gestational maturity of the infants delivered. As per the expanded New Ballard scoring, what will be the lowest and highest scores you can obtain?",
+      "options": {
+        "A": "0 and 40",
+        "B": "-10 and 50",
+        "C": "-10 and 44",
+        "D": "0 and 32"
+      },
+      "correct_answer": "B",
+      "explanation": "The lowest score on the expanded New Ballard Score is -10, which corresponds to 20 weeks gestational age, and the highest score is 50, which corresponds to 44 weeks gestational age. An increase in the score by 5 points corresponds to an increase of 2 weeks gestational age. Maturity Rating on the expanded New Ballard Score: Score - Weeks: -10 = 20, -5 = 22, 0 = 26, 5 = 28, 10 = 30, 15 = 32, 20 = 36, 25 = 38, 30 = 40, 35 = 42, 40 = 44, 45 = 45, 50 = 44",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Basics of Neonatology and Routine Newborn Care"
+    },
+    {
+      "q_no": 10,
+      "question": "Which of the following is a component of the neuromuscular criteria for maturity according to the expanded New Ballard score?",
+      "options": {
+        "A": "Heel-knee test",
+        "B": "Finger-nose test",
+        "C": "Scarf sign",
+        "D": "Cubital angle"
+      },
+      "correct_answer": "C",
+      "explanation": "Scarf sign is a component of the neuromuscular criteria for maturity according to the expanded New Ballard score. Scarf sign: If the infant's arm is pulled medially across the chest, in a hypotonic infant, the elbow will cross the midline. In a term infant with a normal tone, the elbow will not reach the midline. Neuromuscular criteria for maturity (according to the expanded New Ballard score) include: posture, square window (wrist), arm recoil, popliteal angle, scarf sign, and heel to ear. Physical criteria for maturity (according to the expanded New Ballard score) include: skin, lanugo, eye/ear, plantar crease, breast, and genitals. The expanded New Ballard score is used to assess the physical and neuromuscular maturity of the newborn by scoring six criteria and thereby calculating the gestational age. It is accurate between 20 to 44 weeks.",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mpaediatrics/exp10_img1_5cf841e2.jpeg",
+      "chapter_heading": "Basics of Neonatology and Routine Newborn Care"
+    },
+    {
+      "q_no": 11,
+      "question": "A 1.8 Kg neonate is born to a 24-year-old primigravida with no antenatal checkups. While calculating the physical maturity of the neonate by the new Ballard scoring, which of the following criteria would you not take into account?",
+      "options": {
+        "A": "Skin",
+        "B": "Lanugo hair",
+        "C": "Palmar surface",
+        "D": "Breast"
+      },
+      "correct_answer": "C",
+      "explanation": "Palmar surface is not a component of the physical criteria for maturity according to the expanded New Ballard score. Physical criteria for maturity (according to the expanded New Ballard score): • Skin • Lanugo • Eye/ear • Plantar crease (Not palmar surface) • Breast • Genitals",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Basics of Neonatology and Routine Newborn Care"
+    },
+    {
+      "q_no": 12,
+      "question": "While examining a healthy term neonate, you notice that the baby passes greenish-black-colored stools. This color is due to -",
+      "options": {
+        "A": "Bilirubin",
+        "B": "Biliverdin",
+        "C": "Meconium",
+        "D": "Gut flora of the neonate"
+      },
+      "correct_answer": "C",
+      "explanation": "The greenish-black color of the first stool in the newborn is due to biliverdin. Meconium is a dark, sticky material that is normally present in the intestine at birth and passed in the feces after birth. It is detected in the ileum at about 70-85 days of fetal life and begins to fill the colon and lower ileum late in the 4th month of gestation. The greenish color of the meconium is the consequence of the bile pigments excreted by the biliary tract. The main component responsible for the greenish color of the meconium is biliverdin (a pigment formed from the oxidation of bilirubin). Up to the 22nd week of gestation, the intestinal content is not greenish, and for this reason, fetal defecation would not stain the amniotic fluid. The production of biliverdin starts over the next few weeks or at a time closer to labor, probably due to a biochemical switch related to the bilirubin oxidation system. Bilirubin is responsible for the yellow color of the stools. Neonates do not harbor gut flora at birth.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Basics of Neonatology and Routine Newborn Care"
+    },
+    {
+      "q_no": 13,
+      "question": "When does the parachute reflex disappear?",
+      "options": {
+        "A": "At 3 months",
+        "B": "At 6 months",
+        "C": "At birth and reappears at 9 months",
+        "D": "Never"
+      },
+      "correct_answer": "D",
+      "explanation": "The parachute reflex has its onset at 7-8 months of age. It is fully developed by 10-11 months of age and remains throughout life. It can be evoked by holding the infant's trunk and then suddenly lowering the infant as if he or she were falling. The arms will spontaneously extend to break the infant's fall. This reflex is a prerequisite to walking.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Basics of Neonatology and Routine Newborn Care"
+    },
+    {
+      "q_no": 14,
+      "question": "7A 6-day-old infant is being examined. While checking the reflexes, a brisk Moro's reflex is noted. Which of the following conditions is a likely cause for this?",
+      "options": {
+        "A": "Kernicterus",
+        "B": "Stage III hypoxic ischemic encephalopathy (HIE)",
+        "C": "Hypoglycemia",
+        "D": "Erb's palsy"
+      },
+      "correct_answer": "C",
+      "explanation": "A brisk Moro reflex can be seen in neonates with hypoglycemia. In hypoglycemic babies, there is an activation of the autonomic system, which results in jitteriness. Newborns often exhibit this as an exaggerated Moro reflex. The Moro reflex is a primitive reflex that is very sensitive to the infant's level of alertness. It is elicited by supporting the infant in the semi-erect position and allowing the infant's head to fall backward onto the examiner's hand. An animated gif of normal response to Moro's reflex, where there is symmetrical extension and abduction of the upper extremities, followed by flexion of the upper extremities, is shown below. The Moro reflex disappears by 6 months of age in normal infants. Absent Moro reflex: caused by significant generalized disturbance of the CNS, such as Stage III HIE and Kernicterus. Asymmetric Moro reflex: a feature of the root, plexus, or nerve disease, such as fractured clavicle, brachial plexus injury (Erb's palsy), and hemiparesis. Brisk Moro reflex: neonatal hypoglycemia, and can also be a normal variant in healthy infants, and Stage I HIE. Exaggerated, stereotyped, non-habituating Moro reflex is a feature of severe bilateral intrauterine cerebral disturbance, perhaps because of the release of the brain stem from inhibitory cortical influences. It is seen in conditions such as hydranencephaly and severe micrencephaly. Moro reflex in different stages of hypoxic-ischemic encephalopathy (HIE): Stage I HIE (mild): brisk, Stage II HIE (moderate): weak/incomplete, Stage III HIE (severe): absent. Option A: In kernicterus, there is a deposition of unconjugated bilirubin in the basal ganglia and brain stem. Hence, the Moro reflex is absent. Option C: In stage III HIE, the muscles are flaccid and the infant is comatose. Thus, the Moro reflex is absent. Option D: Erb's palsy results from an injury to the brachial plexus. So, the reflex is absent on the side of injury as the nerve supplying the muscles involved (efferent of the reflex) is affected.",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mpaediatrics/exp14_img1_b3607a62.png",
+      "chapter_heading": "Basics of Neonatology and Routine Newborn Care"
+    },
+    {
+      "q_no": 15,
+      "question": "You are demonstrating findings in a pediatric OSCE examination on a 4-day-old neonate. On turning the baby's head to the left, you obtain the finding as shown below. At what age does this reflex normally disappear?",
+      "options": {
+        "A": "6 months",
+        "B": "9 months",
+        "C": "4 months",
+        "D": "5 months"
+      },
+      "correct_answer": "A",
+      "explanation": "Asymmetric tonic neck reflex (ATNR) disappears by 6 months postnatally. The tonic neck reflex is produced by manually rotating the infant's head to 1 side and observing for the characteristic fencing posture (extension of the arm on the side to which the face is rotated and flexion of the contralateral arm). An obligatory tonic neck response, in which the infant becomes 'stuck' in the fencing posture, is always abnormal and implies a CNS disorder. 'Fencing Position' in Asymmetric Tonic Neck Reflex.",
+      "image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mpaediatrics/q15_img1_8665d05e.jpeg",
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mpaediatrics/exp15_img1_c7e39d70.jpeg",
+      "chapter_heading": "Basics of Neonatology and Routine Newborn Care"
+    },
+    {
+      "q_no": 16,
+      "question": "A first-time mother rushes to the OPD with her 4-day-old infant and worriedly points to the rash that appears as shown below. You reassure her of its harmless, transient nature. On microscopic examination, these papular lesions on an erythematous base will reveal",
+      "options": {
+        "A": "Eosinophils",
+        "B": "Neutrophils",
+        "C": "Giant Cells",
+        "D": "Lymphocytes"
+      },
+      "correct_answer": "A",
+      "explanation": "The given clinical complex describes a case of erythema neonatorum. Wright-stained smear of the contents of the pustule will show an abundance of eosinophils. They are papular lesions on an erythematous base, distributed over the trunk and face predominantly. They are seen 1-3 days after birth and may persist for up to a week, after which they resolve spontaneously. Neutrophils are seen in pustular melanosis.",
+      "image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mpaediatrics/q16_img1_bf43eb8e.jpeg",
+      "explanation_image": null,
+      "chapter_heading": "Basics of Neonatology and Routine Newborn Care"
+    },
+    {
+      "q_no": 17,
+      "question": "A 5-month-old infant is brought to the OPD for a well-baby check-up. A lesion that was present since birth is noticed as given below. What is the most likely diagnosis?",
+      "options": {
+        "A": "Dermal melanocytosis",
+        "B": "Salmon patch",
+        "C": "Neonatal pustular melanosis",
+        "D": "Harlequin colour change"
+      },
+      "correct_answer": "A",
+      "explanation": "The above image shows Mongolian spots or dermal melanocytosis. Mongolian spots are benign blue or slate-grey macular lesions, with clearly defined margins, that appear over the presacral region (most common), posterior thighs, legs, back, and forearms. These spots occur due to the presence of melanin-containing melanocytes in the dermis, which is arrested during the migration from neural crest cells to the epidermis. They are non-tender and do not rapidly change in color or size.",
+      "image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mpaediatrics/q17_img1_1593988d.jpeg",
+      "explanation_image": null,
+      "chapter_heading": "Basics of Neonatology and Routine Newborn Care"
+    }
+  ]
+}
