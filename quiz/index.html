@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Q Bank - NEXTPULSE</title>
+  <link rel="stylesheet" href="quiz-styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <button onclick="window.location.href='../index.html'" class="back-button">
+        <i class="fas fa-arrow-left"></i>
+      </button>
+      <h1>Q Bank</h1>
+      <p class="header-subtitle">Test Your Knowledge</p>
+    </div>
+  </header>
+
+  <main>
+    <div id="platform-selection" class="selection-container">
+      <h2>Select Platform</h2>
+      <div class="platform-grid">
+        <button class="platform-btn" onclick="selectPlatform('marrow')">
+          <i class="fas fa-graduation-cap"></i>
+          <span>Marrow</span>
+        </button>
+        <button class="platform-btn" onclick="selectPlatform('prepladder')">
+          <i class="fas fa-laptop-medical"></i>
+          <span>PrepLadder</span>
+        </button>
+      </div>
+    </div>
+
+    <div id="subject-selection" class="selection-container" style="display: none;">
+      <h2>Select Subject</h2>
+      <div class="subject-grid">
+        <button class="subject-btn" onclick="selectSubject('anatomy')">
+          <i class="fas fa-user"></i>
+          <span>Anatomy</span>
+        </button>
+        <button class="subject-btn" onclick="selectSubject('physiology')">
+          <i class="fas fa-heartbeat"></i>
+          <span>Physiology</span>
+        </button>
+      </div>
+    </div>
+
+    <div id="chapter-selection" class="selection-container" style="display: none;">
+      <h2>Select Chapter</h2>
+      <div id="chapter-list" class="chapter-grid">
+        <!-- Chapters will be loaded dynamically -->
+      </div>
+    </div>
+
+    <div id="quiz-container" class="quiz-container" style="display: none;">
+      <div class="quiz-header">
+        <div class="quiz-progress">
+          <span id="current-question">1</span> / <span id="total-questions">10</span>
+        </div>
+        <button onclick="exitQuiz()" class="exit-btn">
+          <i class="fas fa-times"></i> Exit
+        </button>
+      </div>
+      
+      <div class="question-container">
+        <div id="question-text" class="question-text"></div>
+        <div id="question-image" class="question-image" style="display: none;">
+          <img id="question-img" src="" alt="Question Image">
+        </div>
+      </div>
+
+      <div id="options-container" class="options-container">
+        <!-- Options will be loaded dynamically -->
+      </div>
+
+      <div id="explanation-container" class="explanation-container" style="display: none;">
+        <h3>Explanation:</h3>
+        <p id="explanation-text"></p>
+        <div id="explanation-image" style="display: none;">
+          <img id="explanation-img" src="" alt="Explanation Image">
+        </div>
+        <button onclick="nextQuestion()" class="next-btn">
+          <i class="fas fa-arrow-right"></i> Next Question
+        </button>
+      </div>
+    </div>
+
+    <div id="quiz-results" class="quiz-results" style="display: none;">
+      <div class="results-container">
+        <h2>Quiz Complete!</h2>
+        <div class="score-display">
+          <div class="score-circle">
+            <span id="score-percentage">0%</span>
+          </div>
+          <p>You scored <span id="correct-answers">0</span> out of <span id="total-questions-result">0</span></p>
+        </div>
+        <div class="result-actions">
+          <button onclick="restartQuiz()" class="restart-btn">
+            <i class="fas fa-redo"></i> Restart Quiz
+          </button>
+          <button onclick="exitQuiz()" class="home-btn">
+            <i class="fas fa-home"></i> Back to Selection
+          </button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="quiz-script.js"></script>
+</body>
+</html>
