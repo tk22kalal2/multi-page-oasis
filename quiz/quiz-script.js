@@ -275,20 +275,58 @@ function showExplanation() {
   
   explanationContainer.style.display = 'block';
   
-  // Update next button text for last question or review mode
-  const nextBtn = document.querySelector('.next-btn');
+  // Clear existing buttons
+  const existingButtons = explanationContainer.querySelectorAll('.next-btn, .back-to-results-btn');
+  existingButtons.forEach(btn => btn.remove());
+  
+  // Create button container if it doesn't exist
+  let buttonContainer = explanationContainer.querySelector('.explanation-buttons');
+  if (!buttonContainer) {
+    buttonContainer = document.createElement('div');
+    buttonContainer.className = 'explanation-buttons';
+    buttonContainer.style.cssText = 'display: flex; gap: 1rem; justify-content: center; margin-top: 2rem; flex-wrap: wrap;';
+    explanationContainer.appendChild(buttonContainer);
+  }
+  buttonContainer.innerHTML = '';
+  
   if (isReviewMode) {
-    if (currentQuestionIndex === questions.length - 1) {
-      nextBtn.innerHTML = '<i class="fas fa-chart-bar"></i> Back to Results';
-    } else {
+    // Always show "Back to Results" button in review mode
+    const backButton = document.createElement('button');
+    backButton.className = 'back-to-results-btn';
+    backButton.innerHTML = '<i class="fas fa-chart-bar"></i> Back to Results';
+    backButton.style.cssText = 'background: #2c5282; color: white; border: none; padding: 1.25rem 2.5rem; border-radius: 8px; cursor: pointer; font-size: 1.1rem; font-weight: 600; transition: all 0.3s ease; display: flex; align-items: center; gap: 0.75rem;';
+    backButton.onmouseover = () => backButton.style.background = '#1a365d';
+    backButton.onmouseout = () => backButton.style.background = '#2c5282';
+    backButton.onclick = () => backToResults();
+    buttonContainer.appendChild(backButton);
+    
+    // Show next button if not on last question
+    if (currentQuestionIndex < questions.length - 1) {
+      const nextBtn = document.createElement('button');
+      nextBtn.className = 'next-btn';
       nextBtn.innerHTML = '<i class="fas fa-arrow-right"></i> Next Question';
+      nextBtn.style.cssText = 'background: #16a34a; color: white; border: none; padding: 1.25rem 2.5rem; border-radius: 8px; cursor: pointer; font-size: 1.1rem; font-weight: 600; transition: all 0.3s ease; display: flex; align-items: center; gap: 0.75rem;';
+      nextBtn.onmouseover = () => nextBtn.style.background = '#15803d';
+      nextBtn.onmouseout = () => nextBtn.style.background = '#16a34a';
+      nextBtn.onclick = () => nextQuestion();
+      buttonContainer.appendChild(nextBtn);
     }
   } else {
+    // Normal quiz mode
+    const nextBtn = document.createElement('button');
+    nextBtn.className = 'next-btn';
+    nextBtn.style.cssText = 'background: #16a34a; color: white; border: none; padding: 1.25rem 2.5rem; border-radius: 8px; cursor: pointer; font-size: 1.1rem; font-weight: 600; transition: all 0.3s ease; display: flex; align-items: center; gap: 0.75rem; margin: 0 auto;';
+    nextBtn.onmouseover = () => nextBtn.style.background = '#15803d';
+    nextBtn.onmouseout = () => nextBtn.style.background = '#16a34a';
+    nextBtn.onclick = () => nextQuestion();
+    
     if (currentQuestionIndex === questions.length - 1) {
       nextBtn.innerHTML = '<i class="fas fa-check"></i> Finish Quiz';
     } else {
       nextBtn.innerHTML = '<i class="fas fa-arrow-right"></i> Next Question';
     }
+    
+    buttonContainer.appendChild(nextBtn);
   }
 }
 
@@ -298,10 +336,6 @@ function nextQuestion() {
     if (currentQuestionIndex < questions.length - 1) {
       currentQuestionIndex++;
       loadQuestion();
-    } else {
-      // Return to results
-      isReviewMode = false;
-      showResults();
     }
   } else {
     if (currentQuestionIndex < questions.length - 1) {
@@ -311,6 +345,12 @@ function nextQuestion() {
       showResults();
     }
   }
+}
+
+// Back to results function
+function backToResults() {
+  isReviewMode = false;
+  showResults();
 }
 
 // Show quiz results
