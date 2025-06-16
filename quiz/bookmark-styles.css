@@ -91,14 +91,14 @@
 
 /* Bookmarked questions list */
 .bookmarked-list {
-  max-height: 60vh;
+  max-height: 50vh;
   overflow-y: auto;
   margin-bottom: 2rem;
 }
 
 .empty-bookmarks {
   text-align: center;
-  padding: 3rem;
+  padding: 2rem;
   color: #666;
 }
 
@@ -107,43 +107,110 @@
   color: #333;
 }
 
-.bookmark-group {
+/* Bookmark overview items */
+.bookmark-overview-item {
   background: white;
   border-radius: 12px;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.3s ease;
   overflow: hidden;
 }
 
-.bookmark-group-header {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+.bookmark-overview-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.bookmark-overview-content {
   padding: 1.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.bookmark-group-header h3 {
+.platform-subject-info h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #2d3748;
+}
+
+.question-count-badge {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 0.4rem 0.8rem;
+  border-radius: 15px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.bookmark-overview-content i {
+  color: #9ca3af;
+  font-size: 1.2rem;
+}
+
+/* Group questions view */
+.group-back-button {
+  margin-bottom: 1.5rem;
+}
+
+.group-back-btn {
+  background: #6b7280;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1rem;
+}
+
+.group-back-btn:hover {
+  background: #4b5563;
+  transform: translateY(-2px);
+}
+
+.group-questions-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 1.25rem;
+  border-radius: 12px;
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.group-questions-header h3 {
   margin: 0;
   font-size: 1.3rem;
   font-weight: 600;
 }
 
-.question-count {
+.group-questions-header .question-count {
   background: rgba(255, 255, 255, 0.2);
   padding: 0.5rem 1rem;
   border-radius: 20px;
   font-size: 0.9rem;
 }
 
-.bookmark-questions {
-  padding: 0;
+.group-questions-list {
+  max-height: 35vh;
+  overflow-y: auto;
 }
 
+/* Individual bookmarked question items */
 .bookmarked-question-item {
-  padding: 1.5rem;
-  border-bottom: 1px solid #f1f5f9;
+  background: white;
+  border-radius: 8px;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   cursor: pointer;
   transition: all 0.3s ease;
   display: flex;
@@ -154,10 +221,7 @@
 .bookmarked-question-item:hover {
   background: #f8fafc;
   transform: translateX(5px);
-}
-
-.bookmarked-question-item:last-child {
-  border-bottom: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 .question-preview {
@@ -181,6 +245,7 @@
 .question-text {
   color: #374151;
   line-height: 1.5;
+  font-size: 0.95rem;
 }
 
 .bookmark-actions {
@@ -247,22 +312,41 @@
     font-size: 1.3rem;
   }
   
-  .bookmark-group-header {
+  .bookmarked-list {
+    max-height: 45vh;
+  }
+  
+  .group-questions-list {
+    max-height: 30vh;
+  }
+  
+  .bookmark-overview-content {
+    padding: 1rem;
+  }
+  
+  .platform-subject-info h3 {
+    font-size: 1.1rem;
+  }
+  
+  .group-questions-header {
     flex-direction: column;
     gap: 0.5rem;
     text-align: center;
+    padding: 1rem;
   }
   
   .bookmarked-question-item {
     flex-direction: column;
     align-items: flex-start;
     gap: 1rem;
+    padding: 1rem;
   }
   
   .question-preview {
     flex-direction: column;
     align-items: flex-start;
     gap: 0.5rem;
+    width: 100%;
   }
   
   .bookmark-actions {

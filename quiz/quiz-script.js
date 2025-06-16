@@ -146,36 +146,74 @@ function viewBookmarkedQuestions() {
       return groups;
     }, {});
     
+    // Show platform/subject overview
     Object.values(groupedBookmarks).forEach(group => {
       const groupDiv = document.createElement('div');
-      groupDiv.className = 'bookmark-group';
+      groupDiv.className = 'bookmark-overview-item';
       groupDiv.innerHTML = `
-        <div class="bookmark-group-header">
-          <h3>${group.platform.charAt(0).toUpperCase() + group.platform.slice(1)} - ${group.subject.charAt(0).toUpperCase() + group.subject.slice(1)}</h3>
-          <span class="question-count">${group.questions.length} question${group.questions.length !== 1 ? 's' : ''}</span>
-        </div>
-        <div class="bookmark-questions">
-          ${group.questions.map(question => `
-            <div class="bookmarked-question-item" onclick="reviewBookmarkedQuestion('${question.platform}', '${question.subject}', ${question.q_no})">
-              <div class="question-preview">
-                <span class="question-number">Q${question.q_no}</span>
-                <span class="question-text">${question.question.substring(0, 100)}${question.question.length > 100 ? '...' : ''}</span>
-              </div>
-              <div class="bookmark-actions">
-                <button onclick="event.stopPropagation(); removeBookmark('${question.platform}', '${question.subject}', ${question.q_no})" class="remove-bookmark">
-                  <i class="fas fa-trash"></i>
-                </button>
-              </div>
-            </div>
-          `).join('')}
+        <div class="bookmark-overview-content">
+          <div class="platform-subject-info">
+            <h3>${group.platform.charAt(0).toUpperCase() + group.platform.slice(1)} - ${group.subject.charAt(0).toUpperCase() + group.subject.slice(1)}</h3>
+            <span class="question-count-badge">${group.questions.length} question${group.questions.length !== 1 ? 's' : ''}</span>
+          </div>
+          <i class="fas fa-chevron-right"></i>
         </div>
       `;
+      groupDiv.onclick = () => showGroupQuestions(group);
       bookmarkedList.appendChild(groupDiv);
     });
   }
   
   document.getElementById('main-menu').style.display = 'none';
   document.getElementById('bookmarked-questions').style.display = 'block';
+}
+
+function showGroupQuestions(group) {
+  const bookmarkedList = document.getElementById('bookmarked-list');
+  bookmarkedList.innerHTML = '';
+  
+  // Add back button
+  const backButton = document.createElement('div');
+  backButton.className = 'group-back-button';
+  backButton.innerHTML = `
+    <button onclick="viewBookmarkedQuestions()" class="group-back-btn">
+      <i class="fas fa-arrow-left"></i> Back to Groups
+    </button>
+  `;
+  bookmarkedList.appendChild(backButton);
+  
+  // Add group header
+  const groupHeader = document.createElement('div');
+  groupHeader.className = 'group-questions-header';
+  groupHeader.innerHTML = `
+    <h3>${group.platform.charAt(0).toUpperCase() + group.platform.slice(1)} - ${group.subject.charAt(0).toUpperCase() + group.subject.slice(1)}</h3>
+    <span class="question-count">${group.questions.length} question${group.questions.length !== 1 ? 's' : ''}</span>
+  `;
+  bookmarkedList.appendChild(groupHeader);
+  
+  // Add questions list
+  const questionsContainer = document.createElement('div');
+  questionsContainer.className = 'group-questions-list';
+  
+  group.questions.forEach(question => {
+    const questionDiv = document.createElement('div');
+    questionDiv.className = 'bookmarked-question-item';
+    questionDiv.innerHTML = `
+      <div class="question-preview">
+        <span class="question-number">Q${question.q_no}</span>
+        <span class="question-text">${question.question.substring(0, 100)}${question.question.length > 100 ? '...' : ''}</span>
+      </div>
+      <div class="bookmark-actions">
+        <button onclick="event.stopPropagation(); removeBookmark('${question.platform}', '${question.subject}', ${question.q_no})" class="remove-bookmark">
+          <i class="fas fa-trash"></i>
+        </button>
+      </div>
+    `;
+    questionDiv.onclick = () => reviewBookmarkedQuestion(question.platform, question.subject, question.q_no);
+    questionsContainer.appendChild(questionDiv);
+  });
+  
+  bookmarkedList.appendChild(questionsContainer);
 }
 
 function removeBookmark(platform, subject, qNo) {
