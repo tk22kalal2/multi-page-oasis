@@ -1,4 +1,3 @@
-
 let selectedPlatform = '';
 let selectedSubject = '';
 let selectedChapter = '';
@@ -7,6 +6,213 @@ let questions = [];
 let userAnswers = [];
 let score = 0;
 let isReviewMode = false;
+let bookmarkedQuestions = [];
+
+// Initialize the app
+function initializeApp() {
+  loadBookmarkedQuestions();
+  updateBookmarkCount();
+}
+
+// Bookmark management functions
+function loadBookmarkedQuestions() {
+  const saved = localStorage.getItem('quizBookmarks');
+  bookmarkedQuestions = saved ? JSON.parse(saved) : [];
+  updateBookmarkCount();
+}
+
+function saveBookmarkedQuestions() {
+  localStorage.setItem('quizBookmarks', JSON.stringify(bookmarkedQuestions));
+  updateBookmarkCount();
+}
+
+function updateBookmarkCount() {
+  const countElement = document.getElementById('bookmark-count');
+  const count = bookmarkedQuestions.length;
+  countElement.textContent = `${count} question${count !== 1 ? 's' : ''} saved`;
+}
+
+function isQuestionBookmarked(question) {
+  return bookmarkedQuestions.some(bookmark => 
+    bookmark.q_no === question.q_no && 
+    bookmark.platform === selectedPlatform && 
+    bookmark.subject === selectedSubject
+  );
+}
+
+function toggleBookmark() {
+  const currentQuestion = questions[currentQuestionIndex];
+  const bookmarkBtn = document.getElementById('bookmark-btn');
+  const bookmarkIcon = bookmarkBtn.querySelector('i');
+  
+  const bookmarkData = {
+    ...currentQuestion,
+    platform: selectedPlatform,
+    subject: selectedSubject,
+    chapter: selectedChapter,
+    bookmarkedAt: new Date().toISOString()
+  };
+  
+  const existingIndex = bookmarkedQuestions.findIndex(bookmark => 
+    bookmark.q_no === currentQuestion.q_no && 
+    bookmark.platform === selectedPlatform && 
+    bookmark.subject === selectedSubject
+  );
+  
+  if (existingIndex > -1) {
+    // Remove bookmark
+    bookmarkedQuestions.splice(existingIndex, 1);
+    bookmarkIcon.className = 'far fa-bookmark';
+    bookmarkBtn.title = 'Bookmark this question';
+  } else {
+    // Add bookmark
+    bookmarkedQuestions.push(bookmarkData);
+    bookmarkIcon.className = 'fas fa-bookmark';
+    bookmarkBtn.title = 'Remove bookmark';
+  }
+  
+  saveBookmarkedQuestions();
+}
+
+function updateBookmarkButton() {
+  const bookmarkBtn = document.getElementById('bookmark-btn');
+  const bookmarkIcon = bookmarkBtn.querySelector('i');
+  const currentQuestion = questions[currentQuestionIndex];
+  
+  if (isQuestionBookmarked(currentQuestion)) {
+    bookmarkIcon.className = 'fas fa-bookmark';
+    bookmarkBtn.title = 'Remove bookmark';
+  } else {
+    bookmarkIcon.className = 'far fa-bookmark';
+    bookmarkBtn.title = 'Bookmark this question';
+  }
+}
+
+// Main menu functions
+function startNewQuiz() {
+  document.getElementById('main-menu').style.display = 'none';
+  document.getElementById('platform-selection').style.display = 'block';
+}
+
+function backToMainMenu() {
+  // Hide all sections
+  document.getElementById('platform-selection').style.display = 'none';
+  document.getElementById('subject-selection').style.display = 'none';
+  document.getElementById('chapter-selection').style.display = 'none';
+  document.getElementById('bookmarked-questions').style.display = 'none';
+  document.getElementById('quiz-container').style.display = 'none';
+  document.getElementById('quiz-results').style.display = 'none';
+  
+  // Show main menu
+  document.getElementById('main-menu').style.display = 'block';
+  
+  // Reset quiz state
+  selectedPlatform = '';
+  selectedSubject = '';
+  selectedChapter = '';
+  currentQuestionIndex = 0;
+  questions = [];
+  userAnswers = [];
+  score = 0;
+  isReviewMode = false;
+}
+
+function viewBookmarkedQuestions() {
+  loadBookmarkedQuestions();
+  
+  const bookmarkedList = document.getElementById('bookmarked-list');
+  bookmarkedList.innerHTML = '';
+  
+  if (bookmarkedQuestions.length === 0) {
+    bookmarkedList.innerHTML = `
+      <div class="empty-bookmarks">
+        <i class="fas fa-bookmark" style="font-size: 3rem; color: #ccc; margin-bottom: 1rem;"></i>
+        <h3>No bookmarked questions yet</h3>
+        <p>Start a quiz and bookmark questions for later review!</p>
+      </div>
+    `;
+  } else {
+    // Group bookmarks by platform and subject
+    const groupedBookmarks = bookmarkedQuestions.reduce((groups, bookmark) => {
+      const key = `${bookmark.platform}-${bookmark.subject}`;
+      if (!groups[key]) {
+        groups[key] = {
+          platform: bookmark.platform,
+          subject: bookmark.subject,
+          questions: []
+        };
+      }
+      groups[key].questions.push(bookmark);
+      return groups;
+    }, {});
+    
+    Object.values(groupedBookmarks).forEach(group => {
+      const groupDiv = document.createElement('div');
+      groupDiv.className = 'bookmark-group';
+      groupDiv.innerHTML = `
+        <div class="bookmark-group-header">
+          <h3>${group.platform.charAt(0).toUpperCase() + group.platform.slice(1)} - ${group.subject.charAt(0).toUpperCase() + group.subject.slice(1)}</h3>
+          <span class="question-count">${group.questions.length} question${group.questions.length !== 1 ? 's' : ''}</span>
+        </div>
+        <div class="bookmark-questions">
+          ${group.questions.map(question => `
+            <div class="bookmarked-question-item" onclick="reviewBookmarkedQuestion('${question.platform}', '${question.subject}', ${question.q_no})">
+              <div class="question-preview">
+                <span class="question-number">Q${question.q_no}</span>
+                <span class="question-text">${question.question.substring(0, 100)}${question.question.length > 100 ? '...' : ''}</span>
+              </div>
+              <div class="bookmark-actions">
+                <button onclick="event.stopPropagation(); removeBookmark('${question.platform}', '${question.subject}', ${question.q_no})" class="remove-bookmark">
+                  <i class="fas fa-trash"></i>
+                </button>
+              </div>
+            </div>
+          `).join('')}
+        </div>
+      `;
+      bookmarkedList.appendChild(groupDiv);
+    });
+  }
+  
+  document.getElementById('main-menu').style.display = 'none';
+  document.getElementById('bookmarked-questions').style.display = 'block';
+}
+
+function removeBookmark(platform, subject, qNo) {
+  const index = bookmarkedQuestions.findIndex(bookmark => 
+    bookmark.q_no === qNo && 
+    bookmark.platform === platform && 
+    bookmark.subject === subject
+  );
+  
+  if (index > -1) {
+    bookmarkedQuestions.splice(index, 1);
+    saveBookmarkedQuestions();
+    viewBookmarkedQuestions(); // Refresh the view
+  }
+}
+
+function reviewBookmarkedQuestion(platform, subject, qNo) {
+  const bookmark = bookmarkedQuestions.find(b => 
+    b.platform === platform && b.subject === subject && b.q_no === qNo
+  );
+  
+  if (bookmark) {
+    // Set up single question review
+    selectedPlatform = platform;
+    selectedSubject = subject;
+    selectedChapter = bookmark.chapter;
+    questions = [bookmark];
+    currentQuestionIndex = 0;
+    userAnswers = [];
+    isReviewMode = true;
+    
+    document.getElementById('bookmarked-questions').style.display = 'none';
+    document.getElementById('quiz-container').style.display = 'block';
+    
+    loadQuestion();
+  }
+}
 
 // Platform selection
 function selectPlatform(platform) {
@@ -168,6 +374,9 @@ function loadQuestion() {
   document.getElementById('current-question').textContent = currentQuestionIndex + 1;
   document.getElementById('total-questions').textContent = questions.length;
   
+  // Update bookmark button
+  updateBookmarkButton();
+  
   // Load question text
   document.getElementById('question-text').textContent = `${question.q_no}. ${question.question}`;
   
@@ -297,7 +506,15 @@ function showExplanation() {
     backButton.style.cssText = 'background: #2c5282; color: white; border: none; padding: 1.25rem 2.5rem; border-radius: 8px; cursor: pointer; font-size: 1.1rem; font-weight: 600; transition: all 0.3s ease; display: flex; align-items: center; gap: 0.75rem;';
     backButton.onmouseover = () => backButton.style.background = '#1a365d';
     backButton.onmouseout = () => backButton.style.background = '#2c5282';
-    backButton.onclick = () => backToResults();
+    
+    // Check if this is a single bookmarked question review
+    if (questions.length === 1) {
+      backButton.innerHTML = '<i class="fas fa-arrow-left"></i> Back to Bookmarks';
+      backButton.onclick = () => viewBookmarkedQuestions();
+    } else {
+      backButton.onclick = () => backToResults();
+    }
+    
     buttonContainer.appendChild(backButton);
     
     // Show next button if not on last question
@@ -432,20 +649,8 @@ function restartQuiz() {
 
 // Exit quiz
 function exitQuiz() {
-  // Reset all states
-  selectedPlatform = '';
-  selectedSubject = '';
-  selectedChapter = '';
-  currentQuestionIndex = 0;
-  questions = [];
-  userAnswers = [];
-  score = 0;
-  isReviewMode = false;
-  
-  // Show platform selection
-  document.getElementById('quiz-container').style.display = 'none';
-  document.getElementById('quiz-results').style.display = 'none';
-  document.getElementById('chapter-selection').style.display = 'none';
-  document.getElementById('subject-selection').style.display = 'none';
-  document.getElementById('platform-selection').style.display = 'block';
+  backToMainMenu();
 }
+
+// Initialize app when page loads
+window.addEventListener('load', initializeApp);
