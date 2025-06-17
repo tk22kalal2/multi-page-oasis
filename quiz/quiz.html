@@ -22,11 +22,13 @@
 
   <main>
     <div id="loading" class="loading-container">
-      <p>Loading quiz...</p>
+      <div class="loading-spinner">
+        <i class="fas fa-spinner fa-spin"></i>
+        <p>Loading questions...</p>
+      </div>
     </div>
 
     <div id="quiz-container" class="quiz-container" style="display: none;">
-      <!-- Quiz content will be loaded here -->
       <div class="quiz-header">
         <div class="quiz-progress">
           <span id="current-question">1</span> / <span id="total-questions">1</span>
@@ -43,6 +45,9 @@
       
       <div class="question-container">
         <div id="question-text" class="question-text"></div>
+        <div id="question-image" class="question-image" style="display: none;">
+          <img id="question-img" src="" alt="Question Image">
+        </div>
       </div>
 
       <div id="options-container" class="options-container">
@@ -52,9 +57,18 @@
       <div id="explanation-container" class="explanation-container" style="display: none;">
         <h3>Explanation:</h3>
         <p id="explanation-text"></p>
-        <button onclick="nextQuestion()" class="next-btn">
-          <i class="fas fa-arrow-right"></i> Next Question
-        </button>
+        <div id="explanation-image" class="explanation-image" style="display: none;">
+          <img id="explanation-img" src="" alt="Explanation Image">
+        </div>
+      </div>
+    </div>
+
+    <div id="error-container" class="error-container" style="display: none;">
+      <div class="error-content">
+        <i class="fas fa-exclamation-triangle"></i>
+        <h3>No Questions Available</h3>
+        <p id="error-message">No questions found for this combination.</p>
+        <button onclick="goBack()" class="action-btn">Go Back</button>
       </div>
     </div>
   </main>
@@ -62,54 +76,96 @@
   <script>
     let currentQuiz = null;
     let currentQuestionIndex = 0;
+    let userAnswers = [];
+    let score = 0;
     let isBookmarkMode = false;
 
     function goBack() {
       const urlParams = new URLSearchParams(window.location.search);
       const bookmarkMode = urlParams.get('bookmarkMode');
+      const platform = urlParams.get('platform');
+      const subject = urlParams.get('subject');
       
       if (bookmarkMode === 'true') {
-        const platform = urlParams.get('platform');
-        const subject = urlParams.get('subject');
         window.location.href = `bookmark-questions.html?platform=${platform}&subject=${subject}`;
       } else {
-        window.location.href = 'subjects.html';
+        window.location.href = `subjects.html?platform=${platform}`;
       }
     }
 
-    function loadQuiz() {
+    async function loadQuiz() {
       const urlParams = new URLSearchParams(window.location.search);
       const platform = urlParams.get('platform');
       const subject = urlParams.get('subject');
       const reviewIndex = urlParams.get('review');
       isBookmarkMode = urlParams.get('bookmarkMode') === 'true';
 
+      if (!platform || !subject) {
+        showError('Missing platform or subject information.');
+        return;
+      }
+
       document.getElementById('pageTitle').textContent = `${subject.charAt(0).toUpperCase() + subject.slice(1)} Quiz`;
       document.getElementById('quizInfo').textContent = `${platform.charAt(0).toUpperCase() + platform.slice(1)} - ${subject.charAt(0).toUpperCase() + subject.slice(1)}`;
 
       if (isBookmarkMode && reviewIndex !== null) {
-        // Load bookmarked question for review
-        const saved = localStorage.getItem('quizBookmarks');
-        const bookmarks = saved ? JSON.parse(saved) : [];
-        const groupQuestions = bookmarks.filter(bookmark => 
-          bookmark.platform === platform && bookmark.subject === subject
-        );
-        
-        if (groupQuestions[reviewIndex]) {
-          currentQuiz = [groupQuestions[reviewIndex]];
-          currentQuestionIndex = 0;
-          loadQuestion();
-        }
+        loadBookmarkedQuestion(platform, subject, parseInt(reviewIndex));
       } else {
-        // Load regular quiz (placeholder for now)
-        document.getElementById('loading').innerHTML = `
-          <div class="empty-state">
-            <h3>Quiz feature coming soon!</h3>
-            <p>This will load questions from the ${platform} ${subject} question bank.</p>
-            <button onclick="goBack()" class="action-btn">Go Back</button>
-          </div>
-        `;
+        await loadQuestionsFromJSON(platform, subject);
       }
+    }
+
+    function loadBookmarkedQuestion(platform, subject, reviewIndex) {
+      const saved = localStorage.getItem('quizBookmarks');
+      const bookmarks = saved ? JSON.parse(saved) : [];
+      const groupQuestions = bookmarks.filter(bookmark => 
+        bookmark.platform === platform && bookmark.subject === subject
+      );
+      
+      if (groupQuestions[reviewIndex]) {
+        currentQuiz = [groupQuestions[reviewIndex]];
+        currentQuestionIndex = 0;
+        userAnswers = [];
+        score = 0;
+        loadQuestion();
+      } else {
+        showError('Bookmarked question not found.');
+      }
+    }
+
+    async function loadQuestionsFromJSON(platform, subject) {
+      try {
+        // Try to fetch questions from the JSON file
+        const response = await fetch(`${platform}/${subject}/PediAnatomy M8 Qbank_Pages_4-19.json`);
+        
+        if (!response.ok) {
+          throw new Error(`Failed to load questions: ${response.status}`);
+        }
+
+        const data = await response.json();
+        
+        if (!data.questions || data.questions.length === 0) {
+          showError('No questions found in the selected chapter.');
+          return;
+        }
+
+        currentQuiz = data.questions;
+        currentQuestionIndex = 0;
+        userAnswers = new Array(currentQuiz.length).fill(null);
+        score = 0;
+        loadQuestion();
+
+      } catch (error) {
+        console.error('Error loading questions:', error);
+        showError(`Failed to load questions from ${platform}/${subject}. Please check if the JSON file exists.`);
+      }
+    }
+
+    function showError(message) {
+      document.getElementById('loading').style.display = 'none';
+      document.getElementById('quiz-container').style.display = 'none';
+      document.getElementById('error-container').style.display = 'block';
+      document.getElementById('error-message').textContent = message;
     }
 
     function loadQuestion() {
@@ -117,51 +173,138 @@
 
       document.getElementById('loading').style.display = 'none';
       document.getElementById('quiz-container').style.display = 'block';
+      document.getElementById('error-container').style.display = 'none';
 
       const question = currentQuiz[currentQuestionIndex];
       document.getElementById('current-question').textContent = currentQuestionIndex + 1;
       document.getElementById('total-questions').textContent = currentQuiz.length;
-      document.getElementById('question-text').textContent = question.question;
+      
+      // Load question text
+      document.getElementById('question-text').textContent = `${question.q_no || (currentQuestionIndex + 1)}. ${question.question}`;
+
+      // Load question image if available
+      const questionImageDiv = document.getElementById('question-image');
+      const questionImg = document.getElementById('question-img');
+      if (question.image) {
+        questionImg.src = question.image;
+        questionImageDiv.style.display = 'block';
+      } else {
+        questionImageDiv.style.display = 'none';
+      }
 
       // Load options
       const optionsContainer = document.getElementById('options-container');
-      optionsContainer.innerHTML = ['A', 'B', 'C', 'D'].map((label, index) => `
-        <button class="option-btn" onclick="selectOption(${index})">
-          <span class="option-label">${label}</span>
-          <span>${question.options[index] || 'Option ' + (index + 1)}</span>
-        </button>
-      `).join('');
+      optionsContainer.innerHTML = '';
 
+      if (question.options) {
+        Object.entries(question.options).forEach(([key, value]) => {
+          const button = document.createElement('button');
+          button.className = 'option-btn';
+          button.onclick = () => selectOption(key, button);
+          button.innerHTML = `
+            <span class="option-label">${key}</span>
+            <span>${value}</span>
+          `;
+          optionsContainer.appendChild(button);
+        });
+      }
+
+      // Hide explanation initially
+      document.getElementById('explanation-container').style.display = 'none';
       updateBookmarkButton();
     }
 
-    function selectOption(index) {
-      // Show explanation and correct answer
+    function selectOption(selectedOption, buttonElement) {
       const question = currentQuiz[currentQuestionIndex];
-      const correctIndex = question.correct_answer - 1;
+      const correctAnswer = question.correct_answer;
       
-      const options = document.querySelectorAll('.option-btn');
-      options.forEach((btn, i) => {
+      // Disable all option buttons
+      const allOptions = document.querySelectorAll('.option-btn');
+      allOptions.forEach(btn => {
         btn.disabled = true;
-        if (i === correctIndex) {
+        btn.onclick = null;
+      });
+      
+      // Mark correct and incorrect answers
+      allOptions.forEach(btn => {
+        const optionLabel = btn.querySelector('.option-label').textContent;
+        if (optionLabel === correctAnswer) {
           btn.classList.add('correct');
-        } else if (i === index && i !== correctIndex) {
+        } else if (optionLabel === selectedOption && selectedOption !== correctAnswer) {
           btn.classList.add('incorrect');
         }
       });
+      
+      // Store user answer
+      userAnswers[currentQuestionIndex] = selectedOption;
+      
+      // Update score
+      if (selectedOption === correctAnswer) {
+        score++;
+      }
+      
+      // Show explanation after a short delay
+      setTimeout(() => {
+        showExplanation();
+      }, 1000);
+    }
 
-      document.getElementById('explanation-text').textContent = question.explanation || 'No explanation available.';
-      document.getElementById('explanation-container').style.display = 'block';
+    function showExplanation() {
+      const question = currentQuiz[currentQuestionIndex];
+      const explanationContainer = document.getElementById('explanation-container');
+      const explanationText = document.getElementById('explanation-text');
+      const explanationImageDiv = document.getElementById('explanation-image');
+      const explanationImg = document.getElementById('explanation-img');
+      
+      explanationText.textContent = question.explanation || 'No explanation available.';
+      
+      if (question.explanation_image) {
+        explanationImg.src = question.explanation_image;
+        explanationImageDiv.style.display = 'block';
+      } else {
+        explanationImageDiv.style.display = 'none';
+      }
+      
+      explanationContainer.style.display = 'block';
+      
+      // Clear existing buttons
+      const existingButtons = explanationContainer.querySelectorAll('.next-btn, .finish-btn');
+      existingButtons.forEach(btn => btn.remove());
+      
+      // Add next/finish button
+      const buttonContainer = document.createElement('div');
+      buttonContainer.style.cssText = 'text-align: center; margin-top: 2rem;';
+      
+      const nextBtn = document.createElement('button');
+      nextBtn.className = currentQuestionIndex === currentQuiz.length - 1 ? 'finish-btn' : 'next-btn';
+      nextBtn.style.cssText = 'background: #16a34a; color: white; border: none; padding: 1rem 2rem; border-radius: 8px; cursor: pointer; font-size: 1rem; font-weight: 600; transition: all 0.3s ease;';
+      nextBtn.innerHTML = currentQuestionIndex === currentQuiz.length - 1 ? 
+        '<i class="fas fa-check"></i> Finish Quiz' : 
+        '<i class="fas fa-arrow-right"></i> Next Question';
+      nextBtn.onclick = nextQuestion;
+      
+      buttonContainer.appendChild(nextBtn);
+      explanationContainer.appendChild(buttonContainer);
     }
 
     function nextQuestion() {
       if (currentQuestionIndex < currentQuiz.length - 1) {
         currentQuestionIndex++;
-        document.getElementById('explanation-container').style.display = 'none';
         loadQuestion();
       } else {
-        goBack();
+        // Quiz finished - show results or go back
+        if (isBookmarkMode) {
+          goBack();
+        } else {
+          showQuizResults();
+        }
       }
+    }
+
+    function showQuizResults() {
+      const percentage = Math.round((score / currentQuiz.length) * 100);
+      alert(`Quiz completed!\nScore: ${score}/${currentQuiz.length} (${percentage}%)`);
+      goBack();
     }
 
     function toggleBookmark() {
