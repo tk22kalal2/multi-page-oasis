@@ -3,38 +3,14 @@
 
 /* Back Button for Quiz Pages */
 .back-button {
-  position: absolute;
-  top: 1rem;
-  left: 1rem;
-  background: rgba(255, 255, 255, 0.9);
-  border: 2px solid #2c5282;
-  border-radius: 50%;
-  width: 48px;
-  height: 48px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  z-index: 100;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
-
-.back-button:hover {
-  background: #2c5282;
+  background: none;
+  border: none;
   color: white;
-  transform: scale(1.1);
-  box-shadow: 0 4px 15px rgba(44, 82, 130, 0.3);
-}
-
-.back-button i {
   font-size: 1.2rem;
-  color: #2c5282;
-  transition: color 0.3s ease;
-}
-
-.back-button:hover i {
-  color: white;
+  cursor: pointer;
+  padding: 0.5rem;
+  display: none;
+  margin-bottom: 1rem;
 }
 
 /* Header adjustments */
@@ -296,17 +272,6 @@ header .header-content {
 @media (max-width: 768px) {
   .quiz-container {
     padding: 1rem;
-  }
-
-  .back-button {
-    width: 40px;
-    height: 40px;
-    top: 0.75rem;
-    left: 0.75rem;
-  }
-
-  .back-button i {
-    font-size: 1rem;
   }
 
   header .header-content {
