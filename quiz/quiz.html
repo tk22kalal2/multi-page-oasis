@@ -1,0 +1,233 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz - Q Bank</title>
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="quiz-styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <button onclick="goBack()" class="back-button">
+        <i class="fas fa-arrow-left"></i>
+      </button>
+      <h1 id="pageTitle">Quiz</h1>
+      <p class="header-subtitle" id="quizInfo">Loading...</p>
+    </div>
+  </header>
+
+  <main>
+    <div id="loading" class="loading-container">
+      <p>Loading quiz...</p>
+    </div>
+
+    <div id="quiz-container" class="quiz-container" style="display: none;">
+      <!-- Quiz content will be loaded here -->
+      <div class="quiz-header">
+        <div class="quiz-progress">
+          <span id="current-question">1</span> / <span id="total-questions">1</span>
+        </div>
+        <div class="quiz-actions">
+          <button id="bookmark-btn" onclick="toggleBookmark()" class="bookmark-question-btn">
+            <i class="far fa-bookmark"></i>
+          </button>
+          <button onclick="exitQuiz()" class="exit-btn">
+            <i class="fas fa-times"></i> Exit
+          </button>
+        </div>
+      </div>
+      
+      <div class="question-container">
+        <div id="question-text" class="question-text"></div>
+      </div>
+
+      <div id="options-container" class="options-container">
+        <!-- Options will be loaded dynamically -->
+      </div>
+
+      <div id="explanation-container" class="explanation-container" style="display: none;">
+        <h3>Explanation:</h3>
+        <p id="explanation-text"></p>
+        <button onclick="nextQuestion()" class="next-btn">
+          <i class="fas fa-arrow-right"></i> Next Question
+        </button>
+      </div>
+    </div>
+  </main>
+
+  <script>
+    let currentQuiz = null;
+    let currentQuestionIndex = 0;
+    let isBookmarkMode = false;
+
+    function goBack() {
+      const urlParams = new URLSearchParams(window.location.search);
+      const bookmarkMode = urlParams.get('bookmarkMode');
+      
+      if (bookmarkMode === 'true') {
+        const platform = urlParams.get('platform');
+        const subject = urlParams.get('subject');
+        window.location.href = `bookmark-questions.html?platform=${platform}&subject=${subject}`;
+      } else {
+        window.location.href = 'subjects.html';
+      }
+    }
+
+    function loadQuiz() {
+      const urlParams = new URLSearchParams(window.location.search);
+      const platform = urlParams.get('platform');
+      const subject = urlParams.get('subject');
+      const reviewIndex = urlParams.get('review');
+      isBookmarkMode = urlParams.get('bookmarkMode') === 'true';
+
+      document.getElementById('pageTitle').textContent = `${subject.charAt(0).toUpperCase() + subject.slice(1)} Quiz`;
+      document.getElementById('quizInfo').textContent = `${platform.charAt(0).toUpperCase() + platform.slice(1)} - ${subject.charAt(0).toUpperCase() + subject.slice(1)}`;
+
+      if (isBookmarkMode && reviewIndex !== null) {
+        // Load bookmarked question for review
+        const saved = localStorage.getItem('quizBookmarks');
+        const bookmarks = saved ? JSON.parse(saved) : [];
+        const groupQuestions = bookmarks.filter(bookmark => 
+          bookmark.platform === platform && bookmark.subject === subject
+        );
+        
+        if (groupQuestions[reviewIndex]) {
+          currentQuiz = [groupQuestions[reviewIndex]];
+          currentQuestionIndex = 0;
+          loadQuestion();
+        }
+      } else {
+        // Load regular quiz (placeholder for now)
+        document.getElementById('loading').innerHTML = `
+          <div class="empty-state">
+            <h3>Quiz feature coming soon!</h3>
+            <p>This will load questions from the ${platform} ${subject} question bank.</p>
+            <button onclick="goBack()" class="action-btn">Go Back</button>
+          </div>
+        `;
+      }
+    }
+
+    function loadQuestion() {
+      if (!currentQuiz || currentQuiz.length === 0) return;
+
+      document.getElementById('loading').style.display = 'none';
+      document.getElementById('quiz-container').style.display = 'block';
+
+      const question = currentQuiz[currentQuestionIndex];
+      document.getElementById('current-question').textContent = currentQuestionIndex + 1;
+      document.getElementById('total-questions').textContent = currentQuiz.length;
+      document.getElementById('question-text').textContent = question.question;
+
+      // Load options
+      const optionsContainer = document.getElementById('options-container');
+      optionsContainer.innerHTML = ['A', 'B', 'C', 'D'].map((label, index) => `
+        <button class="option-btn" onclick="selectOption(${index})">
+          <span class="option-label">${label}</span>
+          <span>${question.options[index] || 'Option ' + (index + 1)}</span>
+        </button>
+      `).join('');
+
+      updateBookmarkButton();
+    }
+
+    function selectOption(index) {
+      // Show explanation and correct answer
+      const question = currentQuiz[currentQuestionIndex];
+      const correctIndex = question.correct_answer - 1;
+      
+      const options = document.querySelectorAll('.option-btn');
+      options.forEach((btn, i) => {
+        btn.disabled = true;
+        if (i === correctIndex) {
+          btn.classList.add('correct');
+        } else if (i === index && i !== correctIndex) {
+          btn.classList.add('incorrect');
+        }
+      });
+
+      document.getElementById('explanation-text').textContent = question.explanation || 'No explanation available.';
+      document.getElementById('explanation-container').style.display = 'block';
+    }
+
+    function nextQuestion() {
+      if (currentQuestionIndex < currentQuiz.length - 1) {
+        currentQuestionIndex++;
+        document.getElementById('explanation-container').style.display = 'none';
+        loadQuestion();
+      } else {
+        goBack();
+      }
+    }
+
+    function toggleBookmark() {
+      if (!currentQuiz) return;
+      
+      const question = currentQuiz[currentQuestionIndex];
+      const urlParams = new URLSearchParams(window.location.search);
+      const platform = urlParams.get('platform');
+      const subject = urlParams.get('subject');
+      
+      const saved = localStorage.getItem('quizBookmarks');
+      let bookmarks = saved ? JSON.parse(saved) : [];
+      
+      const bookmarkData = {
+        ...question,
+        platform: platform,
+        subject: subject,
+        bookmarkedAt: new Date().toISOString()
+      };
+      
+      const existingIndex = bookmarks.findIndex(bookmark => 
+        bookmark.q_no === question.q_no && 
+        bookmark.platform === platform && 
+        bookmark.subject === subject
+      );
+      
+      const bookmarkBtn = document.getElementById('bookmark-btn');
+      const bookmarkIcon = bookmarkBtn.querySelector('i');
+      
+      if (existingIndex > -1) {
+        bookmarks.splice(existingIndex, 1);
+        bookmarkIcon.className = 'far fa-bookmark';
+      } else {
+        bookmarks.push(bookmarkData);
+        bookmarkIcon.className = 'fas fa-bookmark';
+      }
+      
+      localStorage.setItem('quizBookmarks', JSON.stringify(bookmarks));
+    }
+
+    function updateBookmarkButton() {
+      if (!currentQuiz) return;
+      
+      const question = currentQuiz[currentQuestionIndex];
+      const urlParams = new URLSearchParams(window.location.search);
+      const platform = urlParams.get('platform');
+      const subject = urlParams.get('subject');
+      
+      const saved = localStorage.getItem('quizBookmarks');
+      const bookmarks = saved ? JSON.parse(saved) : [];
+      
+      const isBookmarked = bookmarks.some(bookmark => 
+        bookmark.q_no === question.q_no && 
+        bookmark.platform === platform && 
+        bookmark.subject === subject
+      );
+      
+      const bookmarkIcon = document.getElementById('bookmark-btn').querySelector('i');
+      bookmarkIcon.className = isBookmarked ? 'fas fa-bookmark' : 'far fa-bookmark';
+    }
+
+    function exitQuiz() {
+      goBack();
+    }
+
+    window.addEventListener('load', loadQuiz);
+  </script>
+</body>
+</html>

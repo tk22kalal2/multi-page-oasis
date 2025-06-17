@@ -1,11 +1,12 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Q Bank - NEXTPULSE</title>
-  <link rel="stylesheet" href="quiz-styles.css">
-  <link rel="stylesheet" href="bookmark-styles.css">
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="qbank-main.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
@@ -14,141 +15,92 @@
       <button onclick="window.location.href='../index.html'" class="back-button">
         <i class="fas fa-arrow-left"></i>
       </button>
-      <h1>Q Bank</h1>
+      <h1 id="pageTitle">Q Bank</h1>
       <p class="header-subtitle">Test Your Knowledge</p>
+      <div class="search-bar">
+        <i class="fas fa-search"></i>
+        <input type="text" placeholder="Search questions..." id="searchInput">
+      </div>
     </div>
   </header>
 
   <main>
-    <div id="main-menu" class="selection-container">
-      <h2>Q Bank Options</h2>
-      <div class="main-menu-grid">
-        <button class="main-menu-btn bookmark-btn" onclick="viewBookmarkedQuestions()">
-          <i class="fas fa-bookmark"></i>
-          <span>Bookmarked Questions</span>
-          <small id="bookmark-count">0 questions saved</small>
-        </button>
-        <button class="main-menu-btn new-quiz-btn" onclick="startNewQuiz()">
-          <i class="fas fa-play"></i>
-          <span>Start New Quiz</span>
-          <small>Select platform and subject</small>
-        </button>
-      </div>
-    </div>
-
-    <div id="platform-selection" class="selection-container" style="display: none;">
-      <h2>Select Platform</h2>
-      <div class="platform-grid">
-        <button class="platform-btn" onclick="selectPlatform('marrow')">
-          <i class="fas fa-graduation-cap"></i>
-          <span>Marrow</span>
-        </button>
-        <button class="platform-btn" onclick="selectPlatform('prepladder')">
-          <i class="fas fa-laptop-medical"></i>
-          <span>PrepLadder</span>
-        </button>
-      </div>
-    </div>
-
-    <div id="subject-selection" class="selection-container" style="display: none;">
-      <h2>Select Subject</h2>
-      <div class="subject-grid">
-        <button class="subject-btn" onclick="selectSubject('anatomy')">
-          <i class="fas fa-user"></i>
-          <span>Anatomy</span>
-        </button>
-        <button class="subject-btn" onclick="selectSubject('physiology')">
-          <i class="fas fa-heartbeat"></i>
-          <span>Physiology</span>
-        </button>
-      </div>
-    </div>
-
-    <div id="chapter-selection" class="selection-container" style="display: none;">
-      <h2>Select Chapter</h2>
-      <div id="chapter-list" class="chapter-grid">
-        <!-- Chapters will be loaded dynamically -->
-      </div>
-    </div>
-
-    <div id="bookmarked-questions" class="selection-container" style="display: none;">
-      <h2>Bookmarked Questions</h2>
-      <div id="bookmarked-list" class="bookmarked-list">
-        <!-- Bookmarked questions will be loaded here -->
-      </div>
-      <button onclick="backToMainMenu()" class="back-btn">
-        <i class="fas fa-arrow-left"></i> Back to Menu
-      </button>
-    </div>
-
-    <div id="quiz-container" class="quiz-container" style="display: none;">
-      <div class="quiz-header">
-        <div class="quiz-progress">
-          <span id="current-question">1</span> / <span id="total-questions">10</span>
-        </div>
-        <div class="quiz-actions">
-          <button id="bookmark-btn" onclick="toggleBookmark()" class="bookmark-question-btn">
-            <i class="far fa-bookmark"></i>
-          </button>
-          <button onclick="exitQuiz()" class="exit-btn">
-            <i class="fas fa-times"></i> Exit
-          </button>
-        </div>
-      </div>
-      
-      <div class="question-container">
-        <div id="question-text" class="question-text"></div>
-        <div id="question-image" class="question-image" style="display: none;">
-          <img id="question-img" src="" alt="Question Image">
-        </div>
+    <div class="qbank-main-container">
+      <div class="welcome-section">
+        <h2>Q Bank Options</h2>
+        <p>Choose your preferred study mode</p>
       </div>
 
-      <div id="options-container" class="options-container">
-        <!-- Options will be loaded dynamically -->
-      </div>
-
-      <div id="explanation-container" class="explanation-container" style="display: none;">
-        <h3>Explanation:</h3>
-        <p id="explanation-text"></p>
-        <div id="explanation-image" style="display: none;">
-          <img id="explanation-img" src="" alt="Explanation Image">
-        </div>
-        <button onclick="nextQuestion()" class="next-btn">
-          <i class="fas fa-arrow-right"></i> Next Question
-        </button>
-      </div>
-    </div>
-
-    <div id="quiz-results" class="quiz-results" style="display: none;">
-      <div class="results-container">
-        <h2>Quiz Complete!</h2>
-        <div class="score-display">
-          <div class="score-circle">
-            <span id="score-percentage">0%</span>
+      <div class="main-options-grid">
+        <div class="option-card bookmark-card" onclick="window.location.href='bookmarks.html'">
+          <div class="option-icon">
+            <i class="fas fa-bookmark"></i>
           </div>
-          <p>You scored <span id="correct-answers">0</span> out of <span id="total-questions-result">0</span></p>
-        </div>
-
-        <div id="analysis-container" class="analysis-container" style="display: none;">
-          <h3>Analysis</h3>
-          <p>Click on any question number to review your answer:</p>
-          <div id="question-grid" class="question-grid">
-            <!-- Question numbers will be loaded dynamically -->
+          <div class="option-content">
+            <h3>Bookmarked Questions</h3>
+            <p>Review your saved questions</p>
+            <span id="bookmark-count" class="count-badge">0 questions saved</span>
+          </div>
+          <div class="option-arrow">
+            <i class="fas fa-chevron-right"></i>
           </div>
         </div>
 
-        <div class="result-actions">
-          <button onclick="restartQuiz()" class="restart-btn">
-            <i class="fas fa-redo"></i> Restart Quiz
-          </button>
-          <button onclick="exitQuiz()" class="home-btn">
-            <i class="fas fa-home"></i> Back to Selection
-          </button>
+        <div class="option-card quiz-card" onclick="window.location.href='platforms.html'">
+          <div class="option-icon">
+            <i class="fas fa-play-circle"></i>
+          </div>
+          <div class="option-content">
+            <h3>Start New Quiz</h3>
+            <p>Select platform and subject</p>
+            <span class="count-badge">Multiple platforms available</span>
+          </div>
+          <div class="option-arrow">
+            <i class="fas fa-chevron-right"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="stats-section">
+        <div class="stats-grid">
+          <div class="stat-item">
+            <i class="fas fa-question-circle"></i>
+            <span class="stat-number">500+</span>
+            <span class="stat-label">Questions</span>
+          </div>
+          <div class="stat-item">
+            <i class="fas fa-graduation-cap"></i>
+            <span class="stat-number">3</span>
+            <span class="stat-label">Platforms</span>
+          </div>
+          <div class="stat-item">
+            <i class="fas fa-book"></i>
+            <span class="stat-number">19+</span>
+            <span class="stat-label">Subjects</span>
+          </div>
         </div>
       </div>
     </div>
   </main>
 
-  <script src="quiz-script.js"></script>
+  <nav class="bottom-nav">
+    <a href="../index.html"><i class="fas fa-lightbulb"></i><span>Home</span></a>
+    <a href="../platforms.html"><i class="fas fa-play-circle"></i><span>Videos</span></a>
+    <a href="../search.html"><i class="fas fa-search"></i><span>Search</span></a>
+    <a href="index.html" class="active"><i class="fas fa-question-circle"></i><span>Q Bank</span></a>
+  </nav>
+
+  <script>
+    // Load bookmark count on page load
+    function loadBookmarkCount() {
+      const saved = localStorage.getItem('quizBookmarks');
+      const bookmarks = saved ? JSON.parse(saved) : [];
+      const countElement = document.getElementById('bookmark-count');
+      const count = bookmarks.length;
+      countElement.textContent = `${count} question${count !== 1 ? 's' : ''} saved`;
+    }
+
+    window.addEventListener('load', loadBookmarkCount);
+  </script>
 </body>
 </html>
