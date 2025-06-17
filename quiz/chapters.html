@@ -1,0 +1,160 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Select Chapter - Q Bank</title>
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="qbank-main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <button onclick="goBack()" class="back-button">
+        <i class="fas fa-arrow-left"></i>
+      </button>
+      <h1 id="pageTitle">Select Chapter</h1>
+      <p class="header-subtitle" id="chapterInfo">Choose your chapter</p>
+      <div class="search-bar">
+        <i class="fas fa-search"></i>
+        <input type="text" placeholder="Search chapters..." id="searchInput">
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="selection-container">
+      <div class="welcome-section">
+        <h2 id="chapterTitle">Available Chapters</h2>
+        <p>Select a chapter to start your quiz</p>
+      </div>
+
+      <div id="loading" class="loading-container">
+        <div class="loading-spinner">
+          <i class="fas fa-spinner fa-spin"></i>
+          <p>Loading chapters...</p>
+        </div>
+      </div>
+
+      <div class="chapters-grid" id="chaptersGrid" style="display: none;">
+        <!-- Chapters will be loaded dynamically -->
+      </div>
+
+      <div id="no-chapters" class="error-container" style="display: none;">
+        <div class="error-content">
+          <i class="fas fa-book-open"></i>
+          <h3>No Chapters Available</h3>
+          <p>No chapters found for this subject. Please check if JSON files are uploaded.</p>
+          <button onclick="goBack()" class="action-btn">Go Back</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <nav class="bottom-nav">
+    <a href="../index.html"><i class="fas fa-lightbulb"></i><span>Home</span></a>
+    <a href="../platforms.html"><i class="fas fa-play-circle"></i><span>Videos</span></a>
+    <a href="../search.html"><i class="fas fa-search"></i><span>Search</span></a>
+    <a href="index.html" class="active"><i class="fas fa-question-circle"></i><span>Q Bank</span></a>
+  </nav>
+
+  <script>
+    function goBack() {
+      const urlParams = new URLSearchParams(window.location.search);
+      const platform = urlParams.get('platform');
+      window.location.href = `subjects.html?platform=${platform}`;
+    }
+
+    async function loadChapters() {
+      const urlParams = new URLSearchParams(window.location.search);
+      const platform = urlParams.get('platform');
+      const subject = urlParams.get('subject');
+      
+      if (!platform || !subject) {
+        window.location.href = 'platforms.html';
+        return;
+      }
+
+      document.getElementById('chapterInfo').textContent = `${platform.charAt(0).toUpperCase() + platform.slice(1)} - ${subject.charAt(0).toUpperCase() + subject.slice(1)}`;
+      document.getElementById('chapterTitle').textContent = `${subject.charAt(0).toUpperCase() + subject.slice(1)} Chapters`;
+
+      try {
+        // Try to find JSON files in the platform/subject directory
+        const knownFiles = [
+          'PediAnatomy M8 Qbank_Pages_4-19.json',
+          // Add more known file patterns here as you upload them
+        ];
+        
+        const availableChapters = [];
+        
+        for (const filename of knownFiles) {
+          try {
+            const response = await fetch(`${platform}/${subject}/${filename}`);
+            if (response.ok) {
+              const data = await response.json();
+              availableChapters.push({
+                name: data.chapter || filename.replace('.json', ''),
+                filename: filename,
+                questionCount: data.questions ? data.questions.length : 0
+              });
+            }
+          } catch (error) {
+            console.log(`File ${filename} not found or invalid`);
+          }
+        }
+
+        displayChapters(availableChapters);
+      } catch (error) {
+        console.error('Error loading chapters:', error);
+        showNoChapters();
+      }
+    }
+
+    function displayChapters(chapters) {
+      const loading = document.getElementById('loading');
+      const chaptersGrid = document.getElementById('chaptersGrid');
+      const noChapters = document.getElementById('no-chapters');
+      
+      loading.style.display = 'none';
+      
+      if (chapters.length === 0) {
+        showNoChapters();
+        return;
+      }
+      
+      noChapters.style.display = 'none';
+      chaptersGrid.style.display = 'block';
+      
+      chaptersGrid.innerHTML = chapters.map(chapter => `
+        <div class="subject-card" onclick="selectChapter('${chapter.filename}', '${chapter.name}')">
+          <div class="subject-icon">
+            <i class="fas fa-book"></i>
+          </div>
+          <div class="subject-content">
+            <h3>${chapter.name}</h3>
+            <p>${chapter.questionCount} questions</p>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    function showNoChapters() {
+      document.getElementById('loading').style.display = 'none';
+      document.getElementById('chaptersGrid').style.display = 'none';
+      document.getElementById('no-chapters').style.display = 'block';
+    }
+
+    function selectChapter(filename, chapterName) {
+      const urlParams = new URLSearchParams(window.location.search);
+      const platform = urlParams.get('platform');
+      const subject = urlParams.get('subject');
+      
+      window.location.href = `quiz.html?platform=${platform}&subject=${subject}&chapter=${filename}`;
+    }
+
+    window.addEventListener('load', loadChapters);
+  </script>
+</body>
+</html>

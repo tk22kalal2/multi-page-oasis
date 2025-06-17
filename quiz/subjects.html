@@ -84,7 +84,7 @@
     function selectSubject(subject) {
       const platform = new URLSearchParams(window.location.search).get('platform') || localStorage.getItem('selectedPlatform');
       localStorage.setItem('selectedSubject', subject);
-      window.location.href = `quiz.html?platform=${platform}&subject=${subject}`;
+      window.location.href = `chapters.html?platform=${platform}&subject=${subject}`;
     }
 
     window.addEventListener('load', loadSubjects);

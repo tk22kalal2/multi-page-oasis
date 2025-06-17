@@ -78,65 +78,34 @@
     let currentQuestionIndex = 0;
     let userAnswers = [];
     let score = 0;
-    let isBookmarkMode = false;
 
     function goBack() {
       const urlParams = new URLSearchParams(window.location.search);
-      const bookmarkMode = urlParams.get('bookmarkMode');
       const platform = urlParams.get('platform');
       const subject = urlParams.get('subject');
-      
-      if (bookmarkMode === 'true') {
-        window.location.href = `bookmark-questions.html?platform=${platform}&subject=${subject}`;
-      } else {
-        window.location.href = `subjects.html?platform=${platform}`;
-      }
+      window.location.href = `chapters.html?platform=${platform}&subject=${subject}`;
     }
 
     async function loadQuiz() {
       const urlParams = new URLSearchParams(window.location.search);
       const platform = urlParams.get('platform');
       const subject = urlParams.get('subject');
-      const reviewIndex = urlParams.get('review');
-      isBookmarkMode = urlParams.get('bookmarkMode') === 'true';
+      const chapter = urlParams.get('chapter');
 
-      if (!platform || !subject) {
-        showError('Missing platform or subject information.');
+      if (!platform || !subject || !chapter) {
+        showError('Missing platform, subject, or chapter information.');
         return;
       }
 
       document.getElementById('pageTitle').textContent = `${subject.charAt(0).toUpperCase() + subject.slice(1)} Quiz`;
       document.getElementById('quizInfo').textContent = `${platform.charAt(0).toUpperCase() + platform.slice(1)} - ${subject.charAt(0).toUpperCase() + subject.slice(1)}`;
 
-      if (isBookmarkMode && reviewIndex !== null) {
-        loadBookmarkedQuestion(platform, subject, parseInt(reviewIndex));
-      } else {
-        await loadQuestionsFromJSON(platform, subject);
-      }
+      await loadQuestionsFromJSON(platform, subject, chapter);
     }
 
-    function loadBookmarkedQuestion(platform, subject, reviewIndex) {
-      const saved = localStorage.getItem('quizBookmarks');
-      const bookmarks = saved ? JSON.parse(saved) : [];
-      const groupQuestions = bookmarks.filter(bookmark => 
-        bookmark.platform === platform && bookmark.subject === subject
-      );
-      
-      if (groupQuestions[reviewIndex]) {
-        currentQuiz = [groupQuestions[reviewIndex]];
-        currentQuestionIndex = 0;
-        userAnswers = [];
-        score = 0;
-        loadQuestion();
-      } else {
-        showError('Bookmarked question not found.');
-      }
-    }
-
-    async function loadQuestionsFromJSON(platform, subject) {
+    async function loadQuestionsFromJSON(platform, subject, chapter) {
       try {
-        // Try to fetch questions from the JSON file
-        const response = await fetch(`${platform}/${subject}/PediAnatomy M8 Qbank_Pages_4-19.json`);
+        const response = await fetch(`${platform}/${subject}/${chapter}`);
         
         if (!response.ok) {
           throw new Error(`Failed to load questions: ${response.status}`);
@@ -157,7 +126,7 @@
 
       } catch (error) {
         console.error('Error loading questions:', error);
-        showError(`Failed to load questions from ${platform}/${subject}. Please check if the JSON file exists.`);
+        showError(`Failed to load questions from ${chapter}. Please check if the file exists and is valid.`);
       }
     }
 
@@ -292,12 +261,7 @@
         currentQuestionIndex++;
         loadQuestion();
       } else {
-        // Quiz finished - show results or go back
-        if (isBookmarkMode) {
-          goBack();
-        } else {
-          showQuizResults();
-        }
+        showQuizResults();
       }
     }
 
