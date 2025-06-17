@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -43,6 +44,33 @@ header {
 .back-button:hover {
   background: rgba(255, 255, 255, 0.3);
   transform: translateY(-2px);
+}
+
+.back-btn-icon {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  background: #2c5282;
+  color: white;
+  border: none;
+  padding: 0.75rem;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.back-btn-icon:hover {
+  background: #1a365d;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
 h1 {
@@ -457,6 +485,12 @@ main {
   border-color: #b91c1c;
 }
 
+/* Bookmarks section styling adjustments */
+#bookmarked-questions {
+  padding-top: 1rem;
+  position: relative;
+}
+
 @media (max-width: 768px) {
   .header-content {
     padding: 0 1rem;
@@ -533,5 +567,17 @@ main {
   
   .analysis-container h3 {
     font-size: 1.3rem;
+  }
+
+  .back-btn-icon {
+    top: 15px;
+    left: 15px;
+    width: 45px;
+    height: 45px;
+    font-size: 1.1rem;
+  }
+
+  #bookmarked-questions {
+    padding-top: 0.5rem;
   }
 }
