@@ -1,191 +1,208 @@
 
 // Bookmark management functionality
 const BookmarkManager = {
-  bookmarkedQuestions: [],
-
   loadBookmarkedQuestions() {
-    const saved = localStorage.getItem('bookmarkedQuestions');
-    this.bookmarkedQuestions = saved ? JSON.parse(saved) : [];
-  },
-
-  saveBookmarkedQuestions() {
-    localStorage.setItem('bookmarkedQuestions', JSON.stringify(this.bookmarkedQuestions));
-  },
-
-  addBookmark(question, platform, subject, chapter) {
-    const bookmark = {
-      ...question,
-      platform,
-      subject,
-      chapter,
-      bookmarkedAt: new Date().toISOString()
-    };
-    
-    // Check if already bookmarked
-    const exists = this.bookmarkedQuestions.some(bq => 
-      bq.q_no === question.q_no && 
-      bq.platform === platform && 
-      bq.subject === subject && 
-      bq.chapter === chapter
-    );
-    
-    if (!exists) {
-      this.bookmarkedQuestions.push(bookmark);
-      this.saveBookmarkedQuestions();
-      this.updateBookmarkCount();
-      return true;
-    }
-    return false;
-  },
-
-  removeBookmark(question, platform, subject, chapter) {
-    this.bookmarkedQuestions = this.bookmarkedQuestions.filter(bq => 
-      !(bq.q_no === question.q_no && 
-        bq.platform === platform && 
-        bq.subject === subject && 
-        bq.chapter === chapter)
-    );
-    this.saveBookmarkedQuestions();
+    const saved = localStorage.getItem('quizBookmarks');
+    QuizState.bookmarkedQuestions = saved ? JSON.parse(saved) : [];
     this.updateBookmarkCount();
   },
 
-  isBookmarked(question, platform, subject, chapter) {
-    return this.bookmarkedQuestions.some(bq => 
-      bq.q_no === question.q_no && 
-      bq.platform === platform && 
-      bq.subject === subject && 
-      bq.chapter === chapter
-    );
-  },
-
-  toggleBookmark() {
-    const question = QuizState.questions[QuizState.currentQuestionIndex];
-    const platform = QuizState.selectedPlatform;
-    const subject = QuizState.selectedSubject;
-    const chapter = QuizState.selectedChapter;
-    
-    if (this.isBookmarked(question, platform, subject, chapter)) {
-      this.removeBookmark(question, platform, subject, chapter);
-    } else {
-      this.addBookmark(question, platform, subject, chapter);
-    }
-    
-    this.updateBookmarkButton();
-  },
-
-  updateBookmarkButton() {
-    const bookmarkBtn = document.getElementById('bookmark-btn');
-    if (!bookmarkBtn) return;
-    
-    const question = QuizState.questions[QuizState.currentQuestionIndex];
-    const platform = QuizState.selectedPlatform;
-    const subject = QuizState.selectedSubject;
-    const chapter = QuizState.selectedChapter;
-    
-    const icon = bookmarkBtn.querySelector('i');
-    if (this.isBookmarked(question, platform, subject, chapter)) {
-      icon.className = 'fas fa-bookmark';
-      bookmarkBtn.style.color = '#eab308';
-    } else {
-      icon.className = 'far fa-bookmark';
-      bookmarkBtn.style.color = '#6b7280';
-    }
+  saveBookmarkedQuestions() {
+    localStorage.setItem('quizBookmarks', JSON.stringify(QuizState.bookmarkedQuestions));
+    this.updateBookmarkCount();
   },
 
   updateBookmarkCount() {
     const countElement = document.getElementById('bookmark-count');
-    if (countElement) {
-      const count = this.bookmarkedQuestions.length;
-      countElement.textContent = `${count} question${count !== 1 ? 's' : ''} saved`;
+    const count = QuizState.bookmarkedQuestions.length;
+    countElement.textContent = `${count} question${count !== 1 ? 's' : ''} saved`;
+  },
+
+  isQuestionBookmarked(question) {
+    return QuizState.bookmarkedQuestions.some(bookmark => 
+      bookmark.q_no === question.q_no && 
+      bookmark.platform === QuizState.selectedPlatform && 
+      bookmark.subject === QuizState.selectedSubject
+    );
+  },
+
+  toggleBookmark() {
+    const currentQuestion = QuizState.questions[QuizState.currentQuestionIndex];
+    const bookmarkBtn = document.getElementById('bookmark-btn');
+    const bookmarkIcon = bookmarkBtn.querySelector('i');
+    
+    const bookmarkData = {
+      ...currentQuestion,
+      platform: QuizState.selectedPlatform,
+      subject: QuizState.selectedSubject,
+      chapter: QuizState.selectedChapter,
+      bookmarkedAt: new Date().toISOString()
+    };
+    
+    const existingIndex = QuizState.bookmarkedQuestions.findIndex(bookmark => 
+      bookmark.q_no === currentQuestion.q_no && 
+      bookmark.platform === QuizState.selectedPlatform && 
+      bookmark.subject === QuizState.selectedSubject
+    );
+    
+    if (existingIndex > -1) {
+      // Remove bookmark
+      QuizState.bookmarkedQuestions.splice(existingIndex, 1);
+      bookmarkIcon.className = 'far fa-bookmark';
+      bookmarkBtn.title = 'Bookmark this question';
+    } else {
+      // Add bookmark
+      QuizState.bookmarkedQuestions.push(bookmarkData);
+      bookmarkIcon.className = 'fas fa-bookmark';
+      bookmarkBtn.title = 'Remove bookmark';
+    }
+    
+    this.saveBookmarkedQuestions();
+  },
+
+  updateBookmarkButton() {
+    const bookmarkBtn = document.getElementById('bookmark-btn');
+    const bookmarkIcon = bookmarkBtn.querySelector('i');
+    const currentQuestion = QuizState.questions[QuizState.currentQuestionIndex];
+    
+    if (this.isQuestionBookmarked(currentQuestion)) {
+      bookmarkIcon.className = 'fas fa-bookmark';
+      bookmarkBtn.title = 'Remove bookmark';
+    } else {
+      bookmarkIcon.className = 'far fa-bookmark';
+      bookmarkBtn.title = 'Bookmark this question';
     }
   },
 
   viewBookmarkedQuestions() {
-    NavigationManager.showScreen('bookmarked-questions');
-    this.displayBookmarkedQuestions();
-  },
-
-  displayBookmarkedQuestions() {
-    const container = document.getElementById('bookmarked-list');
-    container.innerHTML = '';
-
-    if (this.bookmarkedQuestions.length === 0) {
-      container.innerHTML = `
-        <div class="no-bookmarks">
-          <i class="far fa-bookmark"></i>
-          <h3>No Bookmarked Questions</h3>
-          <p>Start a quiz and bookmark questions you want to review later.</p>
+    this.loadBookmarkedQuestions();
+    
+    const bookmarkedList = document.getElementById('bookmarked-list');
+    bookmarkedList.innerHTML = '';
+    
+    if (QuizState.bookmarkedQuestions.length === 0) {
+      bookmarkedList.innerHTML = `
+        <div class="empty-bookmarks">
+          <i class="fas fa-bookmark" style="font-size: 3rem; color: #ccc; margin-bottom: 1rem;"></i>
+          <h3>No bookmarked questions yet</h3>
+          <p>Start a quiz and bookmark questions for later review!</p>
         </div>
       `;
-      return;
-    }
-
-    // Group bookmarks by platform and subject
-    const grouped = this.bookmarkedQuestions.reduce((acc, bookmark) => {
-      const key = `${bookmark.platform}-${bookmark.subject}`;
-      if (!acc[key]) {
-        acc[key] = {
-          platform: bookmark.platform,
-          subject: bookmark.subject,
-          questions: []
-        };
-      }
-      acc[key].questions.push(bookmark);
-      return acc;
-    }, {});
-
-    // Display grouped bookmarks
-    Object.values(grouped).forEach(group => {
-      const groupElement = document.createElement('div');
-      groupElement.className = 'bookmark-group';
-
-      groupElement.innerHTML = `
-        <div class="bookmark-group-content">
-          <div class="bookmark-questions">
-            ${group.questions.map((question, index) => `
-              <div class="bookmark-item" onclick="BookmarkManager.reviewBookmarkedQuestion(${this.bookmarkedQuestions.indexOf(question)})">
-                <div class="bookmark-question-number">${question.q_no}</div>
-                <div class="bookmark-question-text">${question.question.substring(0, 100)}${question.question.length > 100 ? '...' : ''}</div>
-                <div class="bookmark-actions">
-                  <button class="review-btn" onclick="event.stopPropagation(); BookmarkManager.reviewBookmarkedQuestion(${this.bookmarkedQuestions.indexOf(question)})">
-                    <i class="fas fa-eye"></i>
-                  </button>
-                  <button class="remove-bookmark-btn" onclick="event.stopPropagation(); BookmarkManager.removeBookmarkedQuestion(${this.bookmarkedQuestions.indexOf(question)})">
-                    <i class="fas fa-trash"></i>
-                  </button>
-                </div>
-              </div>
-            `).join('')}
+    } else {
+      // Group bookmarks by platform and subject
+      const groupedBookmarks = QuizState.bookmarkedQuestions.reduce((groups, bookmark) => {
+        const key = `${bookmark.platform}-${bookmark.subject}`;
+        if (!groups[key]) {
+          groups[key] = {
+            platform: bookmark.platform,
+            subject: bookmark.subject,
+            questions: []
+          };
+        }
+        groups[key].questions.push(bookmark);
+        return groups;
+      }, {});
+      
+      // Show platform/subject overview
+      Object.values(groupedBookmarks).forEach(group => {
+        const groupDiv = document.createElement('div');
+        groupDiv.className = 'bookmark-overview-item';
+        groupDiv.innerHTML = `
+          <div class="bookmark-overview-content">
+            <div class="platform-subject-info">
+              <h3>${group.platform.charAt(0).toUpperCase() + group.platform.slice(1)} - ${group.subject.charAt(0).toUpperCase() + group.subject.slice(1)}</h3>
+              <span class="question-count-badge">${group.questions.length} question${group.questions.length !== 1 ? 's' : ''}</span>
+            </div>
+            <i class="fas fa-chevron-right"></i>
           </div>
+        `;
+        groupDiv.onclick = () => this.showGroupQuestions(group);
+        bookmarkedList.appendChild(groupDiv);
+      });
+    }
+    
+    NavigationManager.showScreen('bookmarked-questions');
+  },
+
+  showGroupQuestions(group) {
+    const bookmarkedList = document.getElementById('bookmarked-list');
+    bookmarkedList.innerHTML = '';
+    
+    // Add back button
+    const backButton = document.createElement('div');
+    backButton.className = 'group-back-button';
+    backButton.innerHTML = `
+      <button onclick="BookmarkManager.viewBookmarkedQuestions()" class="group-back-btn">
+        <i class="fas fa-arrow-left"></i> Back to Groups
+      </button>
+    `;
+    bookmarkedList.appendChild(backButton);
+    
+    // Add group header
+    const groupHeader = document.createElement('div');
+    groupHeader.className = 'group-questions-header';
+    groupHeader.innerHTML = `
+      <h3>${group.platform.charAt(0).toUpperCase() + group.platform.slice(1)} - ${group.subject.charAt(0).toUpperCase() + group.subject.slice(1)}</h3>
+      <span class="question-count">${group.questions.length} question${group.questions.length !== 1 ? 's' : ''}</span>
+    `;
+    bookmarkedList.appendChild(groupHeader);
+    
+    // Add questions list
+    const questionsContainer = document.createElement('div');
+    questionsContainer.className = 'group-questions-list';
+    
+    group.questions.forEach(question => {
+      const questionDiv = document.createElement('div');
+      questionDiv.className = 'bookmarked-question-item';
+      questionDiv.innerHTML = `
+        <div class="question-preview">
+          <span class="question-number">Q${question.q_no}</span>
+          <span class="question-text">${question.question.substring(0, 100)}${question.question.length > 100 ? '...' : ''}</span>
+        </div>
+        <div class="bookmark-actions">
+          <button onclick="event.stopPropagation(); BookmarkManager.removeBookmark('${question.platform}', '${question.subject}', ${question.q_no})" class="remove-bookmark">
+            <i class="fas fa-trash"></i>
+          </button>
         </div>
       `;
-
-      container.appendChild(groupElement);
+      questionDiv.onclick = () => this.reviewBookmarkedQuestion(question.platform, question.subject, question.q_no);
+      questionsContainer.appendChild(questionDiv);
     });
+    
+    bookmarkedList.appendChild(questionsContainer);
   },
 
-  reviewBookmarkedQuestion(index) {
-    const bookmark = this.bookmarkedQuestions[index];
+  removeBookmark(platform, subject, qNo) {
+    const index = QuizState.bookmarkedQuestions.findIndex(bookmark => 
+      bookmark.q_no === qNo && 
+      bookmark.platform === platform && 
+      bookmark.subject === subject
+    );
     
-    // Set up quiz state for single question review
-    QuizState.questions = [bookmark];
-    QuizState.currentQuestionIndex = 0;
-    QuizState.selectedPlatform = bookmark.platform;
-    QuizState.selectedSubject = bookmark.subject;
-    QuizState.selectedChapter = bookmark.chapter;
-    QuizState.isReviewMode = true;
-    QuizState.userAnswers = [bookmark.correct_answer]; // Show correct answer in review
-    
-    NavigationManager.showScreen('quiz-container');
-    QuizManager.loadQuestion();
-  },
-
-  removeBookmarkedQuestion(index) {
-    if (confirm('Are you sure you want to remove this bookmarked question?')) {
-      this.bookmarkedQuestions.splice(index, 1);
+    if (index > -1) {
+      QuizState.bookmarkedQuestions.splice(index, 1);
       this.saveBookmarkedQuestions();
-      this.updateBookmarkCount();
-      this.displayBookmarkedQuestions();
+      this.viewBookmarkedQuestions(); // Refresh the view
+    }
+  },
+
+  reviewBookmarkedQuestion(platform, subject, qNo) {
+    const bookmark = QuizState.bookmarkedQuestions.find(b => 
+      b.platform === platform && b.subject === subject && b.q_no === qNo
+    );
+    
+    if (bookmark) {
+      // Set up single question review
+      QuizState.selectedPlatform = platform;
+      QuizState.selectedSubject = subject;
+      QuizState.selectedChapter = bookmark.chapter;
+      QuizState.questions = [bookmark];
+      QuizState.currentQuestionIndex = 0;
+      QuizState.userAnswers = [];
+      QuizState.isReviewMode = true;
+      
+      NavigationManager.showScreen('quiz-container');
+      QuizManager.loadQuestion();
     }
   }
 };
