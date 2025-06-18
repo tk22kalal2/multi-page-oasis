@@ -1,0 +1,440 @@
+{
+  "chapter": "DNA organization, replication and repair",
+  "questions": [
+    {
+      "q_no": 1,
+      "question": "Which of the following is true about DNA?",
+      "options": {
+        "A": "Each nucleotide pair includes two purines.",
+        "B": "The information from DNA is copied in the form of RNA, specifically mRNA.",
+        "C": "The nucleotide of one strand binds with the nucleotide of the opposite strand.",
+        "D": "Cytosine and uracil differ by one amino group, not ribose sugar."
+      },
+      "correct_answer": "C",
+      "explanation": "In DNA, adenine (a purine) binds to thymine, and guanine (a purine) binds to cytosine (a pyrimidine), thus each pair consists of one purine and one pyrimidine, making option C the correct answer as it correctly describes base pairing between strands.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "DNA organization, replication and repair"
+    },
+    {
+      "q_no": 2,
+      "question": "Identify the marked bond: Thymine...H₂NAdenine5'3'OHNHH₂NNHHO3'Guanine NH2Cytosine",
+      "options": {
+        "A": "Ionic bond",
+        "B": "Covalent bond",
+        "C": "Hydrogen bond",
+        "D": "Phosphodiester Bond"
+      },
+      "correct_answer": "C",
+      "explanation": "The marked bond represents a hydrogen bond between thymine and adenine. The complementary nitrogenous bases of the 2 strands of the DNA double helix are linked by hydrogen bonds. Adenine and thymine are linked by two hydrogen bonds (A=T) whereas three hydrogen bonds are present between cytosine and guanine (C=G). Van der Waals and hydrophobic interactions are present between the stacked adjacent base pairs. A B-N-glycosidic bond is present between the nitrogenous base and deoxyribose sugar. C1 of deoxyribose/ribose sugar is joined covalently to N1 of pyrimidines and N9 of purines by a B-N-glycosidic bond. An ester bond is present between the sugar and phosphate group of the same nucleotide. An acid anhydride bond is present between two phosphate groups. A polymer of nucleotides is joined by a 3'-5' phosphodiester bond. The bond is present between the sugar of one nucleotide and the phosphate group of another. Nitrogenous bases: Thymine, Hydrogen bonds, H₂NAdenine, 3'3' 5'Adenine, Thymine O5'OH0-**P*. Guanine 00NH, Cytosine 100H₂N, Base pair, NHP=0-Sugar-HO, Ho Guanine, NH₂Cytosine, 5'phosphate backbone, 3' 5'Sugar-phosphate backbone, Bases, Sugar-phosphate backbone",
+      "image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/q2_img1_2b2f00c6.jpeg",
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp2_img1_5f693b6c.jpeg",
+      "chapter_heading": "DNA organization, replication and repair"
+    },
+    {
+      "q_no": 3,
+      "question": "What is the percentage of cytosine in DNA if the percentage of thymine residues is 28%?",
+      "options": {
+        "A": "22",
+        "B": "28",
+        "C": "36",
+        "D": "44"
+      },
+      "correct_answer": "A",
+      "explanation": "The percentage of cytosine in DNA will be 22%. According to Chargaff's rule in cellular DNA, regardless of species, A = T and G = C. Purines = Pyrimidines, i.e., A + G = C + T. In the question, it is given that thymine is 28%, therefore adenine is also 28%. So, adenine + thymine = 56% and guanine + cytosine = 44%. Since guanine = cytosine, the percentage of cytosine is 44/2 = 22%.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "DNA organization, replication and repair"
+    },
+    {
+      "q_no": 4,
+      "question": "Which of the following is true about the types of DNA?",
+      "options": {
+        "A": "Z-DNA is a right-handed double helix.",
+        "B": "B-DNA is found in conditions of high salt concentration and low humidity.",
+        "C": "A-DNA is found in high humidity and low salt concentration.",
+        "D": "B-DNA is the physiologically most common form"
+      },
+      "correct_answer": "D",
+      "explanation": "The correct statement is that B-DNA is the physiologically most common form. There are six types of DNA: A, B, C, D, E, and Z. All are right-handed except Z-DNA. Z-DNA is a left-handed double helix in the 5' end of the chromosome and has a phosphodiester backbone in a zigzag form. A-DNA is found in conditions with low humidity and high salt concentration. B-DNA is the physiologically most common form. It is found in conditions with high humidity and low salt concentration.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "DNA organization, replication and repair"
+    },
+    {
+      "q_no": 5,
+      "question": "Which of the following is a feature of denatured DNA?",
+      "options": {
+        "A": "Breaking of phosphodiester bond",
+        "B": "Alteration of primary structure",
+        "C": "Increase in viscosity",
+        "D": "Hyperchromicity at 260 nm"
+      },
+      "correct_answer": "D",
+      "explanation": "Hyperchromicity at 260 nm is a feature of denatured DNA. Denaturation or melting of DNA is a process that separates the two strands into component strands. During denaturation, the hydrogen bonds are broken. The phosphodiester bond is not broken. DNA's secondary and tertiary structures are also broken, but the primary structure is not altered. As DNA gets denatured, its viscosity decreases. Denatured DNA also shows hyperchromicity at 260 nm, which is the increase in absorbance of UV light shown by nitrogenous bases.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "DNA organization, replication and repair"
+    },
+    {
+      "q_no": 6,
+      "question": "Which of the following is not a histone found in a nucleosome?",
+      "options": {
+        "A": "H1",
+        "B": "H2A",
+        "C": "H2B",
+        "D": "H3"
+      },
+      "correct_answer": "A",
+      "explanation": "H1 is not a histone found in nucleosomes. Chromatin is formed by nucleosomes, which are composed of DNA wound around an octameric complex of histone molecules. They contain four major types of histones: H2A, H2B, H3, and H4. Histones are a small family of closely related basic proteins composed of arginine and lysine. H3 and H4 form a tetramer while H2A and H2B form dimers; these histone oligomers associate to form the histone octamer. These four core histones are subject to at least six types of covalent modification or post-translational modifications - acetylation, methylation, phosphorylation, ADP-ribosylation, monoubiquitylation, and sumoylation. H1 histone is seen in the linker region between nucleosomes and is bound loosely to the nucleosome. An octamer of core histones: H2A, H2B, H3, H4 (each one ×2), core DNA, histone H1, linker DNA.",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp6_img1_9933435f.jpeg",
+      "chapter_heading": "DNA organization, replication and repair"
+    },
+    {
+      "q_no": 7,
+      "question": "What is the role of the (H3-H4)2 tetramer in the nucleosome?",
+      "options": {
+        "A": "Central role in the formation of the nucleosome",
+        "B": "Stabilizes the primary particle",
+        "C": "Firmly binds two additional half-turns of DNA",
+        "D": "Stabilizes the 30-nm chromatin fiber"
+      },
+      "correct_answer": "A",
+      "explanation": "The (H3-H4)2 tetramer has a central role in the formation of the nucleosome. Type H1 histones, H2 histones, H3 histones, H4 histones. Function: Stabilize the 30-nm chromatin fiber. H2A-H2B dimers stabilize the primary particle and firmly bind two additional half-turns of DNA. The (H3-H4)2 tetramer has a central role in the formation of the nucleosome. It confers nucleosome-like properties on DNA.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "DNA organization, replication and repair"
+    },
+    {
+      "q_no": 8,
+      "question": "Which among the following statements is incorrect?",
+      "options": {
+        "A": "Acetylation of H3 and H4 is associated with the activation of gene transcription",
+        "B": "Acetylation of core histones is associated with chromosomal assembly during DNA replication",
+        "C": "ADP-ribosylation of histones is associated with DNA repair",
+        "D": "De-phosphorylation of histone H1 is associated with chromosome condensation during replication"
+      },
+      "correct_answer": "D",
+      "explanation": "Roles of modified histones: • Phosphorylation of histone H1 is associated with the condensation of chromosomes during the replication cycle. • Acetylation of H3 and H4 is associated with the activation or inactivation of gene transcription. • Acetylation of core histones is associated with chromosomal assembly during DNA replication. • Methylation of histones is correlated with activation and repression of gene transcription. • ADP-ribosylation of histones is associated with DNA repair. • Monoubiquitylation is associated with gene activation, repression, and heterochromatic gene silencing. Methylation and acetylation of histones: Gene - Histone tail - Histone - Methyl group - DNA inaccessible, gene inactive. Histone tail - Acetyl group - DNA accessible, gene active. Methylation of DNA and histones causes nucleosomes to pack tightly together. Transcription factors cannot bind the DNA, and genes are not expressed. Histone acetylation results in loose packing of nucleosomes. Transcription factors can bind the DNA and genes are expressed.",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp8_img1_f8112079.jpeg",
+      "chapter_heading": "DNA organization, replication and repair"
+    },
+    {
+      "q_no": 9,
+      "question": "Which of the following statements is true regarding heterochromatin?",
+      "options": {
+        "A": "It is transcriptionally active",
+        "B": "It is less densely packed",
+        "C": "It stains densely",
+        "D": "It is replicated earlier than euchromatin"
+      },
+      "correct_answer": "C",
+      "explanation": "The true statement is that heterochromatin stains densely. Differences between heterochromatin and euchromatin: Heterochromatin - Transcriptionally inactive - Densely packed - Chromatin stains densely. The chromatin in the region is high in meC content (methylation of deoxycytidine residues decreases gene transcription). Histone deacetylation increases heterochromatin. Euchromatin - Transcriptionally active - Less densely packed - Chromatin stains less densely. Generally replicated earlier than heterochromatin. Histone acetylation increases euchromatin.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "DNA organization, replication and repair"
+    },
+    {
+      "q_no": 10,
+      "question": "Which of the following is true about DNA organization in chromosomes?",
+      "options": {
+        "A": "Centromere is an adenine-thymine (A-T)-rich region containing repeated DNA sequences",
+        "B": "Telomeres consist of short TTAGGG-rich repeats",
+        "C": "Each sister chromatid contains one dsDNA molecule",
+        "D": "All of the above"
+      },
+      "correct_answer": "D",
+      "explanation": "All of the given statements are correct. Chromosomes can be visualized during metaphase of mitosis. At this point, they are duplicated with two-fold symmetry. The duplicated, identical sister chromatids are connected at the centromere. Each sister chromatid consists of a single dsDNA molecule. The centromere is an adenine-thymine (A-T)-rich region containing repeated DNA sequences. The ends of each chromosome contain structures called telomeres, which have a variable number of repeats of the sequence 5'-TTAGGG-3'. Telomere shortening is associated with aging and malignant transformation. Structure of duplicated chromosome: Telomere (TTAGGG), Centromere, Sister chromatids.",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp10_img1_59aa6b37.jpeg",
+      "chapter_heading": "DNA organization, replication and repair"
+    },
+    {
+      "q_no": 11,
+      "question": "What percentage of cellular DNA is in mitochondria?",
+      "options": {
+        "A": "1%",
+        "B": "10%",
+        "C": "0.1%",
+        "D": "20%"
+      },
+      "correct_answer": "A",
+      "explanation": "1% of cellular DNA is in mitochondria. Human mitochondria contain 2 to 10 copies of a small circular ~16 kbp (kilo base pair) dsDNA molecule that makes up approximately 1% of total cellular DNA. Out of 37 genes in human mitochondrial DNA (mtDNA), 22 genes code for transfer RNAs, 2 for ribosomal RNAs, and 13 for proteins that play key roles in the respiratory chain. A feature unique to human mitochondrial mtDNA is maternal non-Mendelian inheritance because all mitochondria are contributed by the ovum during zygote formation. Thus, mothers transmit mtDNA to all their offspring.",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp11_img1_fb7a4f70.jpeg",
+      "chapter_heading": "DNA organization, replication and repair"
+    },
+    {
+      "q_no": 12,
+      "question": "True regarding mitochondrial DNA is:",
+      "options": {
+        "A": "One set from each parent",
+        "B": "It has a higher mutation rate than nuclear DNA",
+        "C": "It codes for more than 25% of oxidative phosphorylation proteins",
+        "D": "It has 3 x 10^9 base pairs"
+      },
+      "correct_answer": "B",
+      "explanation": "The true statement is that mitochondrial DNA has a high mutation rate. Mitochondrial DNA is circular and double-stranded. It has 16,569 bp (that makes up approximately 1% of total cellular DNA) while nuclear DNA has 3.3 billion bp. It has 37 genes that encode 13 protein subunits of the respiratory chain (out of a total of 67 proteins) i.e. about 20%. It mutates at a rate 5-10 times that of nuclear DNA. Mitochondrial DNA is transmitted by maternal non-Mendelian inheritance.",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp12_img1_ee5e4182.jpeg",
+      "chapter_heading": "DNA organization, replication and repair"
+    },
+    {
+      "q_no": 13,
+      "question": "Klenow fragment lacks the activity of",
+      "options": {
+        "A": "3' 5' Exonuclease",
+        "B": "5' 3' Exonuclease",
+        "C": "5' 3' DNA polymerase",
+        "D": "3' 5' DNA polymerase"
+      },
+      "correct_answer": "B",
+      "explanation": "Cytochrome Oxidase subunits, NADH Dehydrogenase subunits, NADH Dehydrogenase subunits, Cytochrome Oxidase subunits, ATP Synthase subunits. 395 Klenow fragment lacks 5' 3' exonuclease activity. DNA polymerase I is an enzyme involved in DNA replication. It has polymerase activity along with both 3' 5' and 5' 3' exonuclease activity. When the 5' 3' exonuclease domain is removed, the remaining fragment is called Klenow fragment. It retains the polymerization and proofreading activities of DNA polymerase I.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "DNA organization, replication and repair"
+    },
+    {
+      "q_no": 14,
+      "question": "DNA synthesis occurs in which phase?",
+      "options": {
+        "A": "G1 Phase",
+        "B": "G2 Phase",
+        "C": "S Phase",
+        "D": "G0 Phase"
+      },
+      "correct_answer": "C",
+      "explanation": "DNA synthesis occurs in the S phase. In the cell cycle, replication of the DNA genome occurs only at a specified time during the synthetic or S phase. During the S phase, mammalian cells contain greater quantities of DNA polymerase than during the nonsynthetic phases of the cell cycle. Gap 1 (G1) phase consists of cell growth and preparation for DNA synthesis. It occurs before the S phase. Gap 2 (G2) phase occurs after the S phase, during which preparation for mitosis (M phase) occurs. Cyclins tightly regulate the transition between phases of the cell cycle. G1 - Growth, G2 - Growth and preparation for mitosis, S - DNA synthesis, M - Mitosis (cell division)",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp14_img1_93e9266c.jpeg",
+      "chapter_heading": "DNA organization, replication and repair"
+    },
+    {
+      "q_no": 15,
+      "question": "Which of the following is not a feature of DNA replication?",
+      "options": {
+        "A": "Semi-discontinuous",
+        "B": "Template independent",
+        "C": "Bidirectional",
+        "D": "RNA primer is required"
+      },
+      "correct_answer": "B",
+      "explanation": "DNA replication is not template independent. DNA replication occurs in the S-phase of the cell cycle. It is semi-conservative, semi-discontinuous, and bidirectional. DNA strands separate and each acts as a template strand on which a new complementary strand is synthesized. RNA primer is required. The new strand is synthesized always in the 5'-3' direction and thus, the synthesis of DNA in both strands is not the same.",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp15_img1_24bc1645.jpeg",
+      "chapter_heading": "DNA organization, replication and repair"
+    },
+    {
+      "q_no": 16,
+      "question": "Which of the following is true about DNA replication?",
+      "options": {
+        "A": "Replication can occur only from a single-stranded DNA template",
+        "B": "Replication can occur only from a double-stranded DNA template",
+        "C": "Deoxynucleotide polymerization is catalyzed by DNA polymerase, not helicases.",
+        "D": "Only DNA polymerase functions at the replication fork"
+      },
+      "correct_answer": "B",
+      "explanation": "In all cells, replication can occur only from a single-stranded DNA (ssDNA) template. Steps of DNA replication: Identification of the origins of replication, ATP hydrolysis-driven unwinding of dsDNA to provide an ssDNA template, formation of the replication fork; synthesis of RNA primer, initiation of DNA synthesis and elongation, formation of replication bubbles with ligation of the newly synthesized DNA segments, and reconstitution of chromatin structure. The replication fork is formed when DNA helicase unwinds a short segment of the parent dsDNA. Primase initiates the synthesis of an RNA primer. DNA polymerase then initiates DNA synthesis (deoxynucleotide polymerization) in the 5' to 3' direction. Hence, helicase, primase, and polymerases act at the replication fork.",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp16_img1_675ab8b5.jpeg",
+      "chapter_heading": "DNA organization, replication and repair"
+    },
+    {
+      "q_no": 17,
+      "question": "Which of the following initiates local denaturation and unwinding of DNA during replication?",
+      "options": {
+        "A": "Helicase",
+        "B": "Topoisomerase",
+        "C": "Single strand binding protein",
+        "D": "Ori-binding protein"
+      },
+      "correct_answer": "D",
+      "explanation": "Ori-binding protein initiates local denaturation and unwinding of DNA during replication. Splitting of the two DNA strands during replication is initiated when the ori-binding protein (e.g., DnaA protein) binds to the origin of replication (ori). This leads to positive supercoiling of the ori. The adjacent A+T rich region, known as DNA unwinding element (DUE), undergoes local denaturation and separation. A short region of ssDNA is formed, to which helicases bind and further unwind DNA. SSB or replication protein-A prevents reannealing of the ssDNA strands generated by helicases. Topoisomerase stabilizes the strain caused during unwinding.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "DNA organization, replication and repair"
+    },
+    {
+      "q_no": 18,
+      "question": "Which of the following is the function of the replication protein-A during eukaryotic DNA replication?",
+      "options": {
+        "A": "Unwinds DNA template at replication fork",
+        "B": "Creates a single- or double-stranded break in the helix to add or remove supercoils",
+        "C": "Prevents strands from reannealing",
+        "D": "Catalyzes the formation of a phosphodiester bond within a strand of double-stranded DNA"
+      },
+      "correct_answer": "C",
+      "explanation": "Replication protein-A prevents strands from reannealing during the process of DNA replication. Replication protein-A is a type of ssDNA-binding protein (SSB). During DNA replication, it binds to the ssDNA generated by helicases. It shifts the equilibrium between dsDNA and ssDNA in the direction of ssDNA and thus prevents reannealing of strands. It also protects the ssDNA from degradation by nucleases. Option A: Helicase unwinds the DNA template at the replication fork. Option B: DNA topoisomerases create a single- or double-stranded break in the helix to add or remove supercoils. Option D: DNA ligase catalyzes the formation of a phosphodiester bond within a strand of double-stranded DNA.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "DNA organization, replication and repair"
+    },
+    {
+      "q_no": 19,
+      "question": "Which of the following is synthesized by DNA primase during replication?",
+      "options": {
+        "A": "DNA primer",
+        "B": "RNA primer",
+        "C": "Okazaki fragments",
+        "D": "Leading strand"
+      },
+      "correct_answer": "B",
+      "explanation": "DNA primase synthesizes RNA primers during replication of DNA. During DNA replication, DNA is synthesized using an ssDNA template. This is done by DNA polymerases in the 5' to 3' direction. However, DNA polymerases require an RNA primer, which is a short (10 - 200bp) double-stranded region consisting of RNA paired to the DNA template. Thus, RNA primers serve as scaffolds to which deoxyribonucleotides are added. The RNA in the primers is later replaced by DNA. Other options: Option C: Okazaki fragments are lagging strands built on RNA primers by DNA polymerase. Option D: Leading strands are synthesized by DNA polymerase ε.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "DNA organization, replication and repair"
+    },
+    {
+      "q_no": 20,
+      "question": "Which of the following is true about DNA polymerase I?",
+      "options": {
+        "A": "It is involved in the creation of Okazaki fragments.",
+        "B": "It is found in prokaryotes.",
+        "C": "It synthesizes RNA primers.",
+        "D": "It is the primary enzyme of DNA synthesis."
+      },
+      "correct_answer": "B",
+      "explanation": "The true statement is that DNA polymerase I (pol I) is found in prokaryotes. The prokaryotic polymerases are DNA polymerases I, II, and III. DNA polymerase I recognizes a nick or break in the phosphate backbone, and then removes each RNA primer and fills the gaps with DNA. It does this through its 5' to 3' exonuclease activity. It has DNA repair activity through 3' to 5' exonuclease activity. DNA polymerase II carries out DNA proofreading and repair. DNA polymerase III is the primary enzyme for the synthesis of the leading strand of DNA. Option A: DNA polymerase (eukaryotic polymerase) synthesizes Okazaki fragments, which are short, newly synthesized DNA fragments that are formed on the lagging template strand during DNA replication. They are complementary to the lagging template strand. Option C: Primase synthesizes RNA primers to start the replication.",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp20_img1_4c8ea246.jpeg",
+      "chapter_heading": "DNA organization, replication and repair"
+    },
+    {
+      "q_no": 21,
+      "question": "Which of the following is not a function of the DNA polymerase complex?",
+      "options": {
+        "A": "Chain elongation",
+        "B": "Processing",
+        "C": "Proofreading",
+        "D": "Unwinding of DNA"
+      },
+      "correct_answer": "D",
+      "explanation": "Unwinding of DNA is not a function of the DNA polymerase complex. A number of different DNA polymerase molecules engage in DNA replication that share three important properties: chain elongation, processivity, and proofreading. Unwinding of DNA is done by the enzyme helicase. Original (template) DNA, chromosome, free nucleotides, DNA polymerase, helicase, lagging strand, leading strand, replication fork, adenine, thymine, cytosine, guanine, DNA polymerase, and original (template) DNA strand.",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp21_img1_be23f5d8.jpeg",
+      "chapter_heading": "DNA organization, replication and repair"
+    },
+    {
+      "q_no": 22,
+      "question": "Which of the following is a two-base alteration DNA damage?",
+      "options": {
+        "A": "Oxidative free-radical formation",
+        "B": "Alkylation of a base",
+        "C": "Base-analog incorporation",
+        "D": "Bifunctional alkylating agent cross-linkage"
+      },
+      "correct_answer": "D",
+      "explanation": "Bifunctional alkylating agent cross-linkage is a type of two-base alteration DNA damage. Bifunctional alkylating agents, like cyclophosphamide and chlorambucil, are commonly used anti-cancer drugs. They contain two reactive sites and thus can cause intrastrand and interstrand cross-links between two nucleotides.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "DNA organization, replication and repair"
+    },
+    {
+      "q_no": 23,
+      "question": "A patient who has been diagnosed with multiple gastrointestinal polyps and carcinoma, with a positive family history/history of hereditary non-polyposis colon carcinoma has a defect in which of the following?",
+      "options": {
+        "A": "Mismatch repair",
+        "B": "Nucleotide excision repair",
+        "C": "Base excision repair",
+        "D": "Point mutation"
+      },
+      "correct_answer": "A",
+      "explanation": "Mismatch repair will be defective in a patient with multiple gastrointestinal polyps and carcinoma, with a positive family history/history of hereditary non-polyposis colon carcinoma (HNPCC). Mismatch repair is a DNA repair mechanism that corrects single-nucleotide mismatches, insertions, and deletions introduced by the DNA polymerase during DNA replication. HNPCC or Lynch syndrome is an autosomal dominant genetic condition. It occurs due to defects in DNA mismatch repair genes like MLH1 and MSH2. The genomes of these patients show microsatellite instability. HNPCC is associated with a high risk of colon cancer. It may also be associated with a risk of developing carcinomas of the endometrium, stomach, small bowel, ovary, pancreas, and transitional cell carcinoma of the ureter and renal pelvis. The diagnostic criteria for HNPCC are referred to as the Amsterdam criteria or the 3-2-1-0 rule. It includes: • Three or more relatives with HNPCC-associated cancer (colorectal cancer, endometrial cancer, cancer of the small bowel, ureter, or renal pelvis), one of whom is a first-degree relative of the other two. • At least two successive generations affected. • At least one case diagnosed before age 50 years. • Familial adenomatous polyposis excluded. • Tumors verified by pathologic examination. Other options: Option B: Patients with xeroderma pigmentosum have a defect in the nucleotide excision repair pathway. Option C: Defect in base excision repair pathway is seen in patients with MUTYH-associated polyposis. Option D: Sickle cell disease and beta-thalassemia are examples of diseases seen in patients with point mutations.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "DNA organization, replication and repair"
+    },
+    {
+      "q_no": 24,
+      "question": "A 10-year-old girl is brought to the dermatologist by her parents. She has many freckles on her face and limbs as shown below. She is also unusually sensitive to sunlight. Early changes of squamous cell carcinomas are also noted on her face. Which of the following processes is most likely to be defective in this patient?",
+      "options": {
+        "A": "Defective DNA nucleotide excision repair",
+        "B": "Defective DNA base excision repair",
+        "C": "Defective DNA mismatch repair",
+        "D": "Defective homologous repair"
+      },
+      "correct_answer": "A",
+      "explanation": "Photosensitivity, freckling, and skin cancer on the face in a child are suggestive of xeroderma pigmentosum. It is an example of defective DNA nucleotide excision repair. In xeroderma pigmentosum, there is an inability to repair DNA pyrimidine dimers caused by UV exposure. It is an autosomal recessive disease characterized by exaggerated sunburns and pigmentary changes on exposure to UV radiations. There is increased risk of developing non-melanoma and melanoma skin cancers, and neurodegeneration. They are also more prone to developing smoking-induced lung cancers. Diagnosis is mainly clinical and it can be confirmed definitively by cellular tests for defective DNA repair. Management includes sun avoidance and regular follow-up to assess and treat any skin cancers. There is no cure for xeroderma pigmentosum.",
+      "image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/q24_img1_f4626d50.jpeg",
+      "explanation_image": null,
+      "chapter_heading": "DNA organization, replication and repair"
+    },
+    {
+      "q_no": 25,
+      "question": "What is the defective DNA repair mechanism in a patient with SCID?",
+      "options": {
+        "A": "Mismatch repair",
+        "B": "Nucleotide excision repair",
+        "C": "Non-homologous end joining repair",
+        "D": "Homologous recombination"
+      },
+      "correct_answer": "C",
+      "explanation": "SCID is associated with a defective non-homologous end-joining (NHEJ). NHEJ is a predominant pathway for DNA double-stranded break repair. NHEJ also functions in class switch recombination, enhancing T and B cell diversity. Thus, NHEJ deficiency leads to combined immunodeficiency due to a failure to carry out recombination efficiently. Severe combined immunodeficiency (SCID) is characterized by defects in both humoral and cell-mediated immune responses. Genes involved are JAK3, RAG1, and IL-7R. Persons with SCID are extremely susceptible to recurrent, severe infections by a wide range of pathogens, including Candida albicans, Pneumocystis jirovecii, Pseudomonas species, cytomegalovirus, varicella, and a host of other bacteria. X-linked SCID is the most common form, accounting for 50% to 60% of cases, is X-linked, and hence, SCID is more common in boys. The genetic defect is a mutation in the common gamma-chain (γc) subunit of cytokine receptors. In these patients, the thymus contains lobules of undifferentiated epithelial cells, resembling fetal thymus. Autosomal recessive SCID is commonly caused by a deficiency of adenosine deaminase (ADA) enzyme. In these patients, the thymus contains remnants of Hassall's corpuscles.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "DNA organization, replication and repair"
+    },
+    {
+      "q_no": 26,
+      "question": "By which mechanism does gene repair occur when mediated by CRISPR-Cas9?",
+      "options": {
+        "A": "Base excision",
+        "B": "Non-homologous end joining",
+        "C": "Homologous recombination",
+        "D": "Mismatch repair"
+      },
+      "correct_answer": "B",
+      "explanation": "Non-homologous end joining (NHEJ) is the major mechanism used by CRISPR-Cas9 for gene repair. The CRISPR (Clustered Regularly Interspaced Short Palindromic Repeats) are clustered palindromic sequences found in many bacteria. It is a form of acquired immunity to infection by bacteriophages, which complements the system of restriction endonucleases and methylases. CRISPR uses RNA-based targeting to bring the Cas9 endonuclease to foreign (or any complementary) DNA. Within bacteria, this CRISPR-RNA-Cas9 complex then degrades and inactivates the targeted DNA. The CRISPR system has been adapted for use in eukaryotic cells for gene deletion, gene editing, and even modulation of gene transcription.",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp26_img1_62ed1d45.jpeg",
+      "chapter_heading": "DNA organization, replication and repair"
+    },
+    {
+      "q_no": 27,
+      "question": "Chimeric DNA is associated with:",
+      "options": {
+        "A": "Paternity test",
+        "B": "Maternity test",
+        "C": "Personal identification",
+        "D": "Organ transplantation"
+      },
+      "correct_answer": "D",
+      "explanation": "Chimeric DNA is associated with organ transplantation, especially bone-marrow transplantation. In organ transplantation, chimeric DNA refers to the mixture of donor and recipient genetic material that occurs when donor cells begin functioning within the recipient's body. It is used for long-term monitoring of bone marrow transplant recipients. Detecting changes in the levels of donor-derived cells can provide early warning signs of graft failure, rejection, or relapse of underlying disease. Note: The practical applications of recombinant DNA technology include: Gene mapping using techniques such as fluorescence in situ hybridization (FISH). Producing proteins such as interferons, tPA (tissue plasminogen activator), insulin, growth hormone, and the hepatitis B vaccine. Molecular analysis of disease, to detect gene variations and mutations. Restriction Fragment Length polymorphism (RFLP) and single nucleotide polymorphism (SNP), microsatellite DNA polymorphisms, gene therapy, and bone marrow transplantation.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "DNA organization, replication and repair"
+    },
+    {
+      "q_no": 28,
+      "question": "Which of the following is not a true statement regarding telomerase?",
+      "options": {
+        "A": "Has reverse transcriptase activity",
+        "B": "Present only in eukaryotes",
+        "C": "Maintains the chromosome length",
+        "D": "Involved in DNA repair"
+      },
+      "correct_answer": "D",
+      "explanation": "The false statement is that telomerase is involved in DNA repair. Telomeres are the ends of chromosomal DNA. Since prokaryotic DNA is circular, it does not have free ends and hence no telomeres. Thus, telomeres are present only in eukaryotes. Telomeres have TG-rich repeats and usually do not code for any proteins. With every DNA replication during cell division, telomere shortening occurs. Once telomeres are almost negligible or non-existent in length, the DNA is unable to replicate and the cell dies. Hence, there is a limit to the number of times a cell can divide. In stem cells and cancer cells, an enzyme, telomerase, having reverse transcriptase activity (RNA-dependent DNA polymerase), adds telomeres to the chromosome ends, thereby preserving chromosomal length. It allows the stem cells and cancer cells to multiply a lot more times than a normal adult cell.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "DNA organization, replication and repair"
+    },
+    {
+      "q_no": 1,
+      "question": "The true statement about DNA is that the nucleotide of one strand binds with the nucleotide of the opposite strand. DNA (deoxyribonucleic acid) is a polymeric molecule containing genetic information. It is a double-stranded molecule consisting of nucleotide pairs. Each nucleotide pair includes one purine and one pyrimidine. The nucleotide of one strand binds with the nucleotide of the opposite strand by hydrogen bonds.",
+      "options": {
+        "A": "The information from DNA is copied in the form of mRNA.",
+        "B": "Cytosine and uracil differ by one amino group.",
+        "C": "The nucleotide of one strand binds with the nucleotide of the same strand.",
+        "D": "The nucleotide of one strand does not bind with the nucleotide of the opposite strand."
+      },
+      "correct_answer": "A",
+      "explanation": "The statement about DNA is true as it describes the basic structure and bonding of DNA. The other options are incorrect as they do not accurately describe the structure or function of DNA.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "DNA organization, replication and repair"
+    }
+  ]
+}

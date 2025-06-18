@@ -1,0 +1,365 @@
+{
+  "chapter": "Porphyrins and bile pigments",
+  "questions": [
+    {
+      "q_no": 1,
+      "question": "What is the porphyrin present in heme?",
+      "options": {
+        "A": "Protoporphyrin",
+        "B": "Uroporphyrin",
+        "C": "Coproporphyrin",
+        "D": "Benzoporphyrin"
+      },
+      "correct_answer": "",
+      "explanation": "",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Porphyrins and bile pigments"
+    },
+    {
+      "q_no": 2,
+      "question": "Which of the following is not a site for heme synthesis?",
+      "options": {
+        "A": "Osteocyte",
+        "B": "Liver",
+        "C": "Erythroid cells of bone marrow",
+        "D": "Mature erythrocyte"
+      },
+      "correct_answer": "A",
+      "explanation": "Mature erythrocyte is not a site for heme biosynthesis.Approximately 85% of heme synthesis occurs in erythroid precursor cells in the bone marrow andthe majority of the remainder in hepatocytes. Heme biosynthesis occurs both in mitochondria andcytoplasm. It is initiated by the condensation of succinyl-CoA and glycine in a reaction catalyzedby mitochondrial ALA synthase. This initial reaction, and the last three steps in the formation ofheme occur in mitochondria, whereas the intermediate steps of the biosynthetic pathway occur inthe cytosol.Heme biosynthesisMitochondriaGlycineSuccinyl-CoAFeedbackinhibitionPLPALAsynthase6-ALAHemeFerrochelataseFe2+Protoporphyrin-IXProtoporphyrinogenoxidaseProtoporphyrinogen-IXCoproporphyrinogenoxidaseCoproporphyrinogen-IIICytosol8-Aminolevulinic acid(ALA)2xALA-dehydratasePorphobilinogen (PBG)4x4 NH3Uroporphyrinogen-IsynthaseHydroxymethylbilane(linear tetrapyrrol)Uroporphyrinogen-IIIsynthaseSpontaneousUroporphyrinogen-III Uroporphyrinogen-IUroporphyrinogendecarboxylaseCO2-Coproporphyrinogen-IIIMARROW",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp2_img1_b669ec9d.jpeg",
+      "chapter_heading": "Porphyrins and bile pigments"
+    },
+    {
+      "q_no": 3,
+      "question": "Which of the following TCA cycle intermediate is a part of heme metabolism?",
+      "options": {
+        "A": "Alpha ketoglutarate",
+        "B": "Fumarate",
+        "C": "Succinyl CoA",
+        "D": "Malate"
+      },
+      "correct_answer": "C",
+      "explanation": "Succinyl CoA, an essential part for heme biosynthesis, is an intermediate of the TCA cycle. The synthesis of heme begins by condensation of succinyl CoA and glycine to form α-amino-β-ketoadipate, which is then converted to 8-aminolevulinate. These steps are mediated by the enzyme ALA synthase in the mitochondria. Various steps involved in the synthesis of heme are illustrated in the image given below: Heme biosynthesis Mitochondria Cytosol Glycine Succinyl-CoA ALA synthase 6-ALA Feedback inhibition 4x 8-Aminolevulinic acid (ALA) 2x ALA-dehydratase Porphobilinogen (PBG) Uroporphyrinogen-III synthase Heme 4 NH3 Ferrochelatase Fe2+ Hydroxymethylbilane (linear tetrapyrrol) Protoporphyrin-IX Protoporphyrinogen oxidase Protoporphyrinogen-IX Coproporphyrinogen oxidase Coproporphyrinogen-III Uroporphyrinogen-III synthase Spontaneous Uroporphyrinogen-III Uroporphyrinogen-I Uroporphyrinogen decarboxylase CO2-Coproporphyrinogen-III",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp3_img1_dc8e0f86.jpeg",
+      "chapter_heading": "Porphyrins and bile pigments"
+    },
+    {
+      "q_no": 4,
+      "question": "Which step of heme synthesis requires pyridoxal phosphate?",
+      "options": {
+        "A": "Succinyl CoA to α-amino-β-ketoadipate",
+        "B": "α-Amino-β-ketoadipate to ALA",
+        "C": "ALA to porphobilinogen",
+        "D": "Porphobilinogen to hydroxymethylbilane"
+      },
+      "correct_answer": "B",
+      "explanation": "Conversion of succinyl CoA to α-amino-β-ketoadipate requires pyridoxal phosphate. The first step of heme synthesis is the conversion of succinyl CoA to α-amino-β-ketoadipate. This reaction is dependent on pyridoxal phosphate. α-Amino-β-ketoadipate is rapidly decarboxylated to produce 8-aminolevulinate. It is catalyzed by mitochondrial ALA synthase. Succinyl-CoA + glycine → α-amino-β-ketoadipate + COA-SH → 8-aminolevulinate + CO2. Various steps involved in the synthesis of heme are illustrated in the image given below.",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp4_img1_5e571d34.jpeg",
+      "chapter_heading": "Porphyrins and bile pigments"
+    },
+    {
+      "q_no": 5,
+      "question": "Which of the following is the rate-limiting enzyme in the hepatic biosynthesis of heme?",
+      "options": {
+        "A": "ALA Synthase",
+        "B": "Uroporphyrinogen III synthase",
+        "C": "ALA dehydratase",
+        "D": "Ferrochelatase"
+      },
+      "correct_answer": "",
+      "explanation": "The rate-limiting enzyme in the hepatic biosynthesis of heme is mitochondrial ALA synthase.ALA synthase (ALAS) is a mitochondrial enzyme catalysing the conversion of succinyl CoA andglycine to ALA. There are two isozymes of ALA synthase. ALAS-1 is expressed throughout thebody. It is induced by drugs whose metabolism requires cytochromes (hemoprotein). Heme,probably acting through an aporepressor molecule, acts as a negative regulator of the synthesis ofALAS-1 i.e. ALAS-1 synthesis decreases in the presence of heme.ALAS-2 is expressed in the erythrocyte precursor cells. It is neither induced by drugs nor is itsfeedback regulated by heme.Heme biosynthesisMitochondriaCytosolGlycine4Succinyl-CoAPLP6-ALAALAsynthase6-Aminolevulinic acid(ALA)2xALA-dehydrataseFeedbackinhibition4xPorphobilinogen (PBG)Uroporphyrinogen-IsynthaseHeme4 NH3FerrochelataseFe2+Hydroxymethylbilane(linear tetrapyrrol)Protoporphyrin-IXProtoporphyrinogenoxidaseProtoporphyrinogen-IXCoproporphyrinogenoxidaseCoproporphyrinogen-IIIUroporphyrinogen-IIIsynthaseSpontaneous1Uroporphyrinogen-III Uroporphyrinogen-IUroporphyrinogendecarboxylaseCO2-Coproporphyrinogen-IIIMARROW272",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp5_img1_f83f32fd.jpeg",
+      "chapter_heading": "Porphyrins and bile pigments"
+    },
+    {
+      "q_no": 6,
+      "question": "A 44-year-old man with a past medical history of acute intermittent porphyria is planned forneurosurgery. Considering the risk of potential complications, the anaesthetist decides not touse barbiturates for induction. What is the biochemical basis behind the worsening ofporphyria by barbiturates?",
+      "options": {
+        "A": "Repression of ALA synthase",
+        "B": "De-repression of ALA synthase",
+        "C": "Inhibiton of ferrochelatase",
+        "D": "None of the above"
+      },
+      "correct_answer": "A",
+      "explanation": "The biochemical basis of worsening of porphyria by barbiturates is due to de-repression of ALAsynthase. De-repression is the removal of repression of an enzyme, or the induction of a blockedenzyme.Barbiturates are metabolized by microsomal CYP450, a heme-protein oxidase system found in theliver. In patients with porphyria, barbiturates precipitate an attack of porphyria by the followingmechanism:Effect of barbiturates on porphyriasBarbiturates increase the synthesis of CYP450Enhanced consumption of hemeDecrease in heme concentration in the liverDe-repression or induction of ALAS-1Increased synthesis of heme precursorsPrecipitation of porphyriaOMARROW",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp6_img1_738cb11c.jpeg",
+      "chapter_heading": "Porphyrins and bile pigments"
+    },
+    {
+      "q_no": 7,
+      "question": "A young patient came with complaints of acute abdominal pain on and off and tingling sensation of limbs and at times weakness of limbs. She had a history of eating paint from the wall of a newly built house. Which of the following enzyme defects will be the cause of her condition?",
+      "options": {
+        "A": "ALA synthase",
+        "B": "ALA dehydratase",
+        "C": "Heme synthase",
+        "D": "Coproporphyrinogen oxidase"
+      },
+      "correct_answer": "B",
+      "explanation": "A child with acute abdominal pain, tingling sensation, and weakness of limbs with a history of eating paint likely has lead poisoning. It is characterized by impaired ALA dehydratase enzyme activity. Lead is a potent inhibitor of both ALA dehydratase and ferrochelatase/heme synthase (option C). However, it has the greatest inhibitory action on ALA dehydratase. Lead poisoning thus leads to the buildup of protoporphyrin and ALA. Lead also substitutes for calcium in many fundamental cellular processes. It can cross red blood cell membranes as well as the blood-brain barrier and enter the neuroglial cells, which support brain function. The fatal dose of lead is 20g of lead acetate, and the fatal period is 1 to 2 days. Lead poisoning. Glycine + Succinyl CoA -> ALA Synthase -> ALA -> ALA Dehydratase -> Porphobilinogen -> Protoporphyrin IX -> Ferrochelatase -> Heme. MARROW: Accumulate in urine. Other options: Option A: ALA synthase 2 defect causes X-linked protoporphyria. Option C: Heme synthase, or ferrochelatase, defect causes erythropoietic protoporphyria. Option D: Coproporphyrinogen oxidase defect causes hereditary coproporphyria.",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp7_img1_55e4ae11.jpeg",
+      "chapter_heading": "Porphyrins and bile pigments"
+    },
+    {
+      "q_no": 8,
+      "question": "What is the by-product of the reaction catalyzed by cytosolic hydroxymethylbilane synthase in heme synthesis?",
+      "options": {
+        "A": "H2O",
+        "B": "NH3",
+        "C": "CO2",
+        "D": "CoA.SH"
+      },
+      "correct_answer": "B",
+      "explanation": "The by-product of the reaction catalyzed by cytosolic hydroxymethylbilane (HMB) synthase in heme synthesis is ammonia (NH3). HMB synthase is also known as porphobilinogen deaminase or uroporphyrinogen I synthase. It catalyzes the condensation of 4 molecules of porphobilinogen to release hydroxymethylbilane and 4 molecules of NH3. 4 Porphobilinogen + H2O --> Hydroxymethylbilane + 4 NH3. Heme biosynthesis: Mitochondria, Cytosol, Glycine + Succinyl-CoA, Porphobilinogen, ALA, Synthase, Feedback inhibition, Heme, Ferrochelatase, Fe2+, Protoporphyrin-IX, Protoporphyrinogen oxidase, Protoporphyrinogen-IX, Coproporphyrinogen oxidase, Coproporphyrinogen-III, 6-Aminolevulinic acid (ALA), 2x ALA-dehydratase, Porphobilinogen (PBG), 4x, 4 NH3, Uroporphyrinogen I synthase, Hydroxymethylbilane (linear tetrapyrrol), Uroporphyrinogen III synthase, Spontaneous, 7 Uroporphyrinogen-III, Uroporphyrinogen-I, Uroporphyrinogen decarboxylase, CO2, Coproporphyrinogen-III.",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp8_img1_648ec097.jpeg",
+      "chapter_heading": "Porphyrins and bile pigments"
+    },
+    {
+      "q_no": 9,
+      "question": "Which of the following enzymes catalyzes the cyclization of hydroxymethylbilane?",
+      "options": {
+        "A": "Uroporphyrinogen I synthase",
+        "B": "Uroporphyrinogen II synthase",
+        "C": "Uroporphyrinogen III synthase",
+        "D": "Uroporphyrinogen decarboxylase"
+      },
+      "correct_answer": "C",
+      "explanation": "Cyclization of hydroxymethylbilane (HMB) is catalyzed by uroporphyrinogen III synthase. HMB is cyclized to uroporphyrinogen III by uroporphyrinogen III synthase. Uroporphyrinogen III is the first porphyrin precursor in heme synthesis. Note: HMB can also cyclize spontaneously to form uroporphyrinogen I. But under normal circumstances, the porphyrinogen formed is predominantly uroporphyrinogen III. Heme biosynthesis: Mitochondria - Cytosol, Glycine + Succinyl-CoA -> ALA synthase -> 5-ALA -> 6-Aminolevulinic acid (ALA), 2x ALA -> ALA dehydratase, Feedback inhibition, 4x Porphobilinogen (PBG) -> Uroporphyrinogen-I synthase, Heme, 4 NH3, Ferrochelatase, Fe2+, Hydroxymethylbilane (linear tetrapyrrol) -> Protoporphyrin-IX, Protoporphyrinogen oxidase, Protoporphyrinogen-IX, Uroporphyrinogen-III synthase, Spontaneous -> Uroporphyrinogen-I, Uroporphyrinogen-III, Coproporphyrinogen oxidase, Coproporphyrinogen-III, Uroporphyrinogen decarboxylase, CO2, Coproporphyrinogen-III.",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp9_img1_5b385293.jpeg",
+      "chapter_heading": "Porphyrins and bile pigments"
+    },
+    {
+      "q_no": 10,
+      "question": "Which of the following porphyrias is not inherited in an autosomal dominant mode?",
+      "options": {
+        "A": "Erythropoietic protoporphyria",
+        "B": "Variegate porphyria",
+        "C": "Acute intermittent porphyria",
+        "D": "Hereditary coproporphyria"
+      },
+      "correct_answer": "A",
+      "explanation": "Erythropoietic protoporphyria is not transmitted in an autosomal dominant manner. Erythropoietic protoporphyria is an autosomal recessive disease caused by a defect in the enzyme ferrochelatase (FECH). It is the most common porphyria in children, who present with non-blistering photosensitivity. An increase in the ratio of free protoporphyrin to zinc-bound porphyrin in erythrocytes is the hallmark of this disease. The diagnosis is made by FECH mutation analysis. Note: Most porphyrias are autosomal dominant except: ALA dehydratase deficiency porphyria - autosomal recessive, Congenital erythropoietic porphyria - autosomal recessive, Erythropoietic protoporphyria - autosomal recessive, and X-linked protoporphyria.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Porphyrins and bile pigments"
+    },
+    {
+      "q_no": 11,
+      "question": "A 50-year-old man presents with a history of fatigue, dark-coloured urine andphotosensitivity. He consumes alcohol regularly. On examination, hyperpigmentation andscarring are present on the face and dorsum of the hand. Lab findings are given below. Whichof the following is the most likely diagnosis?",
+      "options": {
+        "A": "Acute intermittent porphyria",
+        "B": "Porphyria cutanea tarda",
+        "C": "Hereditary coproporphyria",
+        "D": "Variegate porphyria264"
+      },
+      "correct_answer": "B",
+      "explanation": "A middle-aged adult presenting with features of hemolysis and photosensitivity with elevatedurine uroporphyrin suggests a diagnosis of porphyria cutanea tarda.Porphyria cutanea tarda (PCT) is the most common porphyria. It is caused by the deficiency ofuroporphyrinogen decarboxylase, which converts uroporphyrinogen III to coproporphyrinogenIII. It is characterized by photosensivity, which manifests as blistering skin lesions on the back ofthe hands with crusting and scarring. It is associated with hemochromatosis and patients maydevelop chronic liver disease. There is increased excretion of uroporphyrin in the urine.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Porphyrins and bile pigments"
+    },
+    {
+      "q_no": 12,
+      "question": "A middle-aged female patient presented with intermittent abdominal pain, nausea, vomiting, constipation, and bilateral lower limb numbness for 3 days. On examination, she is thin and pale. Her vitals and lab findings are given below. Which of the following is the most likely diagnosis?",
+      "options": {
+        "A": "Hereditary coproporphyria",
+        "B": "Acute intermittent porphyria",
+        "C": "Porphyria cutanea tarda",
+        "D": "Variegate porphyria"
+      },
+      "correct_answer": "B",
+      "explanation": "An adult female with intermittent abdominal pain, nausea, vomiting, constipation, bilateral lower limb numbness with elevated urine ALA and porphobilinogen is most likely to have acute intermittent porphyria (AIP). AIP is a type of hepatic porphyria characterized by neurovisceral symptoms. AIP is caused by a defect in hydroxymethylbilane synthase, which converts porphobilinogen to hydroxymethylbilane. Patients present with abdominal pain, tachycardia, hypertension, and peripheral neuropathy. There is increased plasma and urinary ALA and porphobilinogen. Darkening of urine on exposure to air also occurs. Other options: Options A and D: Hereditary coproporphyria and variegate porphyria present with both photosensitivity and neurovisceral symptoms. The porphyrin intermediates appearing in urine help differentiate the two diseases. Option C: Porphyria cutanea tarda presents with blistering photosensitivity with vesicles and bullae formation.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Porphyrins and bile pigments"
+    },
+    {
+      "q_no": 13,
+      "question": "Which of the following is not a hepatic porphyria?",
+      "options": {
+        "A": "Variegate porphyria",
+        "B": "Acute intermittent porphyria",
+        "C": "Porphyria cutanea tarda",
+        "D": "Erythropoietic protoporphyria"
+      },
+      "correct_answer": "D",
+      "explanation": "Erythropoietic protoporphyria is not a type of hepatic porphyria. Porphyrias are classified into erythropoietic and hepatic porphyrias, based on the location of accumulation of heme pathway intermediates: \n   • Erythropoietic porphyrias: \n   • The overproduction of heme pathway intermediates occurs primarily in bone marrow erythroid cells. \n   • They are characterized by cutaneous symptoms and appear in early childhood. \n   • Examples: Congenital erythropoietic porphyria, erythropoietic protoporphyria, X-linked protoporphyria \n   • Hepatic porphyrias: \n   • The overproduction of heme pathway intermediates occurs primarily in the liver. \n   • Acute hepatic porphyrias are characterized by neurologic symptoms and present acutely. \n   Examples: Acute intermittent porphyria, hereditary coproporphyria, variegate porphyria, ALA dehydratase deficient porphyria \n   • Chronic hepatic porphyrias present in adulthood with photosensitivity. Example: Porphyria cutanea tarda",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Porphyrins and bile pigments"
+    },
+    {
+      "q_no": 14,
+      "question": "An infant presented with delayed eruption of her teeth. An image of her teeth are shownbelow. She also has history of blisters over the face, hands and feet on exposure to sunlightsince the first week of birth. What is the most likely diagnosis?265",
+      "options": {
+        "A": "Congenital erythropoietic porphyria",
+        "B": "Porphyria cutanea tarda",
+        "C": "Erythropoietic protoporphyria",
+        "D": "Acute intermittent porphyria"
+      },
+      "correct_answer": "A",
+      "explanation": "An infant with delayed eruption and reddish discoloration of teeth, and blisters over sun-exposedareas suggests a diagnosis of congenital erythropoietic porphyria.Congenital erythropoietic porphyria, also is known as Gunther's disease, is an autosomal recessiveporphyria. There is uroporphyrinogen III synthase deficiency, leading to uroporphyrin I andcoproporphyrin I accumulation in teeth, bone marrow, erythrocyte, plasma urine and feces.Infants present with port wine urine or pink stained diapers, severe cutaenous hypersensitivity,and reddish-brown teeth known as erythrodontia. When illuminated with UV light, the teeth showreddish fluorescence. It may cause non-immune hydrops in utero or shortly after birth in severecases.",
+      "image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/q14_img1_995d53d8.jpeg",
+      "explanation_image": null,
+      "chapter_heading": "Porphyrins and bile pigments"
+    },
+    {
+      "q_no": 15,
+      "question": "Which of the following porphyria is caused by a mutation of ALA synthase-2?",
+      "options": {
+        "A": "Acute intermittent porphyria",
+        "B": "Congenital erythropoietic porphyria",
+        "C": "X-linked protoporphyria",
+        "D": "Erythropoietic protoporphyria"
+      },
+      "correct_answer": "",
+      "explanation": "X-linked protoporphyria is caused by a mutation of ALA synthase-2.X-linked Protoporphyria is caused by a gain-of-function mutation, leading to the increased activityof ALA synthase-2. This results in increased ALA synthesis. Due to the saturation of iron,protoporphyrins are not converted to heme and thus protoporphyrins accumulate.ALA synthase-2 mutation is also seen in X-linked sideroblastic anemia. However, this is not aporphyria. X-linked sideroblastic anemia is due to loss-of-function mutation, leading to decreased277activity of ALA synthase-2 and decreased protoporphyrin synthesis.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Porphyrins and bile pigments"
+    },
+    {
+      "q_no": 16,
+      "question": "Which of the following enzyme is defective in variegate porphyria?",
+      "options": {
+        "A": "Coproporphyrinogen oxidase",
+        "B": "Protoporphyrinogen oxidase",
+        "C": "Uroporphyrinogen III synthase",
+        "D": "Uroporphyrinogen decarboxylase"
+      },
+      "correct_answer": "B",
+      "explanation": "Protoporphyrinogen oxidase enzyme is defective in variegate porphyria. Variegate porphyria is an autosomal dominant porphyria. Protoporphyrinogen IX accumulates in the urine. Patients present with acute attacks of abdominal pain and peripheral neuropathy. Cutaneous photosensitivity is also seen.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Porphyrins and bile pigments"
+    },
+    {
+      "q_no": 17,
+      "question": "Carbon monoxide is released in which of the following reactions?",
+      "options": {
+        "A": "Conversion of biliverdin to bilirubin",
+        "B": "Conversion of heme to biliverdin",
+        "C": "Conversion of bilirubin to bilirubin monoglucuronide",
+        "D": "Conversion of bilirubin monoglucuronide to bilirubin diglucuronide"
+      },
+      "correct_answer": "B",
+      "explanation": "The conversion of heme to biliverdin produces carbon monoxide.Heme oxygenase catabolises heme to biliverdin. Carbon monoxide and ferric iron are released inthe process. This is the only source of endogenous carbon monoxide in the body. Biliverdinreductase further converts biliverdin to bilirubin in an NADPH-dependent reaction. Ironproduced from this reaction is stored as ferritin.The process of heme catabolism occurs in the microsomal fraction (endoplasmic reticulum) ofreticuloendothelial cells.Note: 1 g of hemoglobin produces 35 mg of bilirubin. About 250-350 mg bilirubin is produceddaily in the adults.Steps in the breakdown of hemeZICOOHNFerric heme30+HOOOkCO+COOHHBiliverdinNADPHNADP-NHCOOHBiliverdinReductoseHOOOCOOHNBilirubinOMARROW",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp17_img1_982a6048.jpeg",
+      "chapter_heading": "Porphyrins and bile pigments"
+    },
+    {
+      "q_no": 18,
+      "question": "Which of the following is the site of bilirubin conjugation within the cell?",
+      "options": {
+        "A": "Cytoplasm",
+        "B": "Endoplasmic reticulum",
+        "C": "Mitochondria",
+        "D": "Golgi apparatus"
+      },
+      "correct_answer": "B",
+      "explanation": "The endoplasmic reticulum is the site for the conjugation of bilirubin.278Hepatocytes convert bilirubin to a polar form by a process called conjugation. UDP-glucuronicacid acts as a glucuronyl donor in this reaction. It initially produces bilirubin monoglucuronide.This is subsequently converted to bilirubin diglucuronide which is excreted in bile. Conjugation iscatalysed by the enzyme glucuronyl transferase, which is present in the endoplasmic reticulum.BloodBilirubin metabolismBilirubinAlbuminUDPglucuronatetepatocytHepatocyteBilecanaliculiUDPOATPRotor syndromeGlucuronidaacidGlucuronyltransferaseCrigler-Najjar,syndrome I and IIGilbert syndrome.Bilirubin diglucuronideMRP2©MARROWDubin-JohnsonsyndromeIntestine",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp18_img1_4665f550.jpeg",
+      "chapter_heading": "Porphyrins and bile pigments"
+    },
+    {
+      "q_no": 19,
+      "question": "Which of the following is the rate-limiting step for hepatic bilirubin metabolism?",
+      "options": {
+        "A": "Transport of bilirubin with albumin",
+        "B": "Uptake of bilirubin by liver",
+        "C": "Conjugation of bilirubin",
+        "D": "Secretion of conjugated bilirubin into the bile"
+      },
+      "correct_answer": "D",
+      "explanation": "The secretion of conjugated bilirubin into the bile is the rate-limiting step for hepatic bilirubinmetabolism.The secretion of conjugated bilirubin into the bile occurs by an active transport mechanism, whichinvolves multidrug resistance-associated protein 2 (MRP-2), also called multispecific organicanion transporter (MOAT). It is located in the plasma membrane of the bile canaliculi.BloodBilirubin metabolismBilirubinAlbuminOATPUDPglucuronateacidHepatocyteBilecanaliculiUDPRotor syndromelucvironGlucuronyltransferaseCrigler-Najjar,syndrome I and IIGilbert syndrome.Bilirubin diglucuronideMRP2OMARROW279Dubin-JohnsonsyndromeIntestine",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp19_img1_5a53ad7a.jpeg",
+      "chapter_heading": "Porphyrins and bile pigments"
+    },
+    {
+      "q_no": 20,
+      "question": "In a patient with jaundice which of the following tests can be used to determine serumbilirubin?",
+      "options": {
+        "A": "Ehrlich's test",
+        "B": "Van den Bergh test",
+        "C": "Hay's test",
+        "D": "Benedict's test267"
+      },
+      "correct_answer": "B",
+      "explanation": "Van den Bergh test can be used to determine the serum bilirubin level in a patient with jaundice.Van den Bergh reaction is a colorimetric method to measure serum bilirubin. It is based on theformation of red-purple azodipyrroles when diazotized sulfanilic acid reacts with bilirubin.Option A: Ehrlich's test is used to determine urinary and fecal urobilinogen.Option C: Hay's test is used for bile salts in the urine.Option D: Benedict's test is used to detect the presence of reducing sugars.Clinical conditionNormal serumHighconjugatedbilirubinEg:Obstructive jaundiceHighunconjugatedbilirubinEg: Hemolytic anemiaHighconjugatedandunconjugatedbilirubinEg: Hepatic jaundiceReaction with reagentInterpretationNo reactionNegativeReacts in the absence of metDirectpositivehanolReacts in the presence of met IndirectpositivhanoleReacts strongly both with and without methanolBiphasicreaction",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Porphyrins and bile pigments"
+    },
+    {
+      "q_no": 21,
+      "question": "A 65 year old man was admitted with generalised weakness, easy fatigability, itching andjaundice since 1 month. On examination, he was emaciated and had scratch marks all overthe body. A mass was palpable in the upper abdomen. Which of the following can be seen onVan den Bergh reaction?",
+      "options": {
+        "A": "Direct positive",
+        "B": "Indirect positive",
+        "C": "Biphasic reaction",
+        "D": "Negative"
+      },
+      "correct_answer": "A",
+      "explanation": "Generalised weakness, easy fatigability, itching and jaundice with a palpable upper abdominalmass is suggestive of pancreatic malignancy leading to obstructive jaundice. This gives a directpositive result on Van den Bergh reaction.In obstructive jaundice, obstruction of the biliary tree causes regurgitation of conjugated bilirubininto the blood. Patients present with itching, jaundice and pale coloured stools.Van den Bergh reaction is a colorimetric method to measure the serum bilirubin level. It is basedon the formation of red azodipyrroles when diazotized sulfanilic acid reacts with bilirubin.Clinical conditionNormal serumHighconjugatedbilirubineg:0bstructive jaundiceReaction with reagentNo reactionInterpretationNegativeReacts in the absence of methanolDirectpositiveIndirectpositivhanoleBiphasicreactionHighunconjugatedbilirubineg: Reacts in the presence of metHemolytic anemiaHighconjugatedandunconjugatedbilirubineg: Hepatic jaundiceReacts strongly both with and without methanol280",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Porphyrins and bile pigments"
+    },
+    {
+      "q_no": 22,
+      "question": "An adult male patient presents with yellow discoloration of the sclera. There was a history of recurrent mild jaundice since childhood. His lab values are mentioned below. A liver biopsy was performed which revealed normal liver architecture with coarse granular black pigmentation. The mutation of which protein is involved in the following condition?",
+      "options": {
+        "A": "OATP1B1",
+        "B": "BSEP",
+        "C": "MRP-3",
+        "D": "MRP-2"
+      },
+      "correct_answer": "D",
+      "explanation": "Yellow discoloration of the sclera with coarse granular black pigmentation of the liver is suggestive of Dubin-Johnson syndrome, characterized by a mutation in the MRP-2 protein. Dubin-Johnson syndrome is an autosomal recessive disorder with predominantly conjugated hyperbilirubinemia. It is due to a defect in the active transport of bilirubin across the canalicular membrane, due to a mutation in the MRP-2 protein. It is also known as black liver jaundice due to the accumulation of a dark pigment, derived from epinephrine metabolites, in the lysosomes of centrilobular hepatocytes. Bromosulfphalein test on plasma shows 2 peaks. Option A: OATP1B1 and OATP1B3 are mutated in Rotor syndrome. It is due to defective bilirubin excretion and causes conjugated hyperbilirubinemia. Option B: BSEP protein is mutated in progressive familial intrahepatic cholestasis (PFIC type-2) and benign recurrent intrahepatic cholestasis (BRIC-2). Option C: MRP-3 is mutated in PFIC type-3. Blood Bilirubin metabolism Bilirubin Albumin OATP UDPglucuronate Glucuronic acid Hepatocyte Glucuronyltransferase Bile canaliculi UDP Bilirubin diglucuronide MRP2 OMARROW Rotor syndrome Crigler-Najjar syndrome I and II Gilbert syndrome. Dubin-Johnson syndrome Intestine",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp22_img1_52860782.jpeg",
+      "chapter_heading": "Porphyrins and bile pigments"
+    },
+    {
+      "q_no": 23,
+      "question": "A young adult presents with yellowish discolouration of the skin and sclerae for the last 3days. He is otherwise asymptomatic. He had a viral fever one week ago which has nowresolved. Investigations reveal unconjugated hyperbilirubinemia. Which of the following istrue regarding this patient's condition?",
+      "options": {
+        "A": "BSEP protein is mutated",
+        "B": "Active transport of bilirubin is impaired due to MRP-2 mutation",
+        "C": "Promoter defect of UGT1A1 enzyme is the most common cause",
+        "D": "Missense mutation of transferase enzyme is the most common cause"
+      },
+      "correct_answer": "C",
+      "explanation": "A young adult with a short history of jaundice following a period of stress (viral fever) withunconjugated hyperbilirubinemia likely has Gilbert syndrome. Gilbert syndrome most commonlyoccurs due to promoter defect of the UGT1A1 enzyme.Gilbert syndrome is caused by a defect in the promoter region of the gene coding for theUDP-glucuronosyl transferase (UGT1A1) enzyme. This results in a variable rate of transcription ofthe normal enzyme. UGT1A1 activity is reduced to 10-33% of normal. It presents with periods ofmild unconjugated hyperbilirubinemia with other liver function tests being normal. The disorderis precipitated by stress, alcohol and reduced caloric intake.281Liver histology shows increased lipofuscin pigment. It responds well to phenobarbitone. Gilbert'ssyndrome doesn't require treatment. The bilirubin levels may fluctuate over time, and patientsmay occasionally have jaundice, which usually resolves on its own with no ill effects.BloodBilirubin metabolismBilirubinAlbuminUDPglucuronateHepatocyteBilecanaliculiUDPOATPRotor syndromeElucuroniacidGlucuronyltransferaseCrigler-Najjar,syndrome I and IIGilbert syndrome.Bilirubin diglucuronideMRP2OMARROWDubin-JohnsonsyndromeIntestine",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp23_img1_7f0f4b04.jpeg",
+      "chapter_heading": "Porphyrins and bile pigments"
+    },
+    {
+      "q_no": 24,
+      "question": "Which of the following is false regarding jaundice?",
+      "options": {
+        "A": "Urine bilirubin is absent in hemolytic jaundice",
+        "B": "Urine urobilinogen is increased in obstructive jaundice",
+        "C": "Crigler-Najjar syndrome presents with unconjugated hyperbilirubinemia",
+        "D": "Hepatocellular jaundice can have normal or decreased urine urobilinogen"
+      },
+      "correct_answer": "B",
+      "explanation": "Urine urobilinogen is not increased in obstructive jaundice. Obstructive jaundice has the following features: \n      • Absent urinary urobilinogen: In complete obstruction of the biliary tree, conjugated bilirubin cannot enter the intestine. Thus, it is not metabolized by the intestinal flora and urobilinogen is not formed.\n      • Increased serum direct bilirubin: Due to obstruction in the biliary tree, the bilirubin conjugates diffuse into the blood causing conjugated hyperbilirubinemia.\n      • Increased urine bilirubin: Conjugated bilirubin is water-soluble and thus appears in the urine in excess amounts.\n      Option A: Urine bilirubin is absent in hemolytic jaundice because unconjugated bilirubin is not water-soluble.\n      Option C: Crigler-Najjar syndrome, due to absent UGT1A1 activity, presents with raised unconjugated bilirubin.\n      Option D: Hepatocellular jaundice can have decreased urine urobilinogen if micro-obstruction occurs due to swollen, damaged hepatocytes.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Porphyrins and bile pigments"
+    }
+  ]
+}

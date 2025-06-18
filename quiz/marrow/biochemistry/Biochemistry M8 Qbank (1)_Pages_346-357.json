@@ -1,0 +1,200 @@
+{
+  "chapter": "Hematopoietic and other vitamins",
+  "questions": [
+    {
+      "q_no": 1,
+      "question": "Which of the following vitamins contains cobalt as a part of its structure?",
+      "options": {
+        "A": "Vitamin B1",
+        "B": "Vitamin B2",
+        "C": "Vitamin B6",
+        "D": "Vitamin B12"
+      },
+      "correct_answer": "D",
+      "explanation": "Vitamin B12 contains corrin rings with cobalt as a part of its structure, hence this group of vitamins are referred to as cobalamins. Vitamin B12 is derived mainly from animal products such as meat, fish, eggs, and fortified cereals. There are no plant sources as such for vitamin B12 / cobalamine, hence strict vegetarians are at risk of developing a nutritional deficiency of vitamin B12. Vitamin B12 deficiency is associated with defects in RBC production leading to megaloblastic anemia.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Hematopoietic and other vitamins"
+    },
+    {
+      "q_no": 2,
+      "question": "Which of the following patients is likely to develop vitamin B12 deficiency?",
+      "options": {
+        "A": "A 40-year-old male with a segmental resection of primary duodenal cancer",
+        "B": "An intestinal obstruction case with jejunectomy due to a necrotic segment",
+        "C": "A 30-year-old patient who had his ileum removed due to Crohn's disease",
+        "D": "A 62-year-old patient who underwent colectomy for ulcerative colitis"
+      },
+      "correct_answer": "C",
+      "explanation": "A 30-year-old patient who had his ileum removed due to Crohn's disease is likely to develop a vitamin B12 deficiency. Vitamin B12 is absorbed from the distal third of the ileum via receptors known as cubulin, which binds the intrinsic factor-vitamin B12 complex. Dietary vitamin B12 is normally bound to proteins in food. Pepsin and gastric acid in the stomach degrade these food proteins and release vitamin B12. The free vitamin B12 then binds to a salivary glycoprotein called haptocorrin (R-binder). In the alkaline pH of the duodenum, pancreatic proteases degrade the haptocorrin, and vitamin B12 is released again. It then binds tightly to intrinsic factor (IF), a glycoprotein secreted by the parietal cells of the stomach; this binding takes place in the duodenum. The IF-vitamin B12 complex reaches the terminal ileum and attaches to a receptor on the enterocyte, from where it is absorbed. Vitamin B12 is transported in the blood bound to a carrier protein called transcobalamin II and delivered to the peripheral tissues. Absorption sites: Iron - Duodenum; Folate - Jejunum; Vit B12 - Ileum. Absorption of vitamin B12: Proteins - Vitamin B - Dietary intake. Duodenum - Proteases - Ileum - Pancreas - Salivary gland - R-Protein - Gastric parietal cells - Pepsin - R-B₁ complex - Splitting of R-B complex - Ileal cell - Blood - Portal vein - Transcobalamin II - Bone marrow - Intrinsic factor - IF-B complex",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp2_img1_20a2acea.jpeg",
+      "chapter_heading": "Hematopoietic and other vitamins"
+    },
+    {
+      "q_no": 3,
+      "question": "A 45-year-old patient came with complaints of easy fatigability and palpitations. On examination, she had pallor. Methylmalonic acid excretion in the urine was estimated as a part of evaluation. This can be utilized to assess the nutritional status of which vitamin?",
+      "options": {
+        "A": "Vitamin B12",
+        "B": "Folic acid",
+        "C": "Niacin",
+        "D": "Iron"
+      },
+      "correct_answer": "A",
+      "explanation": "The above scenario suggests anemia and methylmalonic acid excretion in the urine can be utilized to assess the nutritional status of Vitamin B12. Methylmalonyl-CoA mutase is a Vitamin B12-dependent enzyme. The activity of methylmalonyl-CoA mutase is greatly reduced in Vitamin B12 deficiency, leading to an accumulation of methylmalonic acid and its excretion in urine. There are two Vitamin B12-dependent enzymes: Methionine synthase (homocysteine methyltransferase): catalyzes the conversion of homocysteine to methionine; Methylmalonyl CoA mutase: methylmalonyl CoA, formed as an intermediate in the catabolism of valine, isoleucine, and propionyl CoA, is converted to succinyl CoA. Note: Urinary excretion of methylmalonic acid is also used to differentiate between megaloblastic anemia due to folate and Vitamin B12 deficiency.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Hematopoietic and other vitamins"
+    },
+    {
+      "q_no": 4,
+      "question": "Folate trap occurs due to the deficiency of which of the following vitamins?",
+      "options": {
+        "A": "Pyridoxine",
+        "B": "Vitamin B12",
+        "C": "Niacin",
+        "D": "Folic acid"
+      },
+      "correct_answer": "B",
+      "explanation": "Folate trap occurs in the deficiency of vitamin B12. Methionine-S-adenosylmethionine-Methionine-Folate Cycle: Folate-Tetrahydrofolate-Serine-Glycine-S-adenosylhomocysteine-Methionine synthase (vitamin B12)-5,10 methylenetetrahydrofolate-Homocysteine-Serine-5 methyltetrahydrofolate-Cystathionine-β synthase (vitamin B6)-Cystathionine-Cysteine. The conversion of 5,10-methylene-THF into 5-methyl-THF (methyltetrahydrofolate) is an irreversible process. The major source of tetrahydrofolate for tissues is 5-methyl-THF. The only way to make further use of 5-methyl-THF and to maintain the folate cycle is by the vitamin B12-dependent remethylation of homocysteine to methionine by methionine synthase enzyme. Decreased activity of methionine synthase in vitamin B12 deficiency results in the accumulation of methyltetrahydrofolate that cannot be used, resulting in a folate trap. The folate cycle provides a link between the functions of folate and vitamin B12, where vitamin B12 deficiency causes a functional deficiency of folate.",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp4_img1_fe5fb4e1.jpeg",
+      "chapter_heading": "Hematopoietic and other vitamins"
+    },
+    {
+      "q_no": 5,
+      "question": "A young woman presents with increasing fatigue, numbness, and tingling in the legs. She started following a vegan diet 4 years ago. On examination, glossitis is seen, and hyperreflexia is present in the lower limbs. Lab investigations revealed the following. Which of the following findings is not seen in this condition?",
+      "options": {
+        "A": "Decreased homocysteine levels",
+        "B": "Positive Romberg sign",
+        "C": "Optic atrophy",
+        "D": "Dementia"
+      },
+      "correct_answer": "A",
+      "explanation": "The clinical scenario of a patient on a vegan diet now presenting with glossitis of the tongue, hyperreflexia, and numbness and tingling in the legs is suggestive of vitamin B12 deficiency. Decreased homocysteine levels are not seen in this condition. Rather, increased homocysteine levels are seen. Vitamin B12 is a cofactor of methionine synthase and methylmalonyl CoA mutase. Methionine synthase is required for the conversion of homocysteine to methionine, which is the principal methyl donor. In vitamin B12 deficiency, defective methionine synthase leads to the following: 1. In the absence of methionine, there is decreased methylation in the CNS. This leads to defective synthesis of myelin and neurotransmitters, which results in the following symptoms: Posterolateral cord degeneration: It presents as loss of proprioception and vibration, positive Romberg sign, ataxia, hyperreflexia, spasticity. Dementia leading to cognitive impairment. Peripheral neuropathy: presenting as muscle weakness, paresthesia. Optic atrophy. 2. Homocysteine accumulates in the blood, conferring an increased risk of cardiovascular disease. 3. Megaloblastic anemia: The availability of 5,10-methylene THF is reduced, which is required in the conversion of deoxyuridine monophosphate (dUMP) to thymidine monophosphate (TMP) for DNA synthesis. This leads to macrocytic anemia with megaloblasts in the bone marrow. Methionine-Folate Cycle: Methionine -> S-adenosylmethionine -> S-adenosylhomocysteine -> Homocysteine -> Serine -> Tetrahydrofolate. Methionine synthase (vitamin B12) -> 5-methyltetrahydrofolate. Cystathionine beta synthase (vitamin B6) -> Cystathionine -> Cysteine. MARROW: Glycine -> 5,10 methylenetetrahydrofolate -> methylenetetrahydrofolate reductase.",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp5_img1_e5222adf.jpeg",
+      "chapter_heading": "Hematopoietic and other vitamins"
+    },
+    {
+      "q_no": 6,
+      "question": "Which of the following are vitamin-B12 dependent enzymes?",
+      "options": {
+        "A": "1, 2, 3 and 4",
+        "B": "1 and 4 only",
+        "C": "1 and 3 only",
+        "D": "1, 2, and 3"
+      },
+      "correct_answer": "B",
+      "explanation": "Among the given enzymes, methyl malonyl CoA isomerase and methionine synthase are vitamin B12-dependent enzymes. There are two vitamin B12-dependent enzymes: • Methionine synthase (homocysteine methyltransferase): catalyzes the conversion of homocysteine to methionine. • Methylmalonyl CoA mutase: methylmalonyl CoA, formed as an intermediate in the catabolism of valine, isoleucine, and propionyl CoA, is converted to succinyl CoA. The below figure shows B12 serving as a cofactor of methionine synthase. Its deficiency may cause a folate trap. Methionine S-adenosylmethionine Methionine- Folate Cycle Folate I Tetrahydrofolate Serine Glycine S-adenosylhomocysteine Methionine synthase (vitamin B12) 5,10 methylenetetrahydrofolate Homocysteine Serine 5 methyltetrahydrofolate Cystathionine β synthase (vitamin B6) Cystathionine Cysteine",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp6_img1_2eb360f6.jpeg",
+      "chapter_heading": "Hematopoietic and other vitamins"
+    },
+    {
+      "q_no": 7,
+      "question": "A patient presented with symptoms of peripheral neuropathy and macrocytic anemia. She was given folate 5mg and the blood picture improved. However, the neurologic manifestations were aggravated. What is the most likely cause?",
+      "options": {
+        "A": "Malabsorption of folate",
+        "B": "Treatment with folate unmasking pyridoxine deficiency",
+        "C": "Deficiency of folate reductase in CNS",
+        "D": "Folate therapy using the B12 stores"
+      },
+      "correct_answer": "D",
+      "explanation": "The most likely cause is folate therapy which used up the B12 stores, aggravating the symptoms. Administration of folic acid for patients with macrocytic anemia can partially reverse the hematologic abnormalities associated with vitamin B12 deficiency. However, the neurologic manifestations of vitamin B12 deficiency are not treated by folic acid. Administration of folic acid to an individual with vitamin B12 deficiency can potentially mask untreated vitamin B12 deficiency or even worsen the neurologic complications. Hence, testing for and/or treatment of vitamin B12 deficiency is required in all patients being treated with folic acid. Supplemental folic acid can prevent macrocytic anemia, thus hiding vitamin B12 deficiency. Untreated vitamin B12 deficiency can cause irreversible nerve damage. Folic acid from food and supplements, active folate, proteins, amino acids, methionine, inactive folate: this form of folate, needed for the synthesis of DNA, cannot be made if vitamin B12 is deficient. The resulting folate deficiency causes macrocytic anemia. B12, homocysteine, vitamin B6, cysteine: folate and vitamin B12 are both needed to convert homocysteine to methionine. When either is deficient, homocysteine levels rise. MARROW: high blood levels in the blood increase cardiovascular disease risk.",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp7_img1_84ee6e28.jpeg",
+      "chapter_heading": "Hematopoietic and other vitamins"
+    },
+    {
+      "q_no": 8,
+      "question": "Which of the following vitamins serves as a carrier for one carbon atom?",
+      "options": {
+        "A": "Thiamine",
+        "B": "Niacin",
+        "C": "Folic acid",
+        "D": "Pantothenic acid"
+      },
+      "correct_answer": "C",
+      "explanation": "Folic acid serves as a carrier of one carbon atom. Tetrahydrofolate receives one-carbon fragments from donors such as serine, glycine, and histidine and transfers them to intermediates in the synthesis of amino acids, purines, and pyrimidines. The manifestations of folic acid deficiency include: Megaloblastic anemia, Homocystinemia, Neural tube defect (spina bifida, anencephaly). Sources of one carbon: Glycine, Serine, Formimino THF. Sources and utilization of one carbon atom: Folate, Methionine, Methionine synthase, Homocysteine, THF, Vitamin B12, Methylene THF, Methenyl THF, Methyl THF, DNA synthesis (TMP synthesis), Histidine, Formyl THF, purine ring, Tryptophan. Note: The major point of entry for one-carbon fragments, in one-carbon metabolism, is methylenetetrahydrofolate.",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp8_img1_3cec8585.jpeg",
+      "chapter_heading": "Hematopoietic and other vitamins"
+    },
+    {
+      "q_no": 9,
+      "question": "Which of the following vitamins serves as a coenzyme in transamination reactions?",
+      "options": {
+        "A": "Thiamine",
+        "B": "Riboflavin",
+        "C": "Pyridoxine",
+        "D": "Biotin"
+      },
+      "correct_answer": "C",
+      "explanation": "Pyridoxal phosphate (PLP), an active form of pyridoxine, serves as a coenzyme in transamination reactions. Pyridoxal phosphate (PLP) is a coenzyme for enzymes involved in the following: Transamination, Decarboxylation, Glycogenolysis: Glycogen phosphorylase, Transsulfuration reaction: Cystathionine beta-synthase and cystathionase, Heme synthesis: ALA synthase (deficiency causes microcytic hypochromic anemia), Tryptophan metabolism: Kynureninase (deficiency causes pellagra-like symptoms). Note: Pyridoxal phosphate (PLP) serves as a coenzyme in many amino acid metabolisms, so its RDA mainly depends on daily protein intake.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Hematopoietic and other vitamins"
+    },
+    {
+      "q_no": 10,
+      "question": "Which of the following vitamins is not required in the TCA cycle?",
+      "options": {
+        "A": "Thiamine",
+        "B": "Niacin",
+        "C": "Riboflavin",
+        "D": "Pyridoxine"
+      },
+      "correct_answer": "D",
+      "explanation": "Pyridoxine is not required in the TCA cycle. Vitamins, in the form of their respective coenzymes, are required for the proper functioning of the TCA cycle. The following vitamins are needed in the TCA cycle: Thiamine as TPP, for decarboxylation in the alpha-ketoglutarate dehydrogenase reaction; Riboflavin as FAD and FMN, for succinate dehydrogenase; Niacin as NAD and NADH, for isocitrate dehydrogenase, alpha-ketoglutarate dehydrogenase, and malate dehydrogenase; Pantothenic acid as a part of Coenzyme A helps to form acetyl-CoA and succinyl-CoA.",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp10_img1_e97cff66.jpeg",
+      "chapter_heading": "Hematopoietic and other vitamins"
+    },
+    {
+      "q_no": 11,
+      "question": "A 45-year-old man is undergoing treatment for pulmonary tuberculosis. During one of his follow-ups, it was noted that he is taking pyridoxine tablets in excess. Which of the following symptoms is he most likely to develop?",
+      "options": {
+        "A": "Dementia",
+        "B": "Hallucinations",
+        "C": "Sensory neuropathy",
+        "D": "Nystagmus"
+      },
+      "correct_answer": "C",
+      "explanation": "Excess pyridoxine (vitamin B6) causes sensory neuropathy. It occurs at intakes above 2 g/day. There are only two B-complex vitamins that cause toxicity: Niacin: It is associated with: prostaglandin-mediated cutaneous flushing, fulminant hepatitis (most fatal manifestation), glucose intolerance. Pyridoxine: It is associated with sensory neuropathy.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Hematopoietic and other vitamins"
+    },
+    {
+      "q_no": 12,
+      "question": "Which of the following enhances iron absorption?",
+      "options": {
+        "A": "Vitamin A",
+        "B": "Vitamin C",
+        "C": "Thiamine",
+        "D": "Riboflavin"
+      },
+      "correct_answer": "B",
+      "explanation": "Iron absorption is enhanced by Vitamin C. Vitamin C reduces the ferric iron to its ferrous form, thereby helping in the process of absorption of dietary iron from the intestine. Vitamin C deficiency causes decreased absorption of iron leading to microcytic-hypochromic anemia; decreased hydroxylation of proline and lysine, which results in defective collagen synthesis and bleeding manifestations. Conversely, Vitamin C toxicity (>2000 mg/day) can lead to iron overloaded states. Note: Alcohol and fructose also enhance iron absorption. However, the absorption of both inorganic and heme iron is impaired by calcium. So, a glass of milk with a meal significantly reduces iron availability.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Hematopoietic and other vitamins"
+    },
+    {
+      "q_no": 13,
+      "question": "Which of the following is false about scurvy?",
+      "options": {
+        "A": "Microcytic anemia can be seen",
+        "B": "The beading on ribs is non-tender and round",
+        "C": "Patient can present with pseudoparalysis",
+        "D": "There is impaired formation of mature connective tissue"
+      },
+      "correct_answer": "B",
+      "explanation": "The beading of ribs in scurvy is sharp and tender. A deficiency state of vitamin C results in scurvy. The clinical features are: fatigue, irritability, loss of appetite, loose and spongy gums along with loose teeth, swollen joints, perifollicular hemorrhages, bleeding into the skin - ecchymosis, purpura, petechiae, pseudoparalysis, microcytic anemia (due to decreased absorption of iron from the intestine), and scorbutic rosary - sharp, tender beading at the costochondral junctions. Many of the deficiency symptoms can be attributed to deficient collagen synthesis caused by an inability to hydroxylate the prolyl and lysyl residues of collagen.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Hematopoietic and other vitamins"
+    }
+  ]
+}

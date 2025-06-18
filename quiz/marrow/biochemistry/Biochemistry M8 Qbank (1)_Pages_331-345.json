@@ -1,0 +1,305 @@
+{
+  "chapter": "Energy releasing vitamins",
+  "questions": [
+    {
+      "q_no": 1,
+      "question": "Which of the following multienzyme complexes catalyzing decarboxylation reactions does not require thiamine as a coenzyme?",
+      "options": {
+        "A": "Pyruvate dehydrogenase",
+        "B": "α-ketoglutarate dehydrogenase",
+        "C": "Branched-chain keto-acid dehydrogenase",
+        "D": "Isocitrate dehydrogenase"
+      },
+      "correct_answer": "D",
+      "explanation": "Isocitrate dehydrogenase does not require thiamine as a coenzyme because it catalyzes an oxidation reaction, not a decarboxylation reaction that involves thiamine pyrophosphate.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Energy releasing vitamins"
+    },
+    {
+      "q_no": 2,
+      "question": "Which of the following co-enzyme deficiencies makes a patient prone to lactic acidosis?",
+      "options": {
+        "A": "Thiamine",
+        "B": "Riboflavin",
+        "C": "Biotin",
+        "D": "Niacin"
+      },
+      "correct_answer": "A",
+      "explanation": "Thiamine (Vitamin B1) deficiency makes a patient prone to lactic acidosis. Thiamine pyrophosphate (TPP) serves as a coenzyme for the pyruvate dehydrogenase enzyme. In a state of thiamine deficiency, there is an impaired conversion of pyruvate to acetyl CoA. When the patient consumes a high carbohydrate diet, there is thus an accumulation of pyruvate. Pyruvate then gets converted into lactate by the enzyme lactate dehydrogenase. This results in increased plasma concentrations of lactate and pyruvate, leading to a state of lactic acidosis.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Energy releasing vitamins"
+    },
+    {
+      "q_no": 3,
+      "question": "What is the reason behind decreased energy production in thiamine deficiency?",
+      "options": {
+        "A": "It is required for transamination reactions",
+        "B": "It is the coenzyme for pyruvate dehydrogenase",
+        "C": "It is the coenzyme for transketolase",
+        "D": "It is required in the process of oxidative reduction"
+      },
+      "correct_answer": "B",
+      "explanation": "Decreased energy production is seen in thiamine deficiency because it acts as a coenzyme for pyruvate dehydrogenase and α-ketoglutarate dehydrogenase. Both pyruvate dehydrogenase and α-ketoglutarate dehydrogenase are required for the production of NADH, which is used for ATP production. In thiamine deficiency, the reaction catalyzed by pyruvate dehydrogenase cannot go forward. Hence, there is no formation of acetyl CoA, causing decreased substrate for the citric acid cycle. As a result, energy (ATP) production is grossly reduced and instead, lactic acidosis is seen.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Energy releasing vitamins"
+    },
+    {
+      "q_no": 4,
+      "question": "A man with chronic alcoholism presented with orthopnea and pedal edema. On investigation, cardiomegaly is noted. Which vitamin deficiency can lead to this presentation?",
+      "options": {
+        "A": "Vitamin B1",
+        "B": "Vitamin B12",
+        "C": "Vitamin B5",
+        "D": "Vitamin B6"
+      },
+      "correct_answer": "A",
+      "explanation": "Cardiac failure (orthopnea and pedal edema) and cardiomegaly in a patient with chronic alcoholism suggest a diagnosis of wet beriberi. Thiamine (Vitamin B1) deficiency leads to this condition. Chronic alcohol consumption is associated with thiamine deficiency due to inadequate dietary intake, malabsorption of thiamine from the gastrointestinal tract, and impaired utilization of thiamine in the cells. This deficiency presents as: • Wet beriberi: The cardiovascular system is affected. Patients present with high output cardiac failure (orthopnea, pedal edema), dyspnea, cardiomegaly, and pulmonary edema. • Dry beriberi: Both the peripheral and central nervous systems are affected. Patients present with symmetric motor and sensory neuropathy (pain, paresthesia, loss of reflexes) especially in the lower limbs. In severe cases, muscle atrophy may also be seen.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Energy releasing vitamins"
+    },
+    {
+      "q_no": 5,
+      "question": "Which of the following enzyme activity assays can be used for the diagnosis of a patient with suspected thiamine deficiency?",
+      "options": {
+        "A": "Pyruvate dehydrogenase",
+        "B": "Erythrocyte transketolase",
+        "C": "α-ketoglutarate dehydrogenase",
+        "D": "RBC glutathione reductase"
+      },
+      "correct_answer": "B",
+      "explanation": "Erythrocyte transketolase activity can be measured to diagnose thiamine deficiency. Thiamine pyrophosphate (TPP) is the cofactor of erythrocyte transketolase, which is involved in the non-oxidative phase of the HMP pathway. In thiamine or vitamin B1 deficiency, the value of erythrocyte transketolase activity will be decreased.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Energy releasing vitamins"
+    },
+    {
+      "q_no": 6,
+      "question": "A middle-aged man with a history of chronic alcohol consumption presented to the casualty with confusion, ataxia, and diplopia. What is the protocol to treat this patient?",
+      "options": {
+        "A": "Thiamine injection followed by glucose infusion",
+        "B": "Glucose infusion followed by thiamine injection",
+        "C": "Glucose infusion alone",
+        "D": "Thiamine injection alone"
+      },
+      "correct_answer": "A",
+      "explanation": "Diplopia, ataxia, and confusion in a patient with chronic alcohol consumption is suggestive of Wernicke's encephalopathy. The current standard of treatment for patients with symptoms of Wernicke's encephalopathy is to give thiamine 100 mg intravenously before administering glucose-containing IV fluids. Thiamine deficiency leads to the following: • Wernicke's encephalopathy: It is more commonly seen in alcoholics with chronic thiamine deficiency. It is characterized by global confusion, truncal ataxia, ophthalmoplegia, and horizontal nystagmus. • Korsakoff psychosis: Symptoms in addition to those of Wernicke's encephalopathy include memory loss and confabulation. • Beriberi: It can be either - • Dry beriberi: Sensorimotor peripheral neuropathy, muscle weakness • Wet beriberi: Tachycardia, cardiomegaly, high-output cardiac failure",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Energy releasing vitamins"
+    },
+    {
+      "q_no": 7,
+      "question": "FMN and FAD coenzymes are derived from which of the following vitamins?",
+      "options": {
+        "A": "Niacin",
+        "B": "Vitamin B1",
+        "C": "Riboflavin",
+        "D": "Vitamin B5"
+      },
+      "correct_answer": "C",
+      "explanation": "Coenzymes flavin mononucleotide (FMN) and flavin adenine dinucleotide (FAD) are derived from riboflavin (vitamin B2). FMN-coenzyme is part of complex I (also known as NADH-Q oxidoreductase, NADH dehydrogenase) in the electron transport chain (ETC). It also acts as a coenzyme for L-amino acid oxidase. FAD-coenzyme is part of complex II in ETC. It acts as a coenzyme for succinate dehydrogenase (Krebs' cycle), acyl CoA dehydrogenase (fatty acid oxidation), D-amino acid oxidase, and xanthine oxidase.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Energy releasing vitamins"
+    },
+    {
+      "q_no": 8,
+      "question": "A young lady presented with a tingling sensation in her legs and hands. On examination, she had a fissured tongue, lips, and lesions in the angle of the mouth. On investigation, she had low RBC glutathione reductase activity. Which vitamin is most likely deficient in this patient?",
+      "options": {
+        "A": "Vitamin B12",
+        "B": "Vitamin B3",
+        "C": "Niacin",
+        "D": "Riboflavin"
+      },
+      "correct_answer": "D",
+      "explanation": "Tingling sensation of legs and hands, fissured tongue and lips, and lesions in the angle of the mouth combined with low RBC glutathione reductase activity is consistent with riboflavin (vitamin B2) deficiency. Deficiency state of riboflavin, a water-soluble vitamin, is characterized by the following signs and symptoms: • Cheilosis: Pallor in the angle of mouth and fissuring of lips, which extends radially to skin • Glossitis: Tongue becomes smooth, loss of papilla causing magenta-colored tongue • Eyes: Keratitis, conjunctivitis, and corneal vascularization • Other features: Seborrheic dermatitis, anemia. The nutritional status of riboflavin can be assessed by measuring the activity of the RBC glutathione reductase, by FAD added in vitro. This test is specific for riboflavin deficiency.",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp8_img1_a3b61b6c.jpeg",
+      "chapter_heading": "Energy releasing vitamins"
+    },
+    {
+      "q_no": 9,
+      "question": "A man presents with rashes around the neck, as shown in the image below. Dietary history reveals that he has consumed jowar for a long duration. Which vitamin is most likely deficient in this patient?",
+      "options": {
+        "A": "Vitamin B5",
+        "B": "Vitamin B1",
+        "C": "Vitamin B3",
+        "D": "Vitamin B7"
+      },
+      "correct_answer": "C",
+      "explanation": "A patient with high intake of jowar and characteristic Casal's necklace pattern rash is most likely suffering from pellagra. It is caused due to a deficiency of vitamin B3, known as niacin. Pellagra, or niacin deficiency, presents with 3 classical Ds - dermatitis (photosensitive), diarrhea, and dementia. Patients often have the Casal collar or Casal necklace. It is a clinical sign in which there is an erythematous pigmented skin rash in the distribution of a broad collar (dermatomes C3 and C4). If left untreated, pellagra leads to the 4th D of death. Jowar (sorghum) has high leucine content. This inhibits QPRTase, an enzyme responsible for the synthesis of niacin from amino acid tryptophan. Excessive consumption of maize-based diets can also cause pellagra due to their low levels of niacin and tryptophan.",
+      "image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/q9_img1_275e5959.jpeg",
+      "explanation_image": null,
+      "chapter_heading": "Energy releasing vitamins"
+    },
+    {
+      "q_no": 10,
+      "question": "A farmer presents with loose stools, depression, and photosensitive dermatitis as shown in the image. On examination, a red beefy tongue is noted. Which of the following is not associated with this presentation?",
+      "options": {
+        "A": "Hartnup disease",
+        "B": "Carcinoid syndrome",
+        "C": "Wernicke's encephalopathy",
+        "D": "Pyridoxine deficiency"
+      },
+      "correct_answer": "C",
+      "explanation": "Loose stools, depression, beefy red tongue and Casal's necklace, as seen in the image, is suggestive of pellagra. Pellagra-like symptoms are not seen in Wernicke's encephalopathy. Pellagra is caused by niacin deficiency, either due to dietary deficiency or deficient conversion of tryptophan to niacin. Hence, pellagra-like symptoms are seen in: Hartnup disease: It is an autosomal recessive disease caused by mutations in the SLC6A19 gene leading to defective membrane transport of tryptophan across PCT (kidney) and enterocytes (intestine). This leads to malabsorption, and hence deficiency of tryptophan. Carcinoid syndrome: Due to excess conversion of tryptophan to serotonin, there is a decreased level of tryptophan available for niacin synthesis. Pyridoxine deficiency: Pyridoxine is required as the co-factor of kynureninase, an enzyme in the pathway of niacin synthesis. Maize/corn rich diet: In these grains, niacin is in bound form (niacytin form) and is not absorbed. Jowar diet (Sorghum): The increased leucine content inhibits QPRTase enzyme, an enzyme in the pathway of niacin synthesis.",
+      "image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/q10_img1_9f8a6c96.jpeg",
+      "explanation_image": null,
+      "chapter_heading": "Energy releasing vitamins"
+    },
+    {
+      "q_no": 11,
+      "question": "A 45-year-old woman with hypertriglyceridemia is considered for niacin therapy. She is a known diabetic managed adequately with sugars well under control. Why should niacin be used cautiously in this patient?",
+      "options": {
+        "A": "It can cause hyperglycemia.",
+        "B": "It can cause scleroderma, which makes injecting insulin difficult.",
+        "C": "It can increase the metabolism of oral hypoglycemic drugs.",
+        "D": "It can cause hypoglycemia."
+      },
+      "correct_answer": "A",
+      "explanation": "Niacin should be used cautiously in diabetics as it can cause hyperglycemia. Niacin induces insulin resistance and also decreases glucose-stimulated insulin secretion, which may result in severe hyperglycemia. When niacin is prescribed for patients with known or suspected diabetes, blood glucose levels should be monitored at least once a week.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Energy releasing vitamins"
+    },
+    {
+      "q_no": 12,
+      "question": "An alcoholic patient presented with itchy lesions as shown in the image. He also has a red-colored beefy tongue. Which of the following histories would you like to additionally ask/elicit in this patient?",
+      "options": {
+        "A": "Ask for diarrhea and history of memory loss",
+        "B": "Ask for diarrhea, thiamine deficiency features, and detailed dietary history",
+        "C": "History of allergy",
+        "D": "Ask for diarrhea and conjunctivitis"
+      },
+      "correct_answer": "B",
+      "explanation": "An alcoholic patient with a red-colored beefy tongue, itching, and the characteristic Casal's necklace, shown in the image, is suggestive of pellagra. It is caused by niacin/vitamin B3 deficiency. Hence, one should ask for a history of diarrhea and memory loss in this case. Pellagra presents with 4 Ds: Diarrhea, Dermatitis, Dementia, and if untreated, Death. Early symptoms of pellagra are loss of appetite, generalized weakness and irritability, abdominal pain, and vomiting. Photosensitive dermatitis is seen over sun-exposed areas. Diarrhea occurs due to proctitis or malabsorption. Bright red glossitis (beefy tongue) and Casal's necklace (a pigmented, scaly skin rash that forms a ring around the neck) follow. Depressive psychosis and dementia also commonly occur. Corn/maize/jowar-based diets are the main causes of niacin deficiency. Corn/maize lacks niacin and tryptophan. The excess leucine in jowar and maize disrupts the conversion of tryptophan to niacin. Niacin deficiency is also seen in alcoholism. Hence, additional histories of diarrhea and memory loss will aid in supporting the diagnosis of pellagra (along with dietary history). Treatment includes oral supplementation with 100-200 mg of nicotinamide or nicotinic acid three times daily for 5 days. Option B: Thiamine deficiency (vitamin B1) features include CVS manifestations like heart failure and edema (wet beriberi), peripheral neuritis (dry beriberi), and Wernicke encephalopathy (in alcoholics). Option C: Dermatitis seen in pellagra is due to dietary deficiency of niacin and so allergy history is not relevant. Option D: Conjunctivitis is not a feature of niacin deficiency.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Energy releasing vitamins"
+    },
+    {
+      "q_no": 13,
+      "question": "A middle-aged man comes for routine follow-up. His lipid profile shows hypercholesterolemia, hypertriglyceridemia, elevated LDL and VLDL. Which of the following vitamins can be used to treat this patient?",
+      "options": {
+        "A": "Riboflavin",
+        "B": "Pantothenic acid",
+        "C": "Nicotinic acid",
+        "D": "Pyridoxine"
+      },
+      "correct_answer": "C",
+      "explanation": "A man with hypercholesterolemia, hypertriglyceridemia, elevated LDL and VLDL should be treated with a lipid-lowering agent. Thus, the vitamin that can be used to treat this patient is nicotinic acid (niacin or vitamin B3). Niacin causes a reduction in LDL, VLDL, and triglycerides along with increasing HDL. It is the only lipid-lowering agent that lowers lipoprotein (a) levels significantly. The main adverse effect of niacin is cutaneous flushing and pruritus. It can be controlled by pre-treatment with aspirin.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Energy releasing vitamins"
+    },
+    {
+      "q_no": 14,
+      "question": "A patient is prescribed niacin for treating his hyperlipidemia. All of the following statements about this drug are true except:",
+      "options": {
+        "A": "It inhibits lipolysis in adipose tissue",
+        "B": "It causes a reduction in the liver TAG synthesis",
+        "C": "It reduces the level of HDL",
+        "D": "It reduces the level of LDL"
+      },
+      "correct_answer": "C",
+      "explanation": "Niacin increases the level of HDL. Niacin (vitamin B3) is known to inhibit lipolysis within the adipose tissue. Hence, the circulating free fatty acids (FFAs) are reduced. The liver normally uses these circulating FFAs as a precursor in the synthesis of triacylglycerol (TAG). As a result, niacin causes a reduction in liver TAG synthesis. TAGs are in turn required for very low-density lipoprotein (VLDL) and low-density lipoprotein (LDL) synthesis. Therefore, both plasma VLDL and LDL values are reduced. Overall, niacin decreases LDL, VLDL, and TAG levels, and increases high-density lipoprotein (HDL) levels. Thus, it is particularly useful in the treatment of type IIb hyperlipoproteinemia, in which both VLDL and LDL are elevated.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Energy releasing vitamins"
+    },
+    {
+      "q_no": 15,
+      "question": "Which of the following vitamins constitutes a part of the coenzyme A?",
+      "options": {
+        "A": "Thiamine",
+        "B": "Riboflavin",
+        "C": "Pantothenic acid",
+        "D": "Pyridoxine"
+      },
+      "correct_answer": "C",
+      "explanation": "Pantothenic acid constitutes a part of the coenzyme A. The primary function of coenzyme A (pantothenic acid) is to transfer acyl groups. Pantothenic acid as coenzyme A is involved in: • Fatty acid oxidation • TCA cycle (as succinyl Co-A and acetyl Co-A) • Cholesterol synthesis (as HMG Co-A) • Acetylation reactions",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Energy releasing vitamins"
+    },
+    {
+      "q_no": 16,
+      "question": "Burning feet syndrome is caused by a particular vitamin deficiency. Which of the following amino acids is contained in this vitamin?",
+      "options": {
+        "A": "Phenylalanine",
+        "B": "Arginine",
+        "C": "Beta-alanine",
+        "D": "Tryptophan"
+      },
+      "correct_answer": "C",
+      "explanation": "The vitamin that is deficient in burning feet syndrome is vitamin B5 (pantothenic acid), which contains the amino acid beta-alanine. Pantothenic acid deficiency is rarely seen as the vitamin is abundantly found in food (egg yolks, whole grains, vegetables). Burning feet syndrome is classically seen in pantothenic acid deficiency. The other symptoms of pantothenic deficiency are non-specific and include GI disturbances, paresthesia, muscle cramps, and ataxia. Beta-alanine is an amino acid seen in: Pantothenic acid (vitamin B5), Coenzyme A, Carnosine, Anserine, and Acyl carrier protein.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Energy releasing vitamins"
+    },
+    {
+      "q_no": 17,
+      "question": "Which of the following vitamins serves as a cofactor in carboxylation reactions?",
+      "options": {
+        "A": "Thiamine",
+        "B": "Riboflavin",
+        "C": "Pyridoxine",
+        "D": "Biotin"
+      },
+      "correct_answer": "D",
+      "explanation": "Biotin serves as an important cofactor in carboxylation reactions. Biotin (vitamin B7) functions as a carrier for the activated carbon dioxide molecule in carboxylation reactions. The enzymes using biotin as a cofactor are acetyl CoA carboxylase, pyruvate carboxylase, propionyl CoA carboxylase, and methyl crotonyl CoA carboxylase. Malic enzyme and carbamoyl phosphate synthetase I and II do not use biotin as a coenzyme. Gamma carboxylation by vitamin K is also biotin-independent.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Energy releasing vitamins"
+    },
+    {
+      "q_no": 18,
+      "question": "A 20-year-old bodybuilder presented with fatigue on moderate exercise. He had recently started eating raw eggs for protein. Which of the following enzymes is likely deficient in him?",
+      "options": {
+        "A": "Glucose-6-phosphatase",
+        "B": "Glycogen phosphorylase",
+        "C": "Pyruvate carboxylase",
+        "D": "Phosphoenolpyruvate carboxykinase"
+      },
+      "correct_answer": "C",
+      "explanation": "The patient developed pyruvate carboxylase enzyme deficiency. Individuals who eat an excess of uncooked egg-white develop biotin deficiency and, as a result, carboxylase enzyme deficiency. This is because a protein called avidin, present in the egg-white, binds to biotin in the diet and makes biotin unavailable for intestinal absorption. Biotin deficiency can cause dermatitis, mental status changes (depression, hallucinations), paresthesia, and alopecia. Biotin serves as a co-enzyme for the synthesis of several carboxylase enzymes, such as acetyl-CoA carboxylase, pyruvate carboxylase, propionyl CoA carboxylase, and methylcrotonyl-CoA carboxylase. Thus, these enzymes are deficient in biotin deficiency.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Energy releasing vitamins"
+    },
+    {
+      "q_no": 19,
+      "question": "Vitamin B12 is found maximally in:",
+      "options": {
+        "A": "Animal products",
+        "B": "Green leafy vegetables",
+        "C": "Roots and tubers",
+        "D": "Vegetarian diet"
+      },
+      "correct_answer": "A",
+      "explanation": "Vitamin B12 is found maximally in animal products. Vitamin B12 or cobalamin is synthesized only by microorganisms. Thus, the only source of cobalamin for humans is animal products. It is not found in plant sources. Therefore, individuals who are strict vegetarians are usually at the risk of developing vitamin B12 deficiency.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Energy releasing vitamins"
+    },
+    {
+      "q_no": 20,
+      "question": "Which vitamin, when infused in supraphysiological doses, causes macular edema and macular cysts?",
+      "options": {
+        "A": "Vitamin A",
+        "B": "Vitamin D",
+        "C": "Vitamin E",
+        "D": "Vitamin B3"
+      },
+      "correct_answer": "D",
+      "explanation": "Macular cysts and edema may develop in patients due to the infusion of supraphysiological doses of vitamin B3 (niacin toxicity). The toxic effects of niacin include: \n   • Flushing associated with skin dryness, itching, paresthesia, and headache is seen. These effects may be seen with even a low dose of 30 mg/day. Pre-medication with aspirin alleviates these symptoms as these symptoms are mediated by prostaglandins.\n   • Macular edema and macular cysts\n   • Nausea, vomiting, and abdominal pain.\n   • Hepatic toxicity presents as jaundice with elevated AST and ALT levels.\n   • Fulminant hepatitis requiring liver transplantation.\n   • Glucose intolerance\n   • Hyperuricemia",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Energy releasing vitamins"
+    }
+  ]
+}

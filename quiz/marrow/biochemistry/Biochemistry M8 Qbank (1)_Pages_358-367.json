@@ -1,0 +1,200 @@
+{
+  "chapter": "Antioxidants & Minerals",
+  "questions": [
+    {
+      "q_no": 1,
+      "question": "Which of the following is not a reactive oxygen species?",
+      "options": {
+        "A": "Superoxide",
+        "B": "Glutathione",
+        "C": "Hydroxyl radical",
+        "D": "Oxygen singlet"
+      },
+      "correct_answer": "B",
+      "explanation": "Glutathione is an antioxidant, not a reactive oxygen species.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Antioxidants & Minerals"
+    },
+    {
+      "q_no": 2,
+      "question": "Which of the following methods is not used for the measurement of body free radical burden?",
+      "options": {
+        "A": "Ferrous oxidation in xylenol assay",
+        "B": "Measurement of pentane and methane in exhaled air",
+        "C": "Estimation of dialdehydes",
+        "D": "Direct assay of free radicals"
+      },
+      "correct_answer": "D",
+      "explanation": "Direct assay of free radicals is not used for the measurement of total body free radical burden. This is because free radicals are extremely reactive and short-lived. Free radical activity is usually assessed by indirect methods. Thus, the total body free radical burden can be estimated by measuring the products of lipid peroxidation using the following methods: • FOX (Ferrous oxidation in xylenol orange) assay • Estimation of dialdehydes: The dialdehydes formed from lipid peroxides can be measured by reaction with thiobarbituric acid. • Measurement of pentane and methane in exhaled air. Note: Radical damage to unsaturated fatty acids in cell membranes and plasma lipoproteins leads to the formation of lipid peroxides.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Antioxidants & Minerals"
+    },
+    {
+      "q_no": 3,
+      "question": "Which of the following is a chain-breaking antioxidant?",
+      "options": {
+        "A": "Glutathione peroxidase",
+        "B": "Vitamin E",
+        "C": "Catalase",
+        "D": "Selenium"
+      },
+      "correct_answer": "B",
+      "explanation": "Vitamin E is a chain-breaking antioxidant. Antioxidants are used to control and reduce lipid peroxidation, during which reactive oxygen species (ROS) are formed. Antioxidants thus fall into two classes: • Preventive: These reduce the rate of chain initiation of lipid peroxidation. • Chain-breaking: These interfere with the chain propagation phase of lipid peroxidation.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Antioxidants & Minerals"
+    },
+    {
+      "q_no": 4,
+      "question": "Which of the following kills lipid-engorged macrophages? a) Esterified cholesterol b) Unesterified cholesterol c) Unesterified lipoprotein d) Esterified lipoprotein. A child is brought to the clinic due to repeated episodes of ear and lung infections. History and investigations have revealed a deficiency of the enzyme responsible for respiratory burst in the neutrophils. Which of the following enzyme is deficient?",
+      "options": {
+        "A": "Catalase",
+        "B": "NADPH oxidase",
+        "C": "Superoxide dismutase",
+        "D": "Myeloperoxidase"
+      },
+      "correct_answer": "B",
+      "explanation": "Lipid-engorged macrophages are killed by unesterified cholesterol. Free radicals can damage the proteins and lipids in plasma low-density lipoprotein (LDL). They are chemically modified to form abnormal LDL, which are not recognized by the liver LDL receptors. Thus, abnormal LDL is not cleared by the liver and is instead taken up by macrophage scavenger receptors. These lipid-engorged macrophages infiltrate the blood vessel endothelium. These macrophages are then killed by the high content of unesterified cholesterol they have accumulated. This causes the development of atherosclerotic plaques, which, over time, can completely occlude a blood vessel.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Antioxidants & Minerals"
+    },
+    {
+      "q_no": 6,
+      "question": "Which of the following acts as a lipid-soluble radical-trapping antioxidant?",
+      "options": {
+        "A": "Ascorbate",
+        "B": "Uric acid",
+        "C": "Polyphenols",
+        "D": "Ubiquinone"
+      },
+      "correct_answer": "D",
+      "explanation": "Ubiquinone acts as a lipid-soluble radical-trapping antioxidant. Lipid-soluble radical-trapping antioxidants, like ubiquinone and carotenes, trap radicals in plasma membranes and plasma lipoproteins. The water-soluble radical-trapping antioxidants are ascorbate, uric acid, and polyphenols derived from plant foods.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Antioxidants & Minerals"
+    },
+    {
+      "q_no": 7,
+      "question": "A middle-aged obese woman had elevated liver enzymes on routine follow-up. A USG showed grade 2 fatty liver. She is non-diabetic, non-hypertensive, and has never consumed alcohol. Which of the following can be considered as a first-line pharmacological treatment option for this patient?",
+      "options": {
+        "A": "Vitamin B6",
+        "B": "Selenium",
+        "C": "Vitamin E",
+        "D": "Vitamin C"
+      },
+      "correct_answer": "C",
+      "explanation": "An obese woman with grade 2 fatty liver in the absence of alcohol consumption is suggestive of non-alcoholic steatohepatitis (NASH). Vitamin E is considered as a first-line pharmacological treatment option for NASH in non-diabetics when diet and lifestyle changes have failed. Vitamin E is well tolerated and shows modest improvements in aminotransferase levels, radiographic features of hepatic steatosis, and/or histologic features of NASH. It is important to note that vitamin E must be considered only for non-diabetic patients due to cardiovascular risks with chronic vitamin E therapy. Note: The FDA in 2024 has approved Resmetirom, a thyroid hormone receptor-beta (THR-beta) agonist for noncirrhotic NASH with moderate to advanced fibrosis.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Antioxidants & Minerals"
+    },
+    {
+      "q_no": 8,
+      "question": "A homeless man is brought to the ER by the police after he was found shouting unnecessarily at people in a nearby area. He is confused and has slurred speech. His blood ethanol levels are 220 mg/dl and his glucose levels are 45 mg/dL. The toxic effects of the substance consumed by this patient are due to which of the following?",
+      "options": {
+        "A": "Decreased lactate/pyruvate ratio",
+        "B": "Stimulation of gluconeogenesis",
+        "C": "Increased NADH/NAD+ ratio",
+        "D": "Stimulation of fatty acid oxidation"
+      },
+      "correct_answer": "C",
+      "explanation": "Confusion and slurred speech with elevated blood ethanol levels suggest ethanol intoxication. The toxicity of ethanol is due to the increased NADH/NAD+ ratio. Ethanol is metabolized in the liver by alcohol dehydrogenase. This reaction generates NADH. A high concentration of NADH leads to a high NADH/NAD+ ratio. Due to this, the metabolic reactions that require NAD+ are inhibited. This is the basic cause of all the metabolic effects of alcohol. Glycolysis, citric acid cycle, and fatty acid oxidation are inhibited. Ketogenesis is favored. Pyruvate is shunted for lactate synthesis due to an abundance of NADH, and the lactate/pyruvate ratio increases. Thus, gluconeogenesis, which requires pyruvate as a substrate, is inhibited. This leads to hypoglycemia.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Antioxidants & Minerals"
+    },
+    {
+      "q_no": 9,
+      "question": "An infant is brought to the pediatric clinic with symptoms of diarrhea, hair loss, and failure to thrive. On clinical examination, there is inflammation of the skin around the mouth and the perianal region. Which mineral deficiency is responsible for this disease?",
+      "options": {
+        "A": "Zinc",
+        "B": "Selenium",
+        "C": "Chromium",
+        "D": "Copper"
+      },
+      "correct_answer": "A",
+      "explanation": "An infant with diarrhea, hair loss, failure to thrive, and dermatitis around orifices likely has acrodermatitis enteropathica, which is due to the deficiency of zinc. Acrodermatitis enteropathica is an autosomal recessive disease due to a defect in a zinc-absorbing transmembrane protein. Affected infants present with growth retardation, diarrhea, alopecia, gonadal atrophy, muscle wasting, and impaired wound healing. A rash is classically present. It involves the extremities, face, and perineum and is characterized by vesicular and pustular crusting with scaling and erythema. Acrodermatitis enteropathica: Before treatment, After zinc treatment.",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp9_img1_92d0ea21.jpeg",
+      "chapter_heading": "Antioxidants & Minerals"
+    },
+    {
+      "q_no": 10,
+      "question": "Zinc is a cofactor of which of the following enzymes?",
+      "options": {
+        "A": "Xanthine oxidase",
+        "B": "Glutathione peroxidase",
+        "C": "Carbonic anhydrase",
+        "D": "Lysyl oxidase"
+      },
+      "correct_answer": "C",
+      "explanation": "Zinc acts as a cofactor for carbonic anhydrase. Zinc is a component of many metalloenzymes, including carbonic anhydrase II. Zinc also has antioxidant activity as extracellular superoxide dismutase is zinc-dependent. Chronic zinc deficiency can cause stunted growth, hypogeusia (decreased taste sensation), impaired immune function, hypogonadism, and hypopigmented hair. Acrodermatitis enteropathica is an autosomal recessive disorder characterized by abnormalities in zinc absorption.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Antioxidants & Minerals"
+    },
+    {
+      "q_no": 11,
+      "question": "Which of the following enzyme actions is not affected in a patient with Menke's disease?",
+      "options": {
+        "A": "Superoxide dismutase",
+        "B": "Dopamine hydroxylase",
+        "C": "Glutathione peroxidase",
+        "D": "Amine oxidase"
+      },
+      "correct_answer": "C",
+      "explanation": "In a patient with Menke's disease, glutathione peroxidase action is not affected. Menke's disease, or kinky/steely hair syndrome, is an X-linked recessive condition where there is a mutation in the ATP7A gene. This leads to defective copper-binding P-type ATPase, and copper is not mobilized from the intestine. Thus, copper deficiency occurs, and enzymes containing copper are affected, like superoxide dismutase, dopamine hydroxylase, and amine oxidase. Glutathione peroxidase is not affected since it requires selenium in the form of selenocysteine. Other copper deficiency disorders include Wilson's disease and MEDNIK syndrome. Wilson's disease is an autosomal recessive disorder due to an ATP7B mutation, a gene encoding for copper-transporting ATPase in the cells. There is defective biliary copper excretion from liver cells, leading to copper deposits in the liver and brain. MEDNIK syndrome is a rare multisystem disorder of copper metabolism with features of both Wilson's and Menke's disease. Note: Other enzymes requiring copper are ferroxidase (ceruloplasmin), cytochrome c oxidase, tyrosinase (melanin synthesis), lysyl oxidase (cross-linking in collagen). It is also a component of ferroportin, which is involved in iron absorption.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Antioxidants & Minerals"
+    },
+    {
+      "q_no": 12,
+      "question": "An exchange student from China presented to the ER with features of heart failure. On treatment, he was stabilized and later reported that he is a known case of Keshan disease. This disease is due to a deficiency of which of the following?",
+      "options": {
+        "A": "Thiamine",
+        "B": "Selenium",
+        "C": "Zinc",
+        "D": "Copper"
+      },
+      "correct_answer": "B",
+      "explanation": "Keshan disease is due to a deficiency of selenium. Selenium is an important trace element that is a part of the 21st amino acid selenocysteine. There are many selenium-containing enzymes, such as glutathione peroxidase, de-iodinase, and thioredoxin reductase. Selenium is also an intracellular antioxidant that complements the role of Vitamin E. Dietary sources of selenium include seafood, muscle meat, and some cereals. Selenium deficiency leads to Keshan disease and Kashin-Beck disease. Keshan disease is an endemic cardiomyopathy found in children and young women residing in regions of China where dietary intake of selenium is low. Kashin-Beck disease is a chronic, endemic osteoarthropathy seen in regions of China and Russia. Chronic ingestion of high amounts of selenium leads to selenosis or selenium toxicity, characterized by hair and nail brittleness, garlic breath odor, myopathy, irritability, and other abnormalities of the nervous system.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Antioxidants & Minerals"
+    },
+    {
+      "q_no": 13,
+      "question": "Magnesium does not have a role in which of the following processes?",
+      "options": {
+        "A": "Calcium homeostasis",
+        "B": "Maintenance of normal cardiac rhythm",
+        "C": "Copper metabolism",
+        "D": "Neuromuscular function"
+      },
+      "correct_answer": "C",
+      "explanation": "Magnesium has no role in copper metabolism. Magnesium is a major intracellular cation required for the function of various enzymes, such as hexokinase, phosphofructokinase, alkaline phosphatase, and enolase. The role of magnesium can be seen in the following processes: \n   • Calcium homeostasis: One-half of the total body magnesium is located in bone. Magnesium is important for parathyroid hormone secretion, which controls the serum Ca2+ level. \n   • Neuromuscular function: \n   • Hypomagnesemia may cause generalized alterations in neuromuscular function, including tetany, tremor, and seizures. \n   • Hypermagnesemia is known to cause symptoms of neuromuscular blockade, such as hypoactive tendon reflexes and GI hypomotility, and paralysis. \n   • Maintenance of cardiac rhythm: \n   • Hypomagnesemia can lead to supraventricular and ventricular arrhythmias. \n   • Hypermagnesemia can cause bradycardia, heart block, and asystole. \n   Magnesium deficiency symptoms are similar to those of calcium deficiency, but symptoms will be relieved only when magnesium is given. Oral administration of magnesium may lead to diarrhea; hence, intravenous magnesium sulfate is given.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Antioxidants & Minerals"
+    },
+    {
+      "q_no": 14,
+      "question": "An adolescent boy presents with jaundice and tiredness. On investigation, his AST was 150 IU/L, ALT was 175 IU/L and bilirubin was 4.5 mg/dl. Serum ceruloplasmin levels were found to be low. Which of the following minerals is used in the treatment of this condition?",
+      "options": {
+        "A": "Copper",
+        "B": "Zinc",
+        "C": "Magnesium",
+        "D": "Molybdenum"
+      },
+      "correct_answer": "B",
+      "explanation": "An adolescent with jaundice, elevated AST, ALT and low serum ceruloplasmin likely has Wilson's disease. Zinc is used in the treatment of this condition. Wilson's disease is an autosomal recessive disorder. It is characterized by mutations of the ATP7B gene, resulting in decreased biliary copper excretion and ceruloplasmin formation. The accumulation of copper leads to liver disease, hemolysis, a movement disorder, neurologic disease, and/or psychiatric illness. Elemental zinc is commonly used as a maintenance therapy along with chelating agents. Zinc acts by blocking the intestinal absorption of copper. It can also be used as first-line therapy in pregnancy.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Antioxidants & Minerals"
+    }
+  ]
+}
