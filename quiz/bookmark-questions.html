@@ -92,8 +92,6 @@
     }
 
     function removeBookmark(platform, subject, qNo) {
-      if (!confirm('Remove this question from bookmarks?')) return;
-      
       const saved = localStorage.getItem('quizBookmarks');
       let bookmarks = saved ? JSON.parse(saved) : [];
       
