@@ -1,0 +1,350 @@
+{
+  "chapter": "Metabolism of Acylglycerols and Sphingolipids",
+  "questions": [
+    {
+      "q_no": 1,
+      "question": "What type of lipid is triacylglycerol?",
+      "options": {
+        "A": "Glycerolipid",
+        "B": "Glycerophospholipid",
+        "C": "Glycolipid",
+        "D": "Sterol lipid"
+      },
+      "correct_answer": "A",
+      "explanation": "Triacylglycerol is a type of glycerolipid, which consists of a glycerol molecule bonded to three fatty acid chains.",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp1_img1_38bffd22.png",
+      "chapter_heading": "Metabolism of Acylglycerols and Sphingolipids"
+    },
+    {
+      "q_no": 2,
+      "question": "Which is the first step for catabolism of triacylglycerol?",
+      "options": {
+        "A": "Decarboxylation",
+        "B": "Hydrolysis",
+        "C": "Oxidation",
+        "D": "Dehydrogenation"
+      },
+      "correct_answer": "B",
+      "explanation": "The first step for the catabolism of triacylglycerol is hydrolysis. Triacylglycerols must be hydrolyzed by lipase to their constituent fatty acids and glycerol before further catabolism. Hydrolysis (lipolysis) occurs in adipose tissue with the release of free fatty acids into the plasma. Free fatty acids combine with albumin to reach various tissues, where they are oxidized to obtain energy or re-esterified.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Metabolism of Acylglycerols and Sphingolipids"
+    },
+    {
+      "q_no": 3,
+      "question": "Which of the following organs can catabolize the glycerol component of triacylglycerol?",
+      "options": {
+        "A": "2, 3, 4",
+        "B": "1, 2, 3, 5",
+        "C": "1, 3, 4, 5",
+        "D": "1, 2, 3, 4, 5"
+      },
+      "correct_answer": "B",
+      "explanation": "White adipose tissue cannot catabolize the glycerol component of triacylglycerol. The utilization of glycerol depends upon whether the tissue has the enzyme glycerol kinase. It is found in the liver, kidney, intestine, brown adipose tissue, and the lactating mammary gland. However, white adipose tissue lacks glycerol kinase.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Metabolism of Acylglycerols and Sphingolipids"
+    },
+    {
+      "q_no": 4,
+      "question": "Which of the following represents the structure of a phospholipid?",
+      "options": {
+        "A": "Glycerol + phosphate + choline or ethanolamine",
+        "B": "Monoglyceride + phosphate + choline or ethanolamine",
+        "C": "Diglyceride + phosphate + choline or ethanolamine",
+        "D": "Triglyceride + phosphate + choline or ethanolamine"
+      },
+      "correct_answer": "C",
+      "explanation": "Phospholipid consists of diglyceride + phosphate + choline or ethanolamine. A phospholipid, such as lecithin or cephalin, is any lipid consisting of a diglyceride combined with a phosphate group. A simple organic molecule such as choline or ethanolamine is attached to the phosphate group. A diglyceride is a glycerol molecule with 2 fatty acids attached to it. Hydrophilic head Hydrophobic tails Phosphate CH2CH-CH2 Glycerol-0-m Saturated fatty acid Unsaturated fatty acid",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp4_img1_2408c061.jpeg",
+      "chapter_heading": "Metabolism of Acylglycerols and Sphingolipids"
+    },
+    {
+      "q_no": 5,
+      "question": "Which of the following is not a phospholipid?",
+      "options": {
+        "A": "Plasmalogen",
+        "B": "Dipalmitoyl lecithin",
+        "C": "Ceramide",
+        "D": "Cardiolipin"
+      },
+      "correct_answer": "C",
+      "explanation": "Ceramide is not a phospholipid. Ceramide consists of sphingosine and a fatty acid (ceramide = sphingosine + fatty acid). It can be a component of a phospholipid, e.g., sphingomyelin, which consists of ceramide, phosphoric acid, and choline. It is also a component of non-phosphorylated compound lipids like cerebrosides, globosides, and gangliosides. These are fatty acids esterified with an alcohol and contain other groups. Option A: Plasmalogens are a class of glycerophospholipids that contain a vinyl-ether.",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp5_img1_32afcc2b.jpeg",
+      "chapter_heading": "Metabolism of Acylglycerols and Sphingolipids"
+    },
+    {
+      "q_no": 6,
+      "question": "A 1.5 kg male baby was delivered vaginally at 32 weeks of gestation. The infant was cyanotic and required CPAP immediately after delivery. His chest radiograph is shown below. A deficiency of which of the following is the likely cause for the condition?",
+      "options": {
+        "A": "Phosphatidylethanolamine",
+        "B": "Dipalmitoyl phosphatidylcholine",
+        "C": "Diphosphatidyl glycerol",
+        "D": "Phosphatidylinositol"
+      },
+      "correct_answer": "B",
+      "explanation": "A preterm infant requiring resuscitation at birth with cyanosis and diffuse bilateral opacities on chest radiography is suggestive of infant respiratory distress syndrome. It is caused by a deficiency of dipalmitoyl phosphatidylcholine. Dipalmitoyl lecithin or dipalmitoylphosphatidylcholine (DPPC) is a major component of lung surfactant. In DPPC, positions 1 and 2 on the glycerol are occupied by palmitate. Surfactant is secreted by the type 2 pneumocytes in the alveoli. It reduces surface tension at the air-liquid interface of the alveolus and increases compliance. Mature levels of surfactant are present after 35 weeks of gestation. Thus, preterm babies are at risk of surfactant deficiency, leading to infant respiratory distress syndrome. Lung maturity of the fetus can be assessed by determining the ratio of lecithin to sphingomyelin (L:S ratio) in the amniotic fluid. A ratio of >2 indicates maturity. Other options - Option 1: Phosphatidylethanolamine, also called cephalin, is found in the cell membranes of nervous tissue, particularly in the brain. Option 3: Diphosphatidyl glycerol, also called cardiolipin, is found in the inner membrane of mitochondria and plays a key role in apoptosis. Option 4: Phosphatidylinositol present in the cell membrane acts as a precursor of hormone secondary messengers and platelet-activating factor.",
+      "image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/q6_img1_75108a33.jpeg",
+      "explanation_image": null,
+      "chapter_heading": "Metabolism of Acylglycerols and Sphingolipids"
+    },
+    {
+      "q_no": 7,
+      "question": "What is the location of phospholipid synthesis?",
+      "options": {
+        "A": "Rough endoplasmic reticulum",
+        "B": "Smooth endoplasmic reticulum",
+        "C": "Golgi apparatus",
+        "D": "Mitochondria"
+      },
+      "correct_answer": "B",
+      "explanation": "The location of phospholipid synthesis is the smooth endoplasmic reticulum. Once synthesized, the phospholipids are transported into the Golgi apparatus, and further across cell membranes, to be extruded out of the cell by the process of exocytosis.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Metabolism of Acylglycerols and Sphingolipids"
+    },
+    {
+      "q_no": 8,
+      "question": "Which of the following is the common intermediate in the biosynthesis of triacylglycerols andphosphoglycerols?",
+      "options": {
+        "A": "Phosphatidate",
+        "B": "Acyl CoA",
+        "C": "Acetyl CoA",
+        "D": "Plasmalogen"
+      },
+      "correct_answer": "A",
+      "explanation": "The common intermediate in the biosynthesis of triacylglycerols and phosphoglycerols isphosphatidate.Acyl-CoA combines with glycerol-3-phosphate in two successive reactions to form phosphatidateor 1,2-diacylglycerol phosphate. 1,2- diacylglycerol phosphate contributes its phospahate for theformation of phosphatidyl inositol and becomes 1,2-diacylglycerol.The 1,2-diacylglycerol is either converted to triacylgycerol by diacylglycerol acyl transferase, orreacts with CDP-choline or CDP-ethanolamine to form the phospholipids phosphatidylcholine orphosphatidylethanolamine.(Note: Phosphoglycerol is the glycerol ester of phosphoric acid and is a component ofphospholipids).Acylglycerol synthesisGlycerol-3-phosphateDihydroxyacetone phosphatePhosphatidatePlasmalogensPlatelet-activating factorDiacylglycerolCardiolipinPhosphatidylinositolPhosphatidylcholinePhosphatidylethanolamineTriacylglycerolPhosphatidylinositol4,5-bisphosphateOMARROW",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp8_img1_3b6319f7.jpeg",
+      "chapter_heading": "Metabolism of Acylglycerols and Sphingolipids"
+    },
+    {
+      "q_no": 9,
+      "question": "Which of the following is the composition of the phospholipid cephalin?",
+      "options": {
+        "A": "Phosphatidylserine",
+        "B": "Phosphatidylethanolamine",
+        "C": "Phosphatidylcholine",
+        "D": "Phosphatidylinositol"
+      },
+      "correct_answer": "B",
+      "explanation": "Phosphatidylethanolamine is the composition of the phospholipid cephalin. Cephalin is a phospholipid composed of ethanolamine and phosphatidic acid. Thus, it is also known as phosphatidylethanolamine. It is found in cell membranes.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Metabolism of Acylglycerols and Sphingolipids"
+    },
+    {
+      "q_no": 10,
+      "question": "Which of the following phospholipids plays an important role in apoptosis?",
+      "options": {
+        "A": "Phosphatidylserine",
+        "B": "Phosphatidylethanolamine",
+        "C": "Phosphatidylcholine",
+        "D": "Phosphatidylglycerol"
+      },
+      "correct_answer": "A",
+      "explanation": "Phosphatidylserine plays an important role in apoptosis. Phosphatidylserine, a phospholipid, is a component of the cell membrane. It is composed of serine and phosphatidic acid. It plays a key role in cell cycle signaling, coagulation, and apoptosis (programmed cell death).",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Metabolism of Acylglycerols and Sphingolipids"
+    },
+    {
+      "q_no": 11,
+      "question": "231Which of the following phospholipids is found only in the mitochondria and helps in themitochondrial function?",
+      "options": {
+        "A": "Cephalin",
+        "B": "Cardiolipin",
+        "C": "Lecithin",
+        "D": "Plasmalogen"
+      },
+      "correct_answer": "B",
+      "explanation": "Cardiolipin is the phospholipid found only in the mitochondria.Cardiolipin is an important component of the inner mitochondrial membrane. It is essential forthe optimal function of numerous mitochondrial enzymes involved in mitochondrial energymetabolism and for the maintenance of the mitochondrial membrane structure.Decreased cardiolipin or alteration in its metabolism results in mitochondrial dysfunction. Thisis seen in Barth syndrome (cardioskeletal myopathy) which is characterized by an enlarged andweakened heart (dilated cardiomyopathy), weakness in muscles used for movement (skeletalmyopathy), recurrent infections due to small numbers of white blood cells (neutropenia), andshort stature.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Metabolism of Acylglycerols and Sphingolipids"
+    },
+    {
+      "q_no": 12,
+      "question": "Which of the following phospholipids serves as a reservoir for prostaglandin synthesis?",
+      "options": {
+        "A": "Phosphatidyl serine",
+        "B": "Phosphatidyl inositol",
+        "C": "Phosphatidyl choline",
+        "D": "Phosphatidyl ethanolamine"
+      },
+      "correct_answer": "B",
+      "explanation": "Phosphatidylinositol serves as a reservoir for prostaglandin synthesis.Phosphatidylinositol contains stearic acid and arachidonic acid attached to glycerol. Therefore, itserves as a reservoir of arachidonic acid in membranes and hence provides the necessarysubstrates for prostaglandin synthesis.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Metabolism of Acylglycerols and Sphingolipids"
+    },
+    {
+      "q_no": 13,
+      "question": "Which of the following phospholipids has a role to play in signal transmission acrossmembranes?",
+      "options": {
+        "A": "Phosphatidyl serine",
+        "B": "Phosphatidyl inositol",
+        "C": "Phosphatidyl choline",
+        "D": "Phosphatidyl ethanolamine"
+      },
+      "correct_answer": "",
+      "explanation": "Phosphatidylinositol (PI) plays a role in signal transmission across membranes.Membrane-bound phosphatidylinositols (PI) are phosphorylated to producepolyphosphoinositides such as phosphatidylinositol 4,5-bisphosphate (PIP2). Whenneurotransmitters, hormones, and growth factors to receptors on the cell membrane, degradationof PIP2 by phospholipase C.The degradation products are inositol 1,4,5-trisphosphate (IP3), which mediates the mobilizationof intracellular calcium, and diacylglycerol (DAG), which activates protein kinase C. Both of theseact synergistically to evoke specific cellular responses thus accomplishing signal transmission.241PIP2ExtracellularIntracellularIP3 SensitiveCa2+ ChannelPhospholipase CIP3DAGCa2+ProteinKinase CPhosporylationof SubstratesEndoplasmicReticulum",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp13_img1_9ca41ef3.jpeg",
+      "chapter_heading": "Metabolism of Acylglycerols and Sphingolipids"
+    },
+    {
+      "q_no": 14,
+      "question": "A lady undergoing further evaluation after a miscarriage has a positive VDRL result. Goldstandard investigation using FTA-ABS shows a negative result. Which of the followingsubstances is responsible for this discrepancy in the results?",
+      "options": {
+        "A": "Cephalin",
+        "B": "Lecithin",
+        "C": "Cardiolipin",
+        "D": "Plasmalogen232"
+      },
+      "correct_answer": "",
+      "explanation": "Cardiolipin, a phospholipid with antigenic properties, is responsible for the discrepancy in resultsi.e positive VDRL test with negative FTA-ABS test.A positive VDRL test with negative FTA-ABS test suggests a false-positive VDRL. The VDRLantigen consists of cardiolipin-cholesterol-lecithin mixtures for the detection of serum antibodiesformed against Treponema pallidum.The lady undergoing further evaluation for a miscarriage probably has an anti-cardiolipinantibody in her serum. This antibody has likely cross-reacted with the cardiolipin component ofthe VDRL reagent, resulting in a biological false-positive VDRL result. However, a confirmatorytest i.e FTA-ABS test reveals that her anti-cardiolipin antibody is not from infection withTreponema pallidum but due to some other reasons.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Metabolism of Acylglycerols and Sphingolipids"
+    },
+    {
+      "q_no": 15,
+      "question": "Sphingolipid is a type of",
+      "options": {
+        "A": "Glycerol esters saponifiable lipid",
+        "B": "Non-glycerol esters saponifiable lipid",
+        "C": "Non-saponifiable lipids",
+        "D": "Derived lipid"
+      },
+      "correct_answer": "B",
+      "explanation": "Sphingolipid is a type of non-glycerol ester saponifiable lipid.Sphingolipids (eg: sphingomyelin) are a class of lipids containing a backbone of sphingoid bases, aset of aliphatic amino alcohols e.g. sphingosine. They are known as non-glycerol esters.Sphingolipids are amphipathic molecules.Sphingolipids are found on the outer layer of the plasma membrane and in the myelin sheathsurrounding the nerves. They also play a role in cell signaling and apoptosis.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Metabolism of Acylglycerols and Sphingolipids"
+    },
+    {
+      "q_no": 16,
+      "question": "Which of the following is not a component of glycosphingolipid ?",
+      "options": {
+        "A": "Carbohydrate",
+        "B": "Glycerol",
+        "C": "Sphingosine",
+        "D": "Fatty acid"
+      },
+      "correct_answer": "B",
+      "explanation": "242Glycerol is not a component of glycosphingolipids.Glycolipids or glycosphingolipids are complex lipids that contain the alcohol sphingosine insteadof glycerol. They also contain a fatty acid and a carbohydrate attached to sphingosine.Glycosphingolipid = Sphingosine + fatty acid + carbohydrateGlycosphingolipid structureSphingosine unitCH3(CH2)12CH=CHCH-OHFatty acidCHINH—C- RunitCH2OHHOOO-CH2OHOHSugar unitOMARROW",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp16_img1_ae495035.jpeg",
+      "chapter_heading": "Metabolism of Acylglycerols and Sphingolipids"
+    },
+    {
+      "q_no": 17,
+      "question": "Which of the following is an example of a glycolipid?",
+      "options": {
+        "A": "Plasmalogen",
+        "B": "Cerebroside",
+        "C": "Sphingomyelin",
+        "D": "Lecithin"
+      },
+      "correct_answer": "B",
+      "explanation": "Cerebroside is an example of a glycolipid.A glycolipid is a complex lipid containing a carbohydrate. Cerebrosides consist of sphingosine, afatty acid and a single sugar linked to sphingosine. Thus, they are glycolipids. Cerebrosides arefound predominantly in the brain and peripheral nervous tissue, with high concentrations in themyelin sheath.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Metabolism of Acylglycerols and Sphingolipids"
+    },
+    {
+      "q_no": 18,
+      "question": "Which of the following is not a role of glycosphingolipids?",
+      "options": {
+        "A": "Source of blood group antigens",
+        "B": "Cell surface receptors for cholera toxin",
+        "C": "Cell surface receptors for tetanus toxin",
+        "D": "Formation of lung surfactant"
+      },
+      "correct_answer": "D",
+      "explanation": "Formation of lung surfactant is not a function of glycosphingolipids.Lung surfactant is composed of the glycerophospholipid known as dipalmitoyl lecithin ordipalmitoylphosphatidylcholine.Glycosphingolipids, like cerebrosides, are part of the outer leaflet of plasma membranes. They areimportant in cell adhesion, cell recognition, and signal transduction. Some function as bloodgroup antigens, and as cell surface receptors for cholera (GM1 ganglioside) and tetanus toxins,and certain viruses and microbes. They also serve as various embryonic antigens specific forstages of fetal development. The carbohydrate portion of a glycolipid which serves as the antigenicdeterminant.243",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Metabolism of Acylglycerols and Sphingolipids"
+    },
+    {
+      "q_no": 19,
+      "question": "233A 1-year old boy presented with loss of motor skills, increased startle response to noise andseizures. On fundoscopy, the following image was seen. Further evaluation reveals thediagnosis of a lysosomal storage disorder. Which of the following enzymes is most likelydefective in this condition?",
+      "options": {
+        "A": "Hexosaminidase A",
+        "B": "ẞ-glucosidase",
+        "C": "α-galactosidase",
+        "D": "Glucose-6-phosphatase"
+      },
+      "correct_answer": "A",
+      "explanation": "An infant with loss of motor skills, increased startle response to noise and seizures (neurologicalinvolvement) and a cherry-red spot in the macula suggests Tay-Sachs disease. This disease iscaused by a deficiency of the enzyme hexosaminidase A.Tay-Sachs disease is an autosomal recessive disorder resulting in the deficiency of hexosaminidaseA. As a result, GM2 gangliosides are not degraded and they accumulate within lysosomes.Affected children present with loss of motor skills, increased startle response, seizures,hyperacusis, macrocephaly, neurodegeneration, blindness and muscular weakness. Cherry-redspots are seen in the macula of eye.Note: The clinical features of Sandhoff's disease, due to deficiency of hexosaminidase A and B, aresimilar to Tay-Sachs. Affected children additionally have hepatosplenomegaly and cardiacinvolvement.",
+      "image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/q19_img1_a08f5fb6.jpeg",
+      "explanation_image": null,
+      "chapter_heading": "Metabolism of Acylglycerols and Sphingolipids"
+    },
+    {
+      "q_no": 20,
+      "question": "A 6-month-old infant with progressive failure to thrive and milestone regression is beingevaluated for an inborn error of metabolism. On examination, hypotonia, apathy, deafness,hepatosplenomegaly, and generalized lymphadenopathy are present. Fundus examination isshown below. A liver biopsy shows foamy hepatocytes loaded with sphingomyelin. Electronmicroscopy reveals zebra bodies. What is the likely diagnosis?234",
+      "options": {
+        "A": "Niemann-Pick disease type A",
+        "B": "Tay-Sach disease",
+        "C": "Niemann-Pick disease type B",
+        "D": "Sandhoff's disease"
+      },
+      "correct_answer": "A",
+      "explanation": "Progressive failure to thrive, milestone regression, hypotonia, apathy, deafness,hepatosplenomegaly, and generalized lymphadenopathy with the cherry-red spot on fundusexamination suggests a diagnosis of Niemann-Pick disease type A.Niemann-Pick disease is a lysosomal storage disorder due to an inherited deficiency ofsphingomyelinase. This results in the accumulation of sphingomyelin in themonocyte-macrophage system. Type A disease is a severe infantile form. Infants present withextensive neurologic involvement (hypotonia, milestone regression, apathy), marked visceralaccumulations of sphingomyelin (hepatosplenomegaly, foamy hepatocytes, zebra bodies onEM), progressive wasting and early death within the first 3 years of life.In contrast, patients with Niemann-Pick disease type B have organomegaly but generally no CNSinvolvement.",
+      "image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/q20_img1_8f92de29.jpeg",
+      "explanation_image": null,
+      "chapter_heading": "Metabolism of Acylglycerols and Sphingolipids"
+    },
+    {
+      "q_no": 21,
+      "question": "An 8-year-old boy presents with burning pain and numbness in his hands, heat intoleranceand decreased visual acuity. Further evaluation reveals skin angiokeratomas and a decreasedrenal function. Which of the following is the mode of inheritance of the most likely diagnosis?",
+      "options": {
+        "A": "Autosomal recessive",
+        "B": "X-linked recessiveAutosomal dominantd) X-linked dominantQuestion 22:A 10-year old child presents chronic fatigue, growth retardation and epistaxis. On furtherevaluation, hepatosplenomegaly, thrombocytopenia and anemia was found. Bone marrowbiopsy showed cells with wrinkled tissue paper appearance. What is the probable diagnosis?a) Niemann Pick diseaseb) Fabry's disease",
+        "C": "Gaucher's disease235",
+        "D": "Tay Sach's disease"
+      },
+      "correct_answer": "B",
+      "explanation": "Burning pain and numbness in hands, heat intolerance, decreased visual acuity with skinangiokeratomas and a decreased renal function is suggestive of Fabry's disease which is inheritedas an X-linked recessive disorder.Fabry's disease is a lipid storage disorder due to a deficiency of α-galactosidase A, resulting in theaccumulation of globotriaosyl-ceramide in tissues. Young boys present with Fabry crises (burningpain in the hands, feet and proximal extremities), angiokeratomas (reddish blue telangiectaticskin lesions between the umbilicus and knees), corneal and lenticular opacities, renal failure andcardiomyopathy.Note: All sphingolipidoses are inherited in an autosomal recessive manner, except Fabry's disease.244",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Metabolism of Acylglycerols and Sphingolipids"
+    },
+    {
+      "q_no": 23,
+      "question": "Which of the following enzymes is deficient in metachromatic leucodystrophy?",
+      "options": {
+        "A": "ẞ-Galactosidase",
+        "B": "Arylsulfatase",
+        "C": "Sphingomyelinase",
+        "D": "Ceramidase"
+      },
+      "correct_answer": "B",
+      "explanation": "Metachromatic leucodystrophy occurs due to the deficiency of arylsulfatase A enzyme.Metachromatic leucodystrophy is an autosomal recessive disorder. Deficiency of arylsulfatase Aenzyme leads to accumulation of sulfated glycosphingolipids in white matter with subsequentdemyelination. Affected infants (infantile form) present with cognitive deterioration, muscleweakness, hypotonia, nystagmus, myoclonic seizures, optic atrophy and progressive paralysis.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Metabolism of Acylglycerols and Sphingolipids"
+    },
+    {
+      "q_no": 24,
+      "question": "Accumulation of which of the following substances is responsible for Farber's disease?",
+      "options": {
+        "A": "Lecithin",
+        "B": "Ceramide",
+        "C": "Sphingomyelin",
+        "D": "Sulfatides"
+      },
+      "correct_answer": "B",
+      "explanation": "Accumulation of ceramide is seen in Farber's disease.Farber's disease occurs due to deficiency of ceramidase, which catalyses the breakdown ofceramide to fatty acid and sphingosine. Affected children present with painful joint swelling andnodules, progressive joint deformity, hoarse cry and breathing difficulty, mental retardation andfailure to thrive.246",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Metabolism of Acylglycerols and Sphingolipids"
+    }
+  ]
+}

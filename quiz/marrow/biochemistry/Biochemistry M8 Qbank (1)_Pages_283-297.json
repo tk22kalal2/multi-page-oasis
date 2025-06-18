@@ -1,0 +1,290 @@
+{
+  "chapter": "Importance",
+  "questions": [
+    {
+      "q_no": 1,
+      "question": "Which of the following is false regarding the properties of enzymes?",
+      "options": {
+        "A": "Enzymes are stereospecific catalysts",
+        "B": "Enzymes are neither consumed nor permanently altered in a reaction",
+        "C": "Most of them are proteins",
+        "D": "They are heat-stable"
+      },
+      "correct_answer": "D",
+      "explanation": "",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Importance"
+    },
+    {
+      "q_no": 2,
+      "question": "Which of the following is not a mechanism of enzymes to enhance the rate of reaction?",
+      "options": {
+        "A": "Catalysis by proximity",
+        "B": "Acid-Base catalysis",
+        "C": "Catalysis by strain",
+        "D": "Catalysis by increasing the activation energy"
+      },
+      "correct_answer": "D",
+      "explanation": "Enzymes do not catalyze a reaction by increasing the activation energy, rather they do it by decreasing the activation energy. Specific acid or base catalysis, catalysis by proximity, catalysis by strain all constitute mechanisms of enzymes to enhance the rate of reaction. Enzymes use combinations of four general mechanisms to achieve enhancements of the rates of chemical reactions: Covalent catalysis, Specific acid or base catalysis, Catalysis by proximity, and Catalysis by strain.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Importance"
+    },
+    {
+      "q_no": 3,
+      "question": "Which of the following is the prosthetic group present in the enzyme dinitrogenase ?",
+      "options": {
+        "A": "Molybdenum",
+        "B": "Zinc",
+        "C": "Manganese",
+        "D": "Copper"
+      },
+      "correct_answer": "A",
+      "explanation": "The prosthetic group present in dinitrogenase is Molybdenum.Prosthetic groups are non-protein part of a holoenzyme which are tightly and irreversibly boundto the protein part by covalent or noncovalent forces. The prosthetic group may be organic (suchas a vitamin, sugar, or lipid) or inorganic (such as a metal ion). Metal ions constitute the mostcommon type of prosthetic group.If an enzyme uses metal ion as a prosthetic group it is called a metalloenzyme. Metalloenzymeshave metal ions as an integral part of their structure.Prosthetic groups,coenzymes and cofactorsActive enzymeHoloenzymeNon-protein part +Protein partApoenzymeInseparable from proteinpartProsthetic groupIf separable from proteinpart, it is called as CofactorOrganicInorganic(Metal)Inorganic(Metal)OrganicCoenzymeCofactorMetalloenzymesOMARROWMetal-activatedenzymes",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp3_img1_7ccbf4c6.jpeg",
+      "chapter_heading": "Importance"
+    },
+    {
+      "q_no": 4,
+      "question": "Which of the following is not a copper-containing enzyme?",
+      "options": {
+        "A": "Mitochondrial superoxide dismutase",
+        "B": "Cytosolic superoxide dismutase283",
+        "C": "Tyrosinase",
+        "D": "Lysyl oxidase"
+      },
+      "correct_answer": "A",
+      "explanation": "Mitochondrial superoxide dismutase is not a copper-containing enzyme. It contains manganese.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Importance"
+    },
+    {
+      "q_no": 5,
+      "question": "Which of the following is not a coenzyme?",
+      "options": {
+        "A": "Lipoic acid",
+        "B": "ATP",
+        "C": "Vitamin K",
+        "D": "S-adenosyl methionine"
+      },
+      "correct_answer": "D",
+      "explanation": "S-adenosyl methionine is not a coenzyme. Its a methyl group donor.Coenzymes are cofactors in which organic compound is present. Coenzymes transiently andreversibly bind to the enzyme to catalyze the reaction. They play an important role as a two-wayshuttle.Some coenzymes:•Coenzyme A• ATP/GTP290• NAD/NADP• FAD/FMN• Lipoic acid• B-complex vitamins•Vitamin C• Vitamin KProsthetic groups,coenzymes and cofactorsActive enzymeHoloenzymeNon-protein part + Protein partApoenzymeInseparable from proteinpartProsthetic groupIf separable from proteinpart, it is called as CofactorOrganicInorganic(Metal)Inorganic(Metal)CoenzymeOrganicCofactorMetalloenzymesOMARROWMetal-activatedenzymes",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp5_img1_7d62ce10.jpeg",
+      "chapter_heading": "Importance"
+    },
+    {
+      "q_no": 6,
+      "question": "Which of the following is false?",
+      "options": {
+        "A": "Cofactors have functions similar to those of prosthetic groups.",
+        "B": "Cofactors bind in a transient, dissociable manner to enzymes.",
+        "C": "The most common cofactors are metal ions.",
+        "D": "Enzymes that use metal ion as a cofactor are termed as metalloenzymes."
+      },
+      "correct_answer": "D",
+      "explanation": "Enzymes that use metal-ion as a cofactor are termed as metal-activated enzymes (andnot metalloenzymes).Metalloenzymes are prosthetic groups in which the metal is tightly and irreversibly bound to theenzyme. The metal forms an integral part of its active structure. Metal-activated enzymes arethose that have a cofactor containing metal (inorganic) which are loosely and reversibly bound tothe enzyme. They show enhanced activity in the addition of metal.A cofactor is a non-protein part of a holoenzyme that can be separated part from the protein part.Cofactors are mostly metal ions or inorganic. If an organic compound is present in a cofactor, it iscalled a coenzyme. Cofactors serve functions similar to those of prosthetic groups. Cofactors bindin a transient, dissociable manner to enzymes. Cofactors must be present in the mediumsurrounding the enzyme for catalysis to occur.291Prosthetic groups,coenzymes and cofactorsActive enzymeHoloenzymeNon-protein part +Protein partApoenzymeInseparable from proteinpartProsthetic groupIf separable from proteinpart, it is called as CofactorOrganicInorganic(Metal)Inorganic(Metal)CoenzymeOrganicCofactorMetalloenzymesOMARROWMetal-activatedenzymes",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp6_img1_ead3b781.jpeg",
+      "chapter_heading": "Importance"
+    },
+    {
+      "q_no": 7,
+      "question": "Which of the following enzyme is not involved in oxidation-reduction reactions?",
+      "options": {
+        "A": "Dehydrogenase",
+        "B": "Hydrolase",
+        "C": "Peroxidase",
+        "D": "Oxygenase"
+      },
+      "correct_answer": "B",
+      "explanation": "Hydrolases are not involved in oxidation-reduction reactions. Hydrolases are involved in thehydrolysis of the substrate using water.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Importance"
+    },
+    {
+      "q_no": 8,
+      "question": "Which of the following is not a mono-oxygenase?",
+      "options": {
+        "A": "Tryptophan pyrrolase",
+        "B": "Tryptophan hydroxylase",
+        "C": "Tyrosine hydroxylase284",
+        "D": "Cytochrome P450"
+      },
+      "correct_answer": "A",
+      "explanation": "Tryptophan pyrrolase is not a mono-oxygenase. Its a di-oxygenase.Oxygenases catalyzes the incorporation of oxygen into a substrate. Oxygenases are of two types:1) Mono-oxygenases (Hydroxylases/ Mixed-function oxidases): Incorporate one atom of oxygeninto the substrate.Examples:•Tryptophan hydroxylase• Tyrosine hydroxylase• Cytochrome P450•⚫ Phenylalanine hydroxylase• 7-alpha hydroxylases2) Di-oxygenases: Incorporate two atoms of oxygen into a substrate.Examples:• Tryptophan pyrrolase• Homogentisate di-oxygenase (previously known as homogentisate oxidase)292",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Importance"
+    },
+    {
+      "q_no": 9,
+      "question": "Which of the following is false about the function of oxygenases?",
+      "options": {
+        "A": "Can incorporate 2 atoms of oxygen in a substance",
+        "B": "Can incorporate 1 atom of oxygen in a substance",
+        "C": "Important in hydroxylation of steroids",
+        "D": "Catalyze carboxylation of drugs"
+      },
+      "correct_answer": "D",
+      "explanation": "Oxygenases do not catalyze the carboxylation of drugs. They catalyze the hydroxylation of drugs. Cytochromes P450 are an important superfamily of heme-containing monooxygenases. They are located mainly in the endoplasmic reticulum in the liver and intestine but are also found in the mitochondria in some tissues. It is involved in a series of enzymatic reactions known as the hydroxylase cycle. Together, cytochromes P450 and b5 are responsible for about 75% of the modification and degradation of drugs that occur in the body by hydroxylation, not decarboxylation. Mitochondrial cytochrome P450 systems are found in steroidogenic tissues such as the adrenal cortex, testis, ovary, and placenta and are concerned with the biosynthesis of steroid hormones from cholesterol by hydroxylation (Option C). Depending on the number of atoms of oxygen being added, there are two types of oxygenases (Options A and B): Mono oxygenases: incorporate one oxygen atom into a substrate. Dioxygenases: incorporate two oxygen atoms into a substrate.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Importance"
+    },
+    {
+      "q_no": 10,
+      "question": "Which of the following is a lyase?",
+      "options": {
+        "A": "Aldolase B",
+        "B": "Acetyl-CoA Carboxylase",
+        "C": "Fatty Acyl-CoA Dehydrogenase",
+        "D": "Acetyl-CoA Synthetase"
+      },
+      "correct_answer": "A",
+      "explanation": "Aldolase B is a lyase.Lyases are enzymes that catalyze the cleavage of C-C, C-O, C-N and other covalent bonds by atomelimination generating double bonds.Some examples of lyases include:••HMG-CoA lyaseArgininosuccinate lyase• ATP citrate lyase• Aldolase• Fumarase",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Importance"
+    },
+    {
+      "q_no": 11,
+      "question": "The group of enzymes that catalyze the joining together of two molecules is called",
+      "options": {
+        "A": "Transferases",
+        "B": "Ligases",
+        "C": "Oxidoreductases",
+        "D": "Lyases"
+      },
+      "correct_answer": "",
+      "explanation": "The group of enzymes that catalyze the joining together of two molecules with the hydrolysis ofATP is called ligases.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Importance"
+    },
+    {
+      "q_no": 12,
+      "question": "Which of the following is not a non-functional enzyme?",
+      "options": {
+        "A": "Lipoprotein lipase",
+        "B": "Alkaline phosphatase",
+        "C": "Lactate Dehydrogenase",
+        "D": "Gamma glutamyltranspeptidase"
+      },
+      "correct_answer": "A",
+      "explanation": "Lipoprotein lipase is a functional enzyme. Functional enzymes have a specific function in the plasma, such as coagulation factors, pseudocholinesterases, and lipoprotein lipases. Non-functional enzymes have no specific function in the plasma. They are released from the cells as a result of normal wear and tear. Their level is very low in serum. They serve as biomarkers whose levels in the plasma can assist in the diagnosis and prognosis of diseases affecting specific tissues. For example: Lactate dehydrogenase, Creatine kinase, alkaline phosphatase, and gamma glutamyltranspeptidase.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Importance"
+    },
+    {
+      "q_no": 13,
+      "question": "All of the following is true about isoenzymes except",
+      "options": {
+        "A": "They catalyze the same reaction.",
+        "B": "They have the same number of charged amino acids.",
+        "C": "They can be separated by electrophoresis.",
+        "D": "They differ in tissue localization."
+      },
+      "correct_answer": "B",
+      "explanation": "Isoenzymes do not have the same number of charged amino acids.Isoenzymes are physically distinct forms of the same enzyme. They catalyze the same reaction butdiffer in the following:• Amino acid sequence and the number of charged amino acids••Subunit composition: CK-1 contains BB while CK-2 contains MB subunits⚫ Electrophoretic mobility: CK-1 moves faster than CK-3• Tissue localization: CK-1 is present in the brain, CK-2 in the heart• Substrate affinity: Glucokinase has low affinity but hexokinase has high affinity.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Importance"
+    },
+    {
+      "q_no": 14,
+      "question": "A 20-year-old woman presented with generalized weakness and lightheadedness for 2 weeks. Her peripheral smear showed RBC fragments and blood investigations were notable for decreased haemoglobin, increased indirect bilirubin, and LDH. Which of the following isoenzymes of LDH is likely to be raised?",
+      "options": {
+        "A": "LDH 3",
+        "B": "LDH 4",
+        "C": "LDH-5",
+        "D": "LDH-2"
+      },
+      "correct_answer": "D",
+      "explanation": "The given clinical scenario of a woman with fragmented RBCs and decreased RBCs is suggestive of hemolytic anemia. LDH1 and LDH-2 isoenzymes are expressed in the RBC and particularly raised during hemolysis. LDH is a tetrameric enzyme with 4 subunits. It has four subunits with two isoforms: H-isoform (Heart) and M-isoform (Muscle). Composition Location LDH Type LDH-1 HHHH Heart and RBC LDH-2 HHHM RBC and kidney LDH-3 HHMM LDH-4 HMMM Lungs, Spleen, Brain, Lymphatic tissues, Platelets LDH-5 MMMM Liver and skeletal muscle",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Importance"
+    },
+    {
+      "q_no": 15,
+      "question": "A 54-year-old man who is a known case of diabetes mellitus and hypertension experiences severe, sudden-onset chest pain radiating to the left arm and profuse sweating. He was admitted to the emergency ward. An ECG is taken which is as shown below. Which of the following is true regarding blood lactate dehydrogenase levels in this scenario?",
+      "options": {
+        "A": "LDH 1 > LDH 2",
+        "B": "LDH 2 > LDH 1",
+        "C": "LDH 2 > LDH 3",
+        "D": "LDH 1 > LDH 2"
+      },
+      "correct_answer": "A",
+      "explanation": "The given clinical scenario of sudden onset chest pain with profuse sweating and a 12-lead Electrocardiogram (ECG) with ST-segment elevation in Leads II, III, and aVF is suggestive of myocardial infarction. Serum LDH 1 > LDH 2 levels are seen in this condition. Under normal conditions, LDH 2 is predominantly present in the blood and LDH 1 is predominantly present in the heart. So, normally LDH 2 > LDH 1 in blood. When cardiac tissue is damaged, LDH 1 is released into the bloodstream. This results in a flipped lactate dehydrogenase (LDH) ratio where LDH 1 > LDH 2. LDH is a tetrameric enzyme with 4 subunits. It has four subunits with two isoforms: H isoform (heart) and M isoform (muscle).",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Importance"
+    },
+    {
+      "q_no": 16,
+      "question": "A 40-year-old man was admitted with complaints of fever, anorexia, vomiting, abdominal pain and dark urine for 6 days. On investigation, he had elevated liver enzymes and serology was positive for IgM hepatitis A antibodies. Which of the following liver enzymes is most specific for his condition?",
+      "options": {
+        "A": "Alkaline phosphatase (ALP)",
+        "B": "Aspartate aminotransferase (AST)",
+        "C": "Alanine aminotransferase (ALT)",
+        "D": "Gamma glutamyl transferase (GGT)"
+      },
+      "correct_answer": "C",
+      "explanation": "The enzyme most specific for his condition, acute viral hepatitis, is alanine aminotransferase (ALT). Alanine aminotransferase (ALT) is predominantly found in the liver and therefore is a more specific marker for hepatocellular damage than AST. Aspartate aminotransferase (AST) is found in various tissues. The AST/ALT ratio is very important. AST/ALT < 1 is seen in hepatocellular damage like in NAFLD, toxic hepatitis, paracetamol toxicity. In cirrhosis, the ratio becomes more than 1.295. AST/ALT > 2 is suggestive while AST/ALT > 3 is highly suggestive of alcoholic liver disease. Other options: Option A: Alkaline phosphatase rise is seen in many liver diseases but more than a fourfold rise indicates cholestasis. Option D: GGT is used to identify occult alcohol use.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Importance"
+    },
+    {
+      "q_no": 17,
+      "question": "Which of the following is not a serine protease?",
+      "options": {
+        "A": "Chymotrypsinogen",
+        "B": "Plasmin",
+        "C": "Prostate-specific antigen",
+        "D": "Elastase"
+      },
+      "correct_answer": "A",
+      "explanation": "Chymotrypsinogen is a zymogen. Its active form, chymotrypsin, is a serine protease. Serine proteases are proteolytic enzymes having serine, histidine, and aspartate at the active site. The active site consists of two binding sites and a catalytic site. While serine is present in the catalytic site of serine proteases, histidine and aspartate are present on the binding sites. Serine proteases differ in substrate specificity. Examples of serine proteases include: Chymotrypsin, Trypsin, Elastase, Thrombin, Plasmin, Complements, Factor X and XI, and Prostate-specific antigen.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Importance"
+    },
+    {
+      "q_no": 18,
+      "question": "Elastase acts on the carboxy-terminal of which amino acid?",
+      "options": {
+        "A": "Arginine",
+        "B": "Alanine",
+        "C": "Tryptophan",
+        "D": "Phenylalanine"
+      },
+      "correct_answer": "",
+      "explanation": "Elastase is a serine protease that cleaves at the carboxy-terminal of neutral amino acids likealanine and glycine.Serine proteases are proteolytic enzymes having Serine, Histidine and Aspartate at the activesite. The active site consists of two binding sites and a catalytic site. While serine is present in thecatalytic site of serine proteases, histidine and aspartate are present on binding sites.●Serine proteases differ in substrate specificity.•Trypsin cleaves the carboxy-terminal of basic amino acids like arginine and lysine.Chymotrypsin cleaves at the carboxy-terminal of bulky hydrophobic amino acids like tryptophan,phenylalanine, and tyrosine.• Elastase cleaves at the carboxy-terminal of neutral amino acids like alanine and glycine.296",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Importance"
+    },
+    {
+      "q_no": 19,
+      "question": "Which of the following enzyme does not participate in a ping-pong reaction?",
+      "options": {
+        "A": "Serine proteases",
+        "B": "Aminotransferases",
+        "C": "Pyruvate carboxylase",
+        "D": "Aldolase"
+      },
+      "correct_answer": "B",
+      "explanation": "Aldolase does not participate in a ping-pong reaction. Ping pong reactions are a type of Bi-Bireaction.Bi-Bi reaction is a two substrate two product reaction. Most of the Bi-Bi reactions followMichaelis-Menten kinetics. There are three types of Bi-Bi reactions:•Ordered Bi-Bi reaction: Example- NAD(P)H-dependant oxidoreductases.• Random Bi-Bi reaction: Example- Most kinases and dehydrogenases.• Ping pong reaction: Example- Serine proteases, aminotransferases and pyruvate carboxylase.297",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Importance"
+    }
+  ]
+}

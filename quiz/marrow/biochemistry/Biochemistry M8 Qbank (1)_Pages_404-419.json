@@ -1,0 +1,335 @@
+{
+  "chapter": "RNA synthesis, processing and modification",
+  "questions": [
+    {
+      "q_no": 1,
+      "question": "Which among the following is a protein-coding RNA?",
+      "options": {
+        "A": "mRNA",
+        "B": "tRNA",
+        "C": "rRNA",
+        "D": "snRNA"
+      },
+      "correct_answer": "A",
+      "explanation": "mRNA, or messenger RNA, is the type of RNA that carries genetic information from DNA to the ribosome, where it specifies the amino acid sequence of the protein products of gene expression.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "RNA synthesis, processing and modification"
+    },
+    {
+      "q_no": 2,
+      "question": "Which of the following RNA is not directly involved in protein synthesis?",
+      "options": {
+        "A": "mRNA",
+        "B": "rRNA",
+        "C": "tRNA",
+        "D": "miRNA"
+      },
+      "correct_answer": "D",
+      "explanation": "miRNA is not directly involved in protein synthesis. miRNA participates in the modulation of gene expression by altering mRNA function. The mRNAs, rRNAs, and tRNAs are directly involved in protein synthesis. Other RNAs participate in either mRNA splicing (snRNAs) or modulation of gene expression by altering mRNA function (mi/siRNAs) and/or expression (lncRNAs).",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "RNA synthesis, processing and modification"
+    },
+    {
+      "q_no": 3,
+      "question": "Which of the following is true?",
+      "options": {
+        "A": "Primer is involved in RNA synthesis",
+        "B": "Highly active, efficient proofreading function in RNA transcription",
+        "C": "Deoxyribonucleotides are used in RNA synthesis",
+        "D": "U replaces T as the complementary base for A in RNA"
+      },
+      "correct_answer": "D",
+      "explanation": "Uracil (U) replaces thymine (T) as the complementary base for adenine (A) in RNA. Difference between RNA and DNA: Cytosine - NH2, Guanine - NHN, NH2, Adenine - A, H₂N, Uracil - NHN. Nucleobases of RNA: Nucleobases, base pair, helix of sugar-phosphates. 0000. TRNA, Ribonucleic acid, DNA, Deoxyribonucleic acid. Cytosine - NH2, Guanine - H, NH, NH2, Adenine - A, H₂N, Thymine - H₂C. N, HN. Nucleobases of DNA",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp3_img1_279e049b.jpeg",
+      "chapter_heading": "RNA synthesis, processing and modification"
+    },
+    {
+      "q_no": 4,
+      "question": "Which enzyme is responsible for the polymerization of ribonucleotides into a sequence complementary to the template strand of the gene?",
+      "options": {
+        "A": "RNA-dependent RNA polymerase",
+        "B": "DNA-dependent RNA polymerase",
+        "C": "RNA-dependent replicase",
+        "D": "DNA-dependent RNA polymerase"
+      },
+      "correct_answer": "D",
+      "explanation": "DNA-dependent RNA polymerase is the enzyme responsible for the polymerization of ribonucleotides into a sequence complementary to the template strand of the gene. The enzyme attaches at a specific site, the promoter, on the template strand. This is followed by the initiation of RNA synthesis at the starting point, and the process continues until a termination sequence is reached.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "RNA synthesis, processing and modification"
+    },
+    {
+      "q_no": 5,
+      "question": "Which enzyme prevents the formation of superhelical tensions in the DNA during transcription?",
+      "options": {
+        "A": "Topoisomerase",
+        "B": "RNA polymerase",
+        "C": "Pyrophosphatases",
+        "D": "Unwindases"
+      },
+      "correct_answer": "A",
+      "explanation": "Topoisomerase prevents the formation of superhelical tensions in the DNA during transcription. During transcription, supercoils form when the DNA is unwound and can add stress to the molecule. Topoisomerase activity enables RNA elongation to proceed further without being stopped. This action of topoisomerase also takes place during DNA replication.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "RNA synthesis, processing and modification"
+    },
+    {
+      "q_no": 6,
+      "question": "Which of the following is not a function of RNA polymerase II?",
+      "options": {
+        "A": "Synthesis of mRNA",
+        "B": "Synthesis of rRNA",
+        "C": "Synthesis of miRNA",
+        "D": "Synthesis of snRNA"
+      },
+      "correct_answer": "B",
+      "explanation": "Synthesis of rRNA is not a function of RNA polymerase II. This is done by RNA polymerase I.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "RNA synthesis, processing and modification"
+    },
+    {
+      "q_no": 7,
+      "question": "The role of the sigma factor in bacterial RNA polymerase is to",
+      "options": {
+        "A": "Catalyze RNA synthesis",
+        "B": "Position RNA polymerase correctly on the template DNA",
+        "C": "Terminate RNA synthesis",
+        "D": "Unwind the DNA template"
+      },
+      "correct_answer": "B",
+      "explanation": "The σ subunit (sigma factor) enables RNA polymerase to recognize promoter regions on the DNA and thus helps to position it correctly on the template DNA.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "RNA synthesis, processing and modification"
+    },
+    {
+      "q_no": 8,
+      "question": "During a field trip, an 11-year-old boy consumes a wild mushroom which was later identified to be a death cap mushroom. Which of the following enzymes is inhibited by the toxin from this mushroom?",
+      "options": {
+        "A": "DNA polymerase 405",
+        "B": "RNA polymerase",
+        "C": "Topoisomerase",
+        "D": "Helicase"
+      },
+      "correct_answer": "B",
+      "explanation": "The mushroom death cap (also known as Amanita phalloides) produces the toxin, α-amanitin, which inhibits RNA polymerase. In eukaryotes, α-amanitin forms a tight complex with the polymerase, thereby inhibiting mRNA synthesis and, ultimately, protein synthesis. Note: Rifampicin inhibits the prokaryotic DNA-dependent RNA polymerase.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "RNA synthesis, processing and modification"
+    },
+    {
+      "q_no": 9,
+      "question": "Which enzyme gives signals for termination of RNA transcription?",
+      "options": {
+        "A": "RNA Polymerase I",
+        "B": "RNA Polymerase II",
+        "C": "RNA Polymerase III",
+        "D": "Topoisomerase"
+      },
+      "correct_answer": "B",
+      "explanation": "RNA polymerase II gives signals for the termination of RNA transcription. Proteins catalyzing RNA processing, termination, and polyadenylation appear to load onto RNA polymerase II soon after initiation. Termination of transcription can be: ⚫ rho dependent: When the termination signals are met, rho factor binds to RNA. Rho factor has ATP-dependent helicase activity. It detaches the RNA from the DNA. • rho independent: In the 3' end of RNA, there is a series of U. RNA detaches from DNA due to weaker A-U at the end.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "RNA synthesis, processing and modification"
+    },
+    {
+      "q_no": 10,
+      "question": "RNA produced from a fragment of DNA has the sequence of UAAGGC. The sequence of the non-template strand in the DNA that gave rise to this sequence is which one of the following?",
+      "options": {
+        "A": "CGGAAT",
+        "B": "UAAGGC",
+        "C": "TAAGGC",
+        "D": "ATTCCG"
+      },
+      "correct_answer": "C",
+      "explanation": "The non-template strand or coding strand in the DNA will have the same sequence as the RNA that is produced, except that the non-template or coding strand has T in place of U. As all sequences are written in the 5' to 3' direction, unless otherwise specified, an RNA sequence of UAAGGC would correspond to a DNA sequence, on the non-template strand, of TAAGGC. Both the non-template strand and RNA produced will be a complementary sequence to the template strand. Therefore, the template strand would be ATTCCG (written 5' to 3'). Template strand DNA TACGGCGTTAGACAAGTGCGTGAGTACACAATGCCGCAATCTGTTCACGCACTCATGTGT Transcription AUGCCGCAAUCUGUUCACGCACUCAUGUGURNA Translation Protein Met Pro Gln Ser Val His Ala Leu Met Cys",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp10_img1_4f1991bf.jpeg",
+      "chapter_heading": "RNA synthesis, processing and modification"
+    },
+    {
+      "q_no": 11,
+      "question": "What is a primary transcript?",
+      "options": {
+        "A": "RNA product synthesized in the 5'-3' direction",
+        "B": "RNA product synthesized in the 3'-5' direction",
+        "C": "DNA product synthesized in the 3'-5' direction",
+        "D": "DNA product synthesized in the 5'-3' direction"
+      },
+      "correct_answer": "A",
+      "explanation": "The RNA product, which is synthesized in the 5'-3' direction, is the primary transcript. The primary transcripts are generated by RNA polymerase II. The longest primary transcript is produced by the dystrophin gene. Intron 1, Intron 2, Intron 3, DNA, Exon, Exon 2, Exon 3, Exon 4, Transcription, Primary RNA transcript, Splicing, mRNA",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "RNA synthesis, processing and modification"
+    },
+    {
+      "q_no": 12,
+      "question": "7-methyl-guanosine triphosphate capping of the primary transcript is necessary for",
+      "options": {
+        "A": "Processing of the primary transcript to mRNA",
+        "B": "Translation of the mRNA",
+        "C": "Protection of the mRNA against nucleolytic attack by 5'-exonucleases",
+        "D": "All of the above"
+      },
+      "correct_answer": "D",
+      "explanation": "7-methyl-guanosine triphosphate capping of the primary transcript is necessary for: • Processing of the primary transcript to mRNA • Translation of the mRNA • Protection of the mRNA against nucleolytic attack by 5'-exonucleases",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "RNA synthesis, processing and modification"
+    },
+    {
+      "q_no": 13,
+      "question": "The attachment of Eukaryotic mRNA to the ribosome is mediated through",
+      "options": {
+        "A": "Poly A tail",
+        "B": "tRNA",
+        "C": "Guanyl Cap",
+        "D": "Shine-Dalgarno Sequence"
+      },
+      "correct_answer": "C",
+      "explanation": "The attachment of mRNA to the ribosome is mediated through the guanyl cap at the 5' end. Eukaryotic mRNAs have 7-methylguanosine caps at the 5' end and poly-A tails at the 3' end. The 7-methylguanosine caps (Guanyl caps) are necessary for: • Processing of primary transcripts to mRNA. • Mediating the attachment of mRNA to the ribosome for translation. • Protection of mRNA against nucleolytic attack by 5' exonucleases. Other options: Option A: AAUAAA is present at the 3' end, which is the polyadenylation sequence (poly-A tail). They help stabilize the mRNA, facilitate its exit from the nucleus, and aid in translation. After the mRNA enters the cytosol, the poly-A tail is gradually shortened. Option B: tRNA molecules serve as adapters for the translation of the information in the sequence of nucleotides of the mRNA into specific amino acids. Option D: Shine-Dalgarno sequence initiates translation in prokaryotes. Note: The guanyl cap and poly-A tail aid in attaching the mRNA to the ribosome for translation; however, it is initiated and mediated first through the Guanyl cap. The poly(A) tail stimulates recruitment of the 40S ribosomal subunit to the mRNA, after which the ribosomal subunit binds to the guanyl cap at the 5' end of mRNA.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "RNA synthesis, processing and modification"
+    },
+    {
+      "q_no": 14,
+      "question": "After synthesis, eukaryotic mRNA undergoes extensive modifications, including which of the following?",
+      "options": {
+        "A": "Capping",
+        "B": "Polyadenylation",
+        "C": "Splicing",
+        "D": "All of the above"
+      },
+      "correct_answer": "D",
+      "explanation": "After synthesis, eukaryotic RNA undergoes extensive post-transcriptional modifications, including 7-methylguanosine capping, polyadenylation forming a poly-A tail, and splicing. 5' Capping: This is the first of the processing reactions for pre-mRNA. The cap is a 7-methylguanosine attached backward to the 5'-terminal end of the mRNA, forming an unusual 5' to 5' triphosphate linkage. A poly-A tail is added after transcription by the nuclear enzyme polyadenylate polymerase, using ATP as the substrate. These tails help stabilize the mRNA, facilitate its exit from the nucleus, and aid in translation. The maturation of eukaryotic mRNA usually involves the removal of introns and the joining of exons together to form the mature mRNA. The process of removing introns and joining exons is called splicing. snRNA facilitates the removal of introns by forming base pairs with the consensus sequences at each end of the intron.",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp14_img1_48c91a90.jpeg",
+      "chapter_heading": "RNA synthesis, processing and modification"
+    },
+    {
+      "q_no": 15,
+      "question": "Which of the following does not require 5' capping?",
+      "options": {
+        "A": "tRNA of Alanine",
+        "B": "U6 snRNA",
+        "C": "mRNA for Histone",
+        "D": "siRNA"
+      },
+      "correct_answer": "A",
+      "explanation": "tRNA of Alanine does not require 5' capping. The capping process protects the 5' end of mRNA from the action of exonucleases, and polyadenylation protects the 3' end of the mRNA. All mRNA, snRNA, and siRNA undergo this process, but tRNAs are comparatively stable and do not require capping at the 5' end. Note: rRNAs also do not require 5' capping.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "RNA synthesis, processing and modification"
+    },
+    {
+      "q_no": 16,
+      "question": "Which of the following statements about mRNA splicing is true?",
+      "options": {
+        "A": "The existence of split genes has no advantage",
+        "B": "Self-splicing introns do not require the help of any protein for splicing to occur accurately",
+        "C": "Beta-thalassaemia results from a genetic defect in the spliceosome",
+        "D": "Splicing occurs in the cytosol"
+      },
+      "correct_answer": "B",
+      "explanation": "Self-splicing introns do not require a spliceosome or any other proteins for the splicing reaction. Self-splicing introns fold into complex loops and undergo transesterification reactions, thus undergoing self-splicing. Other options: Option A: Split genes have the advantage that they allow alternative splicing so that a single gene can code for variant forms of the same protein. Option C: Beta-thalassemia results from the faulty splicing of the beta-globin transcript. However, the spliceosome is normal and the reason for the fault is a mutation in the beta-globin gene itself. Option D: Splicing occurs in the nucleus and mature transcripts are then transported into the cytosol for translation (protein synthesis) to occur.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "RNA synthesis, processing and modification"
+    },
+    {
+      "q_no": 17,
+      "question": "Which of the following does not happen in 5' to 3' direction?",
+      "options": {
+        "A": "Transcription",
+        "B": "DNA replication",
+        "C": "DNA repair",
+        "D": "RNA editing"
+      },
+      "correct_answer": "D",
+      "explanation": "RNA editing occurs in 3' to 5' direction. It is the process by which the coding sequence is changed at the mRNA level before translation. RNA editing occurs by insertion of additional Us at the 3' end of the mRNA and proceeds in a 3' to 5' direction. The guide RNA (gRNA) acts as a template for the editing process. An example of RNA editing is the apoB gene and mRNA shown in the image below: Apo B Gene Intestine Transcription Liver RNA editing changes a CAA to No RNA editing UAA causing a STOP instead of a Gln Translation Apolipoprotein B 48 Apolipoprotein B 100 DNA strand Pre-mRNA strand",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp17_img1_0f03da82.jpeg",
+      "chapter_heading": "RNA synthesis, processing and modification"
+    },
+    {
+      "q_no": 18,
+      "question": "The eukaryotic initiation factor (eIF) that helps in cap binding is?",
+      "options": {
+        "A": "eIF 1",
+        "B": "eIF 2",
+        "C": "eIF 3",
+        "D": "eIF 4"
+      },
+      "correct_answer": "D",
+      "explanation": "The eukaryotic initiation factor (eIF) that helps in cap binding is eIF 4. eIFs are accessory proteins that help initiate protein synthesis. Functions of eIF: \n   • eIF3 & eIF 1A: The first step of initiation involves dissociation of the ribosome into its 40S and 60S subunits. eIF3 & eIF 1A bind to the newly dissociated 40S ribosomal subunit and hence delay the association of 40S and 60S. \n   • eIF2: It is involved in the formation of a binary complex (GTP+eIF). This complex binds to Met-tRNA. Further, the GTP-eIF-2-tRNAi ternary complex binds to the 40S ribosomal subunit to form the 43S preinitiation complex. This is the second step of initiation. \n   • eIF4: It forms the cap-binding complex. It binds to the 5′ terminal of mRNA molecules, which are capped. The mRNA would then bind to the 43S preinitiation complex to form the 48S initiation complex, in the third step of initiation. \n   • eIF5: It is involved in the hydrolysis of GTP bound to eIF2. This results in the binding of the 60S subunit with the 48S initiation complex to form the 80S initiation complex. This is the fourth step of initiation. \n   Complex assembles on the 5′ cap structure. The complex scans mRNA to find the start codon. The 40S ribosome subunit is purchased from a store and may have been a scam. GTP cannot dissociate if eIF2 is phosphorylated. eIF2 GDP, PF4 initiation complex, with tRNA in the P site, eIF2B.",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp18_img1_0e247126.jpeg",
+      "chapter_heading": "RNA synthesis, processing and modification"
+    },
+    {
+      "q_no": 19,
+      "question": "Which statement best explains the function of eEF-2?",
+      "options": {
+        "A": "It is required for the translocation of peptidyl-tRNA during translation",
+        "B": "It is required for the initiation of protein synthesis",
+        "C": "It is the agent that binds to, and is inactivated by, chloramphenicol",
+        "D": "It functions as a peptidyl transferase"
+      },
+      "correct_answer": "A",
+      "explanation": "Eukaryotic elongation factor 2 (eEF-2) is required for the translocation of peptidyl-tRNA along the mRNA during translation. The elongation reaction requires GTP hydrolysis. The corresponding elongation factor in bacteria is EF-G. Diphtheria toxin ADP-ribosylates eEF-2, leading to its inactivation. Other options: Option B: Initiation of eukaryotic protein synthesis requires several initiation factors, designated eIF-1, eIF-2, etc. Option C: Chloramphenicol inhibits prokaryotic peptidyl transferase. Option D: Peptidyl transferase is an rRNA (within the large ribosomal subunit) involved in the formation of the peptide bond between the amino acid groups within the A and P sites of the ribosome.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "RNA synthesis, processing and modification"
+    },
+    {
+      "q_no": 20,
+      "question": "All of the following statements about stop codons and amino acids are false except:",
+      "options": {
+        "A": "Selenocysteine is coded by UAA",
+        "B": "Pyrrolysine is coded by UAG",
+        "C": "Selenocysteine is considered the 22nd amino acid",
+        "D": "Other name of UGA is ochre"
+      },
+      "correct_answer": "B",
+      "explanation": "Pyrrolysine is coded by UAG is the correct statement. Other options: Option A: Selenocysteine is coded by UGA and not UAA. Option C: Selenocysteine is considered as the 21st amino acid. Option D: Other names of stop codons are as follows: • UAA: Ochre • UAG: Amber • UGA: Opal",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "RNA synthesis, processing and modification"
+    },
+    {
+      "q_no": 21,
+      "question": "The process of apolipoprotein B48 synthesis involves which of the following?",
+      "options": {
+        "A": "RNA alternate splicing",
+        "B": "RNA editing",
+        "C": "DNA editing",
+        "D": "RNA interference"
+      },
+      "correct_answer": "B",
+      "explanation": "The process of apolipoprotein B48 synthesis involves RNA editing. RNA editing is the process by which the coding sequence of the mRNA is changed before translation. As a result, the mRNA template differs from the DNA from which it was transcribed. This leads to the formation of a different protein. This occurs by insertion of additional uracils at the 3' end of the mRNA and proceeds in 3' to 5' direction. RNA editing in apoB synthesis: In the liver, the apoB gene is transcribed to mRNA, which is then translated to apoB 100. In the intestine, the same apoB gene is transcribed to the same mRNA. But now, the mRNA undergoes editing by an enzyme, cytidine deaminase, which converts the CAA codon in the mRNA to UAA at a single specific site. This edited mRNA translates to apoB 48.",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp21_img1_69681f03.jpeg",
+      "chapter_heading": "RNA synthesis, processing and modification"
+    },
+    {
+      "q_no": 22,
+      "question": "The illustration below shows alternative splicing of a gene which has intron segments 1, 2, 3, 4, and 5. It yields two products A and B, by the action of different promoters. You are provided with the promoters w, x, y, and z, each of which binds to a different segment as shown below and acts in the marked direction. Which of the following promoters will you use to get product A?",
+      "options": {
+        "A": "W, X, Y",
+        "B": "W, Z",
+        "C": "W, X",
+        "D": "W, Y"
+      },
+      "correct_answer": "B",
+      "explanation": "Among the given options, using promoters W and Y will yield the desired product A. Promoters or DNA regulatory elements usually precede the desired exon to be transcribed. It helps redirect transcription of only the desired exons of a gene to yield a product. Alternative splicing utilizes different promoters to code slightly different products from the same gene. In this question, the desired product A has segments 1, 3, 4, 5, whilst the other product B has 1, 2, 4, 5. The difference between both is the presence of segment 3 in product A and the presence of segment 2 in product B. As the product in question is A, only segment 3 is required while excluding segment 2 and ensuring segments 1, 4, and 5 are intact. Segment 1 needs to be transcribed and so W is essential. Segment 2 does not need to be transcribed. Segment 3 needs to be transcribed and so Y is essential. Segment 4 needs to be transcribed, but Z is not essential as Y continues the transcription in the direction shown by the arrow. The answer is hence promoters W and Y.",
+      "image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/q22_img1_8efea6c8.jpeg",
+      "explanation_image": null,
+      "chapter_heading": "RNA synthesis, processing and modification"
+    }
+  ]
+}

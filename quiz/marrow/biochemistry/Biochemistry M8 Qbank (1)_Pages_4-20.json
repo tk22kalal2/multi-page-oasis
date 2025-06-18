@@ -1,0 +1,320 @@
+{
+  "chapter": "Mucopolysaccharides",
+  "questions": [
+    {
+      "q_no": 1,
+      "question": "Which of the following is an aldose sugar?",
+      "options": {
+        "A": "Erythrulose",
+        "B": "Ribulose",
+        "C": "Fructose",
+        "D": "Erythrose"
+      },
+      "correct_answer": "",
+      "explanation": "",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Mucopolysaccharides"
+    },
+    {
+      "q_no": 2,
+      "question": "Which of the following two monosaccharides are constituents of lactose?",
+      "options": {
+        "A": "Glucose and Fructose",
+        "B": "Glucose and Mannose",
+        "C": "Glucose and Galactose",
+        "D": "Glucose and Glucose"
+      },
+      "correct_answer": "",
+      "explanation": "Lactose is a disaccharide that consists of galactose and glucose linked by a ẞ-1,4-glycosidiclinkage.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Mucopolysaccharides"
+    },
+    {
+      "q_no": 3,
+      "question": "Which of the following are enantiomers?",
+      "options": {
+        "A": "D-galactose and L-fructose",
+        "B": "Galactose and glucose",
+        "C": "D-mannose and L-mannose",
+        "D": "D-glucose and D-mannose"
+      },
+      "correct_answer": "",
+      "explanation": "D-mannose and L-mannose are enantiomers. Enantiomers are mirror images of each other.The designation of a sugar isomer as the D- or L- form is determined by its spatial relationship tothe parent compound of the carbohydrates, that is, the three-carbon sugar glyceraldehyde. Theorientation of the -H and -OH groups around the penultimate carbon atom determines whetherthe sugar belongs to the D- or L- series. When the -OH group on the penultimate carbon atom ofthe sugar is on the right side, then the sugar is designated as a D- isomer. When the -OH group ison the left, it is an L-isomer.Naturally occurring monosaccharides are D-sugars and naturally occurring aminoacids are L-isomers. Racemase enzyme interconverts between D and L isomers.Examples of enantiomers include D-glucose and L-glucose, D-fructose and L-fructose andD-mannose and L-mannose11HHHOHHOHHOHHOHRRHOHHOHHOHHOHCH₂OHCH₂OHD-MannoseOMARROWL-Mannose",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp3_img1_39ceda35.jpeg",
+      "chapter_heading": "Mucopolysaccharides"
+    },
+    {
+      "q_no": 4,
+      "question": "Which among the following is an example of epimers?",
+      "options": {
+        "A": "D-glucose and L-glucose",
+        "B": "D-glucose and D-mannose",
+        "C": "D-glucose and D-fructose",
+        "D": "D-fructose and D-talose"
+      },
+      "correct_answer": "D",
+      "explanation": "D-glucose and D-mannose are examples of epimers. Isomers that differ in configuration around only one specific carbon atom (with the exception of the carbonyl carbon) are defined as epimers of each other. Examples for epimers of glucose include mannose (epimerized at carbon 2) and galactose (epimerized at carbon 4).",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp4_img1_3f72f279.png",
+      "chapter_heading": "Mucopolysaccharides"
+    },
+    {
+      "q_no": 5,
+      "question": "Which type of bond is there at the branching points in the structure of glycogen?",
+      "options": {
+        "A": "α1○4 glucosidic bond",
+        "B": "α1 6 glucosidic bond",
+        "C": "α1° 1 glucosidic bond",
+        "D": "α1○2 glucosidic bond"
+      },
+      "correct_answer": "B",
+      "explanation": "Branching points in the glycogen structure have α1° 6 glucosidic bonds.12Glycogen is the storage polysaccharide in animals. It consists of α-D glucopyranose residues in α14 glucosidic linkage in straight chains and branching by means of α1° 6 glucosidic bonds.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Mucopolysaccharides"
+    },
+    {
+      "q_no": 6,
+      "question": "Which of the following has the highest glycemic index?",
+      "options": {
+        "A": "Glucose",
+        "B": "Fructose",
+        "C": "Sucrose",
+        "D": "Sugar alcohols"
+      },
+      "correct_answer": "A",
+      "explanation": "The glycemic index is highest for glucose.The increase in blood glucose after a test dose of carbohydrate compared with that after anequivalent amount of glucose (as glucose or from a reference starchy food) is known as theglycemic index.The glycemic Index of glucose and galactose is 1 while that of dietary fibres is o.Low glycemic index sugars include fructose, sucrose, starch and sugar alcohol.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Mucopolysaccharides"
+    },
+    {
+      "q_no": 7,
+      "question": "You want to assess glucose in the urine of a patient with diabetes. Which of the followingtests/methods cannot be used to detect the same?",
+      "options": {
+        "A": "Nelson Somogyi method",
+        "B": "Ferric chloride test",
+        "C": "O-Toluidine method",
+        "D": "Folin and Wu method"
+      },
+      "correct_answer": "B",
+      "explanation": "A Ferric chloride test is not used to detect glucose. It is used to detect alkaptonuria andphenylketonuria.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Mucopolysaccharides"
+    },
+    {
+      "q_no": 8,
+      "question": "Which of the following compounds in a patient's urine will not give a positive reaction to■Benedict's test?",
+      "options": {
+        "A": "Ascorbic acid5",
+        "B": "Homogentisic acid",
+        "C": "Sucrose",
+        "D": "Lactose"
+      },
+      "correct_answer": "",
+      "explanation": "Benedict's test is a test for reducing sugars. Sucrose does not give a positive reaction to Benedict'stest as it is a non-reducing sugar.Principle: All monosaccharides and reducing disaccharides contain a free functional aldehyde orketone group. When heated in the presence of an alkali, they are converted to enediols, whichreduce the cupric compounds (Cu2+) present in Benedict's reagent to an insoluble precipitate ofred cuprous oxide (Cu2O).Benedict's testSugarIEnediolMASugar acidCUSO-owOxidized ReducedCu-2Cu(OH)OMARROWCu₂O13Composition of Benedict's reagent:•Copper sulfate: Provides the source of cupric (Cu2+) ions• Sodium citrate: Complexes with cupric (Cu2+) ions to prevent its deterioration to cuprous ionsspontaneously•Sodium carbonate: Provides an alkaline pHSubstances giving a positive reaction on Benedict's test:•All monosaccharides such as glucose, galactose, fructose, pentoses• Reducing disaccharides such as lactose and maltose•Glucuronic acid, homogentisic acid, and ascorbic acidClinical correlate: Benedict's test is used to detect the presence of glucose in urine.The color of the precipitate gives a rough idea of the amount of sugar present in urine. Hence, it isa semi-quantitative test.Colour of the precipitateAmount of reducing sugarGreen0.5%Yellow1%Orange1.5%Red2%",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp8_img1_cb0bf47f.jpeg",
+      "chapter_heading": "Mucopolysaccharides"
+    },
+    {
+      "q_no": 9,
+      "question": "What would be the respiratory quotient if someone is on an exclusive carbohydrate diet?",
+      "options": {
+        "A": "0.7",
+        "B": "0.8",
+        "C": "1",
+        "D": "1.2"
+      },
+      "correct_answer": "",
+      "explanation": "The respiratory quotient, if someone is on an exclusive carbohydrate diet, is 1.The respiratory quotient is the amount of CO2 produced /02 consumed.The respiratory quotient for various substances:",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Mucopolysaccharides"
+    },
+    {
+      "q_no": 10,
+      "question": "Which of the following tests can be used to estimate the liver function in a patient withchronic liver disease?Glucose Tolerance Testb) Fructose Tolerance Testc) Galactose Tolerance Testd) Lactose Tolerance TestQuestion 11:Which of the following is the most common mucopolysaccharidosis?",
+      "options": {
+        "A": "Hurler's disease",
+        "B": "Hunter's disease",
+        "C": "Sanfilippo disease",
+        "D": "Sly syndrome"
+      },
+      "correct_answer": "",
+      "explanation": "Substance RQCarbohydr 1.00ateProtein0.81Fat0.71Alcohol0.6614The galactose tolerance test is used to estimate liver function.Galactose is metabolized to glucose almost exclusively by the liver. Hence, the galactose tolerancetest is done to assess the functional capacity of the liver.In liver dysfunction, galactose is excreted in the urine in increased amounts. The liver function ismeasured as the rate of excretion of galactose in urine following theingestion or intravenous injection of a known amount of galactose.Normally, less than 3 g appear in the urine within 5 hours after the ingestion of 40 g of galactose.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Mucopolysaccharides"
+    },
+    {
+      "q_no": 12,
+      "question": "A patient with deafness and mental retardation is found to have an excess accumulation of glycosaminoglycans in his body. After a detailed evaluation, he is diagnosed with Hunter disease. What is the site of synthesis of these accumulated substances?",
+      "options": {
+        "A": "Mitochondria and Golgi apparatus",
+        "B": "Endoplasmic reticulum and Golgi apparatus",
+        "C": "Lysosomes and endoplasmic reticulum",
+        "D": "Endoplasmic reticulum and mitochondria"
+      },
+      "correct_answer": "B",
+      "explanation": "The sites of synthesis of glycosaminoglycans (GAG) are the endoplasmic reticulum and Golgi apparatus. Synthesis of the core proteins occurs in the endoplasmic reticulum, whereas biosynthesis of glycosaminoglycan chains and their subsequent modifications occurs in the Golgi apparatus. Glycosaminoglycans or mucopolysaccharides are complex carbohydrates made up of amino sugars and uronic acids. They may be attached to a protein molecule to form a proteoglycan. Proteoglycans are components of the ground substance of connective tissue. Proteoglycans have a bottle brush appearance. Note: Hyaluronic acid is the only GAG that is not synthesized by the Golgi apparatus. It is formed at the plasma membrane. It participates in cellular migration among other things.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Mucopolysaccharides"
+    },
+    {
+      "q_no": 13,
+      "question": "What are the constituents of chondroitin sulfate?",
+      "options": {
+        "A": "N-acetyl glucosamine and glucuronic acid",
+        "B": "N-acetyl galactosamine and glucuronic acid",
+        "C": "N-acetyl glucosamine and galactose",
+        "D": "N-sulfated glucosamine plus iduronic acid"
+      },
+      "correct_answer": "",
+      "explanation": "Chondroitin sulfate is composed of N-acetyl galactosamine with sulfate and glucuronic acid.Chondroitin sulfate is the most abundant GAG in the body. It is located at sites of calcification inendochondral bone, cartilage, tendons, ligaments, aorta, and CNS. In cartilages, it binds collagenand holds fibers in a tight, strong network.15",
+      "image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/q13_img1_c731130c.jpeg",
+      "explanation_image": null,
+      "chapter_heading": "Mucopolysaccharides"
+    },
+    {
+      "q_no": 14,
+      "question": "Which of the following mucopolysaccharides does not contain uronic acid?",
+      "options": {
+        "A": "Chondroitin sulfate",
+        "B": "Hyaluronic acid",
+        "C": "Keratan sulfate",
+        "D": "Dermatan sulfate"
+      },
+      "correct_answer": "C",
+      "explanation": "Keratan sulfate is a mucopolysaccharide that does not contain uronic acid. It is constituted by repeating disaccharide units of N-acetylglucosamine and galactose. Two types of keratan sulfate are seen: • Keratan sulfate I - in the cornea • Keratan sulfate II - in the cartilage. It is present between the collagen fibrils in the cornea and plays a major role in corneal transparency. Hence, its deficiency can lead to corneal opacity.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Mucopolysaccharides"
+    },
+    {
+      "q_no": 15,
+      "question": "In a patient presenting with corneal opacity, deficiency of which of the following could be alikely cause?",
+      "options": {
+        "A": "Keratan sulfate",
+        "B": "Hyaluronic acid",
+        "C": "Chondroitin sulfate",
+        "D": "Heparan sulfate"
+      },
+      "correct_answer": "A",
+      "explanation": "Keratan sulfate I is present between the collagen fibrils in the cornea and plays a major role incorneal transparency. Hence, its deficiency can lead to corneal opacity.Keratan sulfate is made of repeating units of N-acetyl glucosamine and galactose. Two types ofkeratan sulfate are seen:• Keratan sulfate I - in the cornea• Keratan sulfate II - in the cartilageDermatan sulfate (DS) also plays a role in corneal transparency. However, DS is widely distributedin the body, mainly in the skin.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Mucopolysaccharides"
+    },
+    {
+      "q_no": 16,
+      "question": "Which of the following glycosaminoglycan plays an important role in cellular migration?7",
+      "options": {
+        "A": "Dermatan sulfate",
+        "B": "Heparan sulfateChondroitin sulfated) Hyaluronic acidQuestion 17:Which of the following GAG is responsible for the charge selectiveness of the renal glomerularbasement membrane?a) Heparan sulfateb) Heparin",
+        "C": "Dermatan sulfate",
+        "D": "Hyaluronic acid"
+      },
+      "correct_answer": "D",
+      "explanation": "Hyaluronic acid plays an important role in cellular migration.It is composed of repeating disaccharide units of N-acetyl glucosamine and glucuronic acid. It hasno sulfate group. Hyaluronic acid is the only GAG that is not covalently attached to core protein.It is located in Synovial fluid, vitreous humor, the umbilical cord, cartilage.It serves as a lubricant and shock absorber, especially in joints. It also plays an important role inpermitting cell migration during morphogenesis, wound repair, and tumor cell metastasis.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Mucopolysaccharides"
+    },
+    {
+      "q_no": 18,
+      "question": "All mucopolysaccharidoses are inherited in an autosomal recessive manner, except:",
+      "options": {
+        "A": "Hurler's disease",
+        "B": "Hunter's disease",
+        "C": "Maroteaux - lamy disease",
+        "D": "Sanfilippo A disease"
+      },
+      "correct_answer": "",
+      "explanation": "All mucopolysaccharidoses are inherited in an autosomal recessive manner, except Hunter'sdisease which is inherited in an X-linked recessive manner.In Hunter's disease, the enzyme iduronate 2-sulphatase is deficient. It is an X-linked condition,affecting males only.Clinical features of the condition include:•Grouped skin papules•Extensive Mongolian spots may be an early marker• No corneal clouding•Communicating hydrocephalus and spastic paraplegia may be seen due to the thickening ofmeninges•Severe form: extensive and progressive CNS deterioration, followed by death by 10-15 years ofage",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Mucopolysaccharides"
+    },
+    {
+      "q_no": 19,
+      "question": "A 6-year-old mentally retarded girl presents with a protuberant abdomen, short stature,coarse facial features, and cloudy corneas. Skeletal malformations include dysostosismultiplex and bullet-shaped middle phalanx. Which of the following enzyme deficiencies ismost likely in this patient?",
+      "options": {
+        "A": "Iduronate sulfatase",
+        "B": "ẞ-Galactosidase",
+        "C": "α-L-Iduronidase",
+        "D": "ẞ-Glucuronidase"
+      },
+      "correct_answer": "",
+      "explanation": "The clinical features point to the diagnosis of Hurler's disease (MPS 1). Deficiency of the enzymeα-L-iduronidase that degrades glycosaminoglycans results in Hurler's disease.Hurler's disease was also known previously as gargoylism (coarse facial features).Clinical features of the disease include coarse facial features, corneal clouding, large tongue, andinguinal hernias. They also present with hepatosplenomegaly, short stature, skeletal dysplasia,and can present with hydrocephalus or valvular heart disease. These patients also have Reillybody inclusions in their leukocytes.The gene encoding α-L-iduronidase is present on chromosome 4. Heparan sulfate and dermatansulfate are accumulated. Enzyme replacement therapy is available in the form of aldurazyme.Mucopolysaccharidoses are a group of metabolic disorders caused by the absence ormalfunctioning of lysosomal enzymes needed to break down molecules called glycosaminoglycans.• Most common MPS: Sanfilippo &gt; Hunter's and Hurler's17• MPS with no mental retardation: Scheie's disease, Morquio syndrome, and Maroteaux-Lamysyndrome.• MPS with no corneal clouding: Hunter's disease and Sanfilippo syndrome• MPS with XLR inheritance: Hunter's disease• MPS with no visceromegaly: Morquio's disease• Skeletal deformity associated with all MPS: Dysostosis multiplex• MPS with no leucocyte inclusions: Morquio's disease",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Mucopolysaccharides"
+    },
+    {
+      "q_no": 20,
+      "question": "8A 4-year-old boy presents with mental retardation, dysostosis multiplex, coarse facialfeatures, and clear cornea. What is the most likely diagnosis?",
+      "options": {
+        "A": "Hurler's disease",
+        "B": "Hunter's disease",
+        "C": "Maroteaux-Lamy disease",
+        "D": "Sly disease"
+      },
+      "correct_answer": "A",
+      "explanation": "The clinical features point to a diagnosis of Hunter's disease. Corneal clouding is absent inHunter's disease.In this condition, the enzyme iduronate 2-sulphatase is deficient. It is an X-linked condition,affecting males only.Clinical features of the condition include:•Grouped skin papules••Extensive Mongolian spots may be an early marker• No corneal clouding•Communicating hydrocephalus and spastic paraplegia may be seen due to the thickening ofmeninges• Severe form: extensive and progressive CNS deterioration, followed by death by 10-15 years ofage",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Mucopolysaccharides"
+    },
+    {
+      "q_no": 21,
+      "question": "A 7-year-old boy presented with dwarfism and skeletal abnormalities. Upon examination, theabdomen was distended with no hepatosplenomegaly. The child was assessed and was foundto be of normal intelligence. Which of the following mucopolysaccharidoses could be a likelycause?",
+      "options": {
+        "A": "Hurler's disease",
+        "B": "Hunter's disease",
+        "C": "Sanfilippo disease",
+        "D": "Morquio's disease"
+      },
+      "correct_answer": "D",
+      "explanation": "The key features in the above scenario are the absence of hepatosplenomegaly andthe preservation of intelligence. Both of these features make the diagnosis of Morquio's diseasemost likely. All the other conditions above are associated with hepatosplenomegaly.Morquio disease (MPS-IV) is caused by a deficiency of N-acetylgalactosamine-6-sulfatase(MPS-IVA) or of ẞ-galactosidase (MPS IVB). Both lead to defective degradation of keratan sulfate.Early symptoms:•• Genu valgus⚫ Kyphosis•• Growth retardation with short trunk and neck•Waddling gait• Preservation of intelligence18•⚫ Instability of the odontoid process and ligamentous laxity is regularly present and can result inlife-threatening atlantoaxial instability and dislocation.It is of two types:Note:• MPS with no mental retardation: Scheie's disease, Morquio syndrome, and Maroteaux-Lamysyndrome.• MPS with no visceromegaly: Morquio's diseaseTypeEnzyme involvedChromosomeMorquio syndrome AGalactosamine 6-sulfataseChromosome 16Morquio syndrome BB-GalactosidaseChromosome 4",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Mucopolysaccharides"
+    },
+    {
+      "q_no": 22,
+      "question": "Naglazyme is used for treating patients with which of the following diseases?",
+      "options": {
+        "A": "Maroteaux-Lamy syndrome",
+        "B": "Morquio's disease",
+        "C": "Von Gierkes disease",
+        "D": "Niemann-Picks disease"
+      },
+      "correct_answer": "A",
+      "explanation": "Naglazyme is used in the treatment of Maroteaux-Lamy syndrome.Maroteaux-Lamy syndrome/MPS VI is caused by the deficiency of arylsulfatase B enzyme whosegene locus is on chromosome 5. Preservation of intelligence is the feature of this syndrome. It ischaracterized by macrocephaly, hydrocephalus, macroglossia, short stature, and contractures.Naglazyme is used as an enzyme replacement therapy.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Mucopolysaccharides"
+    },
+    {
+      "q_no": 23,
+      "question": "A 5-year-old boy presented with easy fatigability, irritability and inability to concentrate. Labsrevealed the following findings a and b (light and oil immersion respectively) on the bonemarrow aspiration. Which of the following is the most likely enzyme deficient in thiscondition?9",
+      "options": {
+        "A": "Hexosaminidase",
+        "B": "Glucocerebrosidase",
+        "C": "Sphingomyelinase",
+        "D": "N-acetylglucosaminidaseOMARROW"
+      },
+      "correct_answer": "B",
+      "explanation": "The given clinical scenario of a child with easy fatiguability, irritability, and inability toconcentrate with the images showing a crumpled tissue paper appearance (Gaucher's cell) issuggestive of Gaucher's disease. The deficient enzyme is glucocerebrosidase (also known asbeta-glucosidase). IGaucher's disease is an inborn error of metabolism caused due to a deficiency of betaglucocerebrosidase. It is the most common lysosomal storage disorder and the mode ofinheritance is autosomal recessive. There is an accumulation of lipid-laden macrophages in thespleen, liver, and other tissues.There are three clinical subtypes - type I (chronic non-neuronopathic), type II (acuteneuronopathic), and type III (intermediate). Clinical features include anemia, thrombocytopenia,hepatosplenomegaly, and neurological features depending on the subtype.-Gaucher's cells These are formed as a result of the accumulation of massive amounts ofglucocerebrosides within the phagocytes. The cells have a fibrillary cytoplasm and give a crumpledtissue paper appearance.19Option A: Deficiency of beta-hexosaminidase A is seen in Tay-Sachs disease. The deficiency ofbeta-hexosaminidase A and B causes Sandhoff's disease. Clinical features are seizures,macrocephaly, and hyperacusis.Option C: Deficiency of sphingomyelinase leads to Niemann-Pick disease. It is characterized bythe presence of foam cells in the bone marrow. There may be pulmonary infiltrates leading to lungfailure.Option D: Deficiency of N-acetylglucosaminidase leads to Sanfillipo's disease. It is a type ofmucopolysaccharidosis (MPS - III). There is an accumulation of heparan sulfate leading to severecognitive degeneration.20",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Mucopolysaccharides"
+    }
+  ]
+}

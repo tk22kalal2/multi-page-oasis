@@ -1,0 +1,485 @@
+{
+  "chapter": "Protein structure and function",
+  "questions": [
+    {
+      "q_no": 1,
+      "question": "The primary structure of a protein refers to",
+      "options": {
+        "A": "Linear structure and order of the amino acids present",
+        "B": "Regular conformational forms of a protein",
+        "C": "Complete three dimensional structure of the poly peptide units of a given protein",
+        "D": "Subunit structure of the protein"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp1_img1_623a66e3.jpeg",
+      "chapter_heading": "Protein structure and function"
+    },
+    {
+      "q_no": 2,
+      "question": "Alpha helix and beta pleated sheet are examples of the",
+      "options": {
+        "A": "Primary",
+        "B": "Secondary",
+        "C": "Tertiary",
+        "D": "Quarternarystructure of a protein."
+      },
+      "correct_answer": "B",
+      "explanation": "H-C-COOHRAcidiccarboxylR group groupAmino AcidAming neAlpha helix and beta-pleated sheets are examples of the secondary structure of a protein.The secondary structure of a protein refers to the folded and geometrically ordered units of shortsegments of a polypeptide chain. Examples include alpha helix, beta sheets, turns and bends.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Protein structure and function"
+    },
+    {
+      "q_no": 3,
+      "question": "Which of the following is false regarding alpha helix?",
+      "options": {
+        "A": "Stability of an alpha helix arises primarily from the peptide bond.",
+        "B": "A complete turn of an alpha helix contains 3.6 amino acyl residues.",
+        "C": "Pitch of the helix is 0.54 nm.",
+        "D": "Large numbers of charged amino acids disrupt the helix."
+      },
+      "correct_answer": "A",
+      "explanation": "Alpha helix is stabilized primarily by intra-chain hydrogen bonds.Alpha helix is the most common and stable secondary structure of protein. It is a rigid,right-handed spiral. A complete turn of the helix contains an average of 3.6 aminoacylresidues. The rise per turn of the helix (pitch) is 0.54nm.Large numbers of charged amino acids (glutamate, aspartate, histidine, lysine, and arginine)disrupt the helix by forming ionic bonds or by electrostatically repelling each other.163alpha helixhydrogenbond",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp3_img1_120f2daa.jpeg",
+      "chapter_heading": "Protein structure and function"
+    },
+    {
+      "q_no": 4,
+      "question": "What is the most common and stable conformation for a polypeptide chain?",
+      "options": {
+        "A": "Alpha helix",
+        "B": "Beta pleated sheet",
+        "C": "Turns and bends153",
+        "D": "Motifs"
+      },
+      "correct_answer": "A",
+      "explanation": "The most common and stable conformation for a polypeptide chain is alpha helix.The alpha helix has high stability due to the presence of a large number of hydrogen bonds andvan der Waals interactions between the amino acids. Hemoglobin and myoglobin are proteinswhose major secondary structure is the alpha helix.alpha helix",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp4_img1_c36d1b81.jpeg",
+      "chapter_heading": "Protein structure and function"
+    },
+    {
+      "q_no": 5,
+      "question": "Which of the following amino acids does not participate in the formation of an alpha helix?",
+      "options": {
+        "A": "Leucine",
+        "B": "Methionine",
+        "C": "Proline",
+        "D": "Lysine"
+      },
+      "correct_answer": "C",
+      "explanation": "Proline does not participate in the formation of an alpha helix. The hydrogen bond, the stability of an alpha helix arises primarily from hydrogen bonds formed between the oxygen of the peptide bond carbonyl and the hydrogen atom of the peptide bond nitrogen of the fourth residue down the polypeptide chain. Since the peptide bond nitrogen of proline lacks a hydrogen atom, it is incapable of forming a hydrogen bond with carbonyl oxygen in an alpha helix.",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp5_img1_110125f9.jpeg",
+      "chapter_heading": "Protein structure and function"
+    },
+    {
+      "q_no": 6,
+      "question": "All of the following types of interactions cooperate in stabilizing the tertiary structures of globular proteins except",
+      "options": {
+        "A": "Disulfide bonds",
+        "B": "Hydrogen bonds, Ionic interactions",
+        "C": "Peptide bonds",
+        "D": "Quaternary structure"
+      },
+      "correct_answer": "C",
+      "explanation": "Peptide bonds are not involved in stabilizing tertiary structure of proteins. They form the primary structure of proteins. Interactions stabilizing tertiary structure of proteins are as follows: Hydrophobic interactions, Hydrogen bonds, Ionic interactions, and Disulfide bonds. Note: Hydrogen bonds and Van der Waals interactions are involved in the formation of a helix (secondary structure).",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Protein structure and function"
+    },
+    {
+      "q_no": 8,
+      "question": "Which among the following is true about denaturation of proteins?",
+      "options": {
+        "A": "Biological property of the protein is retained.",
+        "B": "Primary structure is lost.154",
+        "C": "It is always irreversible.",
+        "D": "It mostly renders the protein insoluble."
+      },
+      "correct_answer": "D",
+      "explanation": "Denaturation mostly renders the protein insoluble.Protein denaturation results in the unfolding and disorganization of the secondary and tertiarystructures of protein. Thus, the biological property of the protein is lost. However, there is nohydrolysis of peptide bonds, which form the primary structure.Denatured proteins are often insoluble and precipitate from the solution. This process may bereversible under ideal conditions, such that the protein refolds into its original structure when thedenaturing agent is removed.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Protein structure and function"
+    },
+    {
+      "q_no": 9,
+      "question": "What do chaperones assist in?",
+      "options": {
+        "A": "Ubiquitinization of proteins",
+        "B": "Protein modification",
+        "C": "Protein folding",
+        "D": "Protein cleavage"
+      },
+      "correct_answer": "C",
+      "explanation": "Chaperones assist in protein folding.Chaperones are heat shock proteins. They bind to the short sequences of hydrophobic amino acidsof an extended polypeptide. Thus, they shield the new polypeptide being synthesized fromaggregating. This provides the polypeptide an opportunity to form an appropriate secondarystructure.When a protein is thermodynamically trapped in a misfolded dead-end form, chaperones canrescue the protein by unfolding their hydrophobic ends. Thus, they provide the protein a secondchance to fold productively.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Protein structure and function"
+    },
+    {
+      "q_no": 10,
+      "question": "All of the following are storage proteins except",
+      "options": {
+        "A": "Myoglobin",
+        "B": "Ovalbumin",
+        "C": "Ferritin",
+        "D": "Glutelin"
+      },
+      "correct_answer": "A",
+      "explanation": "Myoglobin binds oxygen in muscles and is not a storage protein.Proteins that act as a storehouse of amino acids and metal ions are called storage proteins. Theyare as follows:•Ferritin• Ovalbumin of egg white• Glutelin of wheat• Gliadin of wheat• Vitellin of egg yolk•Oryzenin of rice• Milk casein",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Protein structure and function"
+    },
+    {
+      "q_no": 11,
+      "question": "Which of the following is a protein separation technique based on molecular/ionic charge?",
+      "options": {
+        "A": "Affinity chromatography",
+        "B": "SDS-PAGE",
+        "C": "Absorption chromatography",
+        "D": "Ion exchange chromatography"
+      },
+      "correct_answer": "D",
+      "explanation": "Ion exchange chromatography is a protein separation technique based on molecular/ionic charge. Other techniques based on molecular charge are: Agarose gel electrophoresis, Cellulose acetate electrophoresis, Isoelectric focusing, and High-performance liquid chromatography (HPLC).",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Protein structure and function"
+    },
+    {
+      "q_no": 12,
+      "question": "Which of the following protein separation techniques is based on the molecular size?",
+      "options": {
+        "A": "Agarose gel electrophoresis",
+        "B": "Size exclusion chromatography",
+        "C": "Ion exchange chromatography155",
+        "D": "Affinity chromatography"
+      },
+      "correct_answer": "B",
+      "explanation": "Size-exclusion chromatography is a separation technique that separates solutes on the basis of themolecular size.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Protein structure and function"
+    },
+    {
+      "q_no": 13,
+      "question": "All of the following are methods used to detect the three dimensional structure of proteinsexcept",
+      "options": {
+        "A": "X-ray crystallography",
+        "B": "NMR spectroscopy",
+        "C": "Electrophoresis",
+        "D": "Infra-red spectroscopy"
+      },
+      "correct_answer": "C",
+      "explanation": "Electrophoresis is not used to detect the three-dimensional structure of proteins.The techniques used to determine the three-dimensional structures of proteins are as follows:••X-Ray crystallography• NMR spectroscopy• Infra-red spectroscopy• Polychromatic X-ray crystallography• UV light spectroscopy•Optical rotatory dispersion• Circular dichromism•Computer-based modelling•Mass spectrometry",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Protein structure and function"
+    },
+    {
+      "q_no": 14,
+      "question": "Rossman fold-associated NADH domain is found in",
+      "options": {
+        "A": "Pyruvate dehydrogenase",
+        "B": "Lactate dehydrogenase",
+        "C": "Acetyl CoA dehydrogenase",
+        "D": "Isocitrate dehydrogenase"
+      },
+      "correct_answer": "B",
+      "explanation": "Rossmann fold-associated NADH domain is found in lactate dehydrogenase.Rossmann fold is an N-terminal NAD(P)+ -binding domain. It is seen in:•Lactate dehydrogenase• Alcohol dehydrogenase• Glyceraldehyde-3-phosphate dehydrogenase• Malate dehydrogenase167• D-glycerate dehydrogenase• 6-phosphogluconate dehydrogenase• Formate dehydrogenaseEditingSiteActivationSiteGeneral aminoacyl-tRNA synthetaseClass 1: Rossmann FoldMAClass 2: Antiparallel Beta-Sheets",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp14_img1_2fcde71b.jpeg",
+      "chapter_heading": "Protein structure and function"
+    },
+    {
+      "q_no": 15,
+      "question": "All of the following can determine protein structure except",
+      "options": {
+        "A": "Mass spectrometry",
+        "B": "X-ray crystallography",
+        "C": "High-performance liquid chromatography",
+        "D": "NMR spectroscopy"
+      },
+      "correct_answer": "C",
+      "explanation": "High-performance liquid chromatography cannot determine protein structure. It is used forseparation, purification, and identification of proteins.Given below are the various methods to determine protein structure:• X-Ray crystallography•NMR spectroscopy•• Mass spectrometry• Infra-red spectroscopy• Polychromatic X-ray crystallography•⚫ UV light spectroscopy•Optical rotatory dispersion• Circular dichromism•Computer-based modeling",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Protein structure and function"
+    },
+    {
+      "q_no": 16,
+      "question": "Where is quarter-staggered arrangement seen?",
+      "options": {
+        "A": "Immunoglobulin",
+        "B": "Hemoglobin",
+        "C": "Keratin156",
+        "D": "Collagen"
+      },
+      "correct_answer": "D",
+      "explanation": "The collagen fibers have a triple-stranded, quarter-staggered arrangement.168In a collagen fibre, tropocollagen molecules are arranged side-by-side. Each fibril is displacedlongitudinally from its neighbour by less than one-quarter of its length. This is known as a\"quarter-staggered array\". This arrangement helps in mineralization.Quarter-staggered arrangementof collagenCross-linksCollagen microfibrilsOMARROW",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp16_img1_ff72664e.jpeg",
+      "chapter_heading": "Protein structure and function"
+    },
+    {
+      "q_no": 17,
+      "question": "Which of the following is not a protein-misfolding disease?",
+      "options": {
+        "A": "Prion disease",
+        "B": "Alzheimer's disease",
+        "C": "Beta thalassemia",
+        "D": "Ehlers-Danlos syndrome"
+      },
+      "correct_answer": "D",
+      "explanation": "Ehlers-Danlos syndrome is not a protein misfolding disease.Ehlers-Danlos syndrome is a group of connective tissue disorders resulting in mobile joints andskin abnormalities. It is due to mutation in the genes encoding a collagen 1, procollagenN-peptidase and lysyl hydroxylase.The following are examples of protein misfolding diseases:• Prion disease: Creutzfeldt-Jakob disease, bovine spongiform encephalopathy, scrapie disease ofsheep.• Alzheimer's disease•• Beta thalassemia",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Protein structure and function"
+    },
+    {
+      "q_no": 18,
+      "question": "Which of the following is not a conjugated protein?",
+      "options": {
+        "A": "Albumin and globulin",
+        "B": "Casein and vitellin",
+        "C": "Hemoglobin",
+        "D": "Carbonic anhydrase"
+      },
+      "correct_answer": "A",
+      "explanation": "Albumin and globulin are not conjugated proteinsBased on composition, proteins can be classified into:1. Simple proteins: They contain only amino acids.•Globular: Albumin, Globulin, histones• Fibrous: Collagen, Elastin, Fibrin2. Conjugated proteins: These contain a non-protein part (prosthetic group).169⚫ Phosphoproteins: Casein, Vitellin•• Metalloproteins: Hemoglobin, Carbonic anhydrase.Glycoproteins: Blood group antigens• Nucleoproteins•⚫ LipoproteinsMucoproteins3. Derived proteins: These are degradation products of native proteins.•Primary: Coagulated proteins• Secondary: Peptides",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Protein structure and function"
+    },
+    {
+      "q_no": 19,
+      "question": "Which among the following is not a transport protein?",
+      "options": {
+        "A": "Insulin",
+        "B": "Myoglobin",
+        "C": "Hemoglobin",
+        "D": "Albumin"
+      },
+      "correct_answer": "A",
+      "explanation": "Insulin is not a transport protein.Insulin is a regulatory protein (hormone) secreted by the beta cells of the pancreas. It promotesanabolism.The following are examples of transport proteins:• Hemoglobin transports oxygen from the lungs to the capillaries of the tissues. It is foundexclusively in red blood cells• Myoglobin functions both as a reservoir of oxygen and as an oxygen carrier. It increases the rateof transport of oxygen within the muscle cell. It is present in heart and skeletal muscle•· Albumin is a plasma protein that transports cations, fatty acids, bilirubin, etc. It also regulatesthe plasma oncotic pressure.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Protein structure and function"
+    },
+    {
+      "q_no": 20,
+      "question": "All are true about collagen except that",
+      "options": {
+        "A": "It is the most abundant protein in the body.",
+        "B": "Type IV collagen is found in basement membrane",
+        "C": "Every third amino acid is alanine.",
+        "D": "Procollagen is formed inside the fibroblast157"
+      },
+      "correct_answer": "C",
+      "explanation": "Every third amino acid in collagen is glycine.Collagen is the most abundant protein in the body. The major collagen in the body is type I, inwhich every third amino acid is glycine. It is found in noncartilaginous connective tissues,including bone, tendon, skin. Type IV collagen is found in the basement membrane.Collagen is synthesized intracelluarly by fibroblasts as a large precursor called procollagen. Theprocollagen is then cleaved extracellularly by specific peptidases to form tropocollagen.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Protein structure and function"
+    },
+    {
+      "q_no": 21,
+      "question": "An infant is brought to the pediatric OPD with clinical findings as shown in the image.Further examination shows that the child has a loss of developmental milestones, truncalhypotonia, and failure to thrive. Which of the following enzymes is defective in this child?",
+      "options": {
+        "A": "Branched chain keto-acid decarboxylase complex",
+        "B": "Prolyl hydroxylase",
+        "C": "Lysyl oxidase",
+        "D": "Cystathionine synthase"
+      },
+      "correct_answer": "",
+      "explanation": "The given image reveals an infant with sparse and kinky hair. This, along with loss ofdevelopmental milestones and truncal hypotonia, strongly suggests a diagnosis of Menkes disease,170which is caused by defective lysyl oxidase.Menkes disease results from a deficiency of lysyl oxidase co-factor i.e copper. This is due to adefect in the ATP7A gene, which prevents the absorption of copper from the intestine.Note:•• ATP7A mutation: Menkes disease - X-linked recessive• ATP7B mutation: Wilson's disease Autosomal recessive-",
+      "image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/q21_img1_463f7b92.jpeg",
+      "explanation_image": null,
+      "chapter_heading": "Protein structure and function"
+    },
+    {
+      "q_no": 22,
+      "question": "Which among the following will be reduced in a patient with chronic inflammation?",
+      "options": {
+        "A": "C-reactive protein",
+        "B": "Fibrinogen",
+        "C": "Transferrin",
+        "D": "Ceruloplasmin"
+      },
+      "correct_answer": "",
+      "explanation": "Transferrin will be reduced in a patient with chronic inflammation as it is a negative acute phasereactant.Acute-phase reactants are proteins that increase or decrease in levels in response to inflammatoryand neoplastic conditions.Positive acute-phase reactantSC-reactive proteinHaptoglobulinFibrinogenCeruloplasminAlpha 1 antiproteaseMannose-binding proteinComplementfactorsFerritinSerum amyloid ANegative acute-phase reactantsAlbuminTransthyretin Retinol-binding proteinTransferrinAntithrombinTranscortin",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Protein structure and function"
+    },
+    {
+      "q_no": 23,
+      "question": "Which of the following is present in glycoproteins?158",
+      "options": {
+        "A": "Monosaccharide",
+        "B": "Oligosaccharide",
+        "C": "Polysaccharide",
+        "D": "Disaccharide"
+      },
+      "correct_answer": "",
+      "explanation": "Oligosaccharides are present in glycoproteins.Glycoproteins are proteins that contain oligosaccharide chains covalently bound to amino acids.The oligosaccharide (carbohydrate) is attached to the protein by cotranslational orposttranslational modification. This process is known as glycosylation. Some examples includecollagens, mucin, antibodies and hormones like erythropoietin and follicle-stimulating hormone(FSH).",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Protein structure and function"
+    },
+    {
+      "q_no": 24,
+      "question": "A postmenopausal woman presents to her gynaecologist for her annual check-up. An ovariancyst was noted on ultrasound. Histopathology revealed a mucinous cystadenoma. Which testcan be used on the sample to detect the presence of mucin?",
+      "options": {
+        "A": "Periodic acid-Schiff reaction",
+        "B": "Sepharose-lectin column chromatography",
+        "C": "Mass spectrometry",
+        "D": "Masson trichrome stain"
+      },
+      "correct_answer": "",
+      "explanation": "Periodic acid-Schiff (PAS) reagent helps to detect mucin which is a glycoprotein.PAS is a staining method used to detect polysaccharides such as glycogen, and mucosubstancessuch as glycoproteins, glycolipids, and mucins in tissues.PAS staining can be used to facilitate the diagnosis of several medical conditions:171•Glycogen storage diseases (versus other storage disorders)• Adenocarcinomas, which often secrete neutral mucins•Staining of macrophages in Whipple's disease• A1-antitrypsin deficiency if periportal liver hepatocytes stain positiveThe image shows mucinous cystadenoma in HE (haematoxylin-eosin) stain and a positive PASreaction.HEAB-PAS",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp24_img1_0339916b.jpeg",
+      "chapter_heading": "Protein structure and function"
+    },
+    {
+      "q_no": 25,
+      "question": "What is the site of synthesis of O-linked glycoproteins?",
+      "options": {
+        "A": "Endoplasmic reticulum",
+        "B": "Mitochondria",
+        "C": "Golgi apparatus",
+        "D": "Cytoplasm"
+      },
+      "correct_answer": "C",
+      "explanation": "O-linked glycoproteins are synthesized in the Golgi apparatus by the sequential transfer of sugarsfrom their nucleotide carriers to the protein.O-linked glycoproteins are proteins attached to a sugar (eg: N-acetylgalactosamine) through anO-glycosidic linkage between the hydroxyl side chain of serine/threonine and the sugar. Examplesof O-linked glycoproteins include mucins, proteoglycans and collagens.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Protein structure and function"
+    },
+    {
+      "q_no": 26,
+      "question": "What type of glycoprotein is collagen?",
+      "options": {
+        "A": "O-linkage",
+        "B": "N-linkage",
+        "C": "GPI linkage",
+        "D": "None"
+      },
+      "correct_answer": "A",
+      "explanation": "Collagen comes under glycoprotein sub-classes of O-glycosidic linkages.Glycoproteins can be divided into three main groups:O-linked: They contain an O-glycosidic linkage. Examples include mucin, proteoglycans,collagens, nuclear and cytoplasmic proteins.•• N-linked: They contain an N-glycosidic linkage. The types of N-glycosidic linkage includecomplex, hybrid and high-mannose types.172⚫ Glycosylphosphatidylinositol-anchored (GPI-anchored): Examples include acetylcholinesterase,•alkaline phosphatase, decay-accelerating factor, 5'-Nucleotidase, thy-1 antigen and variablesurface glycoprotein (Trypanosoma brucei).",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Protein structure and function"
+    },
+    {
+      "q_no": 27,
+      "question": "Which of the following types of collagens is involved in wound healing?159",
+      "options": {
+        "A": "Type II",
+        "B": "Type III",
+        "C": "Type IV",
+        "D": "Type V"
+      },
+      "correct_answer": "",
+      "explanation": "Type III collagen is involved in wound healing.Collagen types I and III predominate in the skin and aponeurotic layers. In the early stages ofwound healing, type III collagen is synthesized. It is replaced by type I collagen as wound healingprogresses.The tensile strength of the healing wound is directly proportional to the amount and type ofcollagen present. During healing, as disorganized collagen is degraded and reformed, covalentcross-links are formed that enhance tensile strength. The maximum strength of the healed wounddepends upon the interconnection of collagen subunits. Approximately 80 percent of the originalstrength of the tissue is obtained by six weeks after surgery. Wounds slowly continue to getstronger but may never achieve 100 percent of their previous strength.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Protein structure and function"
+    },
+    {
+      "q_no": 28,
+      "question": "Which of the following is caused by the lack of a specific lysosomal hydrolase forglycoproteins?",
+      "options": {
+        "A": "Oligosaccharidoses",
+        "B": "I cell disease",
+        "C": "Scurvy",
+        "D": "Ehlers-Danlos syndrome"
+      },
+      "correct_answer": "B",
+      "explanation": "Lack of a specific lysosomal hydrolase for glycoproteins cause a group of very rare, autosomalrecessive genetic diseases called glycoprotein storage diseases (oligosaccharidoses).Lysosomal acid hydrolases are specific for the removal of the oligosaccharide chains ofglycoproteins. They are primarily exoenzymes that remove their respective groups in sequence inthe reverse order of their incorporation (\"last on, first off\"). When one acid hydrolase is deficient,there is accumulation of partially degraded glycoproteins in the lysosomes. This results inoligosaccharidoses.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Protein structure and function"
+    },
+    {
+      "q_no": 29,
+      "question": "Which of the following disease is associated with defective glycosyl-phosphatidylinositol(GPI)?",
+      "options": {
+        "A": "Paroxysmal nocturnal hemoglobinuria",
+        "B": "Oligosaccharidoses",
+        "C": "Ehlers-Danlos syndrome",
+        "D": "I-cell disease"
+      },
+      "correct_answer": "A",
+      "explanation": "Paroxysmal nocturnal hemoglobinuria results from mutation of glycosylphosphatidylinositol(GPI)GPI is necessary for the attachment of decay-accelerating factor (DAF) (CD55) and CD59 to theRBC membrane. Because of the absence of DAF when GPI is mutated, the complement systemattacks the RBCs resulting in hemolysis. Patients present with symptoms of:• Anemia.• Esophageal spasm•Erectile dysfunction• Abdominal pain• Pulmonary hypertension173Treatment is with eculizumab, which is a terminal complement inhibitor.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Protein structure and function"
+    },
+    {
+      "q_no": 30,
+      "question": "Which of the following features will not be seen in a patient with I-cell disease?",
+      "options": {
+        "A": "Coarse facial features",
+        "B": "Corneal clouding",
+        "C": "Failure to thrive",
+        "D": "Buphthalmos"
+      },
+      "correct_answer": "D",
+      "explanation": "Buphthalmos is not a feature of I-cell disease.I-cell disease is an inherited lysosomal storage disorder caused by a defect in the Golgi enzymeN-acetylglucosamine-1-phosphotransferase. This results in failure of the Golgi to phosphorylatemannose residues (↓mannose-6-phosphate) on glycoproteins. Hence, proteins are secretedextracellularly instead of being delivered to lysosomes. Lysosomes lack most normal enzymes andthus accumulate undegraded molecules, forming inclusion bodies.It is characterized by the following:• Coarse facial features•Gingival hyperplasia• Clouded corneas• Restricted joint movements• Claw hand deformities•KyphoscoliosisHigh plasma levels of lysosomal enzymesI cell diseasel-celldiseaseHydrolyticenzymes inbloodNormalPathwayGolgi complexERLysosomeOMARROW-Cellmembrane",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp30_img1_0d474af8.jpeg",
+      "chapter_heading": "Protein structure and function"
+    },
+    {
+      "q_no": 31,
+      "question": "Which of the following would have no effect on the function of the protein product?160",
+      "options": {
+        "A": "Glutamine replaced by asparagine",
+        "B": "Glutamine replaced by alanine",
+        "C": "Glutamine replaced by glutamate",
+        "D": "Glutamine replaced by arginine"
+      },
+      "correct_answer": "A",
+      "explanation": "When glutamine is replaced by asparagine, there is no change in the function of the proteinproduct.174This is due to the concept of conservative or homologous replacement of amino acids. Asparagineand glutamine are both uncharged polar (hydrophilic) amino acids. Thus, when glutamine isreplaced with asparagine there is no change in the polarity or the charge of the peptide/protein.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Protein structure and function"
+    },
+    {
+      "q_no": 32,
+      "question": "What is the function of the proteasome?",
+      "options": {
+        "A": "Protein folding",
+        "B": "Post-translational modification",
+        "C": "Protein degradation",
+        "D": "Protein sorting"
+      },
+      "correct_answer": "",
+      "explanation": "The proteasome takes part in protein degradation.The proteasome is a cylindrical structure in the cytosol that degrades polyubiquitinated proteins.It has a central core with proteolytic enzymes. Proteins that are tagged by ubiquitin to bedegraded enter the core through regulatory rings on either side of the cylinder.PROTEASOMEClinical relevance: It plays an important role in antigen presentation to T lymphocytes as itdegrades viruses and other molecules to small peptides.",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp32_img1_287cd412.jpeg",
+      "chapter_heading": "Protein structure and function"
+    },
+    {
+      "q_no": 33,
+      "question": "Which of the following is true about the structural organization of proteins?",
+      "options": {
+        "A": "Tertiary structure is three dimensional",
+        "B": "Primary, secondary and tertiary structures are destroyed by denaturation",
+        "C": "Secondary structure is stabilised by disulphide bonds",
+        "D": "Secondary and tertiary structures depend upon amino acid sequence"
+      },
+      "correct_answer": "A",
+      "explanation": "The tertiary structure is three dimensional is the right answer among the given options.Proteins are structurally organised into four levels, as follows:• Primary: The linear sequence of amino acids in the polypeptide chain•Secondary: Folded and geometrically ordered units of short segments of polypeptides. Eg: alphahelix, beta-pleated sheets, loops, and bends• Tertiary: Secondary structures arranged into larger functional units called domains• • Quaternary: Different types of polypeptides arranged in a spatial mannerOther options:175Option B: Protein denaturation results in the unfolding and disorganization of the secondary andtertiary structures without the hydrolysis of peptide bonds, which form the primary structure.Option C: Hydrogen bond and Van der Waal interactions are involved in the stabilization ofsecondary structure(helix). Disulfide bonds stabilize the tertiary structure of proteins.Option D: Primary structure depends upon the amino acid sequence, not secondary or tertiary.AminoacidsProtein structureB-pleateda-helixsheetPleatedsheetPrimary protein structureStabilizing bond: Peptide bondSecondary protein structureStabilizing bond: Hydrogen bondRROWTertiary protein structureStabilizing bond: Hydrophobica-helixinteractions> hydrogenbond> ionic bondQuaternary protein structureStabilizing bond: Hydrophobicinteraction> hydrogenbond> lonic bondOMARROW176",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Protein structure and function"
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "chapter": "Urea cycle and its disorders",
+  "questions": [
+    {
+      "q_no": 1,
+      "question": "Where does the ornithine cycle take place?",
+      "options": {
+        "A": "Cytoplasm",
+        "B": "Mitochondria",
+        "C": "Cytoplasm and mitochondria",
+        "D": "Cytoplasm and nucleus"
+      },
+      "correct_answer": "",
+      "explanation": "",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Urea cycle and its disorders"
+    },
+    {
+      "q_no": 2,
+      "question": "Which of the following allosteric activators are deficient in a patient with no activity ofcarbamoyl phosphate synthetase I?",
+      "options": {
+        "A": "Alanine",
+        "B": "N-Acetyl glutamate",
+        "C": "Ornithine",
+        "D": "Citrulline"
+      },
+      "correct_answer": "",
+      "explanation": "In the given scenario, the patient is likely to be deficient in N-acetyl glutamate. N-Acetylglutamate is the allosteric activator of carbamoyl phosphate synthetase I, the rate-limiting enzymeof the urea cycle.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Urea cycle and its disorders"
+    },
+    {
+      "q_no": 3,
+      "question": "A 3-month-old child presented with vomiting, irritability, and lethargy. He was thendiagnosed with a urea cycle disorder that is inherited as an X-linked recessive disorder. Whatis the likely diagnosis?",
+      "options": {
+        "A": "Citrullinemia",
+        "B": "Hyperammonemia type I",
+        "C": "Hyperammonemia type II",
+        "D": "Argininosuccinic aciduria"
+      },
+      "correct_answer": "",
+      "explanation": "This child with vomiting, lethargy, and irritability with an X-linked recessive urea cycle disordermost likely hyperammonemia type IIHyperammonemia type II is due to the deficiency of the enzyme ornithine transcarbamoylase. Itis the most frequent urea cycle defect. Biochemical findings include elevated levels of glutamine inthe blood, urine, CSF, low citrulline, and high urinary orotic acid. This condition may beprecipitated by a switch from formula to whole milk.Urea cycle disorders are all characterized by hyperammonemia, encephalopathy, and respiratoryalkalosis. There is an accumulation of the precursors of urea - ammonia, and glutamine. Theyinclude:• Defect in carbamoyl phosphate synthetase I - Hyperammonemia type 1• Defect in ornithine transcarbamoylase - Hyperammonemia type 2•• Defect in argininosuccinate synthetase - Citrullinemia• Defect in argininosuccinate lyase- Argininosuccinic aciduria• Defect in the gene for arginase- HyperargininemiaClinical features of urea cycle disorders are common to all and include vomiting, avoidance ofhigh-protein foods, intermittent ataxia, irritability, lethargy, and severe mental retardation.Note: Classically, Type 2 Hyperammonemia is an X-linked recessive disorder. But in certainheterozygous females (with one mutated gene), the disease manifests and they necessarily do notremain as carriers. In them, the disease follows an X-linked partially dominant pattern ofinheritance.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Urea cycle and its disorders"
+    },
+    {
+      "q_no": 4,
+      "question": "An infant was admitted with failure to thrive. His reports show hypoglycemia, highglutamine, and uracil levels in urine. Gastric tube feeding was not tolerated and the child177became comatose. Parenteral dextrose was given after which the child recovered in 24 hours.What is the likely enzyme defect?",
+      "options": {
+        "A": "Carbamoyl phosphate synthase I",
+        "B": "Ornithine transcarbamoylase",
+        "C": "Argininosuccinate synthase",
+        "D": "Argininosuccinate lyase"
+      },
+      "correct_answer": "",
+      "explanation": "This infant with failure to thrive, hypoglycemia, elevated levels of glutamine and uracil levels mostlikely has hyperammonemia type 2. This condition occurs due to the deficiency of the enzymeornithine transcarbamoylase.There is an accumulation of carbamoyl phosphate, which then enters into pyrimidinesynthesis producing orotic acid and uracil and leading to orotic aciduria and high uracil in bloodand urine. Since the ammonia from glutamine is not converted into urea, its level increases.Glutamate is not regenerated. Since glutamate is not available for transamination, amino acids182cannot be used for gluconeogenesis. Hence, the glucose level drops in the blood.•Treatment:Reducing intake of ammonia - Dietary protein, a metabolic source of ammonium, is restrictedand caloric intake is provided by glucose and fat.• Increasing excretion of ammonia - Addition of phenylbutyrate, which scavenges nitrogen bycombining with amino acids to form a more water-soluble product. This can be easily excreted bythe kidneys.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Urea cycle and its disorders"
+    },
+    {
+      "q_no": 5,
+      "question": "Deficiency of arginosuccinate synthetase results in",
+      "options": {
+        "A": "Hyperargininemia",
+        "B": "Argininosuccinic aciduria",
+        "C": "Citrullinemia",
+        "D": "Hyperammonemia type 1"
+      },
+      "correct_answer": "C",
+      "explanation": "Deficiency of arginosuccinate synthetase results in citrullinemia.Other options:Option A: Hyperargininemia is due to a deficiency of arginase.Option B: Argininosuccinic aciduria is due to a deficiency of argininosuccinate lyase.Option D: Hyperammonemia type 1 due to a deficiency of carbamoyl phosphate synthetase I.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Urea cycle and its disorders"
+    },
+    {
+      "q_no": 6,
+      "question": "The two nitrogen atoms in urea are derived from which of the following?Ammonia and Glutamateb) Ammonia and Aspartatec) Glutamine and Arginined) Aspartate and ArginineQuestion 7:Urea cycle and Krebs cycle are linked at",
+      "options": {
+        "A": "Arginine",
+        "B": "Ornithine",
+        "C": "Fumarate",
+        "D": "Oxaloacetate"
+      },
+      "correct_answer": "",
+      "explanation": "The two nitrogen atoms in urea are derived from ammonia and aspartate.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Urea cycle and its disorders"
+    },
+    {
+      "q_no": 8,
+      "question": "A 178 neonate was brought to the emergency room with lethargy and failure to thrive. A microscopic image of his hair strand is shown below. Which of the given enzymes may be deficient in this patient?",
+      "options": {
+        "A": "Arginosuccinate lyase",
+        "B": "Arginase",
+        "C": "Fumarase",
+        "D": "Tyrosinase"
+      },
+      "correct_answer": "A",
+      "explanation": "The given microscopy image shows trichorrhexis nodosa and longitudinal breaks and is seen in argininosuccinic aciduria. This occurs due to a defect in the enzyme argininosuccinate lyase. Trichorrhexis nodosa is a defect in the hair shaft characterized by thickening or weak points (nodes) that cause the hair to break off easily. It can also be caused by other disorders such as hypothyroidism, iron deficiency, and Menkes' kinky hair syndrome.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Urea cycle and its disorders"
+    },
+    {
+      "q_no": 9,
+      "question": "A neonate was brought with tachypnoea and feeding difficulties 2 days after birth. Later hedeveloped focal seizures that progressed to coma. The plasma ammonia level is 300 µg/dL.The argininosuccinate level is high but the arginine level is low. What is the enzymedeficiency?",
+      "options": {
+        "A": "Argininosuccinate synthetase",
+        "B": "Argininosuccinate lyase",
+        "C": "Arginase",
+        "D": "Carbamoyl phosphate synthetase"
+      },
+      "correct_answer": "B",
+      "explanation": "183This infant with feeding difficulty, tachypnea and seizures, combined with an elevatedarginosuccinate level and low arginine levels most likely has argininosuccinic aciduria. This isassociated with an argininosuccinate lyase deficiency.This condition is accompanied by high levels of argininosuccinate levels in blood, CSF, and urine.Like other classical urea cycle disorders, it presents 1-4 days after birth with lethargy and failureto thrive that progresses to coma and even death. It is also associated with friable, tufted hairknown as trichorrhexis nodosa.Diagnosis is by measurement of erythrocyte argininosuccinate lyase activity and can be performedon umbilical cord blood or amniotic fluid.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Urea cycle and its disorders"
+    },
+    {
+      "q_no": 10,
+      "question": "At which step of the urea cycle does hydrolysis occur?179",
+      "options": {
+        "A": "Cleavage of arginine",
+        "B": "Formation of arginosuccinate",
+        "C": "Formation of citrulline",
+        "D": "Cleavage of arginosuccinate"
+      },
+      "correct_answer": "A",
+      "explanation": "Hydrolysis occurs during the cleavage of arginine to form urea and ornithine in the urea cycle. Itis catalyzed by the enzyme arginase.Clinical correlation:• Deficiency of the enzyme arginase results in hyperargininemia.•Levels of arginine are elevated in both blood and cerebrospinal fluid (CSF).",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Urea cycle and its disorders"
+    },
+    {
+      "q_no": 11,
+      "question": "A 3-day-old child developed lethargy, poor feeding, and hypotonia. An inborn error ofmetabolism (IEM) panel was sent. Reports reveal hyperammonemia, hyperornithinemia, andhomocitrullinuria. What is the most likely defect?",
+      "options": {
+        "A": "Citrin defect",
+        "B": "Ornithine transporter defect",
+        "C": "Carnitine acyl transferase defect",
+        "D": "Ornithine permease"
+      },
+      "correct_answer": "B",
+      "explanation": "This child with lethargy, poor feeding, and labs showing hyperammonemia, hyperornithinemia,and homocitrullinuria most likely has hyperammonemia, hyperornithinemia andhomocitrullinuria syndrome (HHH syndrome). This condition is due to an ornithine transporterdefect.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Urea cycle and its disorders"
+    },
+    {
+      "q_no": 12,
+      "question": "In urea cycle disorders, which of the following can be used to reduce the levels of ammonia?",
+      "options": {
+        "A": "Glutamate",
+        "B": "Phenylbutyrate",
+        "C": "Isoleucine",
+        "D": "L-carnitine"
+      },
+      "correct_answer": "B",
+      "explanation": "Phenylbutyrate can be used to reduce ammonia levels in patients with urea cycle disorders.Phenylbutyrate diverts urea into an alternate pathway and reduces the amount of ammonia.Hence, acting as an ammonia scavenger. Other drugs that can be used to achieve the sameoutcome (ammonia scavengers) include phenylacetate and benzoate.Note: Arginine is used as first-line treatment as it provides ornithine; a positive regulator of theurea cycle. Arginine also activates NAG synthase which increases NAG; a positive regulator of theurea cycle",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Urea cycle and its disorders"
+    },
+    {
+      "q_no": 13,
+      "question": "All are enzymes involved in the urea cycle except",
+      "options": {
+        "A": "Carbamoyl phosphate synthase -ll",
+        "B": "Ornithine transcarbamoylase",
+        "C": "Argininosuccinate Lyase",
+        "D": "Arginase"
+      },
+      "correct_answer": "A",
+      "explanation": "184Carbamoyl phosphate synthetase-ll is a cytoplasmic enzyme, which is involved in pyrimidinenucleotide synthesis.Carbamoyl phosphate synthetase-l is a mitochondrial enzyme, which catalyzes the rate-limitingstep of the urea cycle.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Urea cycle and its disorders"
+    },
+    {
+      "q_no": 14,
+      "question": "In which of the following biological processes is carbamoyl phosphate synthetase I used?180",
+      "options": {
+        "A": "Urea cycle",
+        "B": "Purine synthesis",
+        "C": "Pyrimidine synthesis",
+        "D": "Glucuronic pathway"
+      },
+      "correct_answer": "A",
+      "explanation": "Carbamoyl phosphate synthetase I is a mitochondrial enzyme that catalyzes the rate-limiting stepof the urea cycle.Carbamoyl phosphate synthetase II is a cytoplasmic enzyme that catalyzes the synthesis ofpyrimidine.185",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Urea cycle and its disorders"
+    }
+  ]
+}

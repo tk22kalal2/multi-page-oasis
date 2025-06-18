@@ -1,0 +1,170 @@
+{
+  "chapter": "metabolism",
+  "questions": [
+    {
+      "q_no": 1,
+      "question": "Which of the following is false about HMP shunt pathway?",
+      "options": {
+        "A": "No ATP formation",
+        "B": "Formation of NADPH occurs",
+        "C": "Synthesis of ribose-5-phosphate occurs",
+        "D": "Non-oxidative phase is irreversible"
+      },
+      "correct_answer": "",
+      "explanation": "",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp1_img1_87eaecef.jpeg",
+      "chapter_heading": "metabolism"
+    },
+    {
+      "q_no": 2,
+      "question": "In which of the following sites does the HMP shunt occur?",
+      "options": {
+        "A": "Golgi apparatus",
+        "B": "Mitochondria",
+        "C": "Endoplasmic reticulum",
+        "D": "Cytosol"
+      },
+      "correct_answer": "D",
+      "explanation": "The HMP shunt takes place in the cytosol as the enzymes needed for the HMP shunt (pentose phosphate) pathway are located in the cytoplasm.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "metabolism"
+    },
+    {
+      "q_no": 3,
+      "question": "HMP shunt can occur at all of the following sites except:",
+      "options": {
+        "A": "Liver",
+        "B": "Adipose tissue",
+        "C": "Adrenal cortex",
+        "D": "Muscles"
+      },
+      "correct_answer": "D",
+      "explanation": "HMP shunt pathway can not occur in muscles because muscle tissue is deficient in glucose6-phosphate dehydrogenase, the rate-limiting enzyme in the oxidative phase of the pathway.HMP shunt pathway takes place in the following:• Liver• Adipose tissue• Adrenal cortex•• Thyroid•Erythrocytes• TestisLactating mammary glandsGiven below is the HMP shunt pathway.64HMP pathwayGlucose-6-PNADP+NADPH-Glucose-6-phosphatedehydrogenase (RLE)6-Phosphogluconate6-PhosphogluconatedehydrogenaseNADP+NADPHCO2Ribulose-5-phosphateRibulose-5-phosphateisomeraseRibose-5-phosphateRibulose-5-phosphate3-EpimeraseXylulose-5-phosphateTransketolaseGlyceraldehyde-3-phosphate + Sedoheptulose-7-phosphateTransaldolaseErythrose-4-phosphateXylulose-5-phosphateTransketolaseFructose-6-phosphate+GlycolysisGlyceraldehyde-3-phosphate+GlycolysisOMARROWFructose-6-phosphateGlycolysis",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp3_img1_85a6b609.jpeg",
+      "chapter_heading": "metabolism"
+    },
+    {
+      "q_no": 4,
+      "question": "NADPH is used in",
+      "options": {
+        "A": "Fatty acid synthesis",
+        "B": "Ketone body synthesis",
+        "C": "Gluconeogenesis",
+        "D": "Glycolysis"
+      },
+      "correct_answer": "A",
+      "explanation": "NADPH is the source of reducing equivalent for fatty acid synthesis. This NADPH is derived from 3 sources: • HMP shunt pathway (main source) • Extramitochondrial isocitrate dehydrogenase (minor source) • Malic enzyme (oxidative phase) (non-oxidative phase)",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "metabolism"
+    },
+    {
+      "q_no": 5,
+      "question": "A young man with chronic bacterial prostatitis was treated with cotrimoxazole. Duringtreatment, he developed malaise, jaundice, abdominal pain, and dark urine. His blood pictureis given below. What is the most likely diagnosis?",
+      "options": {
+        "A": "Hemolytic uremic syndrome",
+        "B": "Autoimmune hemolytic anemia",
+        "C": "Paroxysmal nocturnal hemoglobinuria",
+        "D": "Glucose 6 phosphate dehydrogenase deficiency"
+      },
+      "correct_answer": "D",
+      "explanation": "The most likely diagnosis in the above case scenario is glucose-6-phosphate dehydrogenase(G6PD) deficiency.The clinical features are suggestive of an acute hemolytic reaction following the administration ofcotrimoxazole. A hemolytic attack starts with abrupt onset of malaise, weakness, and abdominalor lumbar pain. After an interval of several hours to 2-3 days, the patient develops jaundice andoften dark urine, due to hemoglobinuria.The peripheral smear shows characteristic \"bite cells\" or degmacytes or blister cells. In G6PDdeficiency uncontrolled oxidative stress causes hemoglobin to denature and form Heinz bodies.Bite cells result from the removal of Heinz bodies by macrophages in the spleen.Cotrimoxazole contains sulfamethoxazole which triggers a hemolytic reaction in persons withG6PD deficiency.Drugs that carry a risk of clinical hemolysis in persons with G6PD Deficiency:65DrugsAntimalarialsPrimaquineChloroquineDapsone/chlorproguanilSulphonamides/sulphone SulfamethoxazoleSulfasalazinSAntibacterial/antibioticsOtherseSulfisoxazoleCotrimoxazoleCiprofloxacinChloramphenicolNalidixic acidNorfloxacinNitrofurantoinNaphthaleneMethylene blueRasburicase",
+      "image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/q5_img1_a3d6e49b.jpeg",
+      "explanation_image": null,
+      "chapter_heading": "metabolism"
+    },
+    {
+      "q_no": 6,
+      "question": "All of the following are the products obtained in the uronic acid pathway in humans, except:",
+      "options": {
+        "A": "Vitamin C",
+        "B": "Glucuronic acid",
+        "C": "Pentose sugars",
+        "D": "Proteoglycans"
+      },
+      "correct_answer": "A",
+      "explanation": "Vitamin C is not a product of the uronic acid pathway in humans.Glucuronic acid, pentose sugars, proteoglycans are all the products obtained in the uronic acidpathway in humans.In the liver, the uronic acid pathway is the source of glucuronic acid for conjugation of manyendogenous and exogenous substances before excretion as glucuronides in urine and bile.The lack of one enzyme of the uronic acid pathway called L-gulonolactone oxidase in primates andsome other animals including human beings explains why ascorbic acid (vitamin C) cannot beendogenously synthesized. Hence, it is a dietary requirement for human beings.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "metabolism"
+    },
+    {
+      "q_no": 7,
+      "question": "61A 28-year-old woman was found to have excessive urinary glucose levels. However, her blood glucose levels were normal. Further investigations revealed high levels of only L-xylulose in the urine. A genetic defect in which of the following pathways is most likely?",
+      "options": {
+        "A": "Krebs cycle",
+        "B": "Uronic acid pathway",
+        "C": "Ketone synthesis",
+        "D": "HMP Shunt"
+      },
+      "correct_answer": "B",
+      "explanation": "High levels of L-xylulose in urine point to a diagnosis of essential pentosuria. It is a benign condition caused due to a defect in the uronic acid pathway. Essential pentosuria has no clinical consequences. However, it can give false-positive results when urinary glucose is measured using alkaline copper reagents (Benedict's test). The lack of enzyme xylulose reductase of the uronic acid pathway leads to essential pentosuria. Affected individuals excrete large amounts of L-xylulose in urine. Xylulose being a reducing sugar gives Benedict's test positive. Bial's test is positive as xylulose is a pentose. Essential pentosuria is a part of Garrod's tetrad which includes: Pentosuria, Albinism, Cystinuria, Alkaptonuria.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "metabolism"
+    },
+    {
+      "q_no": 8,
+      "question": "Which of the following is the first enzyme to act on fructose metabolism?",
+      "options": {
+        "A": "Aldolase B",
+        "B": "Fructokinase",
+        "C": "Glucokinase",
+        "D": "Hexokinase"
+      },
+      "correct_answer": "B",
+      "explanation": "Fructokinase is the first enzyme to act on fructose metabolism.Fructokinase in the liver, kidneys and intestine catalyzes the phosphorylation of fructose tofructose-1-phosphate. This enzyme does not act on glucose and, unlike glucokinase, its activity isnot affected by fasting or by insulin, which may explain why fructose is cleared from the blood ofdiabetic patients at a normal rate.Deficiency of fructokinase results in essential fructosuria.Metabolism of fructoseFructoseFructokinaseFructose 1 phosphateAldolase BDihydroxyacetoneEssentialfructosuriaHereditary fructoseintoleranceGlyceraldehydeKinaseGlyceraldehyde 3 phosphatePyruvatephosphatePhosphotrioseisomeraseARROWAcetyl CoATCA cycleIf body demand for ATP is lessFatty acid synthesisOMARROW+TAG",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp8_img1_0064bcff.jpeg",
+      "chapter_heading": "metabolism"
+    },
+    {
+      "q_no": 9,
+      "question": "A 10-month-old male baby is brought with vomiting, lethargy, and severe jaundice whenweaning was started with fruit juice. Which of the following enzymes is most likely defective?",
+      "options": {
+        "A": "Aldolase A",
+        "B": "Aldolase B",
+        "C": "Fructokinase",
+        "D": "Hexokinase"
+      },
+      "correct_answer": "B",
+      "explanation": "The given clinical scenario is suggestive of hereditary fructose intolerance (HFI), which is due todeficiency of the enzyme aldolase B.Individuals affected with HFI are asymptomatic until they ingest fructose or sucrose (usually inthe form of fruit, fruit juice, or sweetened cereal). Symptoms include:•Hepatomegaly• Jaundice•• Vomiting• Lethargy• Convulsions.• HypoglycemiaUrine-reducing sugar (Benedict's test) and tests for ketoses (Rapid Furfural and Seliwanoff's test)are positive. Treatment is the removal of fructose and sucrose from the diet.The flowchart given below depicts fructose metabolism.67Metabolism of fructoseFructoseFructokinaseFructose 1 phosphateGlyceraldehydeKinaseGlyceraldehyde3 phosphateAldolase BDihydroxyacetonephosphateEssentialfructosuriaHereditaryfructoseintolerancePyruvatePhosphotrioseisomeraseMARROWAcetyl CoATCAcycleIf body demand forATP is lessFatty acid synthesisTAGMARROWOther options:Option A: A deficiency of aldolase A leads to myopathy and hemolytic anemia.Option C: Fructokinase deficiency leads to essential fructosuria, which is a benign condition anddoes not have significant clinical manifestations.Option D: Hexokinase deficiency is a rare mutation that can present with hemolytic anemia anddoes not present with the symptoms in this patient.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "metabolism"
+    },
+    {
+      "q_no": 10,
+      "question": "A patient was incidentally found to have essential fructosuria. Which of the followingenzymes is deficient in this condition?",
+      "options": {
+        "A": "Aldolase A",
+        "B": "Aldolase B",
+        "C": "Fructokinase",
+        "D": "Hexokinase62"
+      },
+      "correct_answer": "C",
+      "explanation": "Essential fructosuria is due to the deficiency of the enzyme hepatic fructokinase. It is inherited inan autosomal recessive pattern.This defective degradation does not cause any clinical symptoms. Fructose is either excretedunchanged in the urine or metabolized to fructose-6-phosphate by alternate pathways in the body,most commonly by hexokinase in adipose tissue and muscle.No treatment is indicated for essential fructosuria.The flowchart given below depicts fructose metabolism.68Metabolism of fructoseFructoseFructokinaseFructose 1 phosphateGlyceraldehydeKinaseGlyceraldehyde3 phosphateEssentialfructosuriaAldolase BHereditaryfructoseintoleranceDihydroxyacetonephosphatePyruvatePhosphotrioseisomeraseMARROWAcetyl CoATCAcycleIf body demand forATP is lessFatty acid synthesisTAGMARROW",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp10_img1_f36ee44c.jpeg",
+      "chapter_heading": "metabolism"
+    },
+    {
+      "q_no": 11,
+      "question": "A newborn baby refuses breast milk since the 2nd day of birth but accepts glucose water. Hedevelops vomiting and severe jaundice by the 5th day. Benedict's test was positive for urineand blood glucose was low. The most likely cause is due to the deficiency of",
+      "options": {
+        "A": "Aldose reductase",
+        "B": "Galactokinase",
+        "C": "Galactose-1-phosphate uridyl transferase",
+        "D": "UDP galactose-4-epimerase"
+      },
+      "correct_answer": "C",
+      "explanation": "The above clinical features on ingestion of breastmilk at birth suggest classical galactosemia,a disorder of galactose metabolism. Galactose-1-phosphate uridyl transferase deficiency leads toclassical galactosemia.It is an autosomal recessive disorder. Clinical features include:• Accumulation of galactose-1-phosphate in the liver causes liver damage &amp; leads tohepatomegaly, vomiting, convulsions.• Accumulation of galactose-1-phosphate depletes the liver of inorganic phosphate leading todiminished ATP synthesis which affects gluconeogenesis resulting in hypoglycemia.• Accumulation of galactose-1-phosphate in the nerves causes intellectual disability.• Accumulation of galactitol in the lens causes an oil-drop cataract.Urinary reducing sugar (Benedict's test) and the Mucic acid test are positive.Treatment is a galactose-free diet.The flowchart given below depicts galactose metabolism.69Metabolism of galactoseEpimeraseCUDP Glucose- UDP GalactoseGalactoseGalactokinaseGalactose 1phosphateGalactose 1 PO4uridyl transferase(GALT)Glucose 1phosphateNon classicalgalactosemiaLactoseComplexcarbohydrateOMARROWGalactosemia(non classical)Classicalgalactosemia70",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "metabolism"
+    }
+  ]
+}

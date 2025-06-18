@@ -1,0 +1,275 @@
+{
+  "chapter": "ETC and bioenergetics",
+  "questions": [
+    {
+      "q_no": 1,
+      "question": "Where are the components of the electron transport chain located?",
+      "options": {
+        "A": "Inner mitochondrial membrane",
+        "B": "Outer mitochondrial membrane",
+        "C": "Mitochondrial matrix",
+        "D": "Intermembrane space"
+      },
+      "correct_answer": "A",
+      "explanation": "The components of the electron transport chain are located in the inner mitochondrial membrane.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "ETC and bioenergetics"
+    },
+    {
+      "q_no": 2,
+      "question": "Which of the following enzymes is not present in the mitochondrial matrix?",
+      "options": {
+        "A": "Citric acid cycle enzymes",
+        "B": "ẞ-oxidation enzymes",
+        "C": "Pyruvate dehydrogenase",
+        "D": "ATP synthase"
+      },
+      "correct_answer": "",
+      "explanation": "ATP synthase is located on the inner mitochondrial membrane, not mitochondrial matrix.76Mitochondrial membranes and associatedenzymesMatrixCristaeInnermembraneIntermembranespaceEnzymes of inner membraneinclude:Electron carriers(complexes I-IV)ATP synthaseMembrane transportersEnzymes of themitochondrialmatrix include:Citric acid cycle enzymesB-oxidation enzymesPyruvate dehydrogenaseOuter membraneEnzymes in the outermembrane include:Acyl CoA synthetaseGlycerolphosphateacyl transferaseOMARROWNote: In contrast to the other enzymes of citric acid cycle, succinate dehydrogenase is bound tothe inner surface of inner mitochondrial membrane. Succinate dehydrogenase functions ascomplex II of electron transport chain.",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp2_img1_cf932235.jpeg",
+      "chapter_heading": "ETC and bioenergetics"
+    },
+    {
+      "q_no": 3,
+      "question": "Which of the following forms complex I of the electron transport chain?",
+      "options": {
+        "A": "Q-cytochrome c oxidoreductase",
+        "B": "Succinate-Q reductase",
+        "C": "NADH-Q oxidoreductase",
+        "D": "Cytochrome c oxidase"
+      },
+      "correct_answer": "",
+      "explanation": "Complex I of the electron transport chain (ETC) is NADH-Q oxidoreductase.The ETC constitutes 4 enzyme complexes:•Complex I: NADH-Q oxidoreductase• Complex II: Succinate-Q reductase• Complex III: Q-cytochrome c oxidoreductase•Complex IV: cytochrome c oxidaseComponents of complex I are FMN and Fe-S complex. NADH-Q oxidoreductase catalyzes thetransfer of electrons, from NADH to coenzyme Q, along with the transfer of four H+ across themembrane.But, this occurs by means of the electrons being transferred from NADH to FMN initially, andfrom then on, through a series of Fe-S centers, to finally reach coenzyme Q, then to complex III.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "ETC and bioenergetics"
+    },
+    {
+      "q_no": 4,
+      "question": "Succinate-Q reductase belongs to which complex of the ETC?",
+      "options": {
+        "A": "Complex I",
+        "B": "Complex II",
+        "C": "Complex III71",
+        "D": "Complex IV"
+      },
+      "correct_answer": "A",
+      "explanation": "Succinate Q reductase belongs to complex II of ETC.Components include FAD and Fe-S. It receives electrons from succinate and donates it to a mobilecarrier, coenzyme Q, thereby, reducing it and then to complex III.There is a catalyzed oxidation of succinate to fumarate.77",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "ETC and bioenergetics"
+    },
+    {
+      "q_no": 5,
+      "question": "Which of the following is a component of cytochrome oxidase?",
+      "options": {
+        "A": "Ca2+",
+        "B": "Cu2+",
+        "C": "Mn2+",
+        "D": "Zn2+"
+      },
+      "correct_answer": "",
+      "explanation": "Cu2+ is a component of cytochrome oxidase. Cytochrome c oxidase is complex IV of the ETC.Components include two heme groups a and a3, and copper (Cu). It is an irreversible complex.It receives electrons from complex III (Q-cytochrome C oxidoreductase). Components are Cyt b,Cyt c1.The final electron acceptor from complex IV is oxygen and it is reduced to water.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "ETC and bioenergetics"
+    },
+    {
+      "q_no": 6,
+      "question": "Which of the following ETC complexes does not pump hydrogen ions?",
+      "options": {
+        "A": "Complex I",
+        "B": "Complex II",
+        "C": "Complex III",
+        "D": "Complex IV"
+      },
+      "correct_answer": "B",
+      "explanation": "Complex II does not pump any proton.ETC complexes:•Complex I pumps 4 protons•Complex II doesn't pump any proton• Complex III pumps 4 protons•Complex IV pumps 2 protons",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "ETC and bioenergetics"
+    },
+    {
+      "q_no": 7,
+      "question": "Which of the following is known as complex V of the ETC?",
+      "options": {
+        "A": "Q-cytochrome c oxidoreductase",
+        "B": "ATP synthase complex",
+        "C": "NADH-Q oxidoreductase",
+        "D": "Cytochrome c oxidase"
+      },
+      "correct_answer": "B",
+      "explanation": "ATP synthase is a multi-subunit enzyme complex, also referred to as complex V of the ETC. Itsynthesizes ATP by utilizing the energy of the proton gradient that is generated by the ETC.It contains two domains:●• Domain (Fo): spans the inner mitochondrial membrane• Domain (F1): extra membranous, which also protrudes into the mitochondrial matrix78FOMitochondrialmembraneF1The chemiosmotic theory states that the two processes (respiratory chain and synthesis of ATP)are coupled by a proton gradient across the inner mitochondrial membrane. The proton motiveforce caused by the electrochemical potential difference drives the mechanism of ATP synthesis.",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp7_img1_82a8e10c.jpeg",
+      "chapter_heading": "ETC and bioenergetics"
+    },
+    {
+      "q_no": 8,
+      "question": "Which of the following is an inhibitor of the Fo-F1 domain of ATP synthase?",
+      "options": {
+        "A": "Atractyloside",
+        "B": "Oligomycin",
+        "C": "BAL",
+        "D": "Cyanide72"
+      },
+      "correct_answer": "",
+      "explanation": "Oligomycin is a competitive inhibitor of the Fo complex and blocks oxidation and phosphorylationby stopping the flow of protons through the ATP synthase enzyme complex.Binds to the Fo domain of ATP synthase↓Closes the proton channel↓Prevents the reentry of protons into the matrix↓Stops the phosphorylation of ADP to ATP",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "ETC and bioenergetics"
+    },
+    {
+      "q_no": 9,
+      "question": "Which of the following substances is an inhibitor of the ETC complex I?",
+      "options": {
+        "A": "Carboxin",
+        "B": "Hydrogen sulphide",
+        "C": "Amobarbital",
+        "D": "Malonate"
+      },
+      "correct_answer": "B",
+      "explanation": "Amobarbital acts as an inhibitor of the ETC complex I by blocking the transfer from Fe-S to Q.Inhibitors of complex I of the ETC:• Barbiturates such as amobarbital• Piercidin A•Rotenone79",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "ETC and bioenergetics"
+    },
+    {
+      "q_no": 10,
+      "question": "Which of the following substances inhibits oxidative phosphorylation by blocking thetransportation of ADP and ATP?",
+      "options": {
+        "A": "Oligomycin",
+        "B": "Atractyloside",
+        "C": "Amobarbital",
+        "D": "Rotenone"
+      },
+      "correct_answer": "B",
+      "explanation": "Atractyloside is a drug, which inhibits the process of oxidative phosphorylation by preventing thetransportation of ADP into, and ATP out of, the mitochondria.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "ETC and bioenergetics"
+    },
+    {
+      "q_no": 11,
+      "question": "Which of the following is an example of a physiological uncoupler?",
+      "options": {
+        "A": "2,4 Dinitrophenol",
+        "B": "Oligomycin",
+        "C": "Atractyloside",
+        "D": "Thermogenin"
+      },
+      "correct_answer": "D",
+      "explanation": "Thermogenin is a physiological uncoupler.Uncouplers mediate their effects by increasing the permeability of the mitochondrial membraneto ions, thereby leading to a collapse in the proton gradient established by allowing the H+ to passacross the membrane without going through the ATP synthase enzyme complex.•Examples:Synthetic: 2, 4 dinitrophenolNatural: Thermogenin which is found naturally in the brown adipose tissue, whose function isheat generation, especially in a newborn, and thyroxine",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "ETC and bioenergetics"
+    },
+    {
+      "q_no": 12,
+      "question": "All of the following are high energy compounds except?",
+      "options": {
+        "A": "Phosphoenolpyruvate",
+        "B": "Carbamoyl phosphate",
+        "C": "Creatine phosphate",
+        "D": "Fumarate73"
+      },
+      "correct_answer": "D",
+      "explanation": "Except for fumarate, all others are high-energy compounds.The high-energy compounds (in decreasing order of energy):• Phosphoenolpyruvate (-61.9 KJ/mol)Carbamoyl phosphate• 1,3 Bisphosphoglycerate•Creatine phosphate• ATP to AMP• ATP to ADP• PPi• Fructose 6 PhosphateGlucose 6 Phosphate• Glycerol 3 Phosphate (-9.2 KJ/mol)",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "ETC and bioenergetics"
+    },
+    {
+      "q_no": 13,
+      "question": "A 3-year-old child presents with muscle weakness, vomiting, and seizures accompanied byfocal neurological deficits. Her developmental milestones were normal during the previousvisits. Laboratory tests show lactic acidosis and microscopic findings of muscle biopsy areshown below. What is the likely diagnosis?A",
+      "options": {
+        "A": "MELAS",
+        "B": "Duchenne muscular dystrophy",
+        "C": "Becker muscular dystrophy",
+        "D": "Myotonic dystrophy"
+      },
+      "correct_answer": "A",
+      "explanation": "80The given clinical scenario with microscopy showing ragged red fibres is suggestive of MELAS(mitochondrial encephalopathy, lactic acidosis, and stroke).It is a mitochondrial inherited condition due to complex I or complex IV deficiency. Patients havenormal development previously and then present with symptoms of lactic acidosis andstroke (seizures with focal neurological deficits).The microscopy of muscle biopsy with modified Gomori trichrome staining shows ragged redfibers (arrowhead) as shown below.AOther mitochondrial inherited diseases:•Leigh's disease• Leber hereditary optic neuropathy• Kearns-Sayre syndrome• Chronic progressive external ophthalmoplegia• Pearson syndrome",
+      "image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/q13_img1_94f5d19e.jpeg",
+      "explanation_image": null,
+      "chapter_heading": "ETC and bioenergetics"
+    },
+    {
+      "q_no": 14,
+      "question": "Which of the following is not the source of phosphate?",
+      "options": {
+        "A": "Oxidative phosphorylation",
+        "B": "Glycolysis",
+        "C": "Citric acid cycle",
+        "D": "Gluconeogenesis"
+      },
+      "correct_answer": "D",
+      "explanation": "Gluconeogenesis is not a source of phosphate that takes part in energy conservation or energycapture.There are three major sources of phosphate are as follows:• Oxidative phosphorylation•Glycolysis•Citric acid cycle81",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "ETC and bioenergetics"
+    },
+    {
+      "q_no": 15,
+      "question": "74In which of the following sites is creatine phosphate not present in?",
+      "options": {
+        "A": "Skeletal muscle",
+        "B": "Heart",
+        "C": "Spermatozoa",
+        "D": "Nephron"
+      },
+      "correct_answer": "D",
+      "explanation": "Creatine phosphate is not present in nephrons.Creatine phosphate occurs in vertebrate skeletal muscle, heart, spermatozoa, and brain.Phosphagens act as storage forms of high-energy phosphate.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "ETC and bioenergetics"
+    },
+    {
+      "q_no": 16,
+      "question": "Which of the following is a hemoprotein?",
+      "options": {
+        "A": "Cytochrome oxidase",
+        "B": "Xanthine oxidase",
+        "C": "L-amino acid oxidase",
+        "D": "Succinate dehydrogenase"
+      },
+      "correct_answer": "A",
+      "explanation": "Cytochrome oxidase is a hemoprotein widely distributed in many tissues.Hemoproteins are metalloproteins that have a typical heme prosthetic group. They are present inmyoglobin, hemoglobin, and other cytochromes.Cytochrome oxidase is the terminal component of the chain of respiratory carriers found inmitochondria and transfers electrons resulting from the oxidation of substrate molecules bydehydrogenases to their final acceptor, oxygen. It contains two molecules of heme, each havingone Fe atom that oscillates between Fe3+ and Fe2+ during oxidation and reduction. It alsocontains two atoms of copper, each associated with a heme unit.The action of the enzyme is blocked by carbon monoxide, cyanide, and hydrogen sulfide, and thiscauses poisoning by preventing cellular respiration.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "ETC and bioenergetics"
+    },
+    {
+      "q_no": 17,
+      "question": "Cytochrome oxidase is inhibited in all of the following poisonings except:",
+      "options": {
+        "A": "Hydrogen sulphide",
+        "B": "Carbon monoxide",
+        "C": "Methane",
+        "D": "Cyanide"
+      },
+      "correct_answer": "C",
+      "explanation": "Cytochrome oxidase is a hemoprotein, which is the terminal component of the respiratory chaincarriers (complex IV) in mitochondria. The action of cytochrome oxidase is inhibited in carbonmonoxide, cyanide, and hydrogen sulfide poisoning, resulting in prevention of cellular respiration.Hemoproteins are metalloproteins that have a typical heme prosthetic group. They are present inmyoglobin, hemoglobin, and other cytochromes. Cytochrome oxidase contains two molecules ofheme, each having one Fe atom that oscillates between Fe3+ and Fe2+ during oxidation andreduction. It also contains two atoms of copper, each associated with a heme unit.Complexes of ETC :Complex I: NADH-CoQ oxidoreductaseContains FeS, FMN, Coenzyme Q-Inhibitors Rotenone-Complex II: Succinate-CoQ reductaseContains FeS, Coenzyme Q-Inhibitor CarboxinComplex III: CoQH2-cytochrome c oxidoreductaseContains cytochrome c, b, C1, and FeS-Inhibitor - Antimycin A82Complex IV: cytochrome oxidaseContains Cytochrome a, a3, and Copper-Inhibitor Cyanide, Azide, Carbon monoxideComplex V (informally): ATP SynthaseInhibitor - OligomycinNote: MELAS (mitochondrial encephalopathy, lactic acidosis, and stroke) is an inherited conditiondue to NADH-Q oxidoreductase (Complex I) or cytochrome oxidase (Complex IV) deficiency.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "ETC and bioenergetics"
+    },
+    {
+      "q_no": 18,
+      "question": "A TPN bag consists of 100g glucose, 30g amino acids, and 40g lipids. What is the amount ofcalories delivered?",
+      "options": {
+        "A": "840 KCal",
+        "B": "880 KCal",
+        "C": "640 KCal",
+        "D": "680 KCal75"
+      },
+      "correct_answer": "B",
+      "explanation": "The amount of calories delivered by the given TPN (Total Parenteral Nutrition) bag is 880 KCal.The caloric value of different food components are:• Carbohydrate (glucose) - 4KCal/g• Proteins (amino acids) - 4.2KCal/g = ~4KCal/g•Fat (lipids) 9Kcal/g-Calculation of the number of calories:• 100 gm of glucose = 100 x 4KCal=400 KCal• 30 gm of amino acids = 30 x 4 KCal= 120 KCal• 40 gm of lipids = 40 x 9 KCal= 360 KCalTotal amount of calories delivered= 400+120+360=880 KcalNote: The caloric value of alcohol is 7KCal/g.83",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "ETC and bioenergetics"
+    }
+  ]
+}

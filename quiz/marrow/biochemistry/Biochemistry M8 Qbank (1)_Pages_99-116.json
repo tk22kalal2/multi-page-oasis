@@ -1,0 +1,410 @@
+{
+  "chapter": "Amino acids: Basics",
+  "questions": [
+    {
+      "q_no": 1,
+      "question": "How many amino acids are encoded by the human genetic code?",
+      "options": {
+        "A": "20",
+        "B": "25",
+        "C": "17",
+        "D": "15"
+      },
+      "correct_answer": "",
+      "explanation": "",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Amino acids: Basics"
+    },
+    {
+      "q_no": 2,
+      "question": "A neonate presents with feeding difficulty and failure to thrive. Her urine has a peculiar burntsugar odor due to an excess of branched-chain amino acids. Which of the following is unlikelyto be elevated?",
+      "options": {
+        "A": "Valine",
+        "B": "Isoleucine",
+        "C": "Leucine",
+        "D": "Lysine"
+      },
+      "correct_answer": "A",
+      "explanation": "The given clinical scenario is suggestive of maple syrup urine disease (MSUD). Lysine is not abranched-chain amino acid and hence is unlikely to be elevated.Branched-chain amino acids are:•• Valine (V)• Isoleucine (I)• Leucine (L)MSUD is due to the deficiency of branched-chain alpha-keto acid dehydrogenase complex(BCKDC), leading to the formation of branched-chain amino acids and their toxic by-products(ketoacids) in the blood and urine. There is a peculiar odor of burnt sugar found in urine, sweat,and cerumen.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Amino acids: Basics"
+    },
+    {
+      "q_no": 3,
+      "question": "Which of the following is not an aromatic amino acid?",
+      "options": {
+        "A": "Phenylalanine",
+        "B": "Tyrosine",
+        "C": "Tryptophan",
+        "D": "Arginine"
+      },
+      "correct_answer": "D",
+      "explanation": "Arginine is not an aromatic amino acid.The four aromatic amino acids, which include an aromatic ring, are as follows:•Phenylalanine• Tyrosine107•Tryptophan• HistidineProline is a heterocyclic amino acid.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Amino acids: Basics"
+    },
+    {
+      "q_no": 4,
+      "question": "Which of the following amino acids has an imino ring?",
+      "options": {
+        "A": "Proline",
+        "B": "Tyrosine99",
+        "C": "Tryptophan",
+        "D": "Histidine"
+      },
+      "correct_answer": "A",
+      "explanation": "Proline is an amino acid with an imino ring.The distinctive cyclic structure of the side chain of proline gives it exceptional conformationalrigidity as compared to other amino acids. Hence, proline plays a major role in collagen stability.Sold by @ltack boturchased this from someoneve been sommerOH",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp4_img1_5f8b6694.jpeg",
+      "chapter_heading": "Amino acids: Basics"
+    },
+    {
+      "q_no": 5,
+      "question": "A 45-year-old woman presents with loose stools, memory loss, and rashes over sun-exposedareas. On examination, a Cassal's necklace lesion was identified. What group does the aminoacid she is deficient in contain?",
+      "options": {
+        "A": "Indole group",
+        "B": "Imidazole group",
+        "C": "Thioalcohol",
+        "D": "Thioester linkage"
+      },
+      "correct_answer": "A",
+      "explanation": "The given clinical scenario is suggestive of pellagra which can be seen in the deficiency of theamino acid tryptophan. Tryptophan contains an indole group.Tryptophan with the marked indole group:108HN",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp5_img1_3db0bf50.png",
+      "chapter_heading": "Amino acids: Basics"
+    },
+    {
+      "q_no": 6,
+      "question": "Which of the following contain a phenol group?",
+      "options": {
+        "A": "Arginine",
+        "B": "Phenylalanine",
+        "C": "Tyrosine",
+        "D": "Proline"
+      },
+      "correct_answer": "",
+      "explanation": "The amino acid containing a phenol group is tyrosine.Structure of tyrosine:u purchaseyou may have b0OHNH₂NH₂HO",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp6_img1_fcd2fa43.jpeg",
+      "chapter_heading": "Amino acids: Basics"
+    },
+    {
+      "q_no": 7,
+      "question": "Which special group is present in arginine?",
+      "options": {
+        "A": "Guanidine",
+        "B": "Benzene",
+        "C": "Imidazole",
+        "D": "Indole"
+      },
+      "correct_answer": "A",
+      "explanation": "Guanidine is present in arginine.Image: Structure of arginine indicating the guanidine group109OHH₂NNHNNH₂0",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp7_img1_c7c36175.png",
+      "chapter_heading": "Amino acids: Basics"
+    },
+    {
+      "q_no": 8,
+      "question": "Which of the following is not a basic amino acid?",
+      "options": {
+        "A": "Histidine100",
+        "B": "Arginine",
+        "C": "Lysine",
+        "D": "Glycine"
+      },
+      "correct_answer": "D",
+      "explanation": "Glycine is not a basic amino acid.Mnemonic for basic amino acids-HAL:• Histidine•Arginine (most basic)• LysineThe acidic amino acids are:• Aspartic acid (aspartate): most acidic•Glutamic acid (glutamate)",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Amino acids: Basics"
+    },
+    {
+      "q_no": 9,
+      "question": "Which of the following amino acids is polar in nature?",
+      "options": {
+        "A": "Aspartic acid",
+        "B": "Alanine",
+        "C": "Proline",
+        "D": "Methionine"
+      },
+      "correct_answer": "A",
+      "explanation": "Aspartic acid is polar in nature.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Amino acids: Basics"
+    },
+    {
+      "q_no": 10,
+      "question": "A medical student was admitted to the hospital following a hunger strike. Which of thefollowing amino acids cannot be used for gluconeogenesis by his body?",
+      "options": {
+        "A": "Tyrosine",
+        "B": "Leucine",
+        "C": "Phenylalanine",
+        "D": "Tryptophan"
+      },
+      "correct_answer": "A",
+      "explanation": "Leucine cannot be used for gluconeogenesis.Leucine and lysine are the only purely ketogenic amino acids. These two amino acids yield onlyacetyl-CoA on oxidation (ketogenesis), and hence, they cannot be used for gluconeogenesis.Four other amino acids give rise to both acetyl-CoA and intermediates. Therefore, they can beused for both ketogenesis and gluconeogenesis. They are:110•⚫ Phenylalanine• Isoleucine•Tyrosine• Tryptophan",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Amino acids: Basics"
+    },
+    {
+      "q_no": 11,
+      "question": "Which of the following is a purely glucogenic amino acid?",
+      "options": {
+        "A": "Leucine",
+        "B": "Tyrosine",
+        "C": "Tryptophan",
+        "D": "Alanine"
+      },
+      "correct_answer": "D",
+      "explanation": "Alanine is a purely glucogenic amino acid.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Amino acids: Basics"
+    },
+    {
+      "q_no": 12,
+      "question": "Out of the following,is a semi-essential amino acid.",
+      "options": {
+        "A": "Methionine101",
+        "B": "Tryptophan",
+        "C": "Leucine",
+        "D": "Arginine"
+      },
+      "correct_answer": "D",
+      "explanation": "Arginine is a semi-essential amino acid.• Essential or indispensable amino acids are those that cannot be synthesized by the body andneed to be supplied through diet.• Semi-essential amino acids are those that are synthesized adequately by adults but synthesizedat rates inadequate to support growth in children.•8 amino acids are absolutely essential, while 2 are semi-essential.Essential Amino AcidsIsoleucine Leucine Lysine Methionine PhenylalanineThreonineTryptophanValineSemi-Essential Amino AciNon-Essential Amino AcidsdsArginineHistidine",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Amino acids: Basics"
+    },
+    {
+      "q_no": 13,
+      "question": "Which of the following is a non-essential amino acid?",
+      "options": {
+        "A": "Methionine",
+        "B": "Valine",
+        "C": "Lysine",
+        "D": "Aspartate"
+      },
+      "correct_answer": "D",
+      "explanation": "Aspartate is a non-essential amino acid.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Amino acids: Basics"
+    },
+    {
+      "q_no": 14,
+      "question": "Beta-alanine is seen in",
+      "options": {
+        "A": "Thiamine",
+        "B": "Niacin",
+        "C": "Pantothenic acid",
+        "D": "Biotin"
+      },
+      "correct_answer": "C",
+      "explanation": "Beta-alanine is seen in:•Pantothenic acid (vitamin B5)• Coenzyme A•⚫ CarnosineAlanineAsparagineAspartateCysteine GlutamateGlutamineGlycine Hydroxyproline Hydroxylysine ProlineSerineTyrosine111• Anserine•Acyl carrier protein",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Amino acids: Basics"
+    },
+    {
+      "q_no": 15,
+      "question": "Which of the following amino acids is not formed after post-translational modification?",
+      "options": {
+        "A": "Selenocysteine",
+        "B": "Triiodothyronine",
+        "C": "Hydroxy proline",
+        "D": "Hydroxylysine"
+      },
+      "correct_answer": "A",
+      "explanation": "Selenocysteine, the 21st amino acid, is formed by co-translational modification. It is coded by theUGA codon, which is normally a stop codon. The protein synthetic apparatus can identify aselenocysteine-encoding UGA by the presence of the selenocysteine insertion sequence (SECIS) inthe untranslated region of mRNA.Selenocysteine is an analog of cysteine and is synthesized from serine.Selenocysteine is present at the active site of several human enzymes that catalyze redox reactionssuch as thioredoxin reductase, glutathione peroxidase, and deiodinase. Since Glutathioneperoxidase contains selenocysteine and hence it is an antioxidant.Impairments in human selenoproteins have been implicated in tumorigenesis and atherosclerosisand are associated with selenium deficiency cardiomyopathy (Keshan disease).",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Amino acids: Basics"
+    },
+    {
+      "q_no": 16,
+      "question": "Amino acids absorb UV light due to",
+      "options": {
+        "A": "Peptide bond",
+        "B": "Aromatic ring102",
+        "C": "Disulphide bond",
+        "D": "Imino group"
+      },
+      "correct_answer": "B",
+      "explanation": "Amino acids absorb UV light due to aromatic ring. Aromatic amino acids such as tryptophan,tyrosine, and phenylalanine absorb 250 to 290 nm UV light. The maximum absorption of UV lightis by tryptophan.CompoundAromatic Amino acidsWavelength absorbed250-290 nm (UV)Nucleotides (pH=7)Porphyrins260 nm (UV)400 nm (Soret band, visible)",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Amino acids: Basics"
+    },
+    {
+      "q_no": 17,
+      "question": "Which of the following amino acids is the most sterically flexible?",
+      "options": {
+        "A": "Glycine",
+        "B": "Lysine",
+        "C": "Leucine",
+        "D": "Aspartate"
+      },
+      "correct_answer": "A",
+      "explanation": "Glycine is the smallest amino acid with R group as H atom.So, as it has no R group, it increases the flexibility of the protein. Proline and glycine arefrequently found in beta turns.112NH2OHbotone",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp17_img1_0e356756.png",
+      "chapter_heading": "Amino acids: Basics"
+    },
+    {
+      "q_no": 18,
+      "question": "Which of the following is not a property of amino acids at isoelectric pH?",
+      "options": {
+        "A": "Maximum precipitability",
+        "B": "Maximum buffering action",
+        "C": "Minimum solubility",
+        "D": "No mobility in electric field"
+      },
+      "correct_answer": "B",
+      "explanation": "The properties of an amino acid at isoelectric pH are as follows:•Maximum precipitability• Minimum buffering action (note: maximum buffering action is when the pH=pKa, and not atisoelectric pH)• Minimum solubility• No mobility in an electric field",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Amino acids: Basics"
+    },
+    {
+      "q_no": 19,
+      "question": "At physiological pH, buffering action in blood is caused by.",
+      "options": {
+        "A": "Histidine",
+        "B": "Methionine",
+        "C": "Arginine",
+        "D": "Glycine"
+      },
+      "correct_answer": "A",
+      "explanation": "At physiological pH, buffering action in blood is caused by histidine.The imidazole group of histidine has a pKa value of 6.5-7.4, which is close to physiologicalpH. Hence, histidine has the maximum buffering capacity at physiological pH.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Amino acids: Basics"
+    },
+    {
+      "q_no": 20,
+      "question": "A mixture of insulin is being tested in a lab to determine its amino acid sequence. Which ofthe following reagents can be used?",
+      "options": {
+        "A": "Sanger's reagent",
+        "B": "Benedict's reagent103",
+        "C": "Seliwanoff's reagent",
+        "D": "None of the above"
+      },
+      "correct_answer": "",
+      "explanation": "Sanger's reagent is used to determine the amino acid sequence.Peptides are isolated and hydrolyzed into a mixture of smaller peptides and treated with1-fluoro-2, 4-dinitrobenzene (Sanger's reagent) which reacts with the alpha amino groups of theamino terminal residues. The amino acid content of each peptide is then determined, and theamino-terminal amino acid is identified.113",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Amino acids: Basics"
+    },
+    {
+      "q_no": 21,
+      "question": "A forensic team performed a ninhydrin test on some samples obtained from a crime scene.This test can detect which of the following?",
+      "options": {
+        "A": "Bile salts",
+        "B": "Amino acids",
+        "C": "Nucleic acids",
+        "D": "Lipids"
+      },
+      "correct_answer": "B",
+      "explanation": "Ninhydrin test is used to detect amino acids.A purple-colored complex (Ruhemann's purple) indicates a positive reaction. Proline andhydroxyproline form a yellow adduct with ninhydrin. Glutamine and asparagine produce a browncolor.This test is used effectively used at crime scenes to develop and identify latent fingerprints.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Amino acids: Basics"
+    },
+    {
+      "q_no": 22,
+      "question": "Sakaguchi test is answered by",
+      "options": {
+        "A": "Amino acid",
+        "B": "Bile acid",
+        "C": "Lipids",
+        "D": "Nucleic acid"
+      },
+      "correct_answer": "A",
+      "explanation": "Sakaguchi test is answered by amino acid arginine, which contains guanidium group.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Amino acids: Basics"
+    },
+    {
+      "q_no": 23,
+      "question": "A neonate was incidentally diagnosed with a benign inborn error of metabolism. A positivePauly's test would indicate the accumulation of which of the following amino acids in hisurine?",
+      "options": {
+        "A": "Tryptophan",
+        "B": "Cysteine",
+        "C": "Histidine",
+        "D": "Arginine"
+      },
+      "correct_answer": "",
+      "explanation": "Pauly's test is used for detecting the presence of histidine in proteins.When proteins containing histidine react with diazotized sulfanilic acid under alkaline conditions,a red color is formed by a coupling reaction. The same reagent will give an orange colored productwith the phenol group of tyrosine.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Amino acids: Basics"
+    },
+    {
+      "q_no": 24,
+      "question": "Which of the following is responsible for the negative charge in fibrinopeptide A?",
+      "options": {
+        "A": "Glutamate and Valine104",
+        "B": "Histidine and Lysine",
+        "C": "Aspartate and glutamate",
+        "D": "Serine and Threonine"
+      },
+      "correct_answer": "",
+      "explanation": "Aspartate and glutamate are responsible for the negative charge in fibrinopeptide A and B offibrinogen.The negative charges contribute to the solubility of fibrinogen in plasma and importantly alsoserve to prevent aggregation by causing electrostatic repulsion between fibrinogen molecules.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Amino acids: Basics"
+    },
+    {
+      "q_no": 25,
+      "question": "The graph shown below is the titration curve of a biochemical compound. Which of thefollowing statement is true?NaOHAcid mixtureBMARApHOMARROWW",
+      "options": {
+        "A": "The maximum buffering capacity of the compound is represented by points A and B",
+        "B": "The points A and B represent the range of maximum ionization of the amine and carboxylgroup",
+        "C": "The compound has three ionisable side chains",
+        "D": "The compound has one ionisable group"
+      },
+      "correct_answer": "A",
+      "explanation": "The maximum buffering capacity of the compound is represented by points A and B, whichcorresponds to the pK1 and pK2 of the compound.Other options:•The points A and B represent the pKa of carboxyl and amino groups respectively.• The amino acid has no ionizable side chains as the graph shows only two pKas..• The amino acid has two ionizable groups: an amino group and a carboxyl group.The above graph resembles the titration curve of the amino acid glycine.114Titration curve of Glycine:N*H3CH2ICOOHOH¯pkPK₁ = 2.34N*H3TCHICOOpl = 5.97pk2NH₂2CH₂ICOO2PK₂ = 9.60123456789101112pHThe titration is completed at a pH of 12, where the glycine predominantly exists in the formof H2N CH2 - COO-.-pk1 and pK2 correspond to the point where the buffering capacity is maximum.Characteristics of the titration curve:.Buffering capacity is referred to as the ability of the aminoacid to resist the change in pH due tothe addition of acid (H+) or base (OH- equivalents), by accepting or losing the protonsrespectively.•An ionizable group refers to the group which can either lose or accept a proton and becomesnegatively charged or positively charged ion respectively.• During the titration, the buffering capacity of the compound reaches its maximum, at pointswhere the pKa of the ionizable groups is reached.•Each of these pKa are labeled as pK1, pK2, pK3, etc.• The presence of two pKas indicates that the compound has two ionizable groups. Ex. Glycine.• The presence of three or more pKas indicates the presence of side chains on the amino acid, withadditional ionizable groups.••Ex. histidine has three ionizable groups, an amino group, an imidazole group (on the side chain),and a carboxyl group. The pKas of these groups respectively correspond to the pK1, pK2, pK3 ofthe titration curve of histidine.",
+      "image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/q25_img1_3f2b30a1.jpeg",
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp25_img1_f7341821.jpeg",
+      "chapter_heading": "Amino acids: Basics"
+    },
+    {
+      "q_no": 26,
+      "question": "Replacing alanine by which amino acid, will increase UV absorbance of protein at 280nmwavelength?",
+      "options": {
+        "A": "Leucine",
+        "B": "Proline",
+        "C": "Arginine",
+        "D": "Tryptophan105"
+      },
+      "correct_answer": "D",
+      "explanation": "Replacing alanine with tryptophan will increase UV absorbance of protein at 280nm wavelengthThe amino acids which absorb 250-290nm (maximum at 280nm) UV light are Tryptophan(Maximum Absorption), Tyrosine, Phenylalanine.115",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Amino acids: Basics"
+    },
+    {
+      "q_no": 27,
+      "question": "Nitric oxide is synthesized from:",
+      "options": {
+        "A": "L-arginine",
+        "B": "L-citrulline",
+        "C": "Glycine",
+        "D": "Lysine"
+      },
+      "correct_answer": "A",
+      "explanation": "Nitric oxide is synthesized from arginine by a calcium-dependent reaction catalyzed by NOsynthase.The co-enzymes of NO synthase include FMN, FAD, Heme, and Tetrahydrobiopterin (BH4).NH22CNH,NH22NADPHNADP+ |C=O02NHNHCa2+(CH2)3(CH2)3+ NONO synthaseCH-COOCH-COO|+,+ NH3+NH3ArginineCitrulline116",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp27_img1_5aa4a504.jpeg",
+      "chapter_heading": "Amino acids: Basics"
+    }
+  ]
+}

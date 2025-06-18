@@ -1,0 +1,305 @@
+{
+  "chapter": "Fatty acid oxidation and ketogenesis",
+  "questions": [
+    {
+      "q_no": 1,
+      "question": "Which of the following statements is false?",
+      "options": {
+        "A": "In beta oxidation, 2 carbon units are released as acetyl CoA per cycle.",
+        "B": "In alpha oxidation, one carbon is lost in the form of CO2 per cycle.",
+        "C": "Alpha oxidation is an energetic process.",
+        "D": "Beta oxidation is the major mechanism that occurs in the mitochondria matrix."
+      },
+      "correct_answer": "C",
+      "explanation": "",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Fatty acid oxidation and ketogenesis"
+    },
+    {
+      "q_no": 2,
+      "question": "Which of the following statements is true?",
+      "options": {
+        "A": "Propionyl CoA is produced by the oxidation of odd-chain fatty acids.",
+        "B": "Methylmalonyl CoA mutase is a biotin-dependent enzyme.",
+        "C": "Propionyl CoA is not glucogenic.",
+        "D": "Odd-chain fatty acids do not undergo oxidation."
+      },
+      "correct_answer": "A",
+      "explanation": "'Propionyl CoA is produced by the oxidation of odd-chain fatty acids' is the correct statement.In the oxidation of odd-chain fatty acids, the last cycle of oxidation yields athree-carbon-containing propionyl CoA. Propionyl CoA is carboxylated to methylmalonyl CoA bypropionyl CoA carboxylase, a biotin-dependent enzyme that requires ATP hydrolysis.Methylmalonyl CoA is further converted into succinyl CoA by racemase and mutase, (a vitaminB12 dependent enzyme) which enters into the TCA cycle. Thus, propionyl CoA can be convertedinto glucose by gluconeogenesis.Conversion of Propionyl CoACO2 + H2Oto Succinyl CoAPropionyl CoAcarboxylasePropionyl CoABiotinD-Methylmalonyl CoAADP + PiMethylmalonyl CoAMATARADracemaseVitamin B12Succinyl CoA-L-Methylmalonyl CoAMethylmalonyl CoAmutaseTCA cycleOMARROW202Note:•Methylmalonyl CoA mutase is a vitamin B12-dependent enzyme.• Propionyl residue from an odd-chain fatty acid is the only part of a fatty acid that is glucogenic.",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp2_img1_f620707e.jpeg",
+      "chapter_heading": "Fatty acid oxidation and ketogenesis"
+    },
+    {
+      "q_no": 3,
+      "question": "ATP is hydrolyzed directly to AMP, with the release of PPi during a biochemical reactioncatalyzed by which of the following enzymes?",
+      "options": {
+        "A": "Creatine kinase",
+        "B": "Adenylate kinase",
+        "C": "Myokinase",
+        "D": "Acyl-CoA synthetase"
+      },
+      "correct_answer": "D",
+      "explanation": "ATP can also be hydrolyzed directly to AMP, with the release of PPi by the enzyme Acyl-CoAsynthetase.This occurs in the activation of long-chain fatty acids. This reaction is accompanied by the loss offree energy as heat, which ensures that the activation reaction will go to the right. It is furtheraided by the hydrolytic splitting of PPi, catalyzed by inorganic pyrophosphatase, a reaction thatitself has a large AGo' of -19.2 kJ/mol.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Fatty acid oxidation and ketogenesis"
+    },
+    {
+      "q_no": 4,
+      "question": "For fatty acid oxidation which of the following intermediate is formed during the transport ofacyl-CoA using a mitochondrial shuttle?",
+      "options": {
+        "A": "Acetyl-CoA",
+        "B": "Acyl-coenzyme A196",
+        "C": "Acyl-carnitine",
+        "D": "Aceto-acetyl-Coa"
+      },
+      "correct_answer": "",
+      "explanation": "In the fatty acid oxidation process, acyl-carnitine is formed as an intermediate during thetransport of acyl-CoA using a mitochondrial shuttle.Acyl CoA is converted to acyl-carnitine, which is the active form of fatty acid during transportfrom the cytoplasm to the inside of the mitochondria for oxidation. The enzyme CPT-1 (carnitinepalmitoyl transferase-I), present on the outer mitochondrial membrane catalyzes the reaction.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Fatty acid oxidation and ketogenesis"
+    },
+    {
+      "q_no": 5,
+      "question": "Which of the following enzymes is required for the only energy-requiring step of fatty acid oxidation?",
+      "options": {
+        "A": "Thiolase",
+        "B": "Acyl CoA dehydrogenase",
+        "C": "Thiokinase",
+        "D": "Beta-hydroxy acyl CoA dehydrogenase"
+      },
+      "correct_answer": "C",
+      "explanation": "The only energy-requiring step in fatty acid oxidation is catalyzed by the thiokinase enzyme. In the presence of ATP and coenzyme A, the enzyme acyl-CoA synthetase or thiokinase catalyzes the conversion of a fatty acid to acyl-CoA, the active form of fatty acid for oxidation.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Fatty acid oxidation and ketogenesis"
+    },
+    {
+      "q_no": 6,
+      "question": "How many molecules of acetyl-CoA are produced in ẞ- oxidation of palmitic acid?",
+      "options": {
+        "A": "6",
+        "B": "7",
+        "C": "8",
+        "D": "9"
+      },
+      "correct_answer": "",
+      "explanation": "In the ẞ-oxidation of palmitic acid (C16), 8 molecules of acetyl-CoA are produced.In the beta-oxidation pathway, two carbons at a time are cleaved from acyl-CoA moleculesbetween alpha(2) and beta(3) carbons, starting at the carboxyl end. The two-carbon units formedare called acetyl-CoA.Thus, in palmitic acid (C16), 7 cycles of ẞ-oxidation take place, releasing 8 acetyl CoA molecules.In the first 6 cycles, 6 acetyl CoA molecules are released. In the 7th cycle, 2 acetyl CoA moleculesare released.203",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Fatty acid oxidation and ketogenesis"
+    },
+    {
+      "q_no": 7,
+      "question": "Each cycle of β-oxidation produces",
+      "options": {
+        "A": "1 FADH2, 1 NAD+, and 1 acetyl-CoA",
+        "B": "1 FADH2, 1 NADH, and 1 acetyl-CoA",
+        "C": "1 FADH2, 1 NADH, and 2 CO2 molecules",
+        "D": "1 FAD, 1 NAD+, and 2 CO2 molecules"
+      },
+      "correct_answer": "B",
+      "explanation": "One cycle of β-oxidation of fatty acids produces 1 FADH2, 1 NADH, and 1 acetyl-CoA. FADH2 is formed in the reaction catalyzed by acyl CoA dehydrogenase. NADH is formed in the reaction catalyzed by β-hydroxy acyl CoA dehydrogenase. In each cycle of β-oxidation, the terminal two carbons are cleaved as acetyl CoA starting at the carboxyl end. Thus, the overall reaction of each cycle of β-oxidation can be summarized as follows: (Cn)acyl CoA + FAD + NAD+ + H2O + CoA → (Cn-2)acyl CoA + FADH2 + NADH + Acetyl CoA + H+",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Fatty acid oxidation and ketogenesis"
+    },
+    {
+      "q_no": 8,
+      "question": "Which is the rate-limiting enzyme in beta-oxidation of fatty acids?",
+      "options": {
+        "A": "Acyl CoA dehydrogenase",
+        "B": "Thiolase",
+        "C": "Thiokinase",
+        "D": "Carnitine palmitoyl transferase-1"
+      },
+      "correct_answer": "D",
+      "explanation": "Carnitine palmitoyl transferase-1 (CPT-1) is the rate-limiting enzyme in the beta-oxidation of fatty acids. CPT-1 is responsible for transferring the acyl group from CoA to carnitine, forming acylcarnitine, which can enter the outer mitochondrial membrane. Thus, the acyl group enters the mitochondria from the cytoplasm. Malonyl CoA is an inhibitor of CPT-1. Thus, in the fed state, with a high insulin:glucagon ratio, acetyl CoA carboxylase is active and malonyl CoA is produced, which inhibits beta-oxidation. In the fasting state, with a low insulin:glucagon ratio, acetyl CoA carboxylase is inactive and malonyl CoA is not produced. Hence, beta-oxidation takes place.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Fatty acid oxidation and ketogenesis"
+    },
+    {
+      "q_no": 9,
+      "question": "What is the net ATP yield in the beta-oxidation of a straight-chain fatty acid having 2N carbonatoms?",
+      "options": {
+        "A": "7N-6",
+        "B": "14N-6",
+        "C": "7N-3",
+        "D": "14N-3"
+      },
+      "correct_answer": "B",
+      "explanation": "A straight-chain fatty acid comprising of 2N carbon atoms will undergo [(2N ÷ 2) -1] = (N-1) cyclesof beta-oxidation and produce N number of acetyl CoA.Each acetyl CoA will undergo TCA cycle, producing 10 ATP. On the other hand, each cycle ofbeta-oxidation also produces 1 FADH2 and 1 NADH generating 1.5 ATP and 2.5 ATP respectively.Therefore (N-1) cycles of beta-oxidation will produce (N-1) FADH2 and (N-1) NADH.The energetics of ẞ-oxidation of a straight-chain fatty acid comprising of 2N carbon atoms can besummarized as follows:So, the net ATP yield after beta-oxidation of a straight-chain fatty acid having 2N carbon atomswill be (14N-4) - 2 = (14N- 6)We must keep in mind that during the initial activation of fatty acids(conversion of fatty acid to fatty acyl CoA), 2 ATP is utilized.This formula can be used to calculate net ATP yield from a straight-chain fatty acid having an evennumber of carbon atoms. For example,Net ATP yield from beta-oxidation of palmitic acid (16 carbon) will be 106.204Calculation: Here, 2N = 16 i.e, N = 8. Therefore net ATP yield = (14x8 - 6) = 112-6 = 106Intermediate produce ATP yieldATP yield per moleculeTotal number produdcedTotal ATPFADH21.5N-11.5(N-1)NADH2.5N-12.5(N-1)Acetyl CoA10N10NTotal ATP1.5(N-1) +2.5(N-1) +10N =(14N-4)ATP used in activationNet ATP yield- 2(14N-4) -2 = 14N-6",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Fatty acid oxidation and ketogenesis"
+    },
+    {
+      "q_no": 10,
+      "question": "A 28-year-old woman at 33 weeks of gestation presented with nausea and right upperquadrant abdominal pain. Her LFTs pointed towards a diagnosis of acute fatty liver ofpregnancy. Which of the following enzyme deficiencies is most likely involved in thepathogenesis of this condition?",
+      "options": {
+        "A": "Fetal medium-chain acyl CoA dehydrogenase",
+        "B": "Maternal long-chain 3-hydroxy acyl CoA dehydrogenase",
+        "C": "Fetal long-chain 3-hydroxy acyl CoA dehydrogenase",
+        "D": "Maternal medium-chain acyl CoA dehydrogenase"
+      },
+      "correct_answer": "C",
+      "explanation": "A deficiency of fetal long-chain 3-hydroxy acyl CoA dehydrogenase (LCHAD) is involved in thepathogenesis of acute fatty liver of pregnancy.Free fatty acids normally increase in pregnancy, particularly during late gestation to fuelfetoplacental growth and development. In fetuses homozygous for LCHAD deficiency, thefetoplacental unit is unable to undertake fatty acid metabolism adequately. This contributes to theaccumulation of long-chain metabolites in maternal blood and hepatocytes, resulting in toxiceffects.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Fatty acid oxidation and ketogenesis"
+    },
+    {
+      "q_no": 11,
+      "question": "An 8-month-old infant was brought to the pediatric emergency department with recurrentseizures and hypoglycemia. His family history revealed the sudden death of his sibling at theage of 3 months. Labs showed increased dicarboxylic acid in blood and urine. Which of thefollowing is the pathophysiology behind this clinical manifestation?",
+      "options": {
+        "A": "Impaired alpha oxidation of branched-chain fatty acids",
+        "B": "Impaired beta-oxidation of medium-chain fatty acids",
+        "C": "Impaired omega oxidation of medium-chain fatty acids",
+        "D": "Impaired peroxisomal oxidation of very long-chain fatty acids198"
+      },
+      "correct_answer": "",
+      "explanation": "The given clinical vignette is suggestive of medium-chain acyl-CoA dehydrogenase deficiency inwhich, there is impaired beta-oxidation of medium-chain fatty acids. This leads to theaccumulation of dicarboxylic acids leading to dicarboxylic aciduria. It is characterized by:••Excretion of C6-C10 @-dicarboxylic acids (medium-chain) in the urine.Nonketotic hypoglycemia: due to the lack of ATP and acetyl CoA from ẞ-oxidation (which is anactivator of pyruvate carboxylase) to support gluconeogenesis.Defects in medium-chain acyl-CoA dehydrogenase have been identified as a cause of suddeninfant death syndrome (SIDS).Omega-oxidation is an alternative way of fatty acid oxidation in the body when the beta-oxidationenzymes are either saturated or defective. Omega oxidation converts excess fatty acids todicarboxylic acids that are soluble and hence can be excreted out via urine.Other options:Option A: Impaired Alpha oxidation leads to Refsum's disease. The manifestations of classic adultRefsum's disease include retinitis pigmentosa, peripheral neuropathy, ataxia, ichthyosis, anosmia,205deafness and cardiac arrhythmias.Option C: Medium-chain acyl CoA dehydrogenase deficiency will lead to increased (not impaired)utilization of the omega oxidation pathway, resulting in the overproduction of dicarboxylic acids.Option D: Impaired peroxisomal oxidation of very long-chain fatty acids (VLCFA) causesZellweger (cerebrohepatorenal) syndrome. It is a rare inherited disorder characterized by theabsence of peroxisomal enzymes in all tissues leading to the accumulation of C26-C38 polyenoicacids in brain tissue. The clinical manifestation of Zellweger syndrome includes:• Facial deformities resembling Down syndrome (Mongoloid facies, Hypertelorism, Frontalbossing, Upslanting palpebral fissure)•Brush field spots•Hypotonia and hyporeflexia• Seizures• Neurodevelopmental delay• Liver enlargement",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Fatty acid oxidation and ketogenesis"
+    },
+    {
+      "q_no": 12,
+      "question": "An infant is being assessed for hypotonia, seizures, and neurodevelopmental delay. Clinicalexamination reveals facial deformities, hyporeflexia, and hepatomegaly. A congenital disorderaffecting extramitochondrial lipid metabolism is suspected. Which of the following processesis impaired in this patient?",
+      "options": {
+        "A": "Acetyl CoA formation",
+        "B": "H2O2 mediated breakdown of fatty acids",
+        "C": "Transport of fatty acyl CoA using shuttle mechanism",
+        "D": "Peroxisomal alpha oxidation of fatty acids"
+      },
+      "correct_answer": "B",
+      "explanation": "The clinical vignette is suggestive of Zellweger (cerebrohepatorenal) syndrome in whichH2O2-mediated peroxisomal beta-oxidation of very-long-chain fatty acids (VLCFA) is impaired.Beta-oxidation in peroxisome is differentiated from that occurring in mitochondria by theformation of H2O2.Beta-oxidation of fatty acid in peroxisomes is not coupled to ATP synthesis. The high-potentialelectrons are transferred to O2, which yields H2O2 (instead of FADH2). The enzyme catalase,found exclusively in peroxisomes, converts the hydrogen peroxide to end productswater and oxygen.Zellweger syndrome is a rare inherited disorder characterized by the absence of peroxisomalenzymes in all tissues leading to the accumulation of C26-C38 polyenoic acids in brain tissue.The clinical manifestation of Zellweger syndrome includes:• Facial deformities resembling Down syndrome (Mongoloid facies, Hypertelorism, Frontalbossing, Upslanting palpebral fissure)• Brush field spots•Hypotonia and hyporeflexia•Seizures• Neurodevelopmental delay•• Liver enlargement",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Fatty acid oxidation and ketogenesis"
+    },
+    {
+      "q_no": 13,
+      "question": "A 3-year-old child is being evaluated for anosmia, deafness, and unstable gait. Furtherinvestigation reveals retinitis pigmentosa on fundoscopy and cardiac rhythm abnormalitieson ECG. A rare congenital disease affecting lipid metabolism is being suspected. Deficiency ofwhich of the following enzymes is expected to be found in this patient?",
+      "options": {
+        "A": "Phytanoyl CoA α-hydroxylase",
+        "B": "Acyl CoA synthetase",
+        "C": "Phytanic acid synthetase",
+        "D": "None"
+      },
+      "correct_answer": "A",
+      "explanation": "206The given clinical vignette is suggestive of Refsum's disease, characterized by impaired alphaoxidation due to the deficiency of phytanoyl CoA α-hydroxylase (also known as phytanic acidalpha oxidase).Refsum disease is a rare, autosomal recessive disorder caused by a deficiency of peroxisomalphytanoyl CoA α-hydroxylase, an enzyme involved in the alpha oxidation of phytanic acid(branched-chain fatty acid). This results in the accumulation of phytanic acid in the plasma andtissues.The manifestation of classic adult Refsum disease includes• Retinitis pigmentosa• Peripheral neuropathy• Ataxia•Ichthyosis• Anosmia• Deafness• Occasionally cardiac arrhythmiasTreatment: Restriction of dietary phytanic acid (found in dairy products and green leafyvegetables).",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Fatty acid oxidation and ketogenesis"
+    },
+    {
+      "q_no": 14,
+      "question": "Which of the following is a primary ketone body?",
+      "options": {
+        "A": "Acetone",
+        "B": "Acetoacetate",
+        "C": "Beta-hydroxybutyric acid",
+        "D": "Acetyl CoA"
+      },
+      "correct_answer": "B",
+      "explanation": "Acetoacetate is a primary ketone body as it is directly synthesized by the pathway of ketogenesis.Secondary ketone bodies are those which are produced from the primary ketone body viaspontaneous breakdown or by enzymatic reaction. Examples of secondary ketone bodies are:acetone and beta-hydroxybutyrate.Ketone bodies are formed under conditions associated with a high rate of fatty acid oxidation suchas:•• Fasting•Carbohydrate restrictive diet• Starvation•Prolonged intense exercise•• Untreated (or inadequately treated) type 1 diabetes mellitus.In such conditions, there is increased production of acetyl CoA from beta-oxidation of fatty acidswhich inhibits pyruvate dehydrogenase and activates pyruvate carboxylase. The oxaloacetate thusproduced is used for gluconeogenesis rather than the TCA cycle. Hence, acetyl CoA is diverted intoketone body synthesis.Acetyl CoA is converted into acetoacetate by the following reactions that occur in the livermitochondria:207Ketone body synthesis+2 Acetyl-CoAH3CSCOAH3CSCOATheThiolaseCOA-SHAcetoacetyl-CoAH3CSCOAKAcetyl-CoAHMG-CoA synthaseCOA-SHMOHbeta-hydroxy-beta-methylglutaryl-CoA(HMG-CoA)SCOACH3Non-enzymaticdecarboxylationH3CCO2CH3AcetoneHMG-CoA lyaseAcetyl-CoAiAcetoacetateCH3NADH + H+NAD+D-beta-HydroxybutyratevdehydrogenaseOHCH3D-beta-HydroxybutyrateOMARROWThus, acetoacetate is the primary ketone body synthesized.HMG CoA synthase is the rate-limiting step in ketone body synthesis.",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp14_img1_232929a5.jpeg",
+      "chapter_heading": "Fatty acid oxidation and ketogenesis"
+    },
+    {
+      "q_no": 15,
+      "question": "A 13 year-old-boy with type 1 diabetes presents with abdominal pain, severe nausea, andvomiting. He has a history of increased urine output over the past 2 days. ABG analysisreveals high anion gap metabolic acidosis. The given clinical condition is due to the199over-activity of which of the following pathways?",
+      "options": {
+        "A": "HMP shunt",
+        "B": "Gluconeogenesis",
+        "C": "Lipolysis",
+        "D": "Glycogenolysis"
+      },
+      "correct_answer": "",
+      "explanation": "The given clinical scenario is suggestive of diabetic ketoacidosis which is an insulin-deficient stateleading to increased lipid breakdown (lipolysis) into fatty acids. This condition is alsocharacterized by hyperglycemia and increased ketone body synthesis.Type 1 diabetes mellitus is commonly found in the adolescent population. In response to certainprecipitating factors, such patients may develop a severe insulin-deficient state. Since insulin is aninhibitor of hormone-sensitive lipase (HSL), an insulin-deficient state will cause HSL overactivityin adipocytes and the breakdown of lipid into fatty acids (lipolysis). Free fatty acids will undergobeta-oxidation and produce a large amount of acetyl CoA, which gets converted to ketone bodies (acetoacetate, acetone, beta-hydroxybutyrate, etc.) Such ketone bodies will accumulate in theblood and cause high anion gap metabolic acidosis.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Fatty acid oxidation and ketogenesis"
+    },
+    {
+      "q_no": 16,
+      "question": "The rescue team has found a 33-year-old hiker who was stranded for 8 days. He was found inan extremely weak and dehydrated state. His breath has a fruity smell and urinalysis shows apositive ketostix test. The activity of which of the following enzymes is increased in him?",
+      "options": {
+        "A": "HMG CoA synthase",
+        "B": "HMG CoA reductase",
+        "C": "Acetyl CoA carboxylase",
+        "D": "Pyruvate dehydrogenase"
+      },
+      "correct_answer": "A",
+      "explanation": "A fruity smell (presence of acetone in breath) and positive ketostix test (ketonuria) on thebackground of prolonged starvation is suggestive of starvation ketosis. This is characterized byincreased activity of HMG CoA synthase enzyme.Prolonged starvation implies a catabolic state in which there is excessive ẞ-oxidation leading toincreased production of acetyl CoA. The excessive acetyl CoA is utilised by the hepatocytes tosynthesise ketone bodies for extrahepatic utilisation.HMG CoA synthase is the enzyme required for ketone body synthesis, it is also the rate-limitingenzyme.208Other options:• HMG CoA reductase is involved in the synthesis of cholesterol.•Acetyl CoA carboxylase is involved in the fatty acid synthesis.• Pyruvate dehydrogenase converts pyruvate into acetyl CoA.All three enzymes are inactive in low insulin state (such as prolonged starvation).H3CůKetone body synthesis+2 Acetyl-CoASCOAH3CSCOATHThiolaseCOA-SHM.H3CNon-enzymaticdecarboxylationCO2H3CCH3AcetoneAcetoacetyl-CoASCOAAcetyl-CoAHMG-CoA synthaseCOA-SHbeta-hydroxy-beta-methylglutaryl-CoA(HMG-CoA)OHOSCOACH3Acetyl-CoAHMG-CoA lyaseiAcetoacetateCH3NADH + H+NAD+D-beta-HydroxybutyratevdehydrogenaseOHCH3D-beta-HydroxybutyrateOMARROW",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp16_img1_2141c891.jpeg",
+      "chapter_heading": "Fatty acid oxidation and ketogenesis"
+    },
+    {
+      "q_no": 17,
+      "question": "Which of the following cannot utilize ketone bodies?",
+      "options": {
+        "A": "Brain",
+        "B": "Skeletal muscle",
+        "C": "Liver",
+        "D": "Kidney"
+      },
+      "correct_answer": "C",
+      "explanation": "The liver cannot utilize ketone bodies.The ketone bodies synthesized in the liver mitochondria are transported in the blood to theperipheral tissues, where they are utilized by the following steps:•⚫ ẞ-hydroxybutyrate is oxidized to acetoacetate by ẞ-hydroxybutyrate dehydrogenase producingNADH.• Acetoacetate is then activated to acetoacetyl CoA by transferring a CoA molecule from succinylCoA by succinyl CoA-acetoacetate CoA transferase (thiophorase).•Acetoacetyl CoA is cleaved into two acetyl CoA molecules by thiolase and oxidized into CO2 bythe TCA cycle.RBCs cannot utilize ketone bodies as they lack mitochondria.The liver cannot utilize ketone bodies as it lacks the enzyme thiophorase.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Fatty acid oxidation and ketogenesis"
+    },
+    {
+      "q_no": 18,
+      "question": "A diabetic man presented with vomiting, abdominal pain, and polyuria. He gives a history ofmissing 2 doses of insulin since morning. He is hypotensive and tachycardic and his breathhas a fruity odour. Blood glucose was 350 mg/dL. Which test, done here will give a positiveresult?",
+      "options": {
+        "A": "Hay's test",
+        "B": "Fouchet's test",
+        "C": "Ninhydrin test",
+        "D": "Rothera's test200"
+      },
+      "correct_answer": "D",
+      "explanation": "The clinical picture is suggestive of diabetic ketoacidosis in which rothera's test will give positiveresults due to the presence of ketone bodies in urine.209Rothera's test by nitroprusside reagent is a specific test used to detect whether acetone oracetoacetate is present in the given sample of urine. A purple ring at the junction of two liquidsindicates a positive test.Note: Rothera's test does not detect ẞ-hydroxybutyrate.Other options:Option A: Hay's test is used to test for bile salts.Option B: Fouchet's test is used to test for bilirubin.Option C: Ninhydrin test is used to test for alpha-amino acids.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Fatty acid oxidation and ketogenesis"
+    },
+    {
+      "q_no": 19,
+      "question": "A 12-year-old girl suffers from an inadequately treated type 1 diabetes mellitus. She iscurrently hyperglycemic. Which of the following is most likely to occur?",
+      "options": {
+        "A": "Glycogenesis in muscle",
+        "B": "Increased protein synthesis",
+        "C": "Increased conversion of fatty acids to acetyl-CoA",
+        "D": "Decreased cholesterol synthesis"
+      },
+      "correct_answer": "",
+      "explanation": "With the background of inadequately treated type I diabetes mellitus, an insulin-deficient state inthe body is expected which will lead to increased conversion of fatty acids to acetyl-CoA.Type 1 diabetes mellitus is commonly found in the adolescent population. In response to certainprecipitating factors, such patients may develop a severe insulin-deficient state. Since insulin is aninhibitor of hormone-sensitive lipase (HSL), an insulin-deficient state will cause HSL overactivityin adipocytes and the breakdown of lipid into fatty acids (lipolysis). Free fatty acids will undergobeta-oxidation and produce a large amount of acetyl CoA, which gets converted to ketone bodies (acetoacetate, acetone, beta-hydroxybutyrate, etc.)",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Fatty acid oxidation and ketogenesis"
+    },
+    {
+      "q_no": 20,
+      "question": "Ketosis is common in type 1 DM due to:",
+      "options": {
+        "A": "2, 3, and 4",
+        "B": "1, 2, 3, and 4",
+        "C": "4 only",
+        "D": "1 and 2 only"
+      },
+      "correct_answer": "B",
+      "explanation": "2, 3, and 4 statements correctly explain the reason behind increased ketogenesis as seen in type 1 DM. Type 1 DM is characterized by a deficiency in insulin production. Since insulin is deficient, GLUT4 (insulin-dependent uptake) mediated glucose uptake is not possible in the heart or skeletal muscles. So, adipose tissue mobilizes fat to be used as an energy source. These FFA (free fatty acids) are oxidized to acetoacetyl CoA, which serves as a precursor for ketone body synthesis. As the level of serum FFA is raised, proportionately more of the acetyl-CoA produced from their breakdown is converted to ketone bodies and less is oxidized via the citric acid cycle to CO2. A fall in the concentration of oxaloacetate, particularly within the mitochondria, can impair the ability of the citric acid cycle to metabolize acetyl-CoA and divert fatty acid oxidation toward ketogenesis. Such a fall may occur because of an increase in the (NADH)/(NAD+) ratio caused when increased beta-oxidation alters the equilibrium between oxaloacetate and malate so that the concentration of oxaloacetate is decreased. Beta-hydroxybutyrate dehydrogenase is one of the enzymes used in ketone body synthesis. Increased rate of ketone body synthesis in the insulin-deficient state implies an increased activity of beta-hydroxybutyrate dehydrogenase enzyme.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Fatty acid oxidation and ketogenesis"
+    }
+  ]
+}

@@ -1,0 +1,290 @@
+{
+  "chapter": "Unknown Chapter",
+  "questions": [
+    {
+      "q_no": 1,
+      "question": "What is the site of the TCA cycle?",
+      "options": {
+        "A": "Cytosol",
+        "B": "Endoplasmic reticulum",
+        "C": "Mitochondria",
+        "D": "LysosomesKrebs Cycle"
+      },
+      "correct_answer": "C",
+      "explanation": "",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Unknown Chapter"
+    },
+    {
+      "q_no": 2,
+      "question": "Which of the following is true about Krebs cycle?",
+      "options": {
+        "A": "It is the final common pathway for the oxidation of carbohydrates, lipids and proteins",
+        "B": "Pyruvate condenses with oxaloacetate to form citrate",
+        "C": "Oxidative phosphorylation occurs in the cytoplasm",
+        "D": "Alpha keto glutarate is a 4 carbon compound"
+      },
+      "correct_answer": "A",
+      "explanation": "The Krebs cycle is the final common pathway for the oxidation of carbohydrates, lipids, andproteins as glucose, fatty acids, and most amino acids are metabolized to acetyl-CoA orintermediates of the cycle.Other options:Option B: Acetyl CoA condenses with oxaloacetate to form citrate.Option C: Oxidative phosphorylation occurs in mitochondria by ETC (electron transport chain).Option D: Alpha-ketoglutarate is a 5-carbon compound.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Unknown Chapter"
+    },
+    {
+      "q_no": 3,
+      "question": "Which of the following is not an intermediate of the TCA cycle?",
+      "options": {
+        "A": "Citrate",
+        "B": "Acetyl CoA",
+        "C": "Succinyl CoA",
+        "D": "Fumarate"
+      },
+      "correct_answer": "B",
+      "explanation": "Acetyl CoA is not an intermediate formed in the TCA cycle, but rather it is a starting substrate.There are three sources of acetyl-CoA:• From glucose° Pyruvate° Acetyl-CoA• Fatty acid oxidation Acetyl-CoA• Ketogenic amino acid oxidation° acetyl-CoAThe starting materials of Kreb's cycle are Acetyl CoA and oxaloacetic acid. All the other optionsare intermediates in the TCA cycle and oxaloacetic acid is released in the end.The image given below depicts the Krebs cycle.PyruvateCoA SH+NADPyruvate dehydrogenaseCO, NADH, HAcetyl-CoACoA SH_HCO, + CATP=Pyruvate carboxylaseADP+PCitrateCitrate synthaseOxaloacetateWaterNADH, HMalate dehydrogenaseNADMalateCitric acid cycleFumaraseWaterFumarateSuccinate dehydrogenaseAconitaseIsocitrateNADNADH, Hsocitrate dehydrogenaseCO₂a-ketoglutarate+NAD CASHSuccinyl-CoAa-ketoglutarate dehydrogenaseNADH, H+ CO₂Succinyl-CoA synthetaseGDP+PSuccinateCoA SH+CGTP",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp3_img1_bc4c5e27.jpeg",
+      "chapter_heading": "Unknown Chapter"
+    },
+    {
+      "q_no": 4,
+      "question": "Hyperammonemia inhibits the TCA cycle, by depleting levels of which of the followingsubstances?",
+      "options": {
+        "A": "Oxaloacetate",
+        "B": "Alpha ketoglutarate84",
+        "C": "Succinyl CoA",
+        "D": "Fumarate"
+      },
+      "correct_answer": "B",
+      "explanation": "Hyperammonemia results in the depletion of alpha-ketoglutarate.90This happens in two steps:• The excess free ammonia binds to glutamate and forms glutamine.•To compensate for the reduced glutamate, alpha-ketoglutarate is aminated to glutamate.Thus, hyperammonemia eventually depletes alpha-ketoglutarate, leading to a stoppage of the TCAcycle.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Unknown Chapter"
+    },
+    {
+      "q_no": 5,
+      "question": "Aconitase contains which of the following?",
+      "options": {
+        "A": "Ca",
+        "B": "Mg",
+        "C": "Fe",
+        "D": "Mn"
+      },
+      "correct_answer": "",
+      "explanation": "Aconitase is a Fe-containing enzyme. It is involved in the conversion of citrate to isocitrate.The process occurs as a two-step reaction catalyzed by the enzyme, aconitase.• There is an initial dehydration reaction with the removal of a molecule of water, fromCis-Aconitate.•This is followed up by a rehydration reaction, where a molecule of water is added toCis-Aconitate, thereby forming Isocitrate.Note: Aconitase is involved in iron homeostasis.OxaloacetateMalateFumarateSuccinateSuccinyl-CoAOHOHOHCoAOHSn⚫OHCoA PNADHNAD*+FADH FADADP+H*ATP (GDP)(GTP)HOHOHOHOAcetyl-CoA +0.5.CoAHONADH+H++CO₂H₂OCoA9OHOHOHOHOH00NAD(P)H oH₂OH₂OCO₂-OHNAD(P)+ + H+HOHOHO-OHHO0OHOHOHOHOH2-Citratecis-AconitateIsocitrateOxalosuccinateoxoglutarateNAD*",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp5_img1_0ed3b510.jpeg",
+      "chapter_heading": "Unknown Chapter"
+    },
+    {
+      "q_no": 6,
+      "question": "Which of the following substances inhibits aconitase enzyme?",
+      "options": {
+        "A": "Arsenite",
+        "B": "MalonateFluoroacetated) IodoacetateQuestion 7:At which level does valine enter the TCA cycle?a) Alpha ketoglutarateb) Fumarate",
+        "C": "Succinyl CoA",
+        "D": "Acetyl CoA"
+      },
+      "correct_answer": "",
+      "explanation": "Flouroacetate is an inhibitor of the aconitase enzyme.Fluoroacetate combines with Co-A to form fluoroacetyl-CoA. Fluoroacetyl-CoA then condenseswith oxaloacetate to form Fluorocitrate. Fluorocitrate then inhibits the enzyme aconitase.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Unknown Chapter"
+    },
+    {
+      "q_no": 8,
+      "question": "In the Krebs cycle, Which of the following catalyses the step in which the first CO2 isreleased?",
+      "options": {
+        "A": "Aconitase",
+        "B": "Isocitrate dehydrogenase85",
+        "C": "Succinate thiokinase",
+        "D": "Succinate dehydrogenase"
+      },
+      "correct_answer": "B",
+      "explanation": "Isocitrate dehydrogenase catalyses the step in which the first CO2 is released.CO2 is released and NAD+ is reduced to NADH in this reaction.There are two oxidative decarboxylation steps in TCA cycle:• Isocitrate to alpha ketoglutarate catalysed by isocitrate dehydrogenase.•Alpha ketoglutarate to succinyl CoA catalysed by alpha ketoglutarate dehydrogenase.",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp8_img1_c5f9fc2a.jpeg",
+      "chapter_heading": "Unknown Chapter"
+    },
+    {
+      "q_no": 9,
+      "question": "What is the co-factor needed for the isocitrate dehydrogenase enzyme for decarboxylation?",
+      "options": {
+        "A": "Cu2+",
+        "B": "Mn2+",
+        "C": "Fe2+",
+        "D": "Ca2+"
+      },
+      "correct_answer": "B",
+      "explanation": "_HCO + ATPPyruvateCoA SH+NADPyruvate dehydrogenaseCO₂+ NADH, HAcetyl-CoAPyruvate carboxylaseCoA SHCitrateCitrate synthaseADP +POxaloacetateWaterNADH, HMalate dehydrogenaseNADMalateCitric acid cycleFumaraseWaterFumarateSuccinate dehydrogenaseQHAconitaseIsocitrateNADNADH, Hsocitrate dehydrogenaseCO₂a-ketoglutarateSuccinyl-CoANAD+ CoA SHa-ketoglutarate dehydrogenaseNADH, H+ CO₂Succinyl-CoA synthetaseGDP+PSuccinateCoA SH+CGTP92Isocitrate dehydrogenase catalyzes the decarboxylation of isocitrate, to form α-ketoglutarate. Thisdecarboxylation reaction, requires Mg2+ or Mn2+ ions.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Unknown Chapter"
+    },
+    {
+      "q_no": 10,
+      "question": "Substrate level phosphorylation occurs in which of the following steps of the TCA cycle?",
+      "options": {
+        "A": "Isocitrate to alpha keto glutarate",
+        "B": "Alpha keto glutarate to succinyl CoA",
+        "C": "Succinyl CoA to Succinate",
+        "D": "Succinate to fumarate"
+      },
+      "correct_answer": "",
+      "explanation": "Substrate level phosphorylation occurs when succinyl CoA gets converted to succinate in the TCAcycle.Succinyl-CoA is converted to succinate by the enzyme succinate thiokinase or also calledsuccinyl-CoA synthetase.GTP formation takes place in this step, and hence this is the one and only example ofsubstrate-level phosphorylation in the TCA cycle.The GTP so formed is used for the decarboxylation of oxaloacetate to phosphoenolpyruvatecatalysed by PEPCK in gluconeogenesis.PyruvateCOA SH+NADPyruvate dehydrogenaseCO₂+ NADH, HAcetyl-CoACoA SH_HCO +CATP_Pyruvate carboxylaseADP+PCitrateCitrate synthaseOxaloacetateWaterNADH, HMalate dehydrogenaseNADMalateCitric acid cycleFumaraseWaterFumarateSuccinate dehydrogenaseAconitaseIsocitrateNADNADH, Hsocitrate dehydrogenasea-ketoglutarateSuccinyl-CoANAD CASHa-ketoglutarate dehydrogenaseNADH, H+CO₂Succinyl-CoA synthetaseGDP +PSuccinateCoA SH+CGTP",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp10_img1_5d0c4b07.jpeg",
+      "chapter_heading": "Unknown Chapter"
+    },
+    {
+      "q_no": 11,
+      "question": "How many ATPs are generated per turn of the TCA cycle?",
+      "options": {
+        "A": "10",
+        "B": "20",
+        "C": "25",
+        "D": "30"
+      },
+      "correct_answer": "A",
+      "explanation": "Total ATPs generated per turn of the TCA cycle is 10.The following steps of the TCA yield ATP:• Isocitrate to alpha-ketoglutarate - Yields 1 NADH per turn••●Alpha-ketoglutarate to Succinyl CoA - yields 1 NADH per turnSuccinyl Co A to Succinate – yields 1 GTP (Substrate level phosphorylation)-Succinate to fumarate - Yields 1 FADH2• Malate to Oxaloacetate - Yields 1 NADHSo total ATP formed will be= 10933×NADH=7.5 ATP1x FADH2=1.5 ATP1x GTP= 1 ATPTOTAL= 10 ATP PER TURN",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Unknown Chapter"
+    },
+    {
+      "q_no": 12,
+      "question": "All of the following serve as cofactors for the enzymes of the TCA cycle, except:",
+      "options": {
+        "A": "Biotin",
+        "B": "Pantothenic acid",
+        "C": "Riboflavin86",
+        "D": "Niacin"
+      },
+      "correct_answer": "A",
+      "explanation": "Biotin (B7) is not a cofactor for TCA cycle enzymes.The following vitamins serve as cofactors for various enzymes of the TCA cycle:• Riboflavin (B2)•• Active form: FAD• Cofactor for: Succinate dehydrogenase•· Niacin (B3)• Active form: NAD+• Cofactor for: Isocitrate dehydrogenase, α-ketoglutarate dehydrogenase, and Malatedehydrogenase complex• Thiamine (B1)• Active form: Thiamin diphosphate• Cofactor for: decarboxylation step of alpha-ketoglutarate dehydrogenase complex• Pantothenic acid (B5)• Active form: As a part of Coenzyme A• Cofactor for: esterified to the carboxylic acid residues, i.e. acetyl-CoA and succinyl-CoA.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Unknown Chapter"
+    },
+    {
+      "q_no": 13,
+      "question": "Why is the TCA cycle called as an amphibolic pathway?",
+      "options": {
+        "A": "Both oxidative and synthetic reactions take place",
+        "B": "Metabolites are utilized in other pathways",
+        "C": "It can proceed both in forward and backward direction",
+        "D": "Same enzymes can be used in reverse direction"
+      },
+      "correct_answer": "A",
+      "explanation": "In the TCA cycle, both oxidative and synthetic reactions take place.The TCA cycle is not only a pathway for oxidation but also that of interconversion of metabolitesarising from the transamination and deamination of amino acids. It provides the substrates foramino acid synthesis by transamination as well as for gluconeogenesis and fatty acid synthesis.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Unknown Chapter"
+    },
+    {
+      "q_no": 14,
+      "question": "Which of the following substances inhibit the enzyme alpha-ketoglutarate dehydrogenase inthe TCA cycle?",
+      "options": {
+        "A": "Iodoacetate",
+        "B": "Fluoroacetate",
+        "C": "Arsenite",
+        "D": "Malonate"
+      },
+      "correct_answer": "C",
+      "explanation": "Arsenite inhibits alpha-ketoglutarate dehydrogenase.Inhibitors of TCA cycle:94EnzymeAconitaseAlpha-ketoglutarate dehydrogenaseSuccinate dehydrogenaseInhibitorFluoroacetateArseniteMalonate",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Unknown Chapter"
+    },
+    {
+      "q_no": 15,
+      "question": "Which of the following is not a cofactor of the enzyme alpha-ketoglutarate dehydrogenase?",
+      "options": {
+        "A": "Lipoate",
+        "B": "Thiamine pyrophosphate",
+        "C": "FAD",
+        "D": "Pyridoxal phosphate"
+      },
+      "correct_answer": "D",
+      "explanation": "Pyridoxal phosphate is not a cofactor of the enzyme alpha-ketoglutarate dehydrogenase.Alpha-ketoglutarate dehydrogenase enzyme complex has 5 coenzymes, They are:•• Lipoate• Thiamine pyrophosphate• NAD+• FAD•Coenzyme AAll the enzymes carrying out oxidative decarboxylation require these 5 coenzymes, namely:• Pyruvate dehydrogenase, catalyzing the reaction Pyruvate to acetyl CoA• Alpha-ketoglutarate dehydrogenase• Branched-chain keto acid dehydrogenase",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Unknown Chapter"
+    },
+    {
+      "q_no": 16,
+      "question": "All of the following enzymes are components of the pyruvate dehydrogenase enzyme complex,except",
+      "options": {
+        "A": "Pyruvate dehydrogenase",
+        "B": "Dihydrolipoyl transacetylase87",
+        "C": "Pyruvate kinase",
+        "D": "Dihydrolipoyl dehydrogenase"
+      },
+      "correct_answer": "",
+      "explanation": "Pyruvate kinase is not a component of the Pyruvate dehydrogenase (PDH) enzyme complex.Pyruvate dehydrogenase complex is a multienzyme complex that is associated with the innermitochondrial membrane which catalyzes the oxidative decarboxylation of pyruvate toAcetyl-CoA.The three enzyme components are:• Pyruvate dehydrogenase•Dihydrolipoyl transacetylase• Dihydrolipoyl dehydrogenaseThe Cofactors are:• Thiamine pyrophosphate (TPP)• Lipoic acid•Coenzyme A95• Flavin adenine dinucleotide (FAD)• Nicotinamide adenine dinucleotide (NAD+)The overall reaction is: Pyruvate + NAD+ + CoA° Acetyl-CoA + NADH + H+ + CO2Clinical aspects:•• Arsenite and mercuric ions react with the -SH groups of lipoic acid and inhibit pyruvatedehydrogenase.• Dietary deficiency of thiamin inhibits PDH eg. Chronic alcoholics may develop potentially fatalpyruvic and lactic acidosis.• Patients with inherited pyruvate dehydrogenase deficiency present with lactic acidosis,particularly after a glucose load and neurological disturbances.Note: Pyruvate kinase catalyses the last step of glycolysis ie- transfering phosphate group fromphosphoenol pyruvate to ADP forming pyruvate and ATP respectively.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Unknown Chapter"
+    },
+    {
+      "q_no": 17,
+      "question": "Which of the following is inhibited in thiamine deficiency?",
+      "options": {
+        "A": "Isocitrate to alpha-ketoglutarate",
+        "B": "Succinate to fumarate",
+        "C": "Pyruvate to acetyl-CoA",
+        "D": "Fumarate to malate"
+      },
+      "correct_answer": "",
+      "explanation": "In thiamine deficiency, conversion of pyruvate to acetyl CoA is inhibited.Thiamine is a cofactor of the pyruvate dehydrogenase component of the PDH complex. Inthiamine deficiency, pyruvate dehydrogenase is inhibited. Hence pyruvate is not converted toacetyl CoA.Other options:Option A: The enzyme involved in converting isocitrate to alpha-ketoglutarate is isocitratedehydrogenase which requires Mn2+or Mg2+ as a co-factor.Option B: Riboflavin (FAD) is the co-factor for succinate dehydrogenase enzyme, which isresponsible for converting succinate to fumarate._HCO + ATPSPyruvateCOA SH+NADPyruvate dehydrogenaseCO, NADH, HAcetyl-CoAPyruvate carboxylaseADP +PCOA SHCitrateCitrate synthaseOxaloacetateWaterNADH, HNADMalateMalate dehydrogenaseCitric acid cycleFumaraseWaterFumarateSuccinate dehydrogenaseQHSuccinate96AconitaseIsocitrateNADNADH, Hsocitrate dehydrogenasea-ketoglutarateSuccinyl-CoANAD+ CoA SHa-ketoglutarate dehydrogenaseNADH, H+ CO₂Succinyl-CoA synthetaseGDP +PCoA SH+CGTP",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp17_img1_3ed9e765.jpeg",
+      "chapter_heading": "Unknown Chapter"
+    },
+    {
+      "q_no": 18,
+      "question": "Which of the following is an allosteric inhibitor of pyruvate dehydrogenase?",
+      "options": {
+        "A": "AMP",
+        "B": "ADP",
+        "C": "Acetyl CoA",
+        "D": "Citrate"
+      },
+      "correct_answer": "",
+      "explanation": "Allosteric inhibitors of the PDH enzyme complex are NADH, acetyl CoA, and ATP.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Unknown Chapter"
+    },
+    {
+      "q_no": 19,
+      "question": "Which of the following enzyme deficiencies is likely to cause congenital lactic acidosis in apatient?",
+      "options": {
+        "A": "Pyruvate dehydrogenase enzyme complex",
+        "B": "Pyruvate kinase",
+        "C": "Pyruvate Decarboxylase",
+        "D": "Transketolase"
+      },
+      "correct_answer": "A",
+      "explanation": "Inherited pyruvate dehydrogenase deficiency, can be due to a defect in any one/ more of thecomponents of the PDH enzyme complex. This presents with lactic acidosis.Causes of lactic acidosis:• Tissue hypoxia• Mitochondrial disorders• Deficiency of:•• PDH Enzyme• TCA cycle enzymes•Vit B1• Poisoning:•Cyanide• Mercury• Arsenite",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Unknown Chapter"
+    },
+    {
+      "q_no": 20,
+      "question": "Identify the anaplerotic reaction among the following?",
+      "options": {
+        "A": "Conversion of pyruvate to Acetyl CoA",
+        "B": "Conversion of pyruvate to Oxaloacetate88",
+        "C": "Conversion of pyruvate to Acetaldehyde",
+        "D": "Conversion of pyruvate to Lactic acidCorrect Option"
+      },
+      "correct_answer": "B",
+      "explanation": "The conversion of pyruvate to oxaloacetate is an anaplerotic reaction. It is catalyzed by pyruvatecarboxylase.Anaplerotic reactions are chemical reactions that form intermediates of a metabolic pathway. Theabove reaction is important in maintaining an adequate concentration of oxaloacetate for thecondensation reaction with acetyl-CoA. If acetyl-CoA accumulates, it acts as an activator ofpyruvate carboxylase and an inhibitor of pyruvate dehydrogenase, thereby ensuring an adequatesupply of oxaloacetate.Other anaplerotic reactions are:•Compounds that are metabolized to yield propionyl CoA, which can be then carboxylated andisomerized to succinyl CoA.• Glutamate and glutamine are important anaplerotic substrates because they yielda-ketoglutarate as a result of the reactions catalyzed by glutaminase and glutamatedehydrogenase.97• Transamination of aspartate leads directly to the formation of oxaloacetate.98",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Unknown Chapter"
+    }
+  ]
+}

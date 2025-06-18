@@ -1,0 +1,290 @@
+{
+  "chapter": "Enzyme Kinetics and Regulation of Activity",
+  "questions": [
+    {
+      "q_no": 1,
+      "question": "Activation energy is the free energy difference between",
+      "options": {
+        "A": "Substrate and product",
+        "B": "Substrate and transition state",
+        "C": "Transition state and product",
+        "D": "Sum of all the above"
+      },
+      "correct_answer": "B",
+      "explanation": "Activation energy is the energy required for a reaction to occur, which is the free energy difference between the substrate and the transition state.",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp1_img1_4bbc0c13.jpeg",
+      "chapter_heading": "Enzyme Kinetics and Regulation of Activity"
+    },
+    {
+      "q_no": 2,
+      "question": "In the given reaction, two molecules of A combine to form P. What is the kinetic order of the reaction? 2A K1 K2 P",
+      "options": {
+        "A": "1st order for the forward reaction & 2nd order for the reverse reaction",
+        "B": "2nd order for the forward reaction & 1st order for the reverse reaction",
+        "C": "1st order for the forward reaction & 1st order for the reverse reaction",
+        "D": "2nd order for the forward reaction & 2nd order for the reverse reaction"
+      },
+      "correct_answer": "B",
+      "explanation": "The above reaction has 2nd order for the forward reaction and 1st order for the reverse reaction. The sum of the molar ratios of the reactants defines the kinetic order of the reaction. In the forward reaction, A + A → P, the sum of reactants is 2. Thus, Rate ∝ [A] [A] or Rate ∝ [A]². Therefore, the reaction is said to be second order with respect to reactant A. In the reverse reaction, P → 2A, the sum of reactants is 1. Thus, Rate ∝ [P]. Therefore, the reaction is said to be first order with respect to reactant P. Kinetic order of reactions: • Zero-order reaction: Rate is independent of the concentration of reactants. • First-order reaction: Rate is directly proportional to the concentration of one of the reactants. • Second-order reaction: In the simplest kind of 2nd order reaction, the rate is proportional to the square of the concentration of one reactant.",
+      "image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/q2_img1_d2b0e74f.jpeg",
+      "explanation_image": null,
+      "chapter_heading": "Enzyme Kinetics and Regulation of Activity"
+    },
+    {
+      "q_no": 3,
+      "question": "Regarding enzyme kinetics, which of the following is true?",
+      "options": {
+        "A": "Q10 = 1",
+        "B": "Q10 = 2",
+        "C": "Q10 = 3",
+        "D": "Q10 = 4"
+      },
+      "correct_answer": "B",
+      "explanation": "Q10 = 2 is the correct statement regarding enzyme kinetics. The temperature coefficient (Q10) is the factor by which the rate of a biological process increases for a 10°C increase in temperature. The rates of most biological processes typically double for a 10°C rise in temperature. Thus, Q10 (degree Celsius rise) = 2 (double).",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Enzyme Kinetics and Regulation of Activity"
+    },
+    {
+      "q_no": 4,
+      "question": "Which of the following is not a type of covalent modification for regulation of enzyme kinetics?",
+      "options": {
+        "A": "Methylation",
+        "B": "Acetylation",
+        "C": "ADP ribosylation",
+        "D": "Ionization"
+      },
+      "correct_answer": "D",
+      "explanation": "Ionization is not a type of covalent modification regulating enzyme kinetics. Regulation of enzyme kinetics can be brought about by reversible covalent modifications of the enzyme. These include methylation, acetylation, ADP ribosylation, phosphorylation, and partial proteolysis.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Enzyme Kinetics and Regulation of Activity"
+    },
+    {
+      "q_no": 5,
+      "question": "Which of the following is false regarding the effect of substrate concentration on the rate of reaction?",
+      "options": {
+        "A": "As substrate concentration increases, the initial velocity of the reaction increases until it reaches a maximum value (Vmax)",
+        "B": "The substrate concentration at which the velocity of the reaction is half maximum is called Km",
+        "C": "The Michaelis-Menten equation says that initial reaction velocity (Vi) = Vmax [S]/Km+[S]",
+        "D": "The plot of initial reaction velocity against substrate concentration is linear"
+      },
+      "correct_answer": "D",
+      "explanation": "The plot of initial reaction velocity against substrate concentration is hyperbolic, not linear. For a typical enzyme, the velocity of a reaction has a hyperbolic relationship with the substrate concentration. As the substrate concentration increases, initial velocity (Vi) increases until it reaches a maximum value, Vmax. After Vmax is reached, further increase in the substrate concentration does not change reaction velocity. This is because the enzyme is saturated with the substrate. The Michaelis constant (Km) is the substrate concentration at which Vi is half the maximal velocity, i.e., Vmax/2. The Michaelis-Menten equation illustrates the relationship between Vi and substrate concentration [S] mathematically, i.e., Vi = Vmax × [S] / (Km + [S]).",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp5_img1_70d806a0.jpeg",
+      "chapter_heading": "Enzyme Kinetics and Regulation of Activity"
+    },
+    {
+      "q_no": 6,
+      "question": "The catalytic efficiency of an enzyme is best expressed by which of the following kinetic constants:",
+      "options": {
+        "A": "Kcat/Km",
+        "B": "Km/Kcat",
+        "C": "Km/Ka",
+        "D": "Ka/Km"
+      },
+      "correct_answer": "A",
+      "explanation": "The catalytic efficiency of an enzyme is expressed as Kcat/Km. Kcat is the rate constant, which is the limiting rate of an enzyme-catalyzed reaction at saturation. It is given by Vmax divided by the number of active sites of the enzyme. Km is the Michaelis-Menten constant, which is defined as the substrate concentration at which the initial velocity (Vi) is half the maximum velocity (Vmax/2). For some enzymes, when a substrate (S) binds to the active site of the enzyme (E), and forms an enzyme-substrate complex (ES), the product is instantaneously formed. For such enzymes, the reaction of E+S → ES becomes the rate-limiting step. Its rate is determined by the rate of diffusion of the molecules in a solution. Hence, these enzymes are called diffusion-limited or catalytically perfect. Examples of the catalytically perfect enzymes, where the catalytic efficiency reaches the diffusion limit of 10^8-10^9 M^-1s^-1: • Triosephosphate isomerase • Carbonic anhydrase • Acetylcholinesterase • Adenosine deaminase",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Enzyme Kinetics and Regulation of Activity"
+    },
+    {
+      "q_no": 7,
+      "question": "In a reaction, the substrate is available in a concentration that is 1000 times the Km value of the enzyme. After 9 minutes of reaction, 1% of substrate is converted to product (12 micrograms/ml). If the concentration of the enzyme is changed to 1/3 and the concentration of substrate is doubled, what is the time taken to convert the substrate into the same amount of product, i.e., 12 micrograms/ml?",
+      "options": {
+        "A": "9 minutes",
+        "B": "4.5 minutes",
+        "C": "27 minutes",
+        "D": "13.5 minutes"
+      },
+      "correct_answer": "C",
+      "explanation": "The time taken for the formation of the same amount of product is 27 minutes. In this reaction, the substrate concentration becomes 1000 times, i.e., much greater than the Km value. Thus, the rate of this reaction is equal to Vmax and is thus independent of the substrate concentration, i.e., it follows zero-order kinetics. Thus, doubling the substrate concentration does not change the velocity of the reaction, i.e., it remains as Vmax. No matter the substrate concentration, the rate of the reaction is directly proportional to the concentration of the enzyme. In this situation, the enzyme concentration becomes 1/3rd. Thus, the velocity of the reaction (Vmax) also becomes 1/3rd. This means that the time taken for the formation of the same amount of product will become tripled, i.e., 9 × 3 = 27 minutes.",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp7_img1_391abe7c.jpeg",
+      "chapter_heading": "Enzyme Kinetics and Regulation of Activity"
+    },
+    {
+      "q_no": 8,
+      "question": "Which of the following best defines the type of enzyme inhibition by malonate on succinate dehydrogenase reaction?",
+      "options": {
+        "A": "Non-competitive",
+        "B": "Uncompetitive",
+        "C": "Competitive",
+        "D": "Allosteric"
+      },
+      "correct_answer": "C",
+      "explanation": "Inhibition of succinate dehydrogenase reaction by malonate is an example of competitive inhibition.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Enzyme Kinetics and Regulation of Activity"
+    },
+    {
+      "q_no": 9,
+      "question": "Which of the following is true about competitive inhibition?",
+      "options": {
+        "A": "Vmax increases",
+        "B": "Vmax decreases",
+        "C": "Vmax is constant",
+        "D": "Km decreases"
+      },
+      "correct_answer": "C",
+      "explanation": "Vmax remains constant in competitive inhibition. Competitive inhibition is when the inhibitor binds reversibly to the substrate-binding site and competes with the substrate for the active enzyme-binding site. This effect of competitive inhibition can be overcome by increasing the substrate concentration, by which maximum velocity can still be achieved. Therefore, Vmax (maximum velocity of the reaction) is unaltered in this type of inhibition. However, the concentration of the substrate required to achieve half of the maximum velocity is increased. Therefore, Km is increased in this condition. Reaction velocity (V). Competitive inhibition: Vmax (no inhibitor) = Vmax (with competitive inhibitor). The Lineweaver-Burk plot shows that for the competitive inhibitor, Vmax remains the same as for the normal enzyme, but Km increases.",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp9_img1_cd773d48.jpeg",
+      "chapter_heading": "Enzyme Kinetics and Regulation of Activity"
+    },
+    {
+      "q_no": 10,
+      "question": "Which of the following is false about non-competitive inhibition?",
+      "options": {
+        "A": "Vmax decreases",
+        "B": "Km decreases",
+        "C": "The inhibitor binds at a site different from the active site",
+        "D": "The inhibitor does not affect the binding of the substrate"
+      },
+      "correct_answer": "B",
+      "explanation": "Km remains constant in non-competitive inhibition. Non-competitive inhibition of enzymes occurs by the binding of inhibitors to enzymes in locations different from the active site. The inhibition is not overcome by increasing the concentration of the substrate. Thus, non-competitive inhibitors decrease the Vmax of the reaction. Non-competitive inhibitors do not resemble the substrate. Thus, they do not interfere with the binding of the substrate to the enzyme. Thus, Km of the enzyme does not change. Enzyme-Inhibitor binding site and substrate binding site are independent. The inhibitor and substrate bind independently of each other. Either or both may be bound at any time. Completing the reaction, however, depends on the enzyme undergoing a conformational change that is blocked by the inhibitor. With non-competitive inhibitor, Vmax is lower than for the normal enzyme, but Km remains the same.",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp10_img1_8da7174d.jpeg",
+      "chapter_heading": "Enzyme Kinetics and Regulation of Activity"
+    },
+    {
+      "q_no": 11,
+      "question": "Which of the following situations does the red line in the following graph depict? Vmax V₁ Normal Enzyme [S] KM",
+      "options": {
+        "A": "Reaction with a competitive inhibitor",
+        "B": "Reaction with a noncompetitive inhibitor",
+        "C": "Reaction with a suicide inhibitor",
+        "D": "None of the above"
+      },
+      "correct_answer": "A",
+      "explanation": "The red line indicates an enzymatic reaction taking place in the presence of a competitive inhibitor. The graph represents the enzymatic reaction velocity in relation to substrate concentration. The black line indicates the reaction taking place in the absence of any inhibitor. In the presence of a competitive inhibitor, as indicated by the red line, Vmax remains unchanged. Km is increased. In the presence of a non-competitive inhibitor, as indicated by the blue line, Vmax is decreased; Km remains unchanged. Note: Suicide inhibitors are specialized substrate analogs. They contain a chemical group that can be transformed by the target enzyme. After binding to the active site of the enzyme, catalysis by the enzyme generates a highly reactive group that forms a covalent bond and blocks the function of the enzyme. Vmax Normal enzyme Vi Enzyme kinetics (S) KM - Competitive inhibition Non-competitive inhibition",
+      "image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/q11_img1_568c1043.jpeg",
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp11_img1_91fdfe47.jpeg",
+      "chapter_heading": "Enzyme Kinetics and Regulation of Activity"
+    },
+    {
+      "q_no": 12,
+      "question": "Which of the following situations does the red line in the following graph depict? The slope and Y-intercept change, while 1/[S] is constant.",
+      "options": {
+        "A": "Reaction with a competitive inhibitor",
+        "B": "Reaction with a noncompetitive inhibitor",
+        "C": "Binds to the catalytic site",
+        "D": "Participates in feedback regulation"
+      },
+      "correct_answer": "B",
+      "explanation": "The red line in the graph represents an enzymatic reaction with a noncompetitive inhibitor. The above graph is called the 'Lineweaver-Burk plot' or 'double reciprocal' plot. 1/Vo (Vo - initial velocity) is plotted versus 1/[S] ([S] - substrate concentration) and a straight line is obtained. This plot can be used to calculate Km and Vmax as well as to determine the mechanism of action of enzyme inhibitors. The x-intercept represents -1/Km while the y-intercept represents 1/Vmax. In non-competitive inhibition, Vmax decreases (or 1/Vmax increases) but Km is unchanged. Hence the graphs of inhibited and uninhibited reactions have the same x-intercepts (converge at the same -1/Km) but different y-intercepts. Note: An allosteric inhibitor alters the conformation of an enzyme upon binding. Enzymes affected by allosteric inhibitors exhibit a sigmoid, not hyperbolic, relationship between Vo and [S].",
+      "image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/q12_img1_1aca9f54.jpeg",
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp12_img1_7f5e8112.png",
+      "chapter_heading": "Enzyme Kinetics and Regulation of Activity"
+    },
+    {
+      "q_no": 14,
+      "question": "Which of the following is true about allosteric regulation?",
+      "options": {
+        "A": "Allosterically regulated enzymes belong to K-series, V-series, or both",
+        "B": "Allosteric modifier binds to the active site of the enzyme",
+        "C": "Induction and repression are examples of allosteric regulation",
+        "D": "Allosteric modifier binds to the enzyme by a covalent bond"
+      },
+      "correct_answer": "A",
+      "explanation": "Allosterically regulated enzymes belong to either the K-series, V-series, or both. An allosteric modifier or effector binds to the allosteric site to induce a conformational change in the catalytic or active site. The kinetics of an allosteric effector does not follow Michaelis-Menten kinetics. Hence, allosterically activated enzymes can fall under the following categories: • K-series: The allosteric effector raises the Km of the enzyme without affecting Vmax, i.e., similar to competitive inhibition. • V-series: The allosteric effector lowers the Vmax without affecting Km, i.e., similar to non-competitive inhibition. • Both: Intermediate effects can also be seen. Option B: Allosteric modifier noncovalently binds to a site other than the active site (Allo=other, steric=space) and affects the catalysis. Option C: Induction and repression are methods of controlling the rate of enzyme synthesis, not regulation of activity. Option D: Allosteric modifier binds to the enzyme noncovalently.",
+      "image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/q14_img1_5ab94a70.jpeg",
+      "explanation_image": null,
+      "chapter_heading": "Enzyme Kinetics and Regulation of Activity"
+    },
+    {
+      "q_no": 15,
+      "question": "Chymotrypsinogen is a",
+      "options": {
+        "A": "Zymogen",
+        "B": "Carboxypeptidase",
+        "C": "Transaminase",
+        "D": "Clot-lysing protein"
+      },
+      "correct_answer": "A",
+      "explanation": "Chymotrypsinogen is a zymogen.Some enzymes are secreted as an inactive form called as zymogens. The zymogens are convertedto their active functional forms by partial, or selective proteolysis. Examples of zymogens includetrypsinogen, chymotrypsinogen, proelastase, pepsinogen, prophospholipase A2 etc.313Proenzymes (zymogens)Active enzymesH*PepsinogenPopsinenteropeptidaseTrypsinogenTrypsintrypsinChymotrypsinogenChymotrypsintrypsinProelastaseElastasetrypsinProcarboxypeptidasesCarboxypeptidases",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp15_img1_3e2656a3.jpeg",
+      "chapter_heading": "Enzyme Kinetics and Regulation of Activity"
+    },
+    {
+      "q_no": 16,
+      "question": "A 46-year-old male visits the cardiology clinic with a history of exertional chest pain. He is a known diabetic, hypertensive, and hyperlipidemic, which are controlled with appropriate medication. Considering his high 10-year ASCVD risk score (atherosclerotic cardiovascular disease risk), he is started on low-dose aspirin. Which of the following best defines the mechanism of aspirin action?",
+      "options": {
+        "A": "Suicide inhibition",
+        "B": "Competitive inhibition",
+        "C": "Allosteric activation",
+        "D": "Allosteric inhibition"
+      },
+      "correct_answer": "A",
+      "explanation": "Low-dose aspirin exerts its action by irreversibly inhibiting cyclooxygenase enzyme activity in platelets, which is an example of suicide inhibition. A suicidal enzyme is one that undergoes self-destruction in order to terminate its own activity. In this case, in response to irreversible inhibition by aspirin, platelet cyclooxygenase loses its ability to synthesize thromboxane. It undergoes self-destruction. Unless new platelets are formed, this cyclooxygenase activity cannot be regained.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Enzyme Kinetics and Regulation of Activity"
+    },
+    {
+      "q_no": 17,
+      "question": "Which of the following nucleotide triphosphates target ATCase for feedback regulation?",
+      "options": {
+        "A": "Cytidine triphosphate",
+        "B": "Adenosine triphosphate",
+        "C": "Guanosine triphosphate",
+        "D": "A & B"
+      },
+      "correct_answer": "D",
+      "explanation": "Both cytidine triphosphate and adenosine triphosphate target aspartate transcarbamoylase (ATCase) for feedback regulation. ATCase, the catalyst for the first reaction unique to pyrimidine biosynthesis, is a target of feedback regulation by two nucleotide triphosphates: cytidine triphosphate (CTP) and adenosine triphosphate (ATP). CTP is an end product of the pyrimidine biosynthetic pathway. It inhibits ATCase, whereas the purine nucleotide ATP activates it. High levels of ATP can overcome the inhibition by CTP, enabling synthesis of pyrimidine nucleotides to proceed even when purine nucleotide (ATP) levels are elevated.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Enzyme Kinetics and Regulation of Activity"
+    },
+    {
+      "q_no": 18,
+      "question": "Which of the following is true regarding non-competitive inhibition?",
+      "options": {
+        "A": "Constant Km and increased Vmax",
+        "B": "Constant Km and decreased Vmax",
+        "C": "Decreased Km and decreased Vmax303",
+        "D": "Decreased Km and increased Vmax"
+      },
+      "correct_answer": "B",
+      "explanation": "Noncompetitive inhibition has constant Km and decreased Vmax.314Noncompetitive inhibition occurs when the inhibitor binds at a site different from thesubstrate-binding site. The structure of the inhibitor does not resemble that of the substrate andthe inhibitor does not affect the binding of the substrate.EnzymeInhibitorInhibitor bindingsiteA-ASubstrateSubstrate binding site0-0-0The inhibitor andsubstrate bindindependently of eachother. Either or bothmay be bound atany time.Completing thereaction, however,depends on theenzyme undergoinga conformationalchange that isblocked by the inhibitor.",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp18_img1_3f943baa.jpeg",
+      "chapter_heading": "Enzyme Kinetics and Regulation of Activity"
+    },
+    {
+      "q_no": 19,
+      "question": "Gibbs free energy curve of an enzyme-catalyzed reaction is given by",
+      "options": {
+        "A": "B",
+        "B": "A",
+        "C": "C",
+        "D": "DMDABWCOMARROW"
+      },
+      "correct_answer": "B",
+      "explanation": "Among the given graphs, the Gibbs free energy change of an enzyme-catalyzed reaction is shownby graph A (Option B).Graph B (Option A) cannot represent the Gibbs free energy of an enzyme-catalyzed reaction, asthe energy state of an intermediate cannot be lower than the product. A lower energy state of theintermediate implies that the enzyme-intermediate complex is stable and such a complex willusually not further form a product.During any chemical reaction, the product is formed by the breaking of substrate bonds and theconformational change of the substrate into a highly unstable transition state. This transition stateis denoted by the peak of the graph. The Gibbs free energy curve of an enzyme-catalyzed reaction(with no intermediate state) is shown in the image given below:315Transition stateMORROWReactantsTimeOMARROWProductsThe below graph shows the normal intermediate formation with an energy state still higher thanthat of the product:EnergyTransitionstate 1Transitionstate 2StartingmaterialsActivationenergyIntermediateA Gibbsfree energy↑ProductsWTimeOMARROWAll the reactions have a transition state, but not all reactions have an intermediate state. Everyintermediate state is again always followed by another transition state.Activation energy is the energy difference between the free energy of the substrates and that of thetransition state. Because of the high activation energy, the rates of uncatalyzed chemical reactionsare often slow.316Energyreactantse.g. CO2 + H2Owithout enzymewith enzymeactivationenergy withenzymeactivationenergy withoutenzymeReaction coordinateoverall energyreleased duringreactionproductsH2CO3In an enzyme-catalyzed reaction, the activation energy is reduced by forming a relatively stableintermediate-enzyme complex. Enzymes provide attachment sites for the substrate and speed upthe rate of reaction. They don't change the energy state of either the substrate or the product. TheGibbs free energy change remains the same.Graph C: Free energy change cannot be a straight line. Every reaction passes through ahigh-energy intermediate transition state.Graph D: The activation energy of any reaction is never lower than the free energy of the product.",
+      "image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/q19_img1_09ba196f.jpeg",
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp19_img1_ad2251e5.jpeg",
+      "chapter_heading": "Enzyme Kinetics and Regulation of Activity"
+    },
+    {
+      "q_no": 20,
+      "question": "Which of the following enzymes has the highest catalytic efficiency?",
+      "options": {
+        "A": "Km of an enzyme = 10 micromole and Kcat = 20 per sec",
+        "B": "Km of an enzyme = 2000 nanomole and Kcat = 50 per sec",
+        "C": "Km of an enzyme = 2 micromole and Kcat = 200 per sec",
+        "D": "Km of an enzyme = 4 micromole and Kcat = 200 per sec"
+      },
+      "correct_answer": "C",
+      "explanation": "The highest catalytic efficiency is seen when Km = 2 micromole and Kcat = 200 per sec. Catalytic efficiency is calculated as Kcat/Km, where Km is inversely proportional to the binding affinity of the enzyme and Kcat is the catalytic constant (Vmax divided by the total number of active sites of the enzyme present). Higher values of Kcat and lower values of Km give better catalytic efficiency. Catalytic efficiency can be used to compare the performance of two different enzymes in catalyzing a reaction. Step 1: Km of each option, after converting respective units to moles, will be 10, 2, 2, and 4 (each multiplied by 10^-6) moles. Step 2: The catalytic efficiency is calculated as Kcat/Km. On substituting the values in various options after converting to moles, the values come out to be 2, 25, 100, and 50 (each multiplied by 10^6) M^-1 s^-1. Some enzymes can be so efficient that they convert the substrate to product instantaneously. They are limited only by the rate at which substrate diffuses towards the enzyme in a solution. These are called diffusion-limited enzymes, and their catalytic efficiency is as high as 10^8 M^-1 s^-1.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Enzyme Kinetics and Regulation of Activity"
+    }
+  ]
+}

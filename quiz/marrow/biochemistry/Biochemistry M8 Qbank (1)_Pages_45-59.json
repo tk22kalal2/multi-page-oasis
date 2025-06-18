@@ -1,0 +1,305 @@
+{
+  "chapter": "disorders",
+  "questions": [
+    {
+      "q_no": 1,
+      "question": "Which of the following pairs correctly represents the primary glycosidic bond linkage and the branch-point bond linkage in glycogen, respectively?",
+      "options": {
+        "A": "α(1→4) linkage; α(1→6) linkage",
+        "B": "α(1→6) linkage; α(1→4) linkage",
+        "C": "α(1→4) linkage; α(1→4) linkage",
+        "D": "α(1→6) linkage; α(1→6) linkage"
+      },
+      "correct_answer": "A",
+      "explanation": "The primary glycosidic bond linkage in glycogen is an α(1→4) linkage, and the branch-point bond linkage is an α(1→6) linkage.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "disorders"
+    },
+    {
+      "q_no": 2,
+      "question": "In which of the following organs does glycogen synthesis takes place?",
+      "options": {
+        "A": "Liver and kidney",
+        "B": "Liver and muscle",
+        "C": "Muscle and RBC",
+        "D": "Muscle and kidney"
+      },
+      "correct_answer": "",
+      "explanation": "Glycogenesis takes place majorly in the skeletal muscle and the liver.Glycogen functions as the secondary long-term energy storage, with the primary energy storesbeing fats held in adipose tissue.Glucose 6-phosphate derived from glycogen breakdown can•• Be used as a fuel for glycolysis in muscles• Be converted into free glucose in the liver and subsequently released into the blood• Enter into the pentose phosphate pathway to generate NADPH or ribose in a variety of tissues51555555**Glycogen structure**************A core protein of glycogenin is surrounded by branches of glucose units.The entire globular complex may contain approximately 30,000 glucose units.",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp2_img1_8785624d.jpeg",
+      "chapter_heading": "disorders"
+    },
+    {
+      "q_no": 3,
+      "question": "Where does the process of glycogen synthesis take place?",
+      "options": {
+        "A": "Mitochondria",
+        "B": "Golgi apparatus",
+        "C": "Cytosol",
+        "D": "Endoplasmic reticulum"
+      },
+      "correct_answer": "",
+      "explanation": "The process of glycogen synthesis takes place within the cytosol of skeletal muscle and liver,where it is stored in the hydrated form with three or four parts of water.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "disorders"
+    },
+    {
+      "q_no": 4,
+      "question": "Which of the following is a primer acting as an acceptor of glucose residues in theglycogen synthesis?",
+      "options": {
+        "A": "Protein45processof",
+        "B": "Carbohydrate",
+        "C": "Lipid",
+        "D": "Nucleic acid"
+      },
+      "correct_answer": "",
+      "explanation": "A protein named glycogenin is the primer acting as an acceptor of glucose residues in the processof glycogen synthesis.The ensuing entity is glycosylated further by UDP-glucose. Glycogenin further catalyzes thetransfer of seven glucose residues from UDP-Glucose, in 1° 4 linkages, to form a glycogenprimer. This in turn serves as the substrate for the enzyme, glycogen synthase, which is therate-limiting enzyme of glycogen synthesis.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "disorders"
+    },
+    {
+      "q_no": 5,
+      "question": "Glucose attached to which of the following serves as the donor source of glucose in the process of glycogen synthesis?",
+      "options": {
+        "A": "UDP",
+        "B": "ITP",
+        "C": "ATP",
+        "D": "GTP"
+      },
+      "correct_answer": "A",
+      "explanation": "α-D-Glucose attached to uridine diphosphate (UDP) serves as the source of glucose, which is added to the glycogen molecule. UDP-glucose is, in turn, synthesized from glucose-1-phosphate and UTP by the enzyme UDP-glucose pyrophosphorylase.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "disorders"
+    },
+    {
+      "q_no": 6,
+      "question": "Which of the following depicts the correct sequence of enzymes involved in glycogenolysis in the liver?",
+      "options": {
+        "A": "Phosphorylase, Glucan transferase, Glucose-6-phosphatase",
+        "B": "Glycogen synthase, Phosphorylase, Glucose-6-phosphatase",
+        "C": "Glucose-6-phosphatase, Phosphorylase, Debranching enzyme",
+        "D": "Phosphorylase, Glucose-6-phosphatase, Glucan transferase"
+      },
+      "correct_answer": "A",
+      "explanation": "The sequence of enzymes involved in steps of glycogenolysis is phosphorylase, glucan transferase, and glucose-6-phosphatase.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "disorders"
+    },
+    {
+      "q_no": 7,
+      "question": "Which of the following enzymes catalyze the rate-limiting step of glycogenolysis?",
+      "options": {
+        "A": "Glycogen synthase",
+        "B": "Glycogen phosphorylase",
+        "C": "Glucose-6-phosphatase",
+        "D": "Phosphoglucomutase"
+      },
+      "correct_answer": "B",
+      "explanation": "The rate-limiting step in glycogenolysis is catalyzed by the enzyme glycogen phosphorylase. The process of phosphorolytic cleavage of the α-1,4 linkages of glycogen to yield single units of glucose-1-phosphate is catalyzed by the enzyme glycogen phosphorylase. Glycogen phosphorylase requires pyridoxal phosphate as the coenzyme. The phosphate group is catalytically active. There are different isoenzymes of glycogen phosphorylase in the liver, muscle, and brain.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "disorders"
+    },
+    {
+      "q_no": 8,
+      "question": "Muscle cannot release glucose from glycogen because of the deficiency of which of thefollowing enzymes?46",
+      "options": {
+        "A": "Glucokinase",
+        "B": "Phosphoglucomutase",
+        "C": "Glucose-6-phosphatase",
+        "D": "Muscle phosphorylase"
+      },
+      "correct_answer": "",
+      "explanation": "Muscles cannot release glucose into the blood due to the absence of the enzymeglucose-6-phosphatase.Glucose-6-phosphatase is present in the lumen of the smooth endoplasmic reticulum ofhepatocytes. Hence, hepatocytes can convert glucose-6-phosphate into glucose and releaseglycogen-derived glucose into the blood in order to maintain blood glucose levels stable, untilgluconeogenesis kicks in.However, myocytes lack the enzyme glucose 6-phosphatase. As a result, glucose-6-phosphatecannot be dephosphorylated and released into the blood. Muscle glycogen provides a readilyavailable source of glucose-1-phosphate for glycolysis within the muscle itself.Defects in the enzyme or glucose-6-phosphate transporter (GLUT 7) can cause type I glycogenstorage disease.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "disorders"
+    },
+    {
+      "q_no": 9,
+      "question": "Which of the following vitamins serves as the cofactor of the enzyme glycogenphosphorylase?",
+      "options": {
+        "A": "Vitamin B1",
+        "B": "Vitamin B6",
+        "C": "Vitamin B2",
+        "D": "Vitamin B7"
+      },
+      "correct_answer": "B",
+      "explanation": "Glycogen phosphorylase requires pyridoxal phosphate, i.e., vitamin B6, as its coenzyme.The process of phosphorolytic cleavage of the 1° 4 linkages of glycogen to yield single units ofglucose 1-phosphate, is catalyzed by the enzyme glycogen phosphorylase.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "disorders"
+    },
+    {
+      "q_no": 10,
+      "question": "Which of the following is an allosteric activator of muscle glycogen phosphorylase?",
+      "options": {
+        "A": "ATP",
+        "B": "Insulin",
+        "C": "Glucose",
+        "D": "5'AMP"
+      },
+      "correct_answer": "D",
+      "explanation": "5'AMP serves as the allosteric activator of muscle glycogen phosphorylase.Glycogen phosphorylase catalyzes the rate-limiting step in glycogenolysis. It is regulated byallosteric mechanisms and covalent modification by reversible phosphorylation anddephosphorylation in response to hormone action.53In both liver and muscle, the glycogen phosphorylase is:• Activated by phosphorylation catalyzed by phosphorylase kinase (to yield phosphorylase a)• Inactivated by dephosphorylation catalyzed by protein phosphatase-1 (to yield phosphorylase b)Muscle phosphorylase differs from the liver isoenzyme in having a binding site for 5' AMP. It actsas an allosteric activator of the (inactive) dephosphorylated b-form of the enzyme.Allosteric ActivatorLiverMusc 5' AMPAllosteric InhibitorATPGlucose-6-phosphateFree glucoseATPGlucose-6-phosphateleRegulation of glycogen phosphorylaseGlucagon (liver)Epinephrine (Muscle and liver)InactiveadenylylcyclaseATPInactive CAMPdependentprotein kinaseActive CAMPdependentprotein kinaseActiveadenylylcyclasePhosphodiesteraseCAMPGlycogenATPADPCalmodulincomponentPhosphorylase 10kinase b(inactive)CaADPPhosphorylasekinase a(active)PiHOProteinphosphatase-1ToInsulinATP5 AMPGlucose-1-phosphateGlycogenphosphorylasea (active)G6PInsulinGlycogenphosphorylaseb (inactive)10S' AMPProteinphospha-tase-1ToInsulinG6P-Glucose-6-phosphate.OMARROW",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp10_img1_2b95552a.jpeg",
+      "chapter_heading": "disorders"
+    },
+    {
+      "q_no": 11,
+      "question": "Which of the following do not take part in regulating the enzyme glycogen phosphorylase?",
+      "options": {
+        "A": "cAMP",
+        "B": "Calmodulin",
+        "C": "Protein phosphatase-1",
+        "D": "Glycogenin"
+      },
+      "correct_answer": "D",
+      "explanation": "Glycogenin cannot regulate glycogen phosphorylase enzyme. It is a polypeptide serving as a primer in the initiation of glycogen synthesis. Regulation of glycogen metabolism at the level of glycogen phosphorylase: \n   • CAMP activates phosphorylase kinase (by a cAMP-dependent protein kinase), which in turn activates glycogen phosphorylase.\n   • Calcium activates the calmodulin component of phosphorylase kinase directly, which in turn activates glycogen phosphorylase.\n   • 5' AMP acts allosterically to activate glycogen phosphorylase.\n   • Protein phosphatase-1 inactivates glycogen phosphorylase.",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp11_img1_095f2967.jpeg",
+      "chapter_heading": "disorders"
+    },
+    {
+      "q_no": 12,
+      "question": "Which of the following is the debranching enzyme?47",
+      "options": {
+        "A": "Phosphogluconomutase",
+        "B": "Glucose 6-phosphatase",
+        "C": "Amylo 1,6 glucosidase",
+        "D": "Amylo 1,4- 1,6 transglucosidase"
+      },
+      "correct_answer": "",
+      "explanation": "Amylo 1,6 glucosidase + α(1,4)-&gt;(1,4) glucan transferase forms the debranching enzyme.When four glucose residues remain on either side of the branching point, α(1,4)-&gt;(1,4) glucantransferase transfers a trisaccharide unit from one branch of glycogen to the other followingwhich, amylo 1,6-glucosidase catalyzes the hydrolysis of the α(1,6) glycosidic bond to liberate freeglucose.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "disorders"
+    },
+    {
+      "q_no": 13,
+      "question": "Under anaerobic metabolism which of the following substrates yields 3 molecules of ATP?",
+      "options": {
+        "A": "Glycogen",
+        "B": "Amino acid",
+        "C": "Glucose",
+        "D": "Galactose"
+      },
+      "correct_answer": "A",
+      "explanation": "Breakdown of glycogen under anaerobic conditions yields 3 ATPs.Breakdown of glycogen yields glucose-6-phosphate which can enter the glycolysis pathway. Sinceit bypasses the first step, one ATP is saved and anaerobic glycolysis yields 3 ATPs.The first step in glycolysis involves the conversion of glucose to glucose-6-phosphate whichrequires one ATP. Glycogen breakdown leads to formation of glucose-6-phosphate which canenter glycolysis hence bypassing the first step and saving one ATP.One ATP is used for conversion of fructose-6-phosphate to fructose 1,6 biphosphate hence netATP formed from anaerobic glycolysis of glycogen is 3ATPREACTION1,3-bisphosphoglycerate to 3phosphoglyceratePhosphoenol pyruvate to PyruvateENZYMEPhosphoglycerate kinaSubstrate level phosphorylatiMETHOD OF ATP FORMAT NET ATP PROIONDUCED2 ATPseonPyruvate kinaseSubstrate level phosphorylati2 ATPon55REACTIONENZYMEMETHOD OF ATP FORMAT NET ATP PROIONTOTAL PRODUCEDDUCED4 ATPGlycolysisGlucoseATPADP —HexokinaseGlucose-6-phosphatephosphohexoseisomeraseNADNADHFructose-6-phosphateATPADP —PEK-1Fructose-1,6-bisphosphateAldolaseGlyceraldehyde-3-phosphateDihydroxyacetonephosphateTriose phosphateisomerasoGlycoraidehyde-3-phosphatedehydrogenase1,3-BisphosphoglycerateADP#TP1.3 BPG kinamo3-PhosphoglyceratePhosphoglyceratemutaATION2-PhosphoglycerateEnolasePhosphoenolpyruvateADPATPPyruvate kinasePyruvatoIrreversible stepsOMARROWN",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "disorders"
+    },
+    {
+      "q_no": 14,
+      "question": "Which of the following is not a glycogen-storage disorder?",
+      "options": {
+        "A": "Her's Disease",
+        "B": "Tarui's Disease",
+        "C": "Scheie's Disease",
+        "D": "Andersen's Disease"
+      },
+      "correct_answer": "",
+      "explanation": "Scheie's disease is not a glycogen-storage disease, it is a type of mucopolysaccharidosis.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "disorders"
+    },
+    {
+      "q_no": 15,
+      "question": "Which of the following glycogen storage diseases is also a lysosomal storage disorder?",
+      "options": {
+        "A": "Von Gierke's disease",
+        "B": "Pompe's disease",
+        "C": "McArdle's disease",
+        "D": "Cori's disease"
+      },
+      "correct_answer": "B",
+      "explanation": "Pompe's disease is the glycogen storage disease (GSD), which is also a lysosomal storage disorder.A small amount of glycogen is degraded by the lysosomal enzyme, α (1° 4)-glucosidase alsoknown as acid maltase. A deficiency of this enzyme causes the accumulation of glycogen invacuoles in the lysosomes. This is called type II GSD or Pompe's disease.Glycogen storage disorders that are associated with the following findings:• Liver cirrhosis: Types III, IV, IX GSD• Renal dysfunction: Type I GSD•Neurologic involvement: Type II GSDNote: Another GSD that is also a lysosomal storage disorder is Danon disease (or glycogen storagedisease Type IIb)",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "disorders"
+    },
+    {
+      "q_no": 16,
+      "question": "A 6-month-old baby was brought to the clinic with a history of failure to thrive. Further examination shows generalized hypotonia and hepatomegaly. Chest X-ray image shows massive cardiomegaly. Microscopy of a muscle biopsy is shown in the given image. Which of the following is the treatment for this condition?",
+      "options": {
+        "A": "Naglazyme",
+        "B": "Alglucosidase alfa",
+        "C": "Aldurazyme",
+        "D": "Elaprase"
+      },
+      "correct_answer": "B",
+      "explanation": "The clinical symptoms of hypotonia, hepatomegaly, and cardiomegaly, along with muscle biopsy showing vacuoles, are suggestive of Pompe's disease. Pompe's disease (type II glycogen storage disorder) occurs due to a mutation in alpha-1,4-glucosidase (also known as acid maltase), a lysosomal enzyme. A defect in this enzyme leads to the accumulation of glycogen in the lysosomes of peripheral, voluntary muscles and progresses to involve the cardiac muscle and diaphragm. Clinical features include hypotonia (floppy baby syndrome), cardiomyopathy, hepatomegaly, and failure to thrive. The treatment for Pompe disease is recombinant enzyme alglucosidase alfa (Myozyme), which can prevent worsening or reverse cardiac and skeletal abnormalities.",
+      "image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/q16_img1_fd31e923.jpeg",
+      "explanation_image": null,
+      "chapter_heading": "disorders"
+    },
+    {
+      "q_no": 17,
+      "question": "A 10-year-old boy rapidly develops hypoglycemia after moderate activity. Blood examinationreveals raised levels of ketone bodies, lactic acid, and triglycerides. On examination, the liverand kidneys are found to be enlarged. Histopathology of the liver shows deposits of glycogenin an excess amount. What is the diagnosis?",
+      "options": {
+        "A": "von Gierke's disease",
+        "B": "Pompe's disease",
+        "C": "McArdle's disease",
+        "D": "Cori's disease"
+      },
+      "correct_answer": "A",
+      "explanation": "The given features are consistent with von Gierke's disease. It is the most common glycogenstorage disease.Enzyme deficient in this condition is glucose-6-phosphatase (common to both glycogenolysis andgluconeogenesis). Inheritance is autosomal recessive.Von Gierke disease (type I glycogen storage disorder) occurs due to the deficiency ofglucose-6-phosphatase enzyme in the liver, kidney, and intestinal mucosa. Patients presentcommonly by 3-4 months of age with hypoglycemia (leading to seizures), lactic acidosis, andhepatomegaly. Affected children often have a doll-like face with fat cheeks, relatively thinextremities, short stature, and a protuberant abdomen due to massive hepatomegaly. The kidneysare also enlarged, whereas the spleen and heart are not involved. Laboratory findings includehypoglycemia, lactic acidosis, hyperuricemia, and hyperlipidemia.A definitive diagnosis is made using a liver biopsy. Fructose and galactose restriction in the diet isadvised.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "disorders"
+    },
+    {
+      "q_no": 18,
+      "question": "After evaluation, a child with severe hypoglycemia, lactic acidosis, and hyperuricemia isdiagnosed with von Gierke's disease. What is the inheritance pattern of this disease?",
+      "options": {
+        "A": "Autosomal dominant49",
+        "B": "Autosomal recessive",
+        "C": "X-linked recessive",
+        "D": "X-linked dominant"
+      },
+      "correct_answer": "B",
+      "explanation": "Von Gierke's disease is inherited as an autosomal recessive trait.Von Gierke disease (type I glycogen storage disorder) occurs due to the deficiency ofglucose-6-phosphatase enzyme in the liver, kidney, and intestinal mucosa. Patients presentcommonly by 3-4 months of age with hypoglycemia (leading to seizures), lactic acidosis, andhepatomegaly.Affected children often have a doll-like face with fat cheeks, relatively thin extremities, shortstature, and a protuberant abdomen due to massive hepatomegaly. The kidneys are also enlarged,whereas the spleen and heart are not involved. Laboratory findings include hypoglycemia, lacticacidosis, hyperuricemia, and hyperlipidemia.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "disorders"
+    },
+    {
+      "q_no": 19,
+      "question": "A 3-year-old child presents with growth retardation and a history of recurrent attacks ofhypoglycemia. On examination, you notice doll-like facies with relatively thin extremities andmassive hepatomegaly. Blood examination reveals increased lactic acid, triglyceride, and uricacid levels. All of the following complications can be expected in this child except:",
+      "options": {
+        "A": "Hepatic adenoma",
+        "B": "Pancreatitis",
+        "C": "Cardiomyopathy",
+        "D": "Renal failure"
+      },
+      "correct_answer": "",
+      "explanation": "57The most likely diagnosis in this clinical scenario is von Gierke's disease. Cardiomyopathy is not acomplication of von Gierke's disease. On the contrary, cardiomyopathy is associated with Pompe'sdisease.Enzyme deficient in von Gierke's disease is glucose-6-phosphatase (common to bothglycogenolysis and gluconeogenesis). Inheritance is autosomal recessive.Glycogen accumulation occurs in the liver and renal tubular cells. Clinical features include:•Severe hypoglycemia• Ketosis•• Lactic acidosis• Hypertriglyceridemia•• HyperuricemiaA definitive diagnosis is made using a liver biopsy. Fructose and galactose restriction in the diet isadvised.Complications of von Gierke's disease includes polycystic ovaries, osteopenia, hepatic adenoma,pulmonary hypertension, pancreatitis and renal failure.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "disorders"
+    },
+    {
+      "q_no": 20,
+      "question": "An adolescent male patient presented with pain in the calf muscles on exercise. On biopsy, an excessive amount of glycogen was found to be present in the muscle. What is the most likely enzyme deficiency?",
+      "options": {
+        "A": "Muscle-debranching enzyme",
+        "B": "Phosphofructokinase 1",
+        "C": "Glucose 6 phosphatase",
+        "D": "Muscle glycogen phosphorylase"
+      },
+      "correct_answer": "D",
+      "explanation": "The given clinical features are seen in McArdle's disease. This patient has muscle glycogen phosphorylase deficiency. The lack of muscle glycogen phosphorylase results in excess glycogen build-up in muscles. The image given below shows the vacuolar myopathy seen in McArdle's disease. Clinical features include poor exercise tolerance, abnormally high muscle glycogen (2.5-4%), and a very low blood lactate after exercise. The images given below show myophosphorylase enzyme histochemistry showing (A) normal muscle and (B) McArdle's disease.",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp20_img1_75d935c9.jpeg",
+      "chapter_heading": "disorders"
+    }
+  ]
+}

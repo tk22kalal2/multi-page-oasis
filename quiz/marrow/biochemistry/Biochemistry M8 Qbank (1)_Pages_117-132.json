@@ -1,0 +1,350 @@
+{
+  "chapter": "Amino acid: Metabolism",
+  "questions": [
+    {
+      "q_no": 1,
+      "question": "Which of the following enzymes is involved in the transfer of an amino group from an aminoacid to a keto acid?",
+      "options": {
+        "A": "Transaminases",
+        "B": "Aminases",
+        "C": "Transketolases",
+        "D": "Deaminases"
+      },
+      "correct_answer": "",
+      "explanation": "",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp1_img1_0ba8bf80.jpeg",
+      "chapter_heading": "Amino acid: Metabolism"
+    },
+    {
+      "q_no": 2,
+      "question": "Which of the following amino acids does not undergo transamination?",
+      "options": {
+        "A": "Methionine",
+        "B": "Threonine",
+        "C": "Leucine",
+        "D": "Glycine"
+      },
+      "correct_answer": "",
+      "explanation": "Threonine does not undergo transamination.All amino acids undergo transamination except:• Proline• Lysine• Threonine•Hydroxyprolinecoo*H3 N-C-HR2In transamination, there is a transfer of an amino group from an amino acid to a keto acid to formanother pair of amino acids and keto acid, and this reaction is catalyzed by transaminase.Transaminases are also known as aminotransferases and belong to the class of transferases. Theyrequire pyridoxal pyrophosphate or vitamin B6 as their coenzyme. It is important in thebiosynthesis of non-essential amino acids.124coo*H3N - C-H|R₁cooC = OR1cooC=OR2PLPTransaminasecoo*H3 N-C-HR2",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp2_img1_884886f4.jpeg",
+      "chapter_heading": "Amino acid: Metabolism"
+    },
+    {
+      "q_no": 3,
+      "question": "Tetrahydrobiopterin is a coenzyme for all of the following except:",
+      "options": {
+        "A": "Phenylalanine hydroxylase",
+        "B": "Tyrosine hydroxylase",
+        "C": "Tryptophan hydroxylase",
+        "D": "Homogentisate oxidase"
+      },
+      "correct_answer": "",
+      "explanation": "Tetrahydrobiopterin (BH4) is a coenzyme for the following enzymes:•Phenylalanine hydroxylase• Tyrosine hydroxylase• Tryptophan hydroxylase• Nitric oxide synthaseTetrahydrobiopterin (BH4) resembles folic acid, but it is not a vitamin. It is derived from GTP.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Amino acid: Metabolism"
+    },
+    {
+      "q_no": 4,
+      "question": "Phenylalanine is the precursor of all of the following except?",
+      "options": {
+        "A": "Tyrosine",
+        "B": "Epinephrine117",
+        "C": "Melatonin",
+        "D": "Thyroxine"
+      },
+      "correct_answer": "A",
+      "explanation": "Phenylalanine is not a precursor of melatonin.Serotonin is the precursor of melatonin and is derived from tryptophan.The derivatives of phenylalanine are:• Tyrosine Thyroxine••○Dopa MelaninDopamine• Nor-epinephrine•⚫ Epinephrine125",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Amino acid: Metabolism"
+    },
+    {
+      "q_no": 5,
+      "question": "Which of the following amino acid is used for the conversion of norepinephrine toepinephrine?",
+      "options": {
+        "A": "Glycine",
+        "B": "Alanine",
+        "C": "Methionine",
+        "D": "Serine"
+      },
+      "correct_answer": "",
+      "explanation": "Methionine in the form of S-adenosyl methionine is used during the conversion of norepinephrineto epinephrine.Function of S-Adenosyl methionine:1. Transmethylation reactions:• Norepinephrine to Epinephrine• Ethanolamine to Choline•• Acetyl serotonin to Melatonin• Guanidinoacetate to Creatine2. DNA methylation3. Polyamine synthesis:• Cadaverine• Putrescine•Spermidine• Spermine",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Amino acid: Metabolism"
+    },
+    {
+      "q_no": 6,
+      "question": "Which of the following is a metabolic derivative of tryptophan?",
+      "options": {
+        "A": "Melatonin",
+        "B": "Thyroxine",
+        "C": "Epinephrine",
+        "D": "Nor-epinephrine"
+      },
+      "correct_answer": "",
+      "explanation": "Melatonin is a metabolic derivative of tryptophan.Tryptophan is hydroxylated by tryptophan hydroxylase to form 5-hydroxy tryptophan whichundergoes decarboxylation to form serotonin (5-hydroxy tryptamine). Serotonin is furtherconverted to melatonin in the pineal gland via acetylation and methylation in which S-adenosylmethionine (SAM) acts as the methyl donor.Melatonin is involved in the regulation of the sleep-wake cycle.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Amino acid: Metabolism"
+    },
+    {
+      "q_no": 7,
+      "question": "A child is brought to the OPD with a history of impaired vision and severe photophobia. Hehas achieved all the developmental milestones at the appropriate age. Examination shows fairhair, light skin color, and pale blue eyes. Which enzyme is most likely deficient in this case?",
+      "options": {
+        "A": "Tyrosinase",
+        "B": "Tyrosine hydroxylase",
+        "C": "Tyrosine transaminase",
+        "D": "Phenylalanine hydroxylase"
+      },
+      "correct_answer": "",
+      "explanation": "The clinical scenario is suggestive of albinism which occurs due to a deficiencyof copper-containing enzyme tyrosinase causing a defect in melanin production.Oculocutaneous albinism (OCA) is a group of inherited disorders characterized by a reduction orcomplete lack of melanin pigment in the skin, hair, and eyes. They have an increased risk for skincancer.Its symptoms are albinism with vision problems, which include:• Strabismus• Photophobia• Nystagmus126•• Impaired vision or blindness•AstigmatismNeuropsychiatric manifestations are not seen.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Amino acid: Metabolism"
+    },
+    {
+      "q_no": 8,
+      "question": "Vitamin B3 deficiencies in patients can be minimized by the administration of which of thefollowing amino acids?118",
+      "options": {
+        "A": "Arginine",
+        "B": "Tyrosine",
+        "C": "Tryptophan",
+        "D": "Histidine"
+      },
+      "correct_answer": "",
+      "explanation": "Vitamin B3 deficiencies in patients can be minimized by tryptophan as it can be converted intoniacin (vitamin B3).Approximately 60 mg of tryptophan is equivalent to 1 mg of dietary niacin (NADH &amp; NAD+).Tryptophan also produces serotonin and melatonin.Clinical correlation: Deficiency of the enzyme kynureninase or Vit B6 results in niacin deficiencyand pellagra-like symptoms and xanthurenic aciduria.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Amino acid: Metabolism"
+    },
+    {
+      "q_no": 9,
+      "question": "A patient presented with intermittent upper abdominal pain for 4 months, episodic hotflushes of the face for 2 months, and 5-6 episodes of watery stools per day for 1 month. Hisurinalysis was positive for 5-OH indole acetic acid. Which of the following is responsible forthese symptoms in him?",
+      "options": {
+        "A": "5 hydroxytryptamine",
+        "B": "5 hydroxytryptophan",
+        "C": "5 carboxytryptamine",
+        "D": "5 carboxytryptophan"
+      },
+      "correct_answer": "A",
+      "explanation": "The given scenario of a patient with facial flushing, episodic abdominal pain, and watery diarrheais suggestive of carcinoid syndrome. Excessive levels of serotonin, also known as 5hydroxy-tryptamine is responsible for it.Serotonin is a monoamine neurotransmitter. It is produced by hydroxylation and subsequentdecarboxylation of tryptophan. It is a potent vasoconstrictor and stimulator of smooth musclecontraction.In carcinoid syndrome, excessive levels of serotonin is produced which causes flushing, diarrhea,wheezing, damage to the tricuspid valve, etc. The levels of 5-OH indole acetic acid (serotoninmetabolite) are elevated in the urine.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Amino acid: Metabolism"
+    },
+    {
+      "q_no": 10,
+      "question": "Conversion of serine to glycine requires which of the following vitamin as a co-factor?",
+      "options": {
+        "A": "Folic acid",
+        "B": "Thiamine",
+        "C": "Vitamin C",
+        "D": "Cyanocobalamin"
+      },
+      "correct_answer": "A",
+      "explanation": "Vitamins required for the conversion of serine to glycine are pyridoxal phosphate (B6) and folicacid.•Serine is also required for the synthesis of:Phosphatidylserine: plays a role in apoptosis and a component of cell membrane phospholipids.• Ethanolamine and choline: a component of lecithin and cephalin.• Selenocysteine: Serine serves as a precursor for peptidyl selenocysteine.• Sphingosine: Serine and palmitoyl CoA are the starting material. It is a part of glycolipids.Serine is also one of the most common sites of phosphorylation.127",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Amino acid: Metabolism"
+    },
+    {
+      "q_no": 11,
+      "question": "Which of the following is not obtained from glycine?",
+      "options": {
+        "A": "Creatine",
+        "B": "Carbon atoms of purines",
+        "C": "Heme",
+        "D": "Nitric oxide"
+      },
+      "correct_answer": "D",
+      "explanation": "Nitric oxide is not a special product obtained from glycine.Products obtained from glycine:•Creatine (from glycine, arginine, and methionine)• Heme (from succinyl CoA and glycine)Glutathione (from glutamic acid, cysteine, and glycine)• C4, C5, and N7 of the purine ring structureNote: Nitric oxide is a special product obtained from arginine.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Amino acid: Metabolism"
+    },
+    {
+      "q_no": 12,
+      "question": "119Ethanolamine is synthesized from which of the following amino acids?",
+      "options": {
+        "A": "Serine",
+        "B": "Tryptophan",
+        "C": "Lysine",
+        "D": "Histidine"
+      },
+      "correct_answer": "",
+      "explanation": "Ethanolamine is synthesized from serine by decarboxylation. Amino acidsundergo decarboxylation to form their corresponding amines.Ethanolamine is involved in the synthesis of cephalin (phosphatidylethanolamine) which is acomponent of cell membrane phospholipids.Choline (trimethylethanolamine) is synthesized from ethanolamine in a reaction where S-adenosylmethionine (SAM) is the methyl donor.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Amino acid: Metabolism"
+    },
+    {
+      "q_no": 13,
+      "question": "Which of the following vitamins is not involved in sulphur containing amino acidmetabolism?",
+      "options": {
+        "A": "Vitamin B6",
+        "B": "Vitamin B9",
+        "C": "Vitamin B1",
+        "D": "Vitamin B12"
+      },
+      "correct_answer": "",
+      "explanation": "Vitamin B1 (Thiamine) is not involved in sulfur-containing amino acid metabolism.Vitamins B6, B9, and B12 are involved in sulfur-containing amino acid metabolism.• Vitamin B6 (Pyridoxine) is the co-enzyme of cystathionine ẞ synthase.• Vitamin B9 (Folic acid) and B12 (Cobalamin) are involved in the conversion of homocysteine tomethionine by methionine synthase.Clinical correlate: A defect in the enzyme cystathionine ẞ synthase leads to classic homocystinuria.Homocystinuria can also be due to a deficiency of vitamin B6, B9 or B12.•",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Amino acid: Metabolism"
+    },
+    {
+      "q_no": 14,
+      "question": "Taurine is bio-synthesized from which of the following amino acid?",
+      "options": {
+        "A": "Leucine",
+        "B": "Arginine",
+        "C": "Cysteine",
+        "D": "Valine"
+      },
+      "correct_answer": "",
+      "explanation": "Taurine is biosynthesized from cysteine. The reaction is catalyzed by the enzyme cysteinedioxygenase.Taurine is involved in the conjugation of primary bile acids (cholic acid and chenodeoxycholicacid) to form the bile salts taurocholic acid and taurochenodeoxycholic acid. Bile salts areimportant in the emulsification of lipids for their absorption.128",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Amino acid: Metabolism"
+    },
+    {
+      "q_no": 15,
+      "question": "Which of the following is not a derivative of histidine?",
+      "options": {
+        "A": "Carnosine",
+        "B": "Ergothioneine",
+        "C": "Anserine",
+        "D": "Homocysteine"
+      },
+      "correct_answer": "",
+      "explanation": "Homocysteine is not a derivative of histidine. It is a derivative of methionine.•Histidine derivatives include the following:Carnosine: a dipeptide made up of beta-alanine and histidine, that is found in excitable tissueslike the brain and muscles.•Ergothioneine: a diet-derived amino acid with anti-oxidant properties.• Anserine: a dipeptide made up of beta-alanine and 1-methylhistidine and is a marker of meatconsumption.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Amino acid: Metabolism"
+    },
+    {
+      "q_no": 16,
+      "question": "120FIGLU is an intermediate in the metabolism of which of the following?",
+      "options": {
+        "A": "Valine",
+        "B": "Histidine",
+        "C": "Methionine",
+        "D": "Arginine"
+      },
+      "correct_answer": "",
+      "explanation": "N-Formimino glutamate (FIGLU) is an intermediate in the metabolism of histidine.The formimino group is transferred to tetrahydrofolate to form glutamate, thenalpha-ketoglutarate. In folic acid deficiency, the transfer of the formimino group is impaired, andFIGLU is excreted.Importance of FIGLU: Individuals deficient in folic acid excrete increased amounts of FIGLU inthe urine, particularly after ingestion of a large dose of histidine. The FIGLU excretion test hasbeen used in the diagnosis of folic acid deficiency.Metabolism of HistidineHistidineMN Formimino GlutamateGlutamateFormiminotransferase(FIGLU)ROMExcreted inurine",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp16_img1_b5eea436.jpeg",
+      "chapter_heading": "Amino acid: Metabolism"
+    },
+    {
+      "q_no": 17,
+      "question": "Gamma-aminobutyric acid (GAB",
+      "options": {
+        "A": "is synthesized froma) Fumarate",
+        "B": "Glutamate",
+        "C": "Histidine",
+        "D": "Glycine"
+      },
+      "correct_answer": "D",
+      "explanation": "GlutamateAlpha keto glutarateOMARROW129Gamma-aminobutyric acid (GABA) is formed by the decarboxylation of glutamate by the enzymeglutamate decarboxylase.GABA is an inhibitory neurotransmitter in the brain.Amino acid/ DerivativeGABAGlycineGlutamate, AspartateFunctionInhibitory neurotransmitter in the brain and spinal cordInhibitory neurotransmitter in the spinal cordExcitatory neurotransmittersin the CNS",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Amino acid: Metabolism"
+    },
+    {
+      "q_no": 18,
+      "question": "Creatine is synthesized from all except?",
+      "options": {
+        "A": "Glycine",
+        "B": "Arginine",
+        "C": "Methionine",
+        "D": "Alanine"
+      },
+      "correct_answer": "D",
+      "explanation": "Creatine is synthesized from glycine, arginine, and methionine.The 1st, 2nd and 3rd steps take place in kidney, liver, and muscle, respectively.Biosynthesis of creatine and creatinineGlycineArgArginine-glycineamidinotransferaseOrnGuanidinoacetateSAMS-AdenosylhomocysteineGuanidoacetatemethyltransferaseCreatine kinaseNCreatineATPADPCreatine phosphateH₂OPiNon enzymaticin muscleCreatinineMARROWCreatine phosphate donates a phosphate group to ADP to form ATP to be used during the first fewminutes of intense muscular contraction. Creatinine is formed in the muscle by non-enzymaticdehydration of creatine and also from creatine phosphate. It is then excreted in the urine. Theamount of creatinine excreted is proportional to the muscle mass.Clinical correlates:•1. Creatine kinase has 3 isoenzymes, which are elevated in the following diseases:CK-MM: Muscular dystrophy, acute kidney injury, autoimmune myositis, hypothyroidism,malignant hyperthermia, and drug-induced myopathy130•⚫ CK-BB: Stroke, brain injury, and meningitis• CK-MB: Myocardial infarction, and myocarditis2. Normally, creatinine is rapidly removed from the blood and excreted in the urine. Hence,creatinine clearance is a sensitive indicator of kidney function.",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp18_img1_6cb5cdfa.jpeg",
+      "chapter_heading": "Amino acid: Metabolism"
+    },
+    {
+      "q_no": 19,
+      "question": "Glutathione is composed of",
+      "options": {
+        "A": "Cysteine and glycine",
+        "B": "Glutamic acid, cysteine, and glycine",
+        "C": "Glutamic acid, glycine, and cystine",
+        "D": "Lysine and methionine"
+      },
+      "correct_answer": "B",
+      "explanation": "Glutathione is a tripeptide composed of glutamate, cysteine and glycineGlutathione is an antioxidant that helps maintain the integrity of the RBC membrane. It is alsoused in phase 2 xenobiotic reactions (conjugation).Note:••Cystine: Two molecules of cysteine linked by a disulfide bond.• Cystine is reduced to cysteine by cystine reductase or cysteine can be oxidized to its disulfidederivative cystine.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Amino acid: Metabolism"
+    },
+    {
+      "q_no": 20,
+      "question": "Common precursor amino acid for urea, creatine and nitric oxide is121",
+      "options": {
+        "A": "Glycine",
+        "B": "Arginine",
+        "C": "Aspartate",
+        "D": "Alanine"
+      },
+      "correct_answer": "B",
+      "explanation": "Arginine is the common precursor for urea, creatine and nitric oxide.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Amino acid: Metabolism"
+    },
+    {
+      "q_no": 21,
+      "question": "In a patient with hyperammonemia, which of the following will also be elevated?",
+      "options": {
+        "A": "Urea",
+        "B": "Glutamine",
+        "C": "GABA",
+        "D": "Uric acid"
+      },
+      "correct_answer": "B",
+      "explanation": "In a patient with hyperammonemia, glutamine will also be elevated as ammonia is detoxified inthe brain to form glutamine.Glutamine synthetase combines ammonia with glutamate to form glutamine. It requires thehydrolysis of ATP.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Amino acid: Metabolism"
+    },
+    {
+      "q_no": 22,
+      "question": "Which of the following is the major transporter of ammonia from muscles to liver?",
+      "options": {
+        "A": "Alanine",
+        "B": "Glutamine",
+        "C": "Glutamate",
+        "D": "Aspartate"
+      },
+      "correct_answer": "A",
+      "explanation": "Alanine is the major transporter of ammonia from muscles to liver. This is by a process calledthe Cahill cycle.Alanine is extracted by the liver and undergoes transamination with alpha-ketoglutarate byalanine transaminase (ALT) to form pyruvate and glutamate. Pyruvate is in turn, converted toglucose by gluconeogenesis and glucose is released into the blood.Glutamate undergoes oxidative deamination and release ammonia which further enters ureacycle.131",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Amino acid: Metabolism"
+    },
+    {
+      "q_no": 23,
+      "question": "Which of the following enzymes is involved in the process of oxidative deamination?",
+      "options": {
+        "A": "Glutamate synthetase",
+        "B": "Glutaminase",
+        "C": "Glutamate dehydrogenase",
+        "D": "Glutamate aminotransferase"
+      },
+      "correct_answer": "C",
+      "explanation": "Glutamate dehydrogenase is involved in the process of oxidative deamination.In contrast to transamination (transfer amino groups), oxidative deamination by glutamatedehydrogenase results in the liberation of the amino group as free ammonia. Glutamatedehydrogenase can use NADH or NADPH during oxidative deamination.The image below shows oxidative deamination by glutamate dehydrogenase:GlutamateOxidative deaminationGlutamatedehydrogenaseNAD(P)+NAD(P)H NH3©MARROWa Ketoglutarate132",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp23_img1_54fb50c6.jpeg",
+      "chapter_heading": "Amino acid: Metabolism"
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "chapter": "Regulation of gene expression",
+  "questions": [
+    {
+      "q_no": 1,
+      "question": "All of the following are examples of housekeeping genes except",
+      "options": {
+        "A": "Ribosomal protein genes",
+        "B": "rRNA genes",
+        "C": "Beta-galactosidase",
+        "D": "RNA polymerase"
+      },
+      "correct_answer": "C",
+      "explanation": "Beta-galactosidase is not a housekeeping gene, it is an enzyme encoded by the lacZ gene in Escherichia coli, and is often used as a reporter gene.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Regulation of gene expression"
+    },
+    {
+      "q_no": 2,
+      "question": "Which protein is produced by a regulatory gene?",
+      "options": {
+        "A": "Operon",
+        "B": "Inducer",
+        "C": "Promoter",
+        "D": "Repressor"
+      },
+      "correct_answer": "D",
+      "explanation": "A repressor protein is produced by a regulatory gene. In bacterial operons, a regulatory gene, like the lac I gene, which is present upstream of a set of structural genes, codes for a repressor protein (a trans-acting factor). The repressor protein binds to the operator site and interferes with the progress of RNA polymerase. This blocks transcription of the structural genes and is an example of negative regulation of gene transcription. The lac Operon and its Control Elements: lacI, CAP, P binding site, lacZ, lacY, lacA genes, 3 DNA, AUG, AUG, AUG, messenger RNA, SCAP protein, RNA polymerase, cAMP. Lac genes are strongly expressed when glucose is low and lactose is available. Repressor protein is present when glucose is high and lactose is unavailable. Lac genes are not expressed when glucose is high and lactose is unavailable. CAP P binding site is involved when glucose is low and lactose is unavailable; lac genes are not expressed. There is a very low (basal) level of gene expression.",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp2_img1_16bcc4fb.jpeg",
+      "chapter_heading": "Regulation of gene expression"
+    },
+    {
+      "q_no": 3,
+      "question": "What does the operon model attempt to explain?",
+      "options": {
+        "A": "The coordinated control of gene expression in bacteria",
+        "B": "Bacterial resistance to antibiotics",
+        "C": "How genes move between homologous regions of DNA",
+        "D": "The mechanism of viral attachment to a host cell"
+      },
+      "correct_answer": "A",
+      "explanation": "The operon model attempts to explain the coordinated control of gene expression in bacteria. In bacteria, the structural genes that code for proteins involved in a particular metabolic pathway are often found sequentially grouped on the chromosome. The cis-acting regulatory elements that determine the transcription of these genes are also grouped with the structural genes. The transcription product of the entire operon is a single polycistronic messenger RNA (mRNA). The structural genes described above are coordinately controlled, that is, turned on or off as a unit. This entire package, of structural and regulatory genes, is referred to as an operon. An example of this is the lac operon in Escherichia coli. Note: Gene regulation in bacteria is important in order to: Enable response to environmental stimuli. Allow cells to adjust promptly to changes in the growth medium. Alter biochemical capabilities appropriate for available substrate. The lac Operon and its Control Elements: genes, lacI, CAP, Plac, Z, lacY, lacA, 3' DNA binding site, AUG, AUG, AUG, CAP protein, RNA polymerase, cAMP, lac genes strongly expressed, Repressor protein, messenger RNA. Low glucose: Lactose available, lac genes expressed. High glucose: Lactose unavailable, lac genes not expressed. CAP and P binding: High glucose, lactose available, site, very low (basal) level of gene expression.",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp3_img1_b312e42e.jpeg",
+      "chapter_heading": "Regulation of gene expression"
+    },
+    {
+      "q_no": 4,
+      "question": "In the Lac operon model, how does the presence of lactose activate transcription?",
+      "options": {
+        "A": "Lactose directly activates RNA polymerase",
+        "B": "Lactose binds to the operator region and blocks the attachment of RNA polymerase to the promoter",
+        "C": "Lactose binds directly to the promoter region and activates transcription",
+        "D": "Lactose binds to the repressor protein and inactivates it"
+      },
+      "correct_answer": "D",
+      "explanation": "In the Lac operon model, lactose binds to the repressor protein and inactivates it, thus activating transcription. When lactose is present in abundance, a small amount of lactose is converted to allolactose. This compound binds to the repressor protein of the lac operon and creates a conformational change. As a result, the repressor cannot bind to the operator and transcription of the structural genes occurs. This is an example of negative regulation. This can only occur when glucose is absent. In the absence of glucose, adenylyl cyclase is active. This generates sufficient quantities of cAMP, which bind to catabolite activator protein (CAP). The cAMP-CAP trans-acting complex binds to the CAP-binding site, another regulatory region present upstream of the structural genes of the operon. This causes RNA polymerase to more efficiently initiate transcription at the promoter site. This is an example of positive regulation.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Regulation of gene expression"
+    },
+    {
+      "q_no": 5,
+      "question": "The lactose operon is likely to be transcribed when",
+      "options": {
+        "A": "There is more glucose in the cell than lactose",
+        "B": "Cyclic AMP levels are low",
+        "C": "There is glucose but no lactose in the cell",
+        "D": "Cyclic AMP and lactose levels are both high within the cell"
+      },
+      "correct_answer": "D",
+      "explanation": "The lac operon is induced only when cyclic AMP and lactose levels are both high within the cell. When lactose is present in abundance, a small amount of lactose is converted to allolactose. This compound binds to the repressor protein of the lac operon and creates a conformational change. As a result, the repressor cannot bind to the operator and transcription of the structural genes occurs. This is an example of negative regulation. This can only occur when glucose is absent. In the absence of glucose, adenylyl cyclase is active. This generates sufficient quantities of cAMP, which bind to catabolite activator protein (CAP). The cAMP-CAP trans-acting complex binds to the CAP-binding site, another regulatory region present upstream of the structural genes of the operon. This causes RNA polymerase to more efficiently initiate transcription at the promoter site. This is an example of positive regulation.",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp5_img1_54e0281c.jpeg",
+      "chapter_heading": "Regulation of gene expression"
+    },
+    {
+      "q_no": 6,
+      "question": "A mutation in which section of DNA could influence the binding of RNA polymerase to the DNA?",
+      "options": {
+        "A": "Operon",
+        "B": "Inducer",
+        "C": "Promoter",
+        "D": "Corepressor"
+      },
+      "correct_answer": "C",
+      "explanation": "A mutation in the promoter section of DNA could influence the binding of RNA polymerase to the DNA. The regulatory portion of a bacterial operon is upstream of its structural genes, and consists of the promoter (P) region where RNA polymerase binds and two additional sites, the operator (O) site and the CAP site, where regulatory proteins bind. Corepressor is a substance that facilitates the inhibition of gene expression. In prokaryotes, corepressors are small molecules, whereas in eukaryotes, corepressors are proteins. A corepressor binds to the repressors and activates the repressor transcription factor. The repressor, in turn, binds to the operator site, thereby blocking the transcription from the structural genes. A lack of corepressor would result in the inability of the cell to turn off genes.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Regulation of gene expression"
+    },
+    {
+      "q_no": 7,
+      "question": "The tryptophan operon is a repressible operon that is",
+      "options": {
+        "A": "Permanently turned on",
+        "B": "Turned on only when tryptophan is present in the growth medium",
+        "C": "Turned off only when glucose is present in the growth medium",
+        "D": "Turned off whenever tryptophan is added to the growth medium"
+      },
+      "correct_answer": "D",
+      "explanation": "The tryptophan operon is a repressible operon that is turned off whenever tryptophan is added to the growth medium. The tryptophan operon contains five structural genes: trp E, trp D, trp C, trp B, trp A, which encode enzymes required for the synthesis of tryptophan. It also contains a promoter that binds to RNA polymerase. Its operator blocks transcription when it is bound to repressor protein synthesized by the repressor gene (trp R). In this, tryptophan is a corepressor, i.e., it facilitates binding of the repressor protein to the operator. When tryptophan is present, the trp repressor binds the operator, and RNA synthesis is blocked. Promoter Operator trpE trpD trpC trpB trpA Repressor RNA Polymerase Tryptophan. In the absence of tryptophan, the repressor dissociates from the operator, and RNA synthesis proceeds. Promoter Operator RNA Polymerase trpE trpD trpC trpB trpA Repressor.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Regulation of gene expression"
+    },
+    {
+      "q_no": 8,
+      "question": "Two potential devices that eukaryotic cells use to regulate transcription are",
+      "options": {
+        "A": "DNA methylation and histone amplification",
+        "B": "DNA amplification and histone methylation",
+        "C": "DNA acetylation and methylation",
+        "D": "DNA methylation and histone acetylation"
+      },
+      "correct_answer": "D",
+      "explanation": "Two potential devices that eukaryotic cells use to regulate transcription are as follows: DNA methylation and histone acetylation. DNA methylation occurs by methyltransferases that use S-adenosyl-methionine as the methyl donor. It silences gene expression. Histone acetylation decreases the positive charge on histone proteins, thus decreasing the strength of their association with negatively charged DNA. This chromatin remodeling relaxes the nucleosome, allowing transcription factors access to specific regions on the DNA. Thus, histone acetylation improves gene expression. Note: In both eukaryotes and prokaryotes, gene expression is primarily regulated at the level of transcription. Methylation and acetylation of histones: Gene, Histone tail, Histone, Methyl group, DNA inaccessible, gene inactive. Histone tail, Acetyl group, DNA accessible, gene active. Methylation of DNA and histones causes nucleosomes to pack tightly together. Transcription factors cannot bind the DNA, and genes are not expressed. Histone acetylation results in loose packing of nucleosomes. Transcription factors can bind the DNA and genes are expressed.",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp8_img1_d57384d1.jpeg",
+      "chapter_heading": "Regulation of gene expression"
+    },
+    {
+      "q_no": 9,
+      "question": "The phenomenon in which RNA molecules in a cell are destroyed if they have a sequence complementary to an introduced double-stranded RNA is called",
+      "options": {
+        "A": "RNA interference",
+        "B": "RNA obstruction",
+        "C": "RNA blocking",
+        "D": "RNA targeting"
+      },
+      "correct_answer": "A",
+      "explanation": "The phenomenon in which RNA molecules in a cell are destroyed if they have a sequence complementary to an introduced double-stranded RNA is called RNA interference. RNA interference is a mechanism of gene silencing through decreased expression of mRNA, either by repression of translation or by increased degradation. It is thought to play a key role in such a fundamental process as cell proliferation, differentiation, and apoptosis. RNA interference - DNA 5'-cap 3'-tail Nucleus Cytoplasm - Translational repression of target mRNA miRNA: MicroRNA - RNA polymerase II - - Drosha RISC Dicer Pri-miRNA Pre-miRNA miRNA Guide strand of double-stranded MIRNA associates with RISC and hybridizes with target mRNA - Target MIRNA Guide strand Degradation of target mRNA by Argonaute/Ago/Slicer RISC: RNA-induced silencing complex",
+      "image": null,
+      "explanation_image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mbiochemistry/exp9_img1_c3df8b8c.jpeg",
+      "chapter_heading": "Regulation of gene expression"
+    },
+    {
+      "q_no": 10,
+      "question": "Which of the following describes the function of an enzyme known as Dicer?",
+      "options": {
+        "A": "It degrades single-stranded DNA",
+        "B": "It degrades single-stranded mRNA",
+        "C": "It degrades mRNA with no poly(A) tail",
+        "D": "It trims small double-stranded RNAs into molecules that can block translation"
+      },
+      "correct_answer": "D",
+      "explanation": "Dicer is an endonuclease that trims small double-stranded RNA into molecules that can block translation. Dicer is an enzyme that cleaves the cytosolic dsRNA encoded by the genome and generates short, double-stranded (ds) miRNA. One of the two strands (the guide or antisense strand) is selected for loading into the RNA-induced silencing complex (RISC), which is composed of one of four argonaute proteins (Ago 1-4). The RNA then forms a mature, functional 21-22 nt single-stranded miRNA. In the RISC complex, miRNAs can modulate mRNA function by one of three mechanisms: (1) promoting mRNA degradation directly, (2) stimulating CCR4/NOT complex-mediated poly(A) tail degradation, (3) inhibiting translation by targeting the 5'-methyl cap-binding translation factor.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Regulation of gene expression"
+    },
+    {
+      "q_no": 11,
+      "question": "Which of the following does not favor euchromatin formation due to changes occurring at cytosine residues at CpG islands in DNA?",
+      "options": {
+        "A": "Methylation",
+        "B": "Phosphorylation",
+        "C": "Alkylation",
+        "D": "Sumoylation"
+      },
+      "correct_answer": "A",
+      "explanation": "Methylation does not favor euchromatin formation due to changes in cytosine residues at CpG islands in DNA. The transcriptional regulatory regions of active genes often contain a high frequency of CpG dinucleotides (referred to as CpG islands) and they are normally unmethylated. Therefore, methylation is an epigenetic modification that inactivates DNA, and hinders the formation of euchromatin (transcriptionally active chromatin). Epigenetic changes include alterations of chromatin structure by: Methylation of cytosine residues in CpG dinucleotides, modification of histones by acetylation or methylation, changes in higher-order chromosome structure. Sumoylation of histones (SUMO - Small Ubiquitin-related Modifier) is associated with transcription repression. Other possible roles of post-translationally modified histones: Acetylation of core histones is associated with chromosomal assembly during DNA replication. Phosphorylation of histone H1 is associated with the condensation of chromosomes during the replication cycle. ADP-ribosylation of histones is associated with DNA repair. Methylation of histones is correlated with activation and repression of gene transcription. Acetylation of histones H3 and H4 is associated with the activation or inactivation of gene transcription. Monoubiquitylation is associated with gene activation, repression, and heterochromatic gene silencing.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Regulation of gene expression"
+    },
+    {
+      "q_no": 12,
+      "question": "DNA methylation is not involved in?",
+      "options": {
+        "A": "1 and 2",
+        "B": "2 and 3,422",
+        "C": "1 and 4",
+        "D": "2 and 4"
+      },
+      "correct_answer": "D",
+      "explanation": "DNA methylation is not involved in the base pair excision repair mechanism (statement 4) and RNA splicing (statement 2). DNA methylation is an epigenetic modification used as a gene expression regulation mechanism. It causes gene silencing by inactivating DNA and hindering the formation of euchromatin (transcriptionally active chromatin). Thus, it also aids in chromatin remodeling. However, it is not involved in the base pair repair mechanism or RNA splicing. Methylation and acetylation of histones: Gene, Histone tail, Histone, Methyl group, DNA inaccessible, gene inactive, Histone tail, Acetyl group, DNA accessible, gene active. Methylation of DNA and histones causes nucleosomes to pack tightly together. Transcription factors cannot bind the DNA, and genes are not expressed. Histone acetylation results in loose packing of nucleosomes. Transcription factors can bind the DNA and genes are expressed.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Regulation of gene expression"
+    }
+  ]
+}
