@@ -1,0 +1,365 @@
+{
+  "chapter": "Theories of Personality & Defense Mechanisms",
+  "questions": [
+    {
+      "q_no": 1,
+      "question": "Which of the following is not a contribution by Sigmund Freud?",
+      "options": {
+        "A": "Free association",
+        "B": "Introducing cocaine into psychiatry",
+        "C": "Psychodynamic theory",
+        "D": "Psychosocial theory"
+      },
+      "correct_answer": "D",
+      "explanation": "Psychosocial theory is a contribution of Erik Erikson, not Sigmund Freud.",
+      "image": "https://raw.githubusercontent.com/tk22kalal2/mcqimage/main/mpsychiatry/q1_img1_64cf4413.jpeg",
+      "explanation_image": null,
+      "chapter_heading": "Theories of Personality & Defense Mechanisms"
+    },
+    {
+      "q_no": 2,
+      "question": "Which of the following principles is matched correctly with the part of the mind it works on?",
+      "options": {
+        "A": "Id - principle of reality, in the conscious domain",
+        "B": "Ego - principle of pleasure, in the unconscious domain",
+        "C": "Superego - principle of idealism, both in the conscious and unconscious domain",
+        "D": "Id - defence mechanisms, in the unconscious domain"
+      },
+      "correct_answer": "C",
+      "explanation": "The superego is based on the principle of idealism, both in the conscious and unconscious domain. It acts to perfect and civilize our behaviour. The voice of conscience comes from the superego. It is mostly unconscious but also has a conscious component. Sigmund Freud's structural theory of mind divides mental apparatus into the following: • Id (new-born) is a reservoir for basic survival instincts, aggression, and survival drives. It is based on the pleasure principle (immediate gratification). It is entirely unconscious. • Ego (reality principle) is the executive part of the mind that maintains the balance between id and superego. It is based on exposure to reality and utilizes influences from the external world to modify the id. It is conscious except for unconscious defense mechanisms. • Superego (idealism principle) establishes and maintains a moral conscience in an individual by constantly comparing a person's thoughts and feelings to expected standards of behavior. E.g., While studying, our id wants us to watch a movie instead and our superego wants us to study very hard without taking many breaks. Our ego thus balances between the two and we decide that we will study for a few hours and then take a break to watch a movie.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Theories of Personality & Defense Mechanisms"
+    },
+    {
+      "q_no": 3,
+      "question": "According to Sigmund Freud, we have a barrier in our mind called repression. This function is done by which of the following parts of the mind?",
+      "options": {
+        "A": "The conscious part",
+        "B": "The preconscious part",
+        "C": "The unconscious part",
+        "D": "The subconscious part"
+      },
+      "correct_answer": "B",
+      "explanation": "According to Sigmund Freud, the preconscious part of our mind has a barrier called repression. This barrier separates the contents of the unconscious and the conscious mind. Sigmund Freud's topographic theory of mind divides the mind into 3 levels: Unconscious - contains instinctual drives, repressed memories, and thought processes. It is characterized by illogical and primitive thoughts called primary process thinking. It focuses on immediate wish fulfillment and instinctual discharge. Preconscious - composed of mental events, processes, and contents that can be brought into conscious awareness by the act of focusing attention. It contains a barrier called repression. Eg: Although most persons are not consciously aware of the appearance of their first-grade teacher, they ordinarily can bring this image to mind by deliberately focusing attention on the memory. Conscious - part of the mind which is accessible to us. Everything we know about ourselves is in the conscious part of our mind. Perceptions coming from the outside world or from within the body or mind are brought into awareness in this part. Note: The unconscious is the part of the mind that contains repressed thoughts and memories, whereas the barrier that censors these (repression) exists in the preconscious part of the mind.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Theories of Personality & Defense Mechanisms"
+    },
+    {
+      "q_no": 4,
+      "question": "Which of the following is false according to the topographical theory?",
+      "options": {
+        "A": "Primary process thinking is illogical and primitive",
+        "B": "An unconscious thought can never reach conscious awareness",
+        "C": "The drives and desires that one is born with are part of the unconscious mind",
+        "D": "The contents of the preconscious mind can be brought into awareness by focusing"
+      },
+      "correct_answer": "B",
+      "explanation": "According to Sigmund Freud's topographical theory, an unconscious memory or thought can reach consciousness by overcoming the barrier of repression. This barrier can be overcome in two ways: during sleep - the repression force is lax, and thus many unconscious desires and thoughts reach our consciousness through dreams. So, he believed that the interpretation of dreams can reveal the contents of the unconscious mind. Free association - when a person is relaxed enough to say whatever comes to their mind without censoring thoughts, a few unconscious thoughts may come out by a slip of the tongue. Note: In psychotherapy, there is a process called abreaction by which repressed material, particularly a painful experience or conflict, is brought back to consciousness by hypnosis or free association. In this process, the person not only recalls but also relives the repressed material, causing an emotional release.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Theories of Personality & Defense Mechanisms"
+    },
+    {
+      "q_no": 5,
+      "question": "What is defined as the emotional release and discharge after consciously reliving a painful experience that has been repressed?",
+      "options": {
+        "A": "Catharsis",
+        "B": "Abreaction",
+        "C": "Venting out",
+        "D": "Guided relaxation"
+      },
+      "correct_answer": "B",
+      "explanation": "Abreaction is a psychoanalytical term for reliving an experience to release it emotionally. It is a specific type of catharsis done by becoming conscious of repressed traumatic events. Catharsis is a general term for the process of releasing strong or repressed emotions. It can be done through various mediums, like expressing emotions through art. When the unconscious repressed memories are consciously recalled and relived, this technique specifically is called abreaction.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Theories of Personality & Defense Mechanisms"
+    },
+    {
+      "q_no": 6,
+      "question": "The dream is the (disguised) fulfillment of a (suppressed, repressed) wish. - Sigmund Freud. Which of the following mechanisms is not included in the 'Interpretation of Dreams' written by Sigmund Freud?",
+      "options": {
+        "A": "Condensation",
+        "B": "Displacement",
+        "C": "Repression",
+        "D": "Symbolism"
+      },
+      "correct_answer": "C",
+      "explanation": "Repression is not the mechanism through which dreams manifest. It is the barrier due to which the thoughts and events stored in our unconscious mind do not come out to our conscious mind and awareness. According to the 'Interpretation of Dreams' written by Sigmund Freud, dreams represent unconscious wishes or thoughts which are not accepted by the conscious mind. They manifest through the following mechanisms: Symbolism: Representation of highly charged ideas or objects through innocent images that are in some way connected. Displacement: Transfer of mental energy from one object to a substitute or symbolic representation of the object. Condensation: Mechanism by which multiple unconscious wishes combine into a single image or when one unconscious wish gets distributed into multiple images. Projection: Attributing one's own unacknowledged feelings to others. Secondary elaboration: Process by which the ego organizes illogical, bizarre, and absurd images into a more coherent form in dreams.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Theories of Personality & Defense Mechanisms"
+    },
+    {
+      "q_no": 7,
+      "question": "Dependent personality traits are related to which phase of psychosexual development?",
+      "options": {
+        "A": "Oral",
+        "B": "Anal",
+        "C": "Phallic",
+        "D": "Genital"
+      },
+      "correct_answer": "A",
+      "explanation": "The development of dependent personality traits is due to fixation in the oral stage of development, according to the psychosexual stages of development proposed by Sigmund Freud. He proposed five stages of development and stated that when the development of a child gets arrested at one stage, called fixation, it results in psychiatric disorders. The phases are: Phase of sexual development - Oral phase (birth- 1.5 years): Learning how to eat, mouth is the site of pleasure. Anal phase (1.5-3 years): Toilet training, the site of pleasure is the anal region. Phallic/Oedipal phase (3-5 years): Site of pleasure is the genital region. Latency phase (5-12 years): Genital phase - sexual orientation (>12 years). Disorders resulting from fixation in this phase - Alcohol dependence or drug dependence, Schizophrenia, Severe mood disorders, Dependent personality disorder, OCD, Oedipus/Electra complex, which is the primary cause of hysteria. Also, castration anxiety in boys and penis envy in girls. Neurotic disorder.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Theories of Personality & Defense Mechanisms"
+    },
+    {
+      "q_no": 8,
+      "question": "There is a complex named after a legendary Greek hero who unknowingly killed his father and married his own mother. In which stage of psychosexual development does this complex develop in children?",
+      "options": {
+        "A": "Oral",
+        "B": "Genital",
+        "C": "Anal",
+        "D": "Phallic"
+      },
+      "correct_answer": "D",
+      "explanation": "The above complex develops in the phallic stage of psychosexual development, and the complex mentioned is the Oedipus complex (named after the legendary Greek hero called Oedipus). The phallic phase has two complexes: the Oedipus complex in a male child and the Electra complex in a female child. The Oedipus complex consists of a desire for sexual involvement with the mother and a sense of rivalry with the father. The male child is also scared that if the father finds out, he will castrate him, which is called castration anxiety. The opposite is true for the Electra complex, which is the desire for sexual involvement with the father and a sense of rivalry with the mother. The girl child becomes aware of the fact that she does not have a penis, which is called penis envy, and she holds her mother responsible for it. The stage gets resolved when the female child starts identifying with the mother. Phase of sexual development: Oral phase (birth-1.5 years) - learning how to eat, mouth is the site of pleasure. Anal phase (1.5-3 years) - toilet training, the site of pleasure is the anal region. Phallic/Oedipal phase (3-5 years) - site of pleasure is the genital region. Latency phase (5-12 years) - Genital phase - sexual orientation (>12 years). Disorders resulting from fixation in this phase: Alcohol dependence or drug dependence, Schizophrenia, Severe mood disorders, Dependent personality disorder, OCD. Oedipus/Electra complex, which is the primary cause of hysteria. Also, castration anxiety in boys and penis envy in girls. Neurotic disorder.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Theories of Personality & Defense Mechanisms"
+    },
+    {
+      "q_no": 9,
+      "question": "According to psychoanalytic theory, alcoholic people have become fixated in which stage of psychosexual development?",
+      "options": {
+        "A": "Oral",
+        "B": "Anal",
+        "C": "Phallic",
+        "D": "Genital"
+      },
+      "correct_answer": "A",
+      "explanation": "According to classic psychoanalytical theory, at least some alcoholic people may have become fixated at the oral stage of development. They use alcohol to relieve their frustrations by taking the substance by mouth.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Theories of Personality & Defense Mechanisms"
+    },
+    {
+      "q_no": 10,
+      "question": "According to Erikson, the major conflict in the first year of life is between which of the following?",
+      "options": {
+        "A": "Trust vs mistrust",
+        "B": "Initiative vs guilt",
+        "C": "Autonomy vs shame",
+        "D": "Intimacy vs isolation"
+      },
+      "correct_answer": "A",
+      "explanation": "Trust vs mistrust is the major psychosocial conflict seen in the first year of life. In this stage, the child must learn to trust others during the first year of life (the sense of trust vs mistrust) or they will have trouble forming close relationships as adults. Psychosocial development: According to the psychosocial stages of development by Erik Erikson, there are critical time periods, each of which poses a particular psychosocial conflict to the individual. The resolution of this conflict results in either psychosocial growth or regression. There are 8 stages of psychosocial development. Erikson's stages and goals: Stage One: Infancy, Birth-18 months, Goal: Trust vs Mistrust. Stage Two: Toddler, 18 months-3 years, Goal: Autonomy vs Shame and Doubt. Stage Three: Pre-school, 3-5 years, Goal: Initiative vs Guilt. Stage Four: School going, 5-13 years, Goal: Industry vs Inferiority. Stage Five: Adolescence, 13-21 years, Goal: Identity vs Role Confusion. Stage Six: Young adulthood, 21-40 years, Goal: Intimacy vs Isolation. Stage Seven: Middle adulthood, 40-60 years, Goal: Generativity vs Stagnation. Stage Eight: Late adulthood, >60 years, Goal: Ego Integrity vs Despair.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Theories of Personality & Defense Mechanisms"
+    },
+    {
+      "q_no": 11,
+      "question": "Guard your thoughts for they shape your future. Teachers, peers, and adults outside the home become important in shaping attitudes towards oneself in which of the following Erikson's stages?",
+      "options": {
+        "A": "Trust vs mistrust",
+        "B": "Initiative vs guilt",
+        "C": "Industry vs inferiority",
+        "D": "Integrity vs despair"
+      },
+      "correct_answer": "C",
+      "explanation": "Teachers, peers, and adults outside the home become important in shaping attitudes towards oneself in the stage of industry vs inferiority according to Erik Erikson's psychosocial stages of development. In this stage, children mature and their level of self-awareness increases. They understand logical reasoning, scientific facts, and other matters that are typically taught in school. Children also become more competitive; they want to do things that other children of the same age can do. When they make the effort to perform a task and succeed, they develop self-confidence. However, if they fail, they tend to feel that they are inferior to others. Erikson's stages and goals: Stage One: Infancy, Birth-18 months, Trust vs Mistrust; Stage Two: Toddler, 18 months-3 years, Autonomy vs Shame and Doubt; Stage Three: Pre-school, 3-5 years, Initiative vs Guilt; Stage Four: School going, 5-13 years, Industry vs Inferiority; Stage Five: Adolescence, 13-21 years, Identity vs Role Confusion; Stage Six: Young adulthood, 21-40 years, Intimacy vs Isolation; Stage Seven: Middle adulthood, 40-60 years, Generativity vs Stagnation; Stage Eight: Late adulthood, >65 years, Ego Integrity vs Despair.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Theories of Personality & Defense Mechanisms"
+    },
+    {
+      "q_no": 12,
+      "question": "A 4-year-old child is brought to the casualty following a skating injury. The parents encouraged him to ask questions. He talked for most of the conversation and excitedly explained he wanted to try this so his parents let him. He even painted one wall in their house and asked if the doctor wants to see it. By this behavior of parents, what are they encouraging in the child?",
+      "options": {
+        "A": "Autonomy",
+        "B": "Identity",
+        "C": "Generativity",
+        "D": "Initiative"
+      },
+      "correct_answer": "D",
+      "explanation": "The parents are encouraging the development of initiative in their child, which happens in the stage of initiative vs guilt, as proposed by Erik Erikson. In this stage, children begin to explore and do things on their own. They are able to learn new concepts introduced in school and are expected to practice these lessons in real life. They know that they can accomplish these tasks, but if they fail to do so and end up asking for assistance from others, they may feel a sense of guilt. Inadequate resolution of this conflict may lead to a conversion disorder or phobia. Erikson's stages and goals: Stage One: Infancy, Birth-18 months, Trust vs Mistrust; Stage Two: Toddler, 18 months-3 years, Autonomy vs Shame and Doubt; Stage Three: Pre-school, 3-5 years, Initiative vs Guilt; Stage Four: School going, 5-13 years, Industry vs Inferiority; Stage Five: Adolescence, 13-21 years, Identity vs Role Confusion; Stage Six: Young adulthood, 21-40 years, Intimacy vs Isolation; Stage Seven: Middle adulthood, 40-60 years, Generativity vs Stagnation; Stage Eight: Late adulthood, >60 years, Ego Integrity vs Despair",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Theories of Personality & Defense Mechanisms"
+    },
+    {
+      "q_no": 13,
+      "question": "According to the stages of cognitive development, which of the following is correctly matched?",
+      "options": {
+        "A": "Starts seeing things from other's perspective - Stage of formal operations",
+        "B": "Conservation and reversibility - Pre-operational stage",
+        "C": "Symbolization - Sensorimotor stage",
+        "D": "Intuitive and egocentric - Concrete operations stage"
+      },
+      "correct_answer": "C",
+      "explanation": "Symbolization develops in the sensorimotor stage, according to the stages of cognitive development by Jean Piaget. The theory of cognitive development describes four major stages from birth to adolescence that lead to the capacity for adult thought. The stages are: Sensorimotor stage (birth-2 years): Starts with an out-of-sight, out-of-mind type of thinking, ends with object permanence (knowing an object exists even though it cannot be seen), and symbolization - developing mental symbols and words for the objects. Pre-operational stage (2-7 years): Thinking without reasoning - intuitive thinking, only concerned about their own needs and perspective - egocentric thinking. Other thinking processes are seen - animism, primitive thinking, centration, magical or fantasy thinking. Concrete operational stage (7-11 years): Starts to see things from other's perspectives, thinking is concrete and literal, develops conservation - understanding that despite changes in shape, the object remains the same. For example, when water is transferred from a cup to a glass, they understand that it is water only and that the volume is the same. Develops the concept of reversibility - knowing that one thing can turn into another and turn back. For example, water and ice. Other processes - classification, transitivity. Formal operational stage (>11 years): Develops abstract thinking, wherein they can generalize or conceptualize, can make a hypothesis and use deductive reasoning, and hypotheticodeductive thinking - the highest organization of cognition, enables persons to make a hypothesis or proposition and to test it against reality.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Theories of Personality & Defense Mechanisms"
+    },
+    {
+      "q_no": 14,
+      "question": "Which of the following is not seen during the operational period of cognitive development?",
+      "options": {
+        "A": "Reversibility",
+        "B": "Transitivity",
+        "C": "Conservation",
+        "D": "Animism"
+      },
+      "correct_answer": "D",
+      "explanation": "Animism is seen in the pre-operational stage (2-7 years of age) where the child believes that inanimate objects are capable of actions and have lifelike qualities. For example, a child believing that the sidewalk was mad and made them fall down, or that the stars twinkle in the sky because they are happy. Reversibility, transitivity, and conservation are seen in the concrete operational period. Option A: Reversibility - knowing that one thing can turn into another and turn back, for example, water and ice. Option B: Transitivity - the ability to recognize relationships among various things in a serial order. For example, when told to put away his books according to height, the child identifies and starts with placing the tallest one on one end of the bookshelf and the shortest one ends up at the other end. Option C: Conservation - understanding that despite changes in shape, the object remains the same. For example, when water is transferred from a bottle to a glass, they understand that it is water only and that the volume is the same.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Theories of Personality & Defense Mechanisms"
+    },
+    {
+      "q_no": 15,
+      "question": "Which of the following defense mechanisms is matched correctly?",
+      "options": {
+        "A": "Anticipation - Mature",
+        "B": "Intellectualization - Mature",
+        "C": "Regression - Neurotic",
+        "D": "Derailment - Immature"
+      },
+      "correct_answer": "A",
+      "explanation": "Anticipation is a mature defense mechanism. Defense mechanisms are the ways and means with which the ego wards off anxiety and controls instinctive urges and unpleasant emotions. They are unconscious (except suppression, which is voluntary), discrete, dynamic, and may be adaptive or maladaptive.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Theories of Personality & Defense Mechanisms"
+    },
+    {
+      "q_no": 16,
+      "question": "A 32-year-old man is brought to the ED with severe hand injuries. His wife says he started throwing things in his house when she informed him that she wants a divorce, and punched a mirror in a fit of rage. Which of the following best describes the defense mechanism used by this patient?",
+      "options": {
+        "A": "Retroflection",
+        "B": "Reaction formation",
+        "C": "Introjection",
+        "D": "Passive-aggressive"
+      },
+      "correct_answer": "A",
+      "explanation": "The given scenario is suggestive of a retroflection defense mechanism. Retroflection is characterized by self-destruction due to rage. It is a neurotic defense mechanism. As given in the above scenario, it may lead to feelings of suicide, severe depression, and deliberate self-harm.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Theories of Personality & Defense Mechanisms"
+    },
+    {
+      "q_no": 17,
+      "question": "A student applied to four national universities for her MBA course but was disheartened when she got rejected from all four universities. While talking to her friend on the phone, she said she never wanted to go anyway because they were too far from home. What defense mechanism is being used by her?",
+      "options": {
+        "A": "Rationalization",
+        "B": "Passive-aggressive",
+        "C": "Inhibition",
+        "D": "Denial"
+      },
+      "correct_answer": "A",
+      "explanation": "The given scenario points towards rationalization. The student is rationalizing her rejection by saying she wouldn't have gone even if she got accepted because of the distance from home.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Theories of Personality & Defense Mechanisms"
+    },
+    {
+      "q_no": 18,
+      "question": "An egoistic doctor who enjoyed bossing people around was disliked in the hospital. A wardboy who was ordered to bring him tea intentionally makes sure that the tea is cold. This is an example of which of the following defense mechanisms?",
+      "options": {
+        "A": "Acting out",
+        "B": "Passive-aggressive behaviour",
+        "C": "Repression",
+        "D": "Reaction formation"
+      },
+      "correct_answer": "B",
+      "explanation": "The given example is characteristic of passive-aggressive behavior. The ward boy who does not like the doctor is expressing his discontent covertly by bringing him cold tea, to avoid a conflict. It is an immature defense mechanism.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Theories of Personality & Defense Mechanisms"
+    },
+    {
+      "q_no": 19,
+      "question": "A police inspector is investigating a murder case. The victim was brutally beaten and raped. The body had noose marks on the neck, which seemed to be the cause of death. However, during the investigation, the inspector never showed any emotion. What defense mechanism is described here?",
+      "options": {
+        "A": "Distortion",
+        "B": "Inhibition",
+        "C": "Isolation",
+        "D": "Blocking"
+      },
+      "correct_answer": "C",
+      "explanation": "The defense mechanism described is isolation. It is the separation of an idea from the affect that accompanies it. It is usually developed in an attempt to avoid painful thoughts or feelings by emotionally detaching oneself from the feeling.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Theories of Personality & Defense Mechanisms"
+    },
+    {
+      "q_no": 20,
+      "question": "A couple visits the psychiatrist's office with the husband complaining that his wife is cheating on him, but he did not have any evidence. In a private conversation with his wife, she revealed that the husband had a reputation of having multiple affairs with his colleagues in the past. In this scenario, which defense mechanism is the husband using?",
+      "options": {
+        "A": "Distortion",
+        "B": "Projection",
+        "C": "Repression",
+        "D": "Displacement"
+      },
+      "correct_answer": "B",
+      "explanation": "In the given clinical scenario, the husband is using projection as a defense mechanism. Projection is when you attribute your own wishes, thoughts, or feelings onto someone else.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Theories of Personality & Defense Mechanisms"
+    },
+    {
+      "q_no": 21,
+      "question": "A 24-year-old woman is brought to the emergency department after a violent attack. The patient has injuries over her forearm and elbow. On examination, she has injuries over her breasts and inner thighs. Pelvic examination reveals lacerations in the vaginal mucosa. On inquiring about the injuries, the patient is unable to remember the violent incident. Which of the following defense mechanisms best explains this phenomenon?",
+      "options": {
+        "A": "Repression",
+        "B": "Suppression",
+        "C": "Denial",
+        "D": "Blocking"
+      },
+      "correct_answer": "A",
+      "explanation": "This patient's history and examination are suggestive of rape, and the patient is repressing the memory of the incident as a means of coping with the anxiety. Repression is a type of psychological defense mechanism that involves keeping certain thoughts, feelings, or urges out of conscious awareness. The goal of this form of defense is to keep unacceptable desires or thoughts out of the conscious mind in order to prevent or minimize feelings of anxiety.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Theories of Personality & Defense Mechanisms"
+    },
+    {
+      "q_no": 22,
+      "question": "A patient is diagnosed with a phobic disorder. Which of the following defense mechanisms is likely to be present in this patient? a) Displacement b) Dissociation c) Distortion d) Conversion. In the OPD, you inform a patient that he has bladder cancer. However, he replies saying, 'No, I cannot have cancer. I don't smoke or drink.' What is the type of defense mechanism exhibited by the patient?",
+      "options": {
+        "A": "Rationalization",
+        "B": "Acting out",
+        "C": "Denial",
+        "D": "Reaction formation"
+      },
+      "correct_answer": "C",
+      "explanation": "Denial is the defense mechanism exhibited by the patient, as he refuses to accept the reality of his diagnosis.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Theories of Personality & Defense Mechanisms"
+    },
+    {
+      "q_no": 24,
+      "question": "A 17-year-old girl was kidnapped and held captive for 2 months until she was rescued. However, it was observed that the girl developed positive feelings towards her kidnapper, and sympathized with his character, and the situations that made him kidnap her. Which of the following defense mechanisms has the girl most likely developed?",
+      "options": {
+        "A": "Retroflection",
+        "B": "Stockholm syndrome",
+        "C": "Projection",
+        "D": "Identification"
+      },
+      "correct_answer": "B",
+      "explanation": "The defense mechanism that the girl has developed is known as introjection or Stockholm syndrome. Introjection refers to the unconscious internalization of the qualities or character of an object or a person, with the goal of ensuring closeness to, and the constant presence of, the object/person. The classic example of this is Stockholm syndrome, where victims who were kidnapped or held captive may develop positive feelings towards the kidnapper, understand their character, emotions, and start sympathizing with them.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Theories of Personality & Defense Mechanisms"
+    },
+    {
+      "q_no": 26,
+      "question": "An employee in a company is friends with everyone in his office. He goes to different parties every weekend and says he loves talking to new people. This trait is described under which dimension of personality?",
+      "options": {
+        "A": "Agreeableness",
+        "B": "Conscientiousness",
+        "C": "Extraversion",
+        "D": "Emotional stability"
+      },
+      "correct_answer": "C",
+      "explanation": "The traits of being talkative, sociable, and outgoing are described under extraversion. It is one of the five personality traits of the big five personality theory. It indicates how outgoing and social a person is. Contemporary personality psychologists believe that there are five basic dimensions of personality, often referred to as the big five personality traits, as described below: • Openness - being open to new ideas, curious, creative, and original. • Conscientiousness - being organized, systematic, ambitious, punctual, and dependable. • Extraversion - being outgoing, talkative, and sociable. • Agreeableness - being tolerant, sensitive, kind, and trusting. • Neuroticism - being anxious, irritable, temperamental, and moody.",
+      "image": null,
+      "explanation_image": null,
+      "chapter_heading": "Theories of Personality & Defense Mechanisms"
+    }
+  ]
+}
