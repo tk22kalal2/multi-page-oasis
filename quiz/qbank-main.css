@@ -1,21 +1,27 @@
-
 /* Q Bank Main Styles - Matching website theme */
 
-.qbank-main-container, .selection-container, .bookmarks-container, .questions-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 2rem;
-}
-
-/* Back Button Styling */
+/* Back Button Styling - Updated to match quiz pages */
 .back-button {
-  background: none;
-  border: none;
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.3);
   color: white;
   font-size: 1.2rem;
   cursor: pointer;
-  padding: 0.5rem;
-  margin-bottom: 1rem;
+  padding: 0.75rem;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  z-index: 100;
+  backdrop-filter: blur(10px);
+}
+
+.back-button:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.5);
+  transform: translateY(-50%) scale(1.05);
 }
 
 /* Header adjustments to accommodate back button */
@@ -485,9 +491,14 @@ header .header-content h1 {
     padding: 1rem;
   }
 
-
   header .header-content {
     padding-left: 3rem;
+  }
+
+  .back-button {
+    left: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1rem;
   }
 
   .welcome-section h2 {
