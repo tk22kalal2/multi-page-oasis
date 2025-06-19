@@ -1,6 +1,10 @@
-/* Q Bank Main Styles - Matching website theme */
+.qbank-main-container, .selection-container, .bookmarks-container, .questions-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
 
-/* Back Button Styling - Updated to match quiz pages */
+/* Back Button Styling */
 .back-button {
   position: absolute;
   top: 1rem;
@@ -35,6 +39,8 @@
 .back-button:hover i {
   color: white;
 }
+
+
 /* Header adjustments to accommodate back button */
 header .header-content {
   position: relative;
